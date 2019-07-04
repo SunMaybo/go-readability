@@ -80,6 +80,7 @@ type Article struct {
 	Content     string
 	TextContent string
 	Length      int
+	SourceName  string
 	Excerpt     string
 	SiteName    string
 	Image       string
@@ -110,6 +111,7 @@ type Parser struct {
 	articleByline   string
 	articleDir      string
 	articleSiteName string
+	sourceName      string
 	attempts        []parseAttempt
 	flags           flags
 }
@@ -661,8 +663,8 @@ func (ps *Parser) getNodeAncestors(node *html.Node, maxDepth int) []*html.Node {
 // stuff a user wants to read. Then return it wrapped up in a div.
 func (ps *Parser) grabArticle() *html.Node {
 	for {
-		doc := cloneNode(ps.doc)
-
+		//doc := cloneNode(ps.doc)
+		doc := ps.doc
 		var page *html.Node
 		if nodes := getElementsByTagName(doc, "body"); len(nodes) > 0 {
 			page = nodes[0]
@@ -866,6 +868,21 @@ func (ps *Parser) grabArticle() *html.Node {
 		// If we still have no top candidate, just use the body as a last
 		// resort. We also have to copy the body node so it is something
 		// we can modify.
+		if topCandidate.Parent != nil {
+			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
+				ps.sourceName = sourceName
+			}
+		} else {
+			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
+				ps.sourceName = sourceName
+			}
+		}
+
+		if ps.sourceName == "" {
+			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
+				ps.sourceName = sourceName
+			}
+		}
 		if topCandidate == nil || tagName(topCandidate) == "body" {
 			// Move all of the page's children into topCandidate
 			topCandidate = createElement("div")
@@ -1104,6 +1121,7 @@ func (ps *Parser) grabArticle() *html.Node {
 		}
 
 		if parseSuccessful {
+
 			return articleContent
 		}
 	}
@@ -1115,6 +1133,10 @@ func (ps *Parser) grabArticle() *html.Node {
 func (ps *Parser) isValidByline(byline string) bool {
 	byline = strings.TrimSpace(byline)
 	return len(byline) > 0 && len(byline) < 100
+}
+
+func (ps *Parser) FilterSourceName(text string) string {
+	return ""
 }
 
 // getArticleMetadata attempts to get excerpt and byline
@@ -1694,7 +1716,6 @@ func (ps *Parser) Parse(input io.Reader, pageURL string) (Article, error) {
 	if err != nil {
 		return Article{}, fmt.Errorf("failed to parse input: %v", err)
 	}
-
 	// Avoid parsing too large documents, as per configuration option
 	if ps.MaxElemsToParse > 0 {
 		numTags := len(getElementsByTagName(ps.doc, "*"))
@@ -1754,6 +1775,7 @@ func (ps *Parser) Parse(input io.Reader, pageURL string) (Article, error) {
 		Node:        readableNode,
 		Content:     finalHTMLContent,
 		TextContent: finalTextContent,
+		SourceName:  ps.sourceName,
 		Length:      len(finalTextContent),
 		Excerpt:     excerpt,
 		SiteName:    metadata["siteName"],
