@@ -870,21 +870,7 @@ func (ps *Parser) grabArticle() *html.Node {
 		// If we still have no top candidate, just use the body as a last
 		// resort. We also have to copy the body node so it is something
 		// we can modify.
-		if topCandidate.Parent != nil {
-			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
-				ps.sourceName = sourceName
-			}
-		} else {
-			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
-				ps.sourceName = sourceName
-			}
-		}
 
-		if ps.sourceName == "" {
-			if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
-				ps.sourceName = sourceName
-			}
-		}
 		if topCandidate == nil || tagName(topCandidate) == "body" {
 			// Move all of the page's children into topCandidate
 			topCandidate = createElement("div")
@@ -895,10 +881,37 @@ func (ps *Parser) grabArticle() *html.Node {
 			for i := 0; i < len(kids); i++ {
 				appendChild(topCandidate, kids[i])
 			}
-
+			if topCandidate != nil {
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			} else if  topCandidate.Parent!=nil {
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
+			if ps.sourceName == "" &&topCandidate.Parent.Parent!=nil{
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
 			appendChild(page, topCandidate)
 			ps.initializeNode(topCandidate)
 		} else if topCandidate != nil {
+			if topCandidate != nil {
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			} else if  topCandidate.Parent!=nil {
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
+			if ps.sourceName == "" &&topCandidate.Parent.Parent!=nil{
+				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
 			// Find a better top candidate node if it contains (at least three)
 			// nodes which belong to `topCandidates` array and whose scores are
 			// quite closed with current `topCandidate` node.
@@ -929,6 +942,8 @@ func (ps *Parser) grabArticle() *html.Node {
 
 					parentOfTopCandidate = parentOfTopCandidate.Parent
 				}
+
+
 			}
 
 			if !ps.hasContentScore(topCandidate) {
