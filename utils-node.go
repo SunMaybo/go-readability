@@ -126,15 +126,17 @@ func TextContent(node *html.Node) string {
 	finder = func(n *html.Node) {
 		if n.Type == html.TextNode {
 			buffer.WriteString(n.Data)
+			buffer.WriteString(" ")
+		} else if strings.Contains(n.Data, "br") {
+			buffer.WriteString(" ")
 		}
-		buffer.WriteString("\n")
+
 		for child := n.FirstChild; child != nil; child = child.NextSibling {
 			finder(child)
 		}
 	}
 
 	finder(node)
-
 	return buffer.String()
 }
 

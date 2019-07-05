@@ -43,8 +43,7 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
-	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：][\s\f]{0,2}((https?://|ftp://|file://|www)[\w\.]+|[\w` + "\u4e00-\u9fa5" + `]{2,50})`)
-	rxSourceClean          = regexp.MustCompile(`[^` + "\u4e00-\u9fa5" + `a-zA-Z0-9\.]|来源于?|作者|来自于?|((20\d{2}.)?\d{1,2}[^\d]\d{2}日?(\s\d{1,2}:\d{2}:?\d{2}?)?)`)
+	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：\s\f“]*([\w` + "\u4e00-\u9fa5" + `]{2,50}|(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])`)
 )
 
 // Constants that used by readability.
@@ -665,9 +664,10 @@ func (ps *Parser) getNodeAncestors(node *html.Node, maxDepth int) []*html.Node {
 // stuff a user wants to read. Then return it wrapped up in a div.
 func (ps *Parser) grabArticle() *html.Node {
 	for {
-		doc := cloneNode(ps.doc)
+		//doc := cloneNode(ps.doc)
+		ps.sourceName = ps.FilterSourceName(TextContent(ps.doc))
 		var page *html.Node
-		if nodes := getElementsByTagName(doc, "body"); len(nodes) > 0 {
+		if nodes := getElementsByTagName(ps.doc, "body"); len(nodes) > 0 {
 			page = nodes[0]
 		}
 
@@ -681,7 +681,7 @@ func (ps *Parser) grabArticle() *html.Node {
 		// tags where they have been used inappropriately (as in, where
 		// they contain no other block level elements.)
 		var elementsToScore []*html.Node
-		var node = documentElement(doc)
+		var node = documentElement(ps.doc)
 
 		for node != nil {
 			matchString := className(node) + " " + id(node)
@@ -869,7 +869,6 @@ func (ps *Parser) grabArticle() *html.Node {
 		// If we still have no top candidate, just use the body as a last
 		// resort. We also have to copy the body node so it is something
 		// we can modify.
-
 		if topCandidate == nil || tagName(topCandidate) == "body" {
 			// Move all of the page's children into topCandidate
 			topCandidate = createElement("div")
@@ -880,39 +879,9 @@ func (ps *Parser) grabArticle() *html.Node {
 			for i := 0; i < len(kids); i++ {
 				appendChild(topCandidate, kids[i])
 			}
-			if topCandidate != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
-			if ps.sourceName == "" && topCandidate.Parent != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
-			if ps.sourceName == "" && topCandidate.Parent.Parent != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
 			appendChild(page, topCandidate)
 			ps.initializeNode(topCandidate)
 		} else if topCandidate != nil {
-			if topCandidate != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
-			if ps.sourceName == "" && topCandidate.Parent != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
-			if ps.sourceName == "" && topCandidate.Parent.Parent != nil {
-				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			}
 			// Find a better top candidate node if it contains (at least three)
 			// nodes which belong to `topCandidates` array and whose scores are
 			// quite closed with current `topCandidate` node.
@@ -1153,22 +1122,27 @@ func (ps *Parser) isValidByline(byline string) bool {
 }
 
 func (ps *Parser) FilterSourceName(text string) string {
-	allStringResult := rxSourceSearch.FindAllString(text, -1)
+	spaceC := "　"  // 全角空格
+	maohaoC := "：" // 全角空格
+	text = strings.ReplaceAll(text, spaceC, " ")
+	text = strings.ReplaceAll(text, maohaoC, ":")
+	allStringResult := rxSourceSearch.FindStringSubmatch(text)
 	if len(allStringResult) == 0 {
 		return ""
 	}
-	var source string
 	var cleanSource string
-	for _, s := range allStringResult {
-		if strings.Index(s, "图片") != -1 || strings.Index(s, "数据") != -1 {
-			continue
+	var result []string
+	for _, restl := range allStringResult {
+		if len(restl) >= 2 {
+			result = append(result, restl)
 		}
-		source = s
-		break
 	}
-	if source != "" {
-		cleanSource = rxSourceClean.ReplaceAllString(source, "")
+	if len(result) > 0 {
+		if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
+			cleanSource = result[len(result)-1]
+		}
 	}
+
 	return cleanSource
 }
 
