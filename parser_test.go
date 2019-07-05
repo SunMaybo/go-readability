@@ -11,6 +11,8 @@ import (
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"golang.org/x/net/html"
 	"bytes"
+	"net/http"
+	"log"
 )
 
 
@@ -337,4 +339,23 @@ func Test_parser(t *testing.T) {
 			}
 		})
 	}
+}
+
+func TestParserM(t *testing.T) {
+	url := "http://mini.eastday.com/a/190614001504577.html"
+	//parser := NewParser()
+	resp, _ := http.Get(url)
+	defer resp.Body.Close()
+	parser:=NewParser()
+	article,err:=parser.Parse(resp.Body,"https://baidu.com")
+	if err!=nil {
+		log.Fatal(err)
+	}
+	resultMap := make(map[string]interface{})
+	resultMap["title"] = article.Title
+	resultMap["author"] = article.Byline
+
+	resultMap["source_name"] = article.SourceName
+	resultMap["content"] = article.Content
+	fmt.Println(resultMap)
 }
