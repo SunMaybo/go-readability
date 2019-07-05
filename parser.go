@@ -665,8 +665,7 @@ func (ps *Parser) getNodeAncestors(node *html.Node, maxDepth int) []*html.Node {
 // stuff a user wants to read. Then return it wrapped up in a div.
 func (ps *Parser) grabArticle() *html.Node {
 	for {
-		//doc := cloneNode(ps.doc)
-		doc := ps.doc
+		doc := cloneNode(ps.doc)
 		var page *html.Node
 		if nodes := getElementsByTagName(doc, "body"); len(nodes) > 0 {
 			page = nodes[0]
