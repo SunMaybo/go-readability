@@ -13,6 +13,33 @@ import (
 	"bytes"
 )
 
+
+func TestSource(t *testing.T){
+	var textList []string
+	textList = append(textList, `<span>来源：www.bstsjx.com</span> `)
+	textList = append(textList, `<div class="info">
+              <span>作者：股指模拟开户</a></span><span>   来源：www.hesyy666.com</span><span>   时间：2019年06月03日 10:32</span><span>   点击：<script src="/plus/count.php?view=yes&amp;aid=3161&amp;mid=1" type="text/javascript" language="javascript"></script>370</span><span style="display:none;"></span>
+            </div>`)
+	textList = append(textList, `
+                <span class="source">本文来源于:每日经济新闻</span></span>
+<p>图片来源：视觉中国</p>
+`)
+	textList = append(textList, `
+                <span class="source">本文来自:每日经济新闻</span></span>
+<p>图片来源：视觉中国</p>
+`)
+	textList = append(textList, `	并 本报北京6月5日电 中国青年报·中青在线记者樊未晨来源：中国青年报。
+	先跟考生所在中学或各省级招生考试机构公</p>
+`)
+	for _, text := range textList {
+		textList = append(textList, `从欧盟出台《通用数据保护条例》（GDPR）实施“严监管”，到
+图片来源：图虫创意
+据参考消息报道，20国集团（G20）财长会议6月8日在日本福冈举行，会议支持对亚马逊、谷歌和脸书等数字巨头征税，使得这个建议在全球范围内更加接近于可行。`)
+		p := Parser{}
+		source:=p.FilterSourceName(text)
+		fmt.Println(source)
+	}
+}
 var content = `
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

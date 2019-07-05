@@ -43,6 +43,8 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
+	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：][\s\f]{0,2}((https?://|ftp://|file://|www)[\w\.]+|[\w` + "\u4e00-\u9fa5" + `]{2,50})`)
+	rxSourceClean          = regexp.MustCompile(`[^` + "\u4e00-\u9fa5" + `a-zA-Z0-9\.]|来源于?|作者|来自于?|((20\d{2}.)?\d{1,2}[^\d]\d{2}日?(\s\d{1,2}:\d{2}:?\d{2}?)?)`)
 )
 
 // Constants that used by readability.
@@ -1136,7 +1138,23 @@ func (ps *Parser) isValidByline(byline string) bool {
 }
 
 func (ps *Parser) FilterSourceName(text string) string {
-	return ""
+	allStringResult := rxSourceSearch.FindAllString(text, -1)
+	if len(allStringResult) == 0 {
+		return ""
+	}
+	var source string
+	var cleanSource string
+	for _, s := range allStringResult {
+		if strings.Index(s, "图片") != -1 || strings.Index(s, "数据") != -1{
+			continue
+		}
+		source = s
+		break
+	}
+	if source != "" {
+		cleanSource = rxSourceClean.ReplaceAllString(source, "")
+	}
+	return cleanSource
 }
 
 // getArticleMetadata attempts to get excerpt and byline
