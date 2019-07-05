@@ -119,7 +119,7 @@ func hasAttribute(node *html.Node, attrName string) bool {
 
 // textContent returns the text content of the specified node,
 // and all its descendants.
-func textContent(node *html.Node) string {
+func TextContent(node *html.Node) string {
 	var buffer bytes.Buffer
 	var finder func(*html.Node)
 
@@ -127,7 +127,31 @@ func textContent(node *html.Node) string {
 		if n.Type == html.TextNode {
 			buffer.WriteString(n.Data)
 		}
+		buffer.WriteString("\n")
+		for child := n.FirstChild; child != nil; child = child.NextSibling {
+			finder(child)
+		}
+	}
 
+	finder(node)
+
+	return buffer.String()
+}
+
+// textContent returns the text content of the specified node,
+// and all its descendants.
+func textContent(node *html.Node) string {
+
+	var buffer bytes.Buffer
+	var finder func(*html.Node)
+
+	finder = func(n *html.Node) {
+		if n.Type == html.TextNode {
+			buffer.WriteString(n.Data)
+		}
+		if strings.Contains(n.Data, "br") {
+			buffer.WriteString("\n")
+		}
 		for child := n.FirstChild; child != nil; child = child.NextSibling {
 			finder(child)
 		}

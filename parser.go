@@ -882,16 +882,17 @@ func (ps *Parser) grabArticle() *html.Node {
 				appendChild(topCandidate, kids[i])
 			}
 			if topCandidate != nil {
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			} else if  topCandidate.Parent!=nil {
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
 					ps.sourceName = sourceName
 				}
 			}
-			if ps.sourceName == "" &&topCandidate.Parent.Parent!=nil{
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
+			if ps.sourceName == "" && topCandidate.Parent != nil {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
+			if ps.sourceName == "" && topCandidate.Parent.Parent != nil {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
 					ps.sourceName = sourceName
 				}
 			}
@@ -899,16 +900,17 @@ func (ps *Parser) grabArticle() *html.Node {
 			ps.initializeNode(topCandidate)
 		} else if topCandidate != nil {
 			if topCandidate != nil {
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate, true)); sourceName != "" {
-					ps.sourceName = sourceName
-				}
-			} else if  topCandidate.Parent!=nil {
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent, true)); sourceName != "" {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
 					ps.sourceName = sourceName
 				}
 			}
-			if ps.sourceName == "" &&topCandidate.Parent.Parent!=nil{
-				if sourceName := ps.FilterSourceName(ps.getInnerText(topCandidate.Parent.Parent, true)); sourceName != "" {
+			if ps.sourceName == "" && topCandidate.Parent != nil {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
+					ps.sourceName = sourceName
+				}
+			}
+			if ps.sourceName == "" && topCandidate.Parent.Parent != nil {
+				if sourceName := ps.FilterSourceName(TextContent(topCandidate)); sourceName != "" {
 					ps.sourceName = sourceName
 				}
 			}
@@ -942,7 +944,6 @@ func (ps *Parser) grabArticle() *html.Node {
 
 					parentOfTopCandidate = parentOfTopCandidate.Parent
 				}
-
 
 			}
 
@@ -1160,7 +1161,7 @@ func (ps *Parser) FilterSourceName(text string) string {
 	var source string
 	var cleanSource string
 	for _, s := range allStringResult {
-		if strings.Index(s, "图片") != -1 || strings.Index(s, "数据") != -1{
+		if strings.Index(s, "图片") != -1 || strings.Index(s, "数据") != -1 {
 			continue
 		}
 		source = s

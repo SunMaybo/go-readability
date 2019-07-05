@@ -342,7 +342,7 @@ func Test_parser(t *testing.T) {
 }
 
 func TestParserM(t *testing.T) {
-	url := "http://mini.eastday.com/a/190614001504577.html"
+	url := "https://www.qichacha.com/postnews_16c21e5461a0d4c77c120890e3feabf0.html"
 	//parser := NewParser()
 	resp, _ := http.Get(url)
 	defer resp.Body.Close()
@@ -352,10 +352,7 @@ func TestParserM(t *testing.T) {
 		log.Fatal(err)
 	}
 	resultMap := make(map[string]interface{})
-	resultMap["title"] = article.Title
-	resultMap["author"] = article.Byline
 
 	resultMap["source_name"] = article.SourceName
-	resultMap["content"] = article.Content
 	fmt.Println(resultMap)
 }
