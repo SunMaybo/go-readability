@@ -1154,7 +1154,7 @@ func (ps *Parser) FilterSourceName(text string) string {
 			}
 
 		}
-		if len(cleanSource) >= 2 {
+		if len(cleanSource) >= 2 && !strings.Contains(cleanSource, "作者") && !strings.Contains(cleanSource, "编辑") && !strings.Contains(cleanSource, "时间") && !strings.Contains(strings.ToLower(cleanSource), "xxx") {
 			break
 		}
 	}
