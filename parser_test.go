@@ -44,418 +44,314 @@ func TestSource(t *testing.T){
 }
 var content = `
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>多用户商城系统：钢铁电商生存者与出局者的竞争 _HiMall</title>
-<meta name="keywords" content="多用户商城,多用户商城系统" />
-<meta name="description" content="HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以" />
-<meta http-equiv="Cache-Control" content="no-transform"/>
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-<meta http-equiv="mobile-agent" content="format=xhtml;url=https://m.hishop.com.cn/himall/show_46945.html">
-<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.hishop.com.cn/himall/show_46945.html">
-<meta name="applicable-device" content="pc">
-<link rel="stylesheet" type="text/css" href="/templets/default/style/head_footer_2017.css"/>
-<link rel="stylesheet" href="/templets/default/style/list_article_2015.css" type="text/css"/>
-<script type="text/javascript" src="/templets/default/js/index/jquery-1.7.2.min.js"></script>
-<script src="/scripts/wap.js" type="text/javascript"></script>
-<script src="/templets/default/js/art_wap.js" type="text/javascript" charset="utf-8"></script>
+    <meta http-equiv=Content-Type content="text/html; charset=GBK">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <title>流量业务陷瓶颈 同程艺龙布局金融会否病急乱投医?_嗨武汉</title>
+    <meta name="keywords" content="同程,艺龙,腾讯,互联网,流量" />
+    <meta name="description" content="本年以来，在监管趋严的布景下，诸多玩家已经逐步收缩金融业务板块，但记者却发现，同程艺龙依旧逆势选择扩张之路。近期，中国光大银行苏州分行与同程艺龙达成战略合作，为其旗下“同驿贷”产品提供创新金融服务支持" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+        var serverData = {
+            logowidth: '144',
+            logoheight: '30',
+            coverlogoheight: '50',
+            menuCount: 9,
+            terms: '',
+            menu: [],
+            channelname: '',
+            device: 'pc'
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="/skin/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="/skin/css/art.css"/>
 </head>
-
 <body>
-<div class="head clearfix">
-	<div class="head_top">
-		<div class="width">
-			<p>商城类电商软件及服务提供商--HiShop海商，欢迎您！</p>
-			<a href="http://www.hishop.cn/" target="_blank" rel="nofollow">北京公司</a>|
-			<a href="http://www.hishop.net/" target="_blank" rel="nofollow">深圳公司</a>|
-			<span><script src='/plus/rpad/js.php?aid=117' language='javascript'></script></span>
-		</div>
-	</div>
-	<div class="head_menu width clearfix">
-		<a href="/" class="logo"><img alt="多用户商城,多用户商城系统" src="/templets/default/images/2017/top_logo.jpg"/></a>
-		<p>
-			<a id="head_zc" href="http://member.hishop.com.cn/Register.aspx" target="_blank" rel="nofollow" class="reg">注册有礼</a>
-			<a href="http://member.hishop.com.cn/login.aspx?/himall/show_46945.html" target="_blank" rel="nofollow" class="login">登录</a>			
-		</p>
-		<ul class="nav">
-			<li><a href="/">首页</a></li>
-			<li><a href="/products/himall/">HiMall</a>			
-			</li>
-			<li><a href="/products/himall/banben/">同城O2O系统</a>				
-			</li>
-			<li><a href="/products/himall/himall_product.html">产品功能</a></li>
-			<li><a href="/products/himall/app/">商家管理APP</a></li>
-			<li><a href="/products/himall/himall_casepage.html">成功案例</a></li>
-			<li><a href="/products/himall/b2b/">B2B功能</a></li>
-		</ul>
-	</div>
-</div>	
-  <div class="banner clear" style="background:url(/templets/default/hiscxt/images/arc_himall.jpg) no-repeat top center;">
-<a class="banner_a"  onclick="popup('banner_试用','申请多用户商城系统试用帐号，抢先体验')"> </a></div> 
-
-<div class="w1200">
-<div class="main_left f_left">
-	<div class="floor1 ">          
-    	<div class="title f_left"><a href='http://www.hishop.com.cn/'>HiShop</a> > <a href='/himall/'>多用户商城系统</a> > <a href='/himall/b2b2c/'>b2b2c运营</a> > </div>
-    </div>
-   	
-    <div class="content">
-    	<div class="title">
-            <h1>多用户商城系统：钢铁电商生存者与出局者的竞争 </h1>
-            <div class="release">           
-            <em>2017-12-06</em>|<em>HiShop</em>|<em>阅读量：<script src="/plus/count.php?view=yes&aid=46945&mid=21669" type='text/javascript' language="javascript"></script></em>
-            </div>
-        </div>
-        
-		<div class="takeaway"><b>导读：</b>HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以...</div>
-		
-        
-    	<div class="article">HiShop最新消息，经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以后的众多平台将在市场竞争中成为出局者。
-<p>
-	笔者认为，如今的钢铁电商领域，虽然已经进入了数百个平台竞相角斗的&ldquo;春秋战国时期&rdquo;，但未来不一定只有前面所说的那一条路可选择&mdash;&mdash;只有一两个平台垄断市场。尽管人们有&ldquo;合久必分、分久必合&rdquo;之说，但这样的分和合不应该只停留在平台的存量上，而应该更多地体现在质的提升上。因为谈到平台的定义，泛泛地说，每一台手机都可以是一个接收发送各类信息、完成交易的平台，故而仅仅从量上预测未来的竞争格局未免有失偏颇。为此，笔者从现实出发，对未来钢铁电商竞争格局作一些试探性的分析和预测。</p>
-<p style="text-align: center;">
-	<img alt='多用户商城系统：钢铁电商生存者与出局者的竞争 ' src="/uploads/allimg/171206/21669-1G206135US16.jpg" style="width: 397px; height: 294px;" /></p>
-<p>
-	<strong>大小平台齐发力，相互融合谋发展</strong></p>
-<p>
-	商道兴衰从来就与&ldquo;天时地利人和&rdquo;密切相关。</p>
-<p>
-	天时方面，党的十九大提出构建人类命运共同体，实现共赢共享。在这一大背景下，作为中国钢铁产业链上的钢铁人理应立足本职，胸怀大局，撸起袖子，脚踏实地干一番事业。从哪里着手？就从构建一条完善的承载着钢铁大国梦的我国钢铁产业链做起。目前，我国钢材市场还存在着诸多不尽人意的地方。针对一些问题，国家相关部门已经出台进一步深化改革的各项激励政策，在新长征路上，改革大有可为。</p>
-<p>
-	地利方面，互联网技术为我们整合资源，实现互利共赢和弯道超车，打开了方便之门。下一步要做的是，利用云计算、大数据技术，建立起市场诚信经营体系，整合钢铁产业链上中下游各类有效资源，促使大小平台融合，线上虚拟市场和实体现货市场融合，平台与包括物流、加工企业在内的上中下游企业融合。整合钢铁产业链内外一切可以整合到的有效资源，营造出一个与传统市场不一样的经营氛围，建立钢铁生产、经营新秩序。</p>
-<p>
-	人和方面，钢铁强国梦激发了中国钢铁人无比高涨的热情，树立以和为贵的理念,这也可视为是一种文化自信的表现。近年来，众多平台远离恶性竞争，联手组织各种论坛，进行多样性的合作。如今，不仅有钢贸商参与平台交易，而且有越来越多的钢厂将资源放到网上销售，很多专业仓库、物流配送加工企业也成为平台服务体系中不可或缺的一部分。这从一个侧面表明，钢铁电商市场不大可能再出现与&ldquo;天时地利人和&rdquo;背道而驰的传统竞争模式&mdash;&mdash;大鱼吃小鱼，小鱼吃虾米，最终形成一两个超级企业垄断市场的格局。相反，市场将出现这样的情况：在互利共赢的旗帜下，大小平台融合发展，不断提高服务质量，安全、高效、低成本地助力我国钢铁产业链实现现代化。</p>
-<p>
-	目前，有迹象表明，不少钢铁电商在布点的同时，通过结盟、互相持股、互补互助等方式做强做实平台的服务功能，提高信息、资源、金融、物流等方面的优势，扩大了交易覆盖面，增加了交易流量，为日后的融合打下了坚实的基础。今年上半年，不少钢铁电商的交易量已经达到3000多万吨，并呈现出强劲的上升势头。如此规模的平台，仅上海就有3家-4家，其流量已经达到本世纪初上海钢贸行业鼎盛时期的交易总量。最近，又有消息在业内广为流传&mdash;&mdash;不少钢铁企业与平台合作，将资源在平台上挂牌，以加大线上销售力度。</p>
-<p>
-	可以预见的是，至今仍在烧钱却无法盈利的平台中，有一部分终将在市场竞争中成为出局者，而一些富有特色的平台，无论目前的体量是大或小，不但不会倒下，而且会长期存在，并会在与各平台和各相关企业的互动中，利用自身的特色，不断优化服务，朝着做强做大的方向迈进。今人扼腕的是，目前这样有特色的平台还不多，希望以后会有更多。</p>
-<p>
-	<strong>业绩彰显于线上，功夫落实于线下</strong></p>
-<p>
-	在互联网技术普及之初，各平台因为缺乏对新技术应用的全面认识，偏重于编制网上流程，消耗了大量人力、物力和财力。具体表现在：有的平台在唯技术理念的指导下，多层次组建技术团队，结果还是出现线上线下脱节的状况，这又在一定程度上影响了网上流程的畅通。无奈之下，只得依靠打补丁维持运行。</p>
-<p>
-	据HiShop<a href="http://www.hishop.com.cn/products/himall/" target="_blank">多用户商城系统</a>了解到，有一家平台不但独自组建了一家元件开发有限公司，还组建了流程编制团队和应对日常运行故障的维修保养队伍。尽管线上流程布置得严丝合缝，但在实施过程中还是出现了线上与线下脱节的情况，致使线上交易流程不畅通。而另一家平台在组建技术团队后，提货单上仍然需要再盖3个章才能让钢材出库，远未达到安全、高效、快捷、降低成本的目的。</p>
-<p>
-	随着钢铁行业两化融合工作的推进，上游钢厂的生产自动化程度日渐提高，下游用钢终端用户的自动化生产水平也在不断提高，而处于中游的仓储、物流、加工环节几乎是原地踏步，维持旧时模样。因此，平台在对上、中、下游企业实施无缝连接时，应重视钢铁存储、加工、流通等中游企业在智能化方面的建设，为专业的钢铁仓储、加工、运输企业的智能化运作提供帮助。</p>
-<p>
-	有的平台实力雄厚、条件优越，有能力自建智能化仓库，并在同行业中提供智能化运作的样板。这种由平台自建的方式投入非常大，不适合普及推广。对于大多数平台来说，还是应该立足现实，加大与相关企业的磨合力度，运用互联网技术不断在钢铁仓储、加工、物流等环节进行创新。这就需要平台在关注线上运作的同时，还要关注线下运作情况，适时向相关参与合作的企业提出智能化运作要求。在条件具备的情况下，平台可尝试与专业钢铁物流企业共建智能化物流体系，为行业提供实践经验并加以推广。</p>
-<p>
-	<strong>不忘初心争回报，&ldquo;五流&rdquo;汇聚谱新篇</strong></p>
-<p>
-	在设置交易流程时，平台一定要不忘初心，以普惠共享的互联网理念为指导，在每个细节上让参与者体验到新技术带来的轻松欢愉。可是，在现实生活中，平台真正做到普惠共享并非易事。</p>
-<p>
-	前几年，笔者从一位钢铁电商平台负责人处得知，该平台在融得资金加点贷出的基础上，还将做足融贷周期的文章。经粗略计算，即使不拉大价差，平台也能在吨钢上获取一两百元的利润。这家平台如此操作了两三年后，也就关门了。如此过分的&ldquo;玩法&rdquo;，虽然在行业里并不多见，但也在一定程度上反映出某些平台忘却了初心。即便到了今天，还是有这样的情况存在。</p>
-<p>
-	例如，有些平台在用自有资金放贷时，非得在银行贷款利率上加点，把平台提供服务的窗口搞成盈利的节点。实际上，银行利率点中已经包含着平台自身应得的那部分利润，再加点不仅变成了&ldquo;高利贷&rdquo;，而且提高了交易过程中资金运作的成本，对贷款企业有所不公。如果平台秉承了普惠共享的理念，那么在做融贷款业务时，一定会考虑到贷款方的利益，通过创新互联网金融方法来降低线上资金运作成本，而不是在盈利基础上再加点贷出。</p>
-<p>
-	上面所述的只是平台&ldquo;五流&rdquo;（信息流、资源流、商流、资金流和人才流）之一的资金流的问题。笔者相信，随着深化改革的推进，平台将树立起普惠共享的服务观念，构建有效的线上线下互动系统，以达到安全、快捷、高效和降低成本的目的，伴之而来的一定是开放的、新颖的平台。这样的平台将汇聚&ldquo;五流&rdquo;，构建钢铁流通新格局。</p>
-<p>
-	在过去几年里，钢铁电商平台把注意力集中在增加流量上，这无可厚非。但是，随着互联网技术的普及应用，用户对新技术应用的期望值也在提高，平台在实际运作中只抓流量已经远远不够了。平台建设是一项系统工程，需要线上线下各个环节的相互协同。目前看来，多数平台在抓&ldquo;五流&rdquo;的过程中，忽视了对相关人才的培养和发现。因此，在对未来发展进行规划时，各大平台应做好人才方面的功课，一方面通过优秀人才，发挥好信息流的优势，为上、下游企业介绍国内外先进的管理理念、技术设施，另一方面也可以为上下游企业推荐所需优秀人才，使人才流成为上下游企业沟通联动的纽带。</p>
-<p>
-	在中游企业中，平台除了可以帮助企业共建智能化物流体系外，还应在流通商中培育为终端用户服务的类销客队伍，千方百计地把平台拥有的优势服务与流通商共享，加大为终端用户服务的力度。平台千万不要把&ldquo;精简中介环节&rdquo;中的&ldquo;去中介&rdquo;看作是去掉中间钢贸商，事实上，截至目前，线上流量中的绝大部分都是由钢贸商创造的。平台在为终端用户服务的过程中，应学会融合，帮助钢贸商不断提高其为终端用户服务的质量。</p>
-
-                      <p>文章来源：https://www.hishop.com.cn/himall/show_46945.html</p>
-<p><海商（www.hishop.com.cn）是国内知名商城系统及商城网站建设提供商，HiMall为企业级商家提供<a href="/products/himall/">B2B2C商城系统</a>、多店铺商城系统、<a href="/products/himall/">多用户商城系统</a>等多端商城及电子商务行业解决方案></p>
-<p>申明：本网站部分文章和图片来源网络编辑，如有侵权及时沟通删除。海商hishop网站原创文章，转载请注明来源。</p>
-               <div class="mk_03 clear">
-        <ul>
-           
-    </ul>
-           
-       </div>      
-         <!-- 新媒体广告 -->
-            <p class="newmide" style="text-align:center;margin:10px 0;"><script src='/plus/rpad/js.php?aid=81' language='javascript'></script></p>        
-       </div>
-        <div class="tags">
-            <div>TAGS: <a href='/tags/2675.html'>B2B2C商城系统</a><a href='/tags/2715.html'>多用户商城系统</a></div>
-            <div class="Turn">
-            <em>上一篇：<a href='/himall/show_46944.html'>做区域共同配送B2B经销商怎样实现盈利？ </a> </em>
-            <em>下一篇：<a href='/himall/show_47027.html'>超市订货管理系统具备哪些功能优势？</a> </em>
-            
-            </div>
-        </div>
-        
-        <div class="details">
-        	<div class="title"><em></em>推荐阅读</div>
-             <ul class="bd-l">
-             
-          </ul>       
-        </div>        
-	</div>
-</div>
-
-<div class="main_right f_right ">
-  <div class="floor6 clear">
-        <div class="title"><span>今日热点</span></div>
-          <p class="floorp">
-           最新消息， HiShop消息，做多用户商城系统的运营是需要时间和精力去做的，想要做好运营不是那么容易的事，但只要思路明确，方法科学也是完全可以做好的。那么怎么做好运营呢?那么，B2B2C 多用户商城系统 运营需要做到哪七点? 个体或者小企业在天猫、....</a>
-
-          </p>
-  </div> 
-    <div class="floor6 clear">
-        <div class="title"><span>热门文章</span></div>
-        <ul>
-            <li>
-                   
-                        <a href="/himall/show_71386.html" target="_blank">b2b2c多用户商城系统的知识点，谁都得看看</a>
-                             <p class="time">2小时前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71800.html" target="_blank">b2b2c商城系统功能之经典案例爱乐商城</a>
-                             <p class="time">3天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71744.html" target="_blank">b2b2c网上商城系统怎么做可以直接提升商城的用户流量！</a>
-                             <p class="time">4天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71693.html" target="_blank">怎么利用b2b2c商城系统源码来直接提升商城自身？</a>
-                             <p class="time">5天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71629.html" target="_blank">对于b2b2c商城系统要多少钱不少很清楚？我们拿易订商城的例子</a>
-                             <p class="time">6天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71590.html" target="_blank">多商户B2B2C商城系统怎么从用户去入手？抓住市场！</a>
-                             <p class="time">7天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71545.html" target="_blank">b2b2c商城系统功能要怎么去布置？哪些要哪些不必要？</a>
-                             <p class="time">10天前</p>
-             </li>
-<li>
-                   
-                        <a href="/himall/show_71501.html" target="_blank">现在的b2b2c网上商城系统有没改进的办法？</a>
-                             <p class="time">11天前</p>
-             </li>
-  
-        </ul>
-    </div> 
-
-    <div class="floor5">
-    	<div class="title"><span>产品推荐</span></div>
-        <ul>
-        	<li >
-                <div class="pic_1"><a href="/products/himall/" target="_blank">
-                <img src="/templets/default/ecschool/images/temp/16_1.jpg"></a></div>                
-                <em>Himall</em><br />
-                <span>构筑京东，天猫同等级多用户商城系统，首个打通全网pc+微信+app+触屏的B2B2C多用户商城系统。为用户带来互联网最便捷的盈利模式，精细化运营，精准化推广，充分挖掘互联网市场潜力，点击详情，马上申请免费体验。</span><a href="/products/himall/" target="_blank">详情</a>                       
-            </li>
-        </ul>
-    </div>
-    <div class="floor7">
-        <div class="title"><span>经典阅读</span></div>
-    	<ul>
-            <li><a href="/products/himall/">b2b2c商城系统</a><a href="/products/himall/">多商家商城系统</a></li>
-            <li><a href="/himall/">多用户商城系统</a><a href="/products/himall/">多商户商城系统</a></li>
-             <li><a href="/ydsc/dsxt/">电子商务系统</a><a href="/ydsc/dsxt/">电商网站建设</a></li>
-            <li><a href="/himall/scym/" target="_blank">b2b2c商城源码</a><a href="/himall/scym/">b2b2c源码</a></li>
-        </ul>
-    </div>
-  <div class="floor8 clear">
-      <div class="title"><span>热门搜索</span></div>
-       <div class="fl8">
-       <p><a href='/products/himall/'>多用户商城系统</a></p><p><a href='/products/himall/'>B2B2C商城系统</a></p>
-       <p><a href="/himall/scym/">b2b2c源码</a></p><p><a href="/himall/scym/">b2b2c商城源码</a></p>
-        <p><a href='/tags/16679.html'>B2B2C商城系统功能</a></p><p><a href='/tags/18900.html'>多商户B2B2C商城系统</a></p><p><a href='/tags/13085.html'>京东新通路</a></p><p><a href='/tags/19643.html'>2019中国电商网站排名</a></p><p><a href='/tags/19628.html'>b2b2c与s2b2c</a></p><p><a href='/tags/19594.html'>b2b2c系统展示</a></p><p><a href='/tags/16685.html'>B2B2C商城系统价格</a></p><p><a href='/tags/19536.html'>社区团购平台怎么做</a></p><p><a href='/tags/19367.html'>新零售B2B2C商城系统</a></p><p><a href='/tags/19386.html'>b2b2c系统平台</a></p><p><a href='/tags/11355.html'>网易考拉</a></p><p><a href='/tags/14531.html'>商城系统开发</a></p><p><a href='/tags/18170.html'>B2B2C商城系统架构</a></p><p><a href='/tags/19366.html'>B2B2C网站管理系统</a></p><p><a href='/tags/19066.html'>B2B2C商城系统代码</a></p><p><a href='/tags/11461.html'>网易严选</a></p><p><a href='/tags/19255.html'>b2b2c电商开发</a></p><p><a href='/tags/15311.html'>B2B2C网站建设</a></p><p><a href='/tags/19226.html'>b2b2c商城功能</a></p><p><a href='/tags/19265.html'>b2b2c系统多少钱</a></p>
+<style>
+    body {
+        padding-top: 0
+    }
+    #Header {
+        position: relative;
+    }
+</style>
+<div class="wrap">
+<div id="Cover" class="mod-cover">
+    <div class="cover">
+        <div class="coverbg"></div>
+        <div class="coverlogo"><img
+                src="/skin/images/logo1.png"></div>
+        <div class="coverslogan">
+            <p class="ll"></p>
+            <span>关注武汉,了解武汉</span>
+            <p class="rl"></p>
         </div>
     </div>
-    <div class="floor9">
-		<div class="title"><span>推荐专题</span></div>
-		<i>
-			<a href="/himall/show_65773.html" target="_blank">
-					<img src="/uploads/190129/21662-1Z129110200a1.jpg"/>
-					<p>电商系统源码_商城系统源码_电商网站系统源码怎么选？</p>
-				</a>
-<a href="/himall/show_65592.html" target="_blank">
-					<img src="/uploads/allimg/190124/21716-1Z124152T60-L.jpg"/>
-					<p>B2B2C网站系统-B2B2C网站系统哪个好-B2B2C商城系统</p>
-				</a>
-<a href="/himall/show_65746.html" target="_blank">
-					<img src="/uploads/181220/21704-1Q220142523913.png"/>
-					<p>多用户商城源码_多用户商城系统源码_多用户商城开发</p>
-				</a>
-<a href="/himall/show_65751.html" target="_blank">
-					<img src="/uploads/181220/21704-1Q220142523913.png"/>
-					<p>b2b2c商城多少钱_b2b2c商城系统报价_B2B2C商城开发</p>
-				</a>
-<a href="/himall/show_65769.html" target="_blank">
-					<img src="/images/defaultpic.gif"/>
-					<p>B2B2C建站_多用户建站_B2B2C多用户建站怎么搭建？</p>
-				</a>
-<a href="/himall/show_65784.html" target="_blank">
-					<img src="/images/defaultpic.gif"/>
-					<p>深圳B2B2C电商系统哪家好？就选HiMallB2B2C商城系统</p>
-				</a>
-
-		</i>
-	</div>
 </div>
-</div>
+<div id="Header">
+    <div class="header">
+        <h1 class="test"></h1>
+        <div class="logo" style="width:144px;"><a href="/" target="_blank"><img src="/skin/images/logo3.png" style="height:30px"/></a></div>
+        <div class="menulist large" style="margin:0 144px">
+            <ul></ul>
+        </div>
+        <div class="menulist medium" style="margin:0 144px">
+            <ul></ul>
+        </div>
+        <div class="headerSearch">
+            <form  name="formsearch" action="http://www.hiwuhan.net/">
+                <input type="hidden" name="kwtype" value="0" />
+                <p class="searchbar">
+                    <a href="javascript:;" class="searchA"><i class="i"></i></a>
+                    <i class="txt"><i class="i nodis"></i><input name="q" type="text" class="nodis"></i>
+                </p>
+                <button type="submit" class="search-submit" style="display: none">搜索</button>
+            </form>
+            <p class="sub-menu"><i class="icon-submenu"></i></p>
 
-<div class="new_footer">
-	<div class="width t">
-		<div class="fl">
-		分公司：<a href="http://www.hishop.cn/" target="_blank" rel="nofollow">北京公司</a>|<a href="http://www.hishop.net/" target="_blank" rel="nofollow">深圳公司</a>|<a>广州公司</a>
-		</div>
-		<dl class="fl">
-			<dt><span></span>总部电话：<em>4006-089-731</em></dt>
-			<dd>
-				<span></span>
-				北京公司<br />
-				<em>4006-601-982</em>
-			</dd>
-			<dd>
-				<span></span>
-				深圳公司<br />
-				<em>4008-400-198</em>
-			</dd>
-			<dd>
-				<span></span>
-				广州公司<br />
-				<em>4006-808-668</em>
-			</dd>
-		</dl>
-		<ul class="fr">
-			<li>
-				<a><em></em></a>
-				干货分享
-			</li>
-			<li>
-				<img src="/templets/default/images/2017/footer_wx.png"/>
-				官方微信
-			</li>
-		</ul>
-	</div>
-	<div class="width">
-		<div class="s_nav">
-			<a href="/hishop/about/"rel="nofollow">关于我们</a>|<a href="/hishop/buy/"rel="nofollow">如何购买</a>|<a href="/hishop/contactus/"rel="nofollow">联系我们</a>|<a href="https://help.hishop.com.cn" target="_blank" rel="nofollow">帮助中心</a>|<a href="/hishop/job/" rel="nofollow">诚聘英才</a>|<a href="/hishop/sitemap/">网站地图</a>|<a href="/hishop/link/" rel="nofollow">友情链接</a>|<a href="/hishop/legalnotices/" rel="nofollow">法律声明</a>|<a href="http://mb.hishop.com.cn/" target="_blank" rel="nofollow">商城模板</a>|<a href="/service/" rel="nofollow">技术服务</a>
-		</div>
-		<div class="copy">
-			软件企业编号：湘R-2009-0055&nbsp;&nbsp;|&nbsp;&nbsp;高新技术企业编号：GR201043000270&nbsp;&nbsp;|&nbsp;&nbsp;增值业务电信许可证：湘B2-20160062<br />
-			软件产品编号：湘DGY-2009-0155&nbsp;&nbsp;|&nbsp;&nbsp;软件著作权登记号：2006SR09906 2009SR047196<br />
-			湖南省职业经理人协会理事&nbsp;&nbsp;|&nbsp;&nbsp;长沙市电子商务协会理事&nbsp;&nbsp;|&nbsp;&nbsp;长沙市软件协会会员&nbsp;&nbsp;|&nbsp;&nbsp;长沙服务外包行业协会会员<br />
-			Copyright©2003-2019 HiShop商城系统<a href="/">微信分销系统</a>以及<a href="/products/vfx/">微分销系统</a>多用户B2B2C商城系统一站式网上<a href="/">商城网站建设</a>服务商All Rights Reserved.湘ICP备08105577号
-			<p>
-				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202000038" rel="nofollow" target="_blank" class="n1"></a>
-				<a href="http://www.hngswj.gov.cn/ei/Ei!certificate.action?id=8d5edfc6ad054507b73396b8b1802a5e" rel="nofollow" target="_blank" class="n2"></a>
-			</p>
-		</div>
-	</div>
-	<!--hishoppc-->
-	<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?779041bffe6533ef44f74c2fdc69a426";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-</div>
-<!--在线客服-->
-<!--<script src='/plus/rpad/js.php?aid=23' language='javascript'></script>
-<script  type="application/ld+json"> {
-       "@context": "https://zhanzhang.baidu.com/contexts/cambrian.jsonld",
-       "@id": "https://www.hishop.com.cn/himall/show_46945.html",
-        "appid": "1600581270734074",
-       "title":"多用户商城系统：钢铁电商生存者与出局者的竞争 ",
-       "images": [
-           "/uploads/allimg/171206/21669-1G206135US16-lp.jpg"        
-       ],
-       "description": "HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以",
-       "pubDate": "2017-12-06T13:56:45",
-       "puDate": "2019-07-01T11:05:45",
-       "data":{
-        "data.WebPage":{
-          "pcUrl":"https://www.hishop.com.cn/himall/show_46945.html",
-          "wapUrl":"https://m.hishop.com.cn/himall/show_46945.html"
-        }
-        }
-}</script>-->
-<!-- 自动推送 -->
+            <p class="baiduLogo"><a href="/" target="_blank"><img src="/skin/images/blogo.png"></a></p>
+        </div>
+    </div>
 
+    <script type="text/javascript">
+        var menu = [];
+
+        menu.push({
+            'name': '首页',
+            'enname': '',
+            'url': '/',
+            'list': []
+        });
+		menu.push({
+            'name': '建材',
+            'enname': '',
+            'url': 'http://www.hiwuhan.net/jiancai/',
+            'list': []
+        });menu.push({
+            'name': '房产',
+            'enname': '',
+            'url': 'http://www.hiwuhan.net/housenews/',
+            'list': []
+        });menu.push({
+            'name': '图片',
+            'enname': '',
+            'url': 'http://www.hiwuhan.net/photos/',
+            'list': []
+        });menu.push({
+            'name': '市场',
+            'enname': '',
+            'url': 'http://www.hiwuhan.net/shichang/',
+            'list': []
+        }); 
+        serverData.menu = menu;
+    </script>
+</div>
+    <div id="Body">
+        <div class="body">
+            <div class="left">
+                <div id="banners">
+                    <div class="hclc">
+                        <article>
+                            <h1>流量业务陷瓶颈 同程艺龙布局金融会否病急乱投医?</h1>
+                            <div class="contInfo"><div class="floatL"><span id="pubtime_baidu">2019-06-25 17:21</span><span id="“source_baidu”">栏目：<a href=''>实时</a></span></div><div class="floatR"><style type="text/css">.bshare-custom{font-size:12px!important;}.bshare-custom a{margin:0 3px!important;line-height:16px;}#bsLogoList li{padding-left:0;background:none;}.b-drag{border-radius:0!important;}.b-drag-arrow{left:0!important;}</style><div class="bshare-custom"><div class="bsPromo bsPromo2"></div><span>TAG：</span> <a href='http://www.hiwuhan.net/tags.php?/%BB%A5%C1%AA%CD%F8/'>互联网</a> <a href='http://www.hiwuhan.net/tags.php?/%CC%DA%D1%B6/'>腾讯</a> <a href='http://www.hiwuhan.net/tags.php?/%C1%F7%C1%BF/'>流量</a> <a href='http://www.hiwuhan.net/tags.php?/%CD%AC%B3%CC/'>同程</a> <a href='http://www.hiwuhan.net/tags.php?/%D2%D5%C1%FA/'>艺龙</a></div>
+                            </div></div>
+                            <p style="margin: 20px 0px 0px; padding: 0px; font-family: 'Microsoft Yahei', sans-serif; border: 0px; font-size: 16px; line-height: 1.7; color: rgb(51, 51, 51);"><p>本年以来，在监管趋严的布景下，诸多玩家已经逐步收缩金融业务板块，但记者却发现，同程艺龙依旧逆势选择扩张之路。<br></p><p>&nbsp;</p><p>近期，中国光大银行苏州分行与同程艺龙达成战略合作，为其旗下“同驿贷”产品提供创新金融服务支持。业内人士指出，作为同程艺龙的主要业务着力点，同程金服的业务发展似乎进入了瓶颈，同程艺龙只能逆势向金融领域跑马圈地，以此突破瓶颈，但此时结构金融板块是否是最佳时机，还不能够彻底评判，如果一旦结构失败，同程艺龙可能会上演一出“病急乱投医”的闹剧。</p><p>&nbsp;</p><p>折射出变现焦虑</p><p>&nbsp;</p><p>近日，同程艺龙发布上市后第一份季度公告。根据公告显示，本年第一季度，按合并基准，实现收入17.83亿元，同比增17.5%；经调整的净利润达4.49亿元；经调整净利润率为25.1%，较去年同期有所下滑。</p><p>&nbsp;</p><p>同时，平均月活跃用户由2018年同期的163.4百万人同比增22.0%至199.3百万人；平均月付费用户由2018年同期的16.9百万人同比增36.7%至23.1百万人。</p><p>&nbsp;</p><p>然而同程艺龙的增长却离不开以微信为主的腾讯“流量池”。相关数据显示，2019年一季度，同程艺龙平均月活跃用户达到1.99亿人，其中1.73亿人来自腾讯旗下平台，占比进一步提升到了86.9%。</p><p>&nbsp;</p><p>同程艺龙暗示，受益于腾讯的战略合作伙伴关系及自身有效的销售及营销策略，公司拥有较低的获客渠道成本和更为不乱的用户黏性，特别是借助对小步伐趋势结构，同程艺龙实现了对用户、尤其是一线城市用户的高触达和高转化。</p><p>&nbsp;</p><p>但在《腾讯合作协议》中有约定，即：同程艺龙在2021年7月31日前，都是微信及移动QQ的移动支付界面火车票机票及酒店的独家运营方。</p><p>&nbsp;</p><p>值得注意的是，同程艺龙也有着本身的金融版图，为游客和旅游企业提供平安、不乱收益、定制化的金融服务。不过记者发现，同程金服却不能从腾讯引流的客户中分得一杯羹，而只能依靠官方渠道开展金融业务，显然这对于公司的规模扩张也非常晦气。</p><p>&nbsp;</p><p>别的，同程金服对于同程艺龙的的贡献也微乎其微。数据显示，2019年一季度，仅酒店和交通收入就占据了同程艺龙总营收的98%以上。但比拟诸如携程、去哪儿等，这些公司的金融业务已明显遥遥领先。</p><p>&nbsp;</p><p>为什么要做金融？</p><p>&nbsp;</p><p>公开资料显示，同程金服成立于2015年底，注册资本为1亿元。概况上看，同程金服是上海引旅金融信息服务有限公司独资的金融服务公司，但其最终的控股股东却是同程艺龙。</p><p>&nbsp;</p><p>为什么互联网公司都要涉足金融？在业内人士看来，不外乎以下几点原因：</p><p>&nbsp;</p><p>一是随着互联网C端新增流量几近枯竭，流量焦虑弥漫互联网公司，如何把既有流量开发出更多价值成为他们要解决的下一道难题。</p><p>&nbsp;</p><p>二是广告与金融被称为互联网流量变现的两大捷径与利器，靠金融业务可以直接获得不菲收益。</p><p>&nbsp;</p><p>三是当互联网公司发展到必然水平，原有核心业务的增长红利就会慢慢消失，必要拓展新的业务。</p><p>&nbsp;</p><p>四是生态结构的必要，未来趋势是金融业务在大公司生态体系中的价值将会越来越凸显。</p><p>&nbsp;</p><p>于同程艺龙而言，以上几点均有可能是其结构金融业务的考虑。</p><p>&nbsp;</p><p>流量方面，据同程艺龙2018年年报显示，截至2018年末，其平均月活跃用户1.75亿，同比增长44.6%。</p><p>&nbsp;</p><p>值得注意的是，同程艺龙横眉前的大部分流量来自微信的生态体系，对腾讯依赖明显。对此，同程艺龙首席战略官吴嘉竹曾回应称，腾讯小步伐的社交属性为公司带来不乱流量，同时二者也是相互依赖，“其实是相互必要”。</p><p>&nbsp;</p> <p>转载注明来源：http://www.dmzjs.com/315/52627.html</p>
+<!-- page start -->
+<div class="pagination"><ul><li><a>共2页: </a></li><li><a href='#'>上一页</a></li><li class="thisclass"><a href='#'>1</a></li><li><a href='701836_2.html'>2</a></li><li><a href='701836_2.html'>下一页</a></li></ul></div>
+<!-- page end -->   
+                        </article>
+<!--兼容版，可保证页面完全兼容-->
+<div id="SOHUCS"></div>
 <script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
+  (function(){
+    var appid = 'cyrna3OIQ',
+    conf = 'prod_f12acd6648a127b270c750fbbf8ecb1a';
+    var doc = document,
+    s = doc.createElement('script'),
+    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+    s.type = 'text/javascript';
+    s.charset = 'GBK';
+    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+    h.insertBefore(s,h.firstChild);
+  })()
 </script>
-<script type="text/javascript">
-$(document).ready(function(){
-  $('a:[href="http://member.hishop.com.cn/Register.aspx"]').click(function(){
-    $(this).attr("href","http://member.hishop.com.cn/Register.aspx?myurl="+window.location.href);
-  })
-});
-</script>
-<!--弹出层开始-->
-	<link rel="stylesheet" type="text/css" href="/templets/default/style/popup.css"/>
-    <script src="/templets/default/js/crm_ajax.js" type="text/javascript"></script>
-	<div id="back_over"></div>
-    <div class="popup_bg" id="pop_box" style="display:none;">
-    	<img src="/templets/default/images/popbox/pop_icot.png"/>
-    	<div class="pop_box">     		
-	        <div class="pop_tit"><em>获取解决方案</em><span id="popup_x" onclick="popclose();" title="关闭">
-				<img class="popup_close" src="/templets/default/images/popbox/pop_close.png"/></span>
-	        </div>
-	        	<input type="hidden" id="txtInfoCategoryId" name="InfoCategoryId" value="3" />
-		        <input type="hidden" name="txtProductName" id="txtProductName" value="Himall" />  
-	        	<input type="hidden" name="mudi" id="mudi" value="" />
-		        <input type="hidden" name="myurl" id="myurl" value="" />
-		        <input type="hidden" name="jump" id="jump" value="https://www.hishop.com.cn/register/himall_ty.html" />
-		        <ul class="pop_cont">
-		        	<li><input onkeyup="value=value.replace(/\D+/g,'')" id="Phone" name="Phone" type="text"  placeholder="您的手机号码" /></li>
-		            <li><input name="validate" type="text" id="validate" placeholder="图形验证码" style="width:70%"/>
-		            	<img src='/include/vdimgck.php?iw=112&ih=38&fz=18' onClick="this.src=this.src+'?'" /></li>
-		            <li><input name="PhoneCode" id="PhoneCode" type="text" placeholder="请填写手机验证码" style="width:60%;" />
-		            	<input class="input_c" type="button" value="获取手机验证码" onclick="sendPhoneSMS()" /></li>  
-		            <li><input name="button" id="popup_btn" type="button" value="提  交" onclick="FormSub()" /></li>	            
-		        </ul>
-			<div class="tel">咨询电话：4006-089-731</div>
-	    </div>
+<!-- Comment END -->
+                    </div>
+                </div>
+            </div>
+<div class="right">
+    <div class="ap">
+        <div class="apt">
+            <h4>随机看看</h4>
+            <p class="entit"><span>NEW ARTICLE</span></p>
+        </div>
+        <div class="apc">
+            <ul class="ulist">
+			<li>
+                    <span class="num top3">1</span>
+                    <a href="http://www.hiwuhan.net/shishi/659989.html" title="游戏子公司亏损奥飞娱乐称团队解散 原团队另起炉">游戏子公司亏损奥飞娱乐称团队解散 原团队另起炉</a>
+                    <span class="tm">04-07</span>
+                </li>
+<li>
+                    <span class="num top3">2</span>
+                    <a href="http://www.hiwuhan.net/shishi/689422.html" title="“双十一”临近 电商微商备货忙">“双十一”临近 电商微商备货忙</a>
+                    <span class="tm">06-09</span>
+                </li>
+<li>
+                    <span class="num top3">3</span>
+                    <a href="http://www.hiwuhan.net/shishi/681481.html" title="泉州逸肤中医皮肤病医院激光祛痘坑失败 院方：已">泉州逸肤中医皮肤病医院激光祛痘坑失败 院方：已</a>
+                    <span class="tm">06-07</span>
+                </li>
+<li>
+                    <span class="num top3">4</span>
+                    <a href="http://www.hiwuhan.net/shishi/692905.html" title="别让网售款儿童家具变成“伤害款”">别让网售款儿童家具变成“伤害款”</a>
+                    <span class="tm">06-12</span>
+                </li>
+<li>
+                    <span class="num top3">5</span>
+                    <a href="http://www.hiwuhan.net/shishi/691045.html" title="山东省市场监管局公平交易局局长接受新浪潮等采">山东省市场监管局公平交易局局长接受新浪潮等采</a>
+                    <span class="tm">06-12</span>
+                </li>
+<li>
+                    <span class="num top3">6</span>
+                    <a href="http://www.hiwuhan.net/shishi/693206.html" title="百合网5年亏2.2亿 翟欣欣再现世纪佳缘暴露审核问">百合网5年亏2.2亿 翟欣欣再现世纪佳缘暴露审核问</a>
+                    <span class="tm">06-12</span>
+                </li>
+<li>
+                    <span class="num top3">7</span>
+                    <a href="http://www.hiwuhan.net/shishi/699123.html" title="入住陕西宝鸡轩苑尚城小区半年还不通天然气 居民">入住陕西宝鸡轩苑尚城小区半年还不通天然气 居民</a>
+                    <span class="tm">06-20</span>
+                </li>
+<li>
+                    <span class="num top3">8</span>
+                    <a href="http://www.hiwuhan.net/shishi/678743.html" title="哈尔滨一家人到香坊城管局 “指认”救火恩人“是">哈尔滨一家人到香坊城管局 “指认”救火恩人“是</a>
+                    <span class="tm">06-03</span>
+                </li>
+<li>
+                    <span class="num top3">9</span>
+                    <a href="http://www.hiwuhan.net/shishi/688472.html" title="欧国联揭幕战：C罗帽子戏法，赞助商海信闪耀赛场">欧国联揭幕战：C罗帽子戏法，赞助商海信闪耀赛场</a>
+                    <span class="tm">06-09</span>
+                </li>
+<li>
+                    <span class="num top3">10</span>
+                    <a href="http://www.hiwuhan.net/shishi/695915.html" title="问诊“返利”传销">问诊“返利”传销</a>
+                    <span class="tm">06-12</span>
+                </li>
+
+            </ul>
+        </div>
     </div>
-<script type="text/javascript">
-$("#myurl").val(window.location.href);
-	// 弹窗
-function popup(mudi,title){
-        var maskWidth = $(window).width(); //窗口的宽度		
-        var maskHeight = $(window).height(); //窗口高度		
-        var popTop = (maskHeight / 2) - ($('#pop_box').height() / 2);
-        var popLeft = (maskWidth / 2) - ($('#pop_box').width() / 2);
-        $('#pop_box').css({ top: popTop, left: popLeft }).slideDown(600);        
-        $('#back_over').css("display","block");
-        title = title ==""?"免费体验网店系统后台功能":title;
-    	$('#pop_box .pop_tit em').html(title);
-    	$('#mudi').val(mudi);
-    }
-    function popclose(){
-    	$('#pop_box').slideUp(600,function(){
-    		$('#back_over').css("display","none");
-    	})
-    }
-</script>
-<!--弹出层结束-->
+    <div class="ap apRecommend">
+        <div class="apt">
+            <h4>热门文章</h4>
+
+            <p class="entit"><span>HOT ARTICLE</span></p>
+        </div>
+        <div class="apc">
+            <ul class="ulist">
+			<li>
+                    <span class="num top3">1</span>
+                    <a href="http://www.hiwuhan.net/shishi/658769.html" title="充气蹦蹦床被卷上天2死20伤 游乐设施咋成了伤人">充气蹦蹦床被卷上天2死20伤 游乐设施咋成了伤人</a>
+                    <span class="tm">04-07</span>
+                </li>
+<li>
+                    <span class="num top3">2</span>
+                    <a href="http://www.hiwuhan.net/shishi/659033.html" title="电子烟再遭打击！FDA声明：电子烟或能诱发癫痫">电子烟再遭打击！FDA声明：电子烟或能诱发癫痫</a>
+                    <span class="tm">04-07</span>
+                </li>
+<li>
+                    <span class="num top3">3</span>
+                    <a href="http://www.hiwuhan.net/shishi/659863.html" title="郑州华章剑桥外语高价培训 承诺考高分上名校落了">郑州华章剑桥外语高价培训 承诺考高分上名校落了</a>
+                    <span class="tm">04-07</span>
+                </li>
+<li>
+                    <span class="num top3">4</span>
+                    <a href="http://www.hiwuhan.net/shishi/669681.html" title="罚450元，扣5分，拘留！祸害郑州陇海高架的渣土">罚450元，扣5分，拘留！祸害郑州陇海高架的渣土</a>
+                    <span class="tm">05-11</span>
+                </li>
+<li>
+                    <span class="num top3">5</span>
+                    <a href="http://www.hiwuhan.net/shishi/670901.html" title="江西萍乡这位女司机真是惹不起！无证驾驶 躺地撒">江西萍乡这位女司机真是惹不起！无证驾驶 躺地撒</a>
+                    <span class="tm">05-16</span>
+                </li>
+<li>
+                    <span class="num top3">6</span>
+                    <a href="http://www.hiwuhan.net/shishi/673522.html" title="长春八旬老人公交车上犯糊涂 22路驾驶员为其联系">长春八旬老人公交车上犯糊涂 22路驾驶员为其联系</a>
+                    <span class="tm">05-21</span>
+                </li>
+<li>
+                    <span class="num top3">7</span>
+                    <a href="http://www.hiwuhan.net/shishi/674760.html" title="<strong>湘潭市区老年公寓 湘潭普亲养老院</strong>"><strong>湘潭市区老年公寓 湘潭普亲养老院</strong></a>
+                    <span class="tm">05-23</span>
+                </li>
+<li>
+                    <span class="num top3">8</span>
+                    <a href="http://www.hiwuhan.net/shishi/674762.html" title="河北保定一居民家四个月欠水费6000多 上千吨的水">河北保定一居民家四个月欠水费6000多 上千吨的水</a>
+                    <span class="tm">05-23</span>
+                </li>
+<li>
+                    <span class="num top3">9</span>
+                    <a href="http://www.hiwuhan.net/shishi/675288.html" title="<strong>禁止朋友圈分销 热衷微信营销的教培机构怎么办</strong>"><strong>禁止朋友圈分销 热衷微信营销的教培机构怎么办</strong></a>
+                    <span class="tm">05-24</span>
+                </li>
+<li>
+                    <span class="num top3">10</span>
+                    <a href="http://www.hiwuhan.net/shishi/675757.html" title="广东江门台山女子持水管当街将3岁幼童暴打至倒地">广东江门台山女子持水管当街将3岁幼童暴打至倒地</a>
+                    <span class="tm">05-25</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<div id="Footer">
+    <p class="top-nav">
+        <span style="color: #000">友情链接：</span>
+        
+        
+    </p>
+
+    <p class="site-info">
+        <i></i>
+        <span></a></span>
+    </p>
+</div>
+</div>
+<div class="mod-sidebar">
+    <ul class="menu">
+        <li class="item">
+            <a href="/">首页</a>
+        </li>
+        <li class="item">
+            <a href="http://www.hiwuhan.net/jiancai/">建材</a>
+        </li><li class="item">
+            <a href="http://www.hiwuhan.net/housenews/">房产</a>
+        </li><li class="item">
+            <a href="http://www.hiwuhan.net/photos/">图片</a>
+        </li><li class="item">
+            <a href="http://www.hiwuhan.net/shichang/">市场</a>
+        </li> 
+        <li class="logo"><a href="/"><img src="/skin/images/baidu_logo.png" height="26px" alt="blogo"></a>
+        </li>
+    </ul>
+</div>
+<script type="text/javascript" src="/skin/js/mod.js"></script>
+<script type="text/javascript" src="/skin/js/jquery-1.10.1.js"></script>
+<script type="text/javascript" src="/skin/js/aio.js"></script>
+<script type="text/javascript" src="/skin/js/mod_page.js"></script>
+<script type="text/javascript" src="/skin/js/ap_ulist.js"></script>
+<script type="text/javascript" src="/skin/js/header.js"></script>
+<script type="text/javascript" src="/skin/js/cover.js"></script>
+<script type="text/javascript" src="/skin/js/iscroll.js"></script>
+<script type="text/javascript" src="/skin/js/velocity.js"></script>
+<script type="text/javascript" src="/skin/js/lessimgindex.js"></script>
+<script type="text/javascript" src="/skin/js/mod_sidebar.js"></script>
 </body>
 </html>
-
-
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.

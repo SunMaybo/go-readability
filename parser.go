@@ -663,11 +663,11 @@ func (ps *Parser) getNodeAncestors(node *html.Node, maxDepth int) []*html.Node {
 // element types), find the content that is most likely to be the
 // stuff a user wants to read. Then return it wrapped up in a div.
 func (ps *Parser) grabArticle() *html.Node {
+	ps.sourceName = ps.FilterSourceName(TextContent(ps.doc))
 	for {
-		//doc := cloneNode(ps.doc)
-		ps.sourceName = ps.FilterSourceName(TextContent(ps.doc))
+		doc := cloneNode(ps.doc)
 		var page *html.Node
-		if nodes := getElementsByTagName(ps.doc, "body"); len(nodes) > 0 {
+		if nodes := getElementsByTagName(doc, "body"); len(nodes) > 0 {
 			page = nodes[0]
 		}
 
@@ -681,7 +681,7 @@ func (ps *Parser) grabArticle() *html.Node {
 		// tags where they have been used inappropriately (as in, where
 		// they contain no other block level elements.)
 		var elementsToScore []*html.Node
-		var node = documentElement(ps.doc)
+		var node = documentElement(doc)
 
 		for node != nil {
 			matchString := className(node) + " " + id(node)
@@ -1148,7 +1148,6 @@ func (ps *Parser) FilterSourceName(text string) string {
 			}
 		}
 	}
-
 	return cleanSource
 }
 
