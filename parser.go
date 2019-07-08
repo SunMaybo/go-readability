@@ -1152,13 +1152,14 @@ func (ps *Parser) FilterSourceName(text string) string {
 					if len(result)-2 > 0 {
 						cleanSource = result[len(result)-2]
 					}
-				}
-				if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") || strings.Contains(strings.ToLower(cleanSource), "人气") || strings.Contains(strings.ToLower(cleanSource), "日期") || strings.Contains(strings.ToLower(cleanSource), "次数") || strings.Contains(strings.ToLower(cleanSource), "浏览") || strings.Contains(strings.ToLower(cleanSource), "分类") {
-					cleanSource = ""
-				}
-				reg, _ := regexp.Compile(`\d+`)
-				if len(reg.FindAllString(cleanSource, -1)) > 0 {
-					cleanSource = ""
+				} else {
+					if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") || strings.Contains(strings.ToLower(cleanSource), "人气") || strings.Contains(strings.ToLower(cleanSource), "日期") || strings.Contains(strings.ToLower(cleanSource), "次数") || strings.Contains(strings.ToLower(cleanSource), "浏览") || strings.Contains(strings.ToLower(cleanSource), "分类") {
+						cleanSource = ""
+					}
+					reg, _ := regexp.Compile(`\d+`)
+					if len(reg.FindAllString(cleanSource, -1)) > 0 {
+						cleanSource = ""
+					}
 				}
 			}
 

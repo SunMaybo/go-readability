@@ -44,939 +44,735 @@ func TestSource(t *testing.T){
 }
 var content = `
 
+<!DOCTYPE html>
+<html>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta content="教育与生活的意义,, 钦州市第一中学网站,钦州市第一中学,钦州一中,广西,钦州,一中,绥丰书院,示范性高中" name="Keywords" />
-<meta content="教育与生活的意义,, 钦州市第一中学网站,钦州市第一中学,钦州一中,广西,钦州,一中,绥丰书院,示范性高中 " name="Description"/>
-<title>教育与生活的意义 - 钦州市第一中学</title>
-<link href="/Template/yz/Skin/default.css" rel="stylesheet" type="text/css" />
-<link href="/Template/yz/Skin/page.css" rel="stylesheet" type="text/css" />
-<link href="/Template/yz/Skin/commentary.css" rel="stylesheet" type="text/css" />
-<script language="javascript" type="text/javascript" src="/js/common.js"></script>
-<script language="javascript" type="text/javascript" src="/js/jquery.pack.js"></script>
-<script language="javascript" type="text/javascript" src="/Template/yz/Skin/js/js.js"></script>
-<script type="text/javascript" src="/Template/yz/Skin/js/jquery.fancybox-1.3.1.js"></script>
-<script type="text/javascript" src="/Template/yz/Skin/js/pngobject.js"></script>
-<link rel="stylesheet" href="/Template/yz/Skin/style/jquery.fancybox-1.3.1.css" type="text/css" />
-<link rel="stylesheet" href="/Template/yz/Skin/style/jquery.fancybox-1.3.1.css" type="text/css" />
-<script type="text/javascript">
-	$(document).ready(function() {
-		/*
-		*   Examples - images
-		*/
-			$("a#example1").fancybox({
-			'titleShow'		: false
-		});
-			$("a#example2").fancybox({
-			'titleShow'		: false,
-			'transitionIn'	: 'elastic',
-			'transitionOut'	: 'elastic'
-		});
-			$("a#example3").fancybox({
-			'titleShow'		: false,
-			'transitionIn'	: 'none',
-			'transitionOut'	: 'none'
-		});
-			$("a#example4").fancybox();
-			$("a#example5").fancybox({
-			'titlePosition'	: 'inside'
-		});
-			$("a#example6").fancybox({
-			'titlePosition'	: 'over'
-		});
-			$("a[rel=bPic]").fancybox({
-			'transitionIn'		: 'none',
-			'transitionOut'		: 'none',
-			'titlePosition' 	: 'over',
-			'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-				return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-			}
-		});
-			/*
-		*   Examples - various
-		*/
-			$("#various1").fancybox({
-			'titlePosition'		: 'inside',
-			'transitionIn'		: 'none',
-			'transitionOut'		: 'none'
-		});
-			$("#various2").fancybox();
-			$("#various3").fancybox({
-			'width'				: '75%',
-			'height'			: '75%',
-			'autoScale'			: false,
-			'transitionIn'		: 'none',
-			'transitionOut'		: 'none',
-			'type'				: 'iframe'
-		});
-			$("#various4").fancybox({
-			'padding'			: 0,
-			'autoScale'			: false,
-			'transitionIn'		: 'none',
-			'transitionOut'		: 'none'
-		});
-	});
-</script>
-<script language="JavaScript">
-function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
-{
-    var arVersion = navigator.appVersion.split("MSIE")
-    var version = parseFloat(arVersion[1])
-    if ((version <= 6.0) && (document.body.filters))
-    {
-       for(var j=0; j<document.images.length; j++)
-       {
-          var img = document.images[j]
-          var imgName = img.src.toUpperCase()
-          if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
-          {
-             var imgID = (img.id) ? "id='" + img.id + "' " : ""
-             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
-             var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
-             var imgStyle = "display:inline-block;" + img.style.cssText
-             if (img.align == "left") imgStyle = "float:left;" + imgStyle
-             if (img.align == "right") imgStyle = "float:right;" + imgStyle
-             if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
-             var strNewHTML = "<span " + imgID + imgClass + imgTitle
-             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";" + "margin:0;"
-             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
-             + "(src=\'" + img.src + "\');\"></span>"
-             img.outerHTML = strNewHTML
-             j = j-1
-          }
-       }
-    }   
-}
-function alphaBackgrounds(){
-   var rslt = navigator.appVersion.match(/MSIE (d+.d+)/, '');
-   var itsAllGood = (rslt != null && Number(rslt[1]) >= 5.5);
-   for (i=0; i<document.all.length; i++){
-      var bg = document.all[i].currentStyle.backgroundImage;
-      if (bg){
-         if (bg.match(/.png/i) != null){
-            var mypng = bg.substring(5,bg.length-2);
-   //alert(mypng);
-            document.all[i].style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+mypng+"', sizingMethod='crop')";
-            document.all[i].style.backgroundImage = "url('')";
-   //alert(document.all[i].style.filter);
-         }                                              
-      }
-   }
-}
-if (navigator.platform == "Win32" && navigator.appName == "Microsoft Internet Explorer" && window.attachEvent) {
-window.attachEvent("onload", correctPNG);
-window.attachEvent("onload", alphaBackgrounds);
-}
-</script>
-
+    <title>被红岭起诉 长城资产回应：重组方已进驻会先付-投资学院-送钱网</title>
+    <meta name="keywords" content="被红岭起诉 长城资产回应：重组方已进驻会先付-投资学院-送钱网" />
+    <meta name="description" content="红岭创投董事长周世平有点怒了。-投资学院-送钱网">
+    	<meta name="author" content="YinQiao">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+   	<!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <!-- HTML5 shim for IE8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+	<link rel="icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/themes/simplebootx/Public/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/themes/simplebootx/Public/css/common.css" />
+    <link rel="stylesheet" href="/themes/simplebootx/Public/css/college.css" />
+    <link rel="stylesheet" href="/themes/simplebootx/Public/css/index.css">
+    <link rel="stylesheet" href="/themes/simplebootx/Public/css/list.css">   
+    <link rel="stylesheet" href="/themes/simplebootx/Public/css/common.83286230.css"/>
+   <link rel="stylesheet" href="/themes/simplebootx/Public/css/home.1d2f145b.css"/>
+    
+    <script type="text/javascript">
+        var App= "";
+    </script>
+	<!--[if IE 7]>
+	<link rel="stylesheet" href="/themes/simplebootx/Public/simpleboot/font-awesome/4.4.0/css/font-awesome-ie7.min.css">
+	<![endif]-->
+    <script src="/themes/simplebootx/Public/js/plugins/jquery-1.12.1.js"></script>
+    <!-- <script type="text/javascript" src="/themes/simplebootx/Public/js/jquery.js"></script> -->
+     <script type="text/javascript" src="/themes/simplebootx/Public/js/layer.js"></script>	
+	 <script type="text/javascript">
+	         var controllername="College";
+	         var actionname="detail";
+	         var getid="";
+	         function browserRedirect() {
+	             var sUserAgent = navigator.userAgent.toLowerCase();
+	             var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+	             var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+	             var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+	             var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+	             var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+	             var bIsAndroid = sUserAgent.match(/android/i) == "android";
+	             var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+	             var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+	             if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+	                 if(getid){
+	                     var url="/m/"+controllername+"/"+getid+".html";
+	                 }else{
+	                     var url="/m/"+controllername+"/"+actionname+".html";
+	                 }
+	                 window.location.href = url;
+	             }
+	         }
+	         browserRedirect();
+	     </script>
 </head>
-<body onload="commentinit()">
-<div id="index_backwall">
-<div id="master_body"><div class="wrap"> <!--头部定义开始-->
-<div id="header">
-  <div id="top_box">
 
-<!--顶部banner效果开始-->
+<body>
+         
+        <link href="/themes/simplebootx/Public/css/style.css" rel="stylesheet">
+        
+	<script type="text/javascript" src="/themes/simplebootx/Public/js/bootstrap.js"></script>
+        <script type="text/javascript" src="/themes/simplebootx/Public/js/style.js"></script>
+<!--头部通用-->
+<header>
+	<!--右侧浮动-->
+	<div class="float">
+		<div class="erweima" style="">
+		</div>
+		<div class="kefu" style="display: none;">
+			<dl>
+				<dt class="kefu_title">在线客服</dt>
+				
+				<!-- <dd><a class="kefu_dd" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=79189952&amp;site=qq&amp;menu=yes">客服一号</a></dd> -->
+			
+				<dd><a class="kefu_dd" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=531247347&amp;site=qq&amp;menu=yes">客服一号</a></dd>
+			
+				<dd><a class="kefu_dd" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=531247347&amp;site=qq&amp;menu=yes">客服二号</a></dd>
+			
+				<dd><a class="kefu_dd" target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1828692306&amp;site=qq&amp;menu=yes">商务合作</a></dd>
+			</dl>
+		</div>
+		<ul id="toTopUl">
+			<li><a class="flo_1" target="_blank" href="/aboutus/scafina.html" style="font-size: 12px;"><img src="/themes/simplebootx/Public/images/home/icon/float_5.png">收益计算器</a></li>
+			<li><a class="flo_2" href="javascript:void(0);" style="font-size: 12px;"><img src="/themes/simplebootx/Public/images/home/icon/float_7.png" style="margin-right: 0px; ">0530-5342994</a></li>
+			<li><a class="flo_3" href="javascript:void(0);"><img src="/themes/simplebootx/Public/images/home/icon/float_6.png"></a></li>
+			<li><a class="flo_w" href="javascript:void(0);" onmouseover="showCode();" onmouseout="hideCode();"><img src="/themes/simplebootx/Public/images/home/icon/float_9.png"></a></li>
+		</ul>
+	</div>
+	<!--右侧浮动结束-->
+	<div class="header_top">
+		<div class="header_center clearfix">
+			<div class="header_lef">
+				<span class="mr15"><i class="glyphicon glyphicon-earphone"></i>欢迎致电：0530-5342994</span>
+				<span><i class="glyphicon glyphicon-time"></i>服务时间：9:00-21:00</span>
+				<span id="qq">
+					<i class="icon icon_qq"></i><i>送钱网官方交流群II群</i>
+					<em class="show_qq">
+						<p>送钱网官方交流群</p>
+						<p><a href="//shang.qq.com/wpa/qunwpa?idkey=7456307f5236a04aaad6b05abe978d1dd1cef4b6b29e4f5bd9f3819021267fbd" target="_blank">QQ群：669600739</a></p>
+					</em>
+				</span>	
+			</div>
+			<div class="header_rig">
+				<ul>
+					<li><a href="/notice.html" target="_blank" title="官方公告">官方公告</a></li>
+					<li><a href="/aboutus/help.html" target="_blank">帮助中心</a></li>
+					<li><a href="/aboutus/index.html" target="_blank">关于我们</a></li>
+                                         
+                                            <li><a href="/user/login.html" target="_blank">登录</a></li>
+                                            <li><a href="/user/register.html" target="_blank">注册</a></li>                                </ul>
+			</div>
+		</div>
+	</div>
+	<div class="header_bottom">
+		<div class="bottom_center">
+			<a href="/"><img class="bot_left" src="/themes/simplebootx/Public/images/LOGO.png" alt="送钱网" title="送钱网"></a>	
+			<div class="nav_list">
+				<ul>
+					<li><a href="/">首页</a></li>
+					<li><a href="/witkey.html">首投返利</a>
+					</li>
+					<li><a href="/rebate.html">复投返利</a></li>
+					<li><a href="/college.html">理财学院</a></li>
+					<li><a href="/activity.html">活动专区</a><i class="hot"><img src="/themes/simplebootx/Public/images/bgicon.gif"></i></li>
+                                                                                 <li><a href="/user/login.html"><i class="account mr15"><img src="/themes/simplebootx/Public/images/home/icon/user_head.png"></i>我的账户</a>
+                                        </li>				</ul>
+			</div>
+			
+		</div>
+	</div>
 
-
-    <!--顶部banner效果结束-->
-
-        <div id="topbox_left">
-          <div id="logo">
-                <a href="/">
-                    <img src="/Template/yz/Skin/images/logo.gif" alt="钦州市第一中学" /></a>
-           </div>
-        </div>
-        <div id="topbox_right">
-  <div id="topbar">
-    <A onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gxqzyz.com');">设为首页</a>
-    <a href="javascript:window.external.addFavorite('http://www.gxqzyz.com','钦州市第一中学');">加入收藏</a>
-    
-  </div>
-  <div id="search">
-    <input class="inp" id="keyword" onfocus="this.value='';" maxlength="100" size="29" value="填写您想搜索的关键词" name="Keyword" />
-    <input id="Submit" class="subSearch" type="Submit" value="搜索" name="Submit" onclick="OnSearchCheckAndSubmit();" />
-	<script type="text/javascript">
-	jQuery(function($){
-		$("#keyword").hover(function(){
-		$(this).addClass("inpOn");
+</header>
+<script type="text/javascript">
+	$(function(){
+		$('#toTopUl > li').hover(function(){
+			$(this).find('.flo_1 > img').attr('src','/themes/simplebootx/Public/images/home/icon/float_55.png');
+			$(this).find('.flo_1').stop().animate({"width":"170px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#67bad4"});
+			$(this).find('.flo_2').stop().animate({"width":"170px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"#67bad4"});
 		},function(){
-		$(this).removeClass("inpOn");
+			$(this).find('.flo_1 > img').attr('src','/themes/simplebootx/Public/images/home/icon/float_5.png');
+			$(this).find('.flo_1').stop().animate({"width":"52px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"none"});
+			$(this).find('.flo_2').stop().animate({"width":"52px"},200).css({"opacity":"1","filter":"Alpha(opacity=100)","background":"none"});
 		});
 	});
-	  function OnSearchCheckAndSubmit(){
-		  var keyword = document.getElementById("keyword").value;
-		  if (keyword == '' || keyword == null) {
-			  alert("请填写您想搜索的关键词");
-			  return;
-		  }
-		  else {
-			  window.location = "/search.aspx?searchtype=0&Keyword=" + escape(keyword);
-		  }
-	  }
-  </script>
-  </div>
-<!--顶部flash-->
-<div id="top_ad">
-<OBJECT WIDTH="550" HEIGHT="90"> 
-          <EMBED src="/Template/yz/Skin/swf/top_ad.swf"  WIDTH="550" HEIGHT="90"  wmode="transparent" ALIGN=""></EMBED></OBJECT>
-
-<!--<embed src="/Template/yz/Skin/swf/top_ad.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="90" wmode="transparent">
-</embed>-->
-
-</div>
-  </div>
-
-
-</div>
-<!--导航开始-->
-<div id=top_daohang>
-   <div class="" id=multiMenu>
-   <script language="javascript">
-			if(currentId == undefined ) var currentId=0;
-			jQuery(function($){
-				jQuery("#multiMenu").switchTab({defaultIndex: currentId, titCell: "li a.go", effect: "fade", trigger: "mouseover", delayTime: 300});
-			});
-			</SCRIPT>
-<UL class=multiUl>
-<li class="current"><a class="go" href="/Index.html" target="_self"><span>网站首页</span></a></li>
-<li><a class="go" href="/Category_13/Index.aspx" target="_self"><span>学校概况</span></a>
-                          <BLOCKQUOTE id="multi13"><a href="/Category_76/Index.aspx">学校简介</a><a href="/Category_79/Index.aspx">校园风光</a><a href="/Category_12/Index.aspx">校园视频</a><a href="/Category_98/Index.aspx">学校发展</a><a href="/Category_185/Index.aspx">领导之窗</a><a href="/Category_186/Index.aspx">组织机构</a><a href="/Category_187/Index.aspx">校史沿革</a><a href="/Category_188/Index.aspx">规章制度</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_9/Index.aspx" target="_self"><span>校园动态</span></a>
-                          <BLOCKQUOTE id="multi9"><a href="/Category_10/Index.aspx">校园新闻</a><a href="/Category_87/Index.aspx">公示公告</a><a href="/Category_85/Index.aspx">招生招聘</a><a href="/Category_86/Index.aspx">周程安排</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_19/Index.aspx" target="_self"><span>教学科研</span></a>
-                          <BLOCKQUOTE id="multi19"><a href="/Category_89/Index.aspx">科研动向</a><a href="/Category_51/Index.aspx">课题研究</a><a href="/Category_22/Index.aspx">课程设置</a><a href="/Category_175/Index.aspx">队伍建设</a><a href="/Category_176/Index.aspx">课例展示</a><a href="/Category_159/Index.aspx">资源下载</a><a href="/Category_216/Index.aspx">教学视频</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_268/Index.aspx" target="_self"><span>教务管理</span></a>
-                          <BLOCKQUOTE id="multi268"><a href="/Category_194/Index.aspx">成绩查询</a><a href="/Category_269/Index.aspx">教务快讯</a><a href="/Category_270/Index.aspx">资源下载</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_52/Index.aspx" target="_self"><span>德育空间</span></a>
-                          <BLOCKQUOTE id="multi52"><a href="/Category_134/Index.aspx">专题教育</a><a href="/Category_181/Index.aspx">德育队伍</a><a href="/Category_177/Index.aspx">德育活动</a><a href="/Category_178/Index.aspx">学子风采</a><a href="/Category_179/Index.aspx">德育课程</a><a href="/Category_91/Index.aspx">德育在线</a><a href="/Category_53/Index.aspx">心灵驿站</a><a href="/Category_93/Index.aspx">爱国主义</a><a href="/Category_92/Index.aspx">班主任信息资源库</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_271/Index.aspx" target="_self"><span>体艺之窗</span></a>
-                          
-                    </li>
-<li><a class="go" href="/Category_27/Index.aspx" target="_self"><span>党政建设</span></a>
-                          <BLOCKQUOTE id="multi27"><a href="/Category_183/Index.aspx">党员风采</a><a href="/Category_182/Index.aspx">支部建设</a><a href="/Category_199/Index.aspx">党的群众路线教育实践活动</a><a href="/Category_242/Index.aspx">政策文件</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_184/Index.aspx" target="_self"><span>工会工作</span></a>
-                          <BLOCKQUOTE id="multi184"><a href="/Category_217/Index.aspx">法律法规</a><a href="/Category_218/Index.aspx">调研文章</a><a href="/Category_219/Index.aspx">工会要闻</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_57/Index.aspx" target="_self"><span>校报校刊</span></a>
-                          
-                    </li>
-<li><a class="go" href="/Category_200/Index.aspx" target="_self"><span>附属幼儿园</span></a>
-                          <BLOCKQUOTE id="multi200"><a href="/Category_202/Index.aspx">幼儿园动态</a><a href="/Category_201/Index.aspx">领导机构</a><a href="/Category_203/Index.aspx">幼儿园简介</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_215/Index.aspx" target="_self"><span>职称专题</span></a>
-                          
-                    </li>
-<li><a class="go" href="/Category_235/Index.aspx" target="_self"><span>团委</span></a>
-                          <BLOCKQUOTE id="multi235"><a href="/Category_236/Index.aspx">资助信息</a><a href="/Category_237/Index.aspx">学生会</a><a href="/Category_180/Index.aspx">社团联合会</a><a href="/Category_238/Index.aspx">一般新闻</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_243/Index.aspx" target="_self"><span>名师榜</span></a>
-                          <BLOCKQUOTE id="multi243"><a href="/Category_244/Index.aspx">龙湾校区</a><a href="/Category_245/Index.aspx">龙岗校区</a></BLOCKQUOTE>
-                    </li>
-<li><a class="go" href="/Category_239/Index.aspx" target="_self"><span>名师工作</span></a>
-                          <BLOCKQUOTE id="multi239"><a href="/Category_224/Index.aspx">语文工作坊</a><a href="/Category_240/Index.aspx">梁小金工作室</a><a href="/Category_241/Index.aspx">何萍工作室</a></BLOCKQUOTE>
-                    </li>
- </UL>
-<SCRIPT type=text/javascript>
-		var mst;
-		jQuery("#multiMenu li").hover(function(){
-			var curItem = jQuery(this);
-			mst = setTimeout(function(){//延时触发
-					curItem.find("blockquote").fadeIn("fast");
-					mst = null;
-				}, 10);
-		}, function(){
-			if(mst!=null)clearTimeout(mst);
-			jQuery(this).find("blockquote").fadeOut("fast");
-		});
-		</SCRIPT>
-</div>
-</div>
-<!--最新新闻日期天气预报--> 
-
-<div id="date_weather">
-<div class="newsAcc" id="sAnnounce">
-    <STRONG>最新：</STRONG> 
-    <UL class=txtList>
-    
-                <li><a href="/Item/6335.aspx" target="_self" title="标题：2019年春季学期龙岗校区第二十一周工作周程&#xD;点击数：18&#xD;发表时间：19年07月08日"><font style=";">2019年春季学期龙岗校区第二十一周工作周程</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6334.aspx" target="_self" title="标题：2019年秋钦州一中“绥丰课程”校本课程汇总表&#xD;点击数：17&#xD;发表时间：19年07月08日"><font style=";">2019年秋钦州一中“绥丰课程”校本课程汇总表</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6333.aspx" target="_self" title="标题：2019年秋季学期钦州一中“绥丰课程”教师校本课程开设申请表&#xD;点击数：17&#xD;发表时间：19年07月08日"><font style=";">2019年秋季学期钦州一中“绥丰课程”教师校本课程开…</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6331.aspx" target="_self" title="标题：2019年秋季学期钦州一中“绥丰课程”学生校本课程开设申请表&#xD;点击数：69&#xD;发表时间：19年07月05日"><font style=";">2019年秋季学期钦州一中“绥丰课程”学生校本课程开…</font></a></li><li><a href="/Item/6330.aspx" target="_self" title="标题：关于全国优秀系列拟推荐人选的公示&#xD;点击数：112&#xD;发表时间：19年07月04日"><font style=";">关于全国优秀系列拟推荐人选的公示</font></a></li>
-              
-</UL>
-</div>
-<div class="divDay">
-    <span><script language="javascript" type="text/javascript" src="/Template/yz/Skin/js/date.js"></script></span>
+</script>
+<!--头部结束-->
+<!-- /头部 -->
     <!---->
-</div>
-</div>
-<SCRIPT type=text/javascript>
-				jQuery(function($){
-				jQuery("#sAnnounce ul.txtList").scrollUp();
-				});
-
-			</SCRIPT>
-</div>
-<!--头部定义结束-->
-
-  <!--  container  -->
-  <div id="container" class="pageComm">
-    <div class="mode-a" >
-      <!-- mode-a-sid -->
-      <div class="mode-a-sid"> <div class="mode-a-sid">
-    <dl id="sidNav" class="box">
-       <dt>
-          <h3><span>栏目导航</span></h3>
-       </dt>
-       <dd>
-           <ul>
-             <li><a href="/Category_196/Index.aspx">第一期</a></li>
-<li><a href="/Category_197/Index.aspx">第二期</a></li>
-<li><a href="/Category_198/Index.aspx">第三期</a></li>
-<li><a href="/Category_204/Index.aspx">第四期</a></li>
-<li><a href="/Category_205/Index.aspx">第五期</a></li>
-<li><a href="/Category_206/Index.aspx">第六期</a></li>
-<li><a href="/Category_207/Index.aspx">第七期</a></li>
-<li><a href="/Category_208/Index.aspx">第八期</a></li>
-<li><a href="/Category_209/Index.aspx">第九期</a></li>
-<li><a href="/Category_210/Index.aspx">第十期</a></li>
-<li><a href="/Category_211/Index.aspx">第十一期</a></li>
-<li><a href="/Category_212/Index.aspx">第十二期</a></li>
-            </ul>
-        </dd>
-       </dl>
-     <div class="clearbox blank"></div>
-   </div>
-<div class="mode-a-sid">
-  <div class="mode-a-sid1">
-
-<dl id="LastestUpdate" class="box">
-<dt>
-<h3><span>最近更新</span></h3>
-</dt>
-<dd>
-<ul class="txtList">
-
-                <li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6335.aspx" target="_self"><font style=";">2019年春季学期龙…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6334.aspx" target="_self"><font style=";">2019年秋钦州一中…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6333.aspx" target="_self"><font style=";">2019年秋季学期钦…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6331.aspx" target="_self"><font style=";">2019年秋季学期钦…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6330.aspx" target="_self"><font style=";">关于全国优秀系列…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6329.aspx" target="_self"><font style=";">领导干部任职前公示</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6328.aspx" target="_self"><font style=";">我校举办2019年春…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6326.aspx" target="_self"><font style=";">关于实行网上办理…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6325.aspx" target="_self"><font style=";">2019年春季学期龙…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6324.aspx" target="_self"><font style=";">关于黄琴、马菊蔚…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6323.aspx" target="_self"><font style=";">我校荣获2019年广…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6322.aspx" target="_self"><font style=";">我校参与全市教育…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6321.aspx" target="_self"><font style=";">关于成立专业技术…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6320.aspx" target="_self"><font style=";">2019年钦州市直中…</font></a></li>
-              
-</ul>
-</dd>
-</dl>
-<div class="clearbox blank"></div>
-</div>
-<div class="mode-a-sid">
-<div class="mode-b-sid">
-
-				<dl class="box" id="IndComm">
-					<dt><span>网站统计</span></dt>
-					<dd>
-						<script src='/Analytics/CounterLink.aspx?Style=all'></script>
-					</dd>
-				</dl>
-				<div class="clearbox blank"></div>			
-			</div> 
-</div>
-</div>
- </div>
-      <!-- mode-a-main -->
-      <div class="mode-a-main conBody">
-        <div class="path">您现在的位置：<a href="http://www.gxqzyz.com">钦州市第一中学</a>>> 
-    
-    
-    <a href="/Category_195/Index.aspx" target="_self" title="校长之印象笔记">校长之印象笔记</a>&gt;&gt;
-    <a href="/Category_210/Index.aspx" target="_self">第十期</a></div>
-        <div class="contArticle_all">
-          <!-- 标题 -->
-          <div class="contArticle_tit">
-            <h2> 教育与生活的意义</h2>
-            <h3> </h3>
-
-          </div>
-          <div class="contArticle_author"> <span>发布时间：2014年09月24日</span> <span>点击数：
-    <script language="JavaScript" type="text/JavaScript" src="/Common/GetHits.aspx?id=3260"></script>
-    次</span> <span>【字体：<a href="javascript:fontZoomA();" class="top_UserLogin">小</a> <a href="javascript:fontZoomB();" class="top_UserLogin">大</a>】</span> <span>【<a href="/ShowComment.aspx?id=3260">查看评论</a>】</span> </span><span><span id="content_AdminEdit"></span>
-<script type="text/javascript">
-	function CheckAdminStatus(id)
-	{
-		var x=new AjaxRequest('XML','');
-		x.para = ['itemId='+id];
-		x.post('admineditcheck','/ajax.aspx',function(s)
-		{
-			var xml = x.createXmlDom(s);
-			var  status = xml.getElementsByTagName("status")[0].firstChild.data;
-			
-			if(status=='OK')
-			{
-        var  managedir = "/Common/GetContentEdit.aspx?itemId=3260" ;
-				document.getElementById("content_AdminEdit").innerHTML = "【<a href='" + managedir + "' target='_blank'>进入后台编辑</a>】";
-			}
-		});
-	}
-  CheckAdminStatus(3260);
-</script></span> <span>  <span id="content_signin"></span><span id="content_SigninAjaxStatus"></span>
-  <script type="text/javascript">
-    function GetContentSigninStatus(id)
-    {
-        var x = new AjaxRequest('XML','content_SigninAjaxStatus');
-        x.para = ['itemId='+id];
-        x.post('GetContentSigninStatus', '/ajax.aspx', function(s) 
-        {
-            var xml = x.createXmlDom(s);
-            var  status = xml.getElementsByTagName("status")[0].firstChild.data;
-            document.getElementById("content_SigninAjaxStatus").style.display = "none";
-            
-            switch (status)
-            {
-                case "NoSignin":
-                    break;
-                case "NoLogin":
-                    break;
-                case "AutoSignin":
-                    var time = xml.getElementsByTagName("time")[0].firstChild.data;
-                    AutoSigninContent(id,time);
-                    break;
-                case "NormalSignin":
-                    document.getElementById("content_signin").innerHTML = "【<span style='cursor: pointer;' onclick=\"SigninContent('"+id+"')\" >点击签收</span>】";
-                    break;
-                case "SigninOutTime":
-                    document.getElementById("content_signin").innerHTML = "【已过签收截止时间】";
-                    break;
-                case "Signined":
-                    document.getElementById("content_signin").innerHTML = "【已签收】";
-                    break;
-            }
-        });
-    }
-    
-    function AutoSigninContent(id,time)
-    {
-        var secs = time;
-        var wait = secs * 1000;
-        document.getElementById("content_signin").innerHTML = "【自动签收[" + secs +"]秒】";
-        for(i = 1; i <= secs; i++)
-        {
-            window.setTimeout("UpdateAutoSigninTime(" + i + "," + secs + ")", i * 1000);
-        }
-        window.setTimeout("SigninContent('"+id+"')", wait);
-    }
-    
-    function UpdateAutoSigninTime(number,wait)
-    {
-        printnr = wait  - number;
-        document.getElementById("content_signin").innerHTML = "【自动签收[" + printnr +"]秒】";
-    }
-    
-    function SigninContent(id)
-    {
-        var x = new AjaxRequest('XML','content_SigninAjaxStatus');
-        x.para = ['itemId='+id];
-        x.post('SigninContent', '/ajax.aspx', function(s) 
-        {
-            var xml = x.createXmlDom(s);
-            var  status = xml.getElementsByTagName("status")[0].firstChild.data;
-            document.getElementById("content_SigninAjaxStatus").style.display = "none";
-            
-            switch (status)
-            {
-            case "Signined":
-             document.getElementById("content_signin").innerHTML = "【已签收】";
-             break;
-            case "NotSignined":
-             document.getElementById("content_signin").innerHTML = "【签收失败】";
-             break;
-            case "SigninOutTime":
-             document.getElementById("content_signin").innerHTML = "【已过签收截止时间】";
-             break;
-            }
-        }
-        );
-    }
-    GetContentSigninStatus('3260');
-  </script></span> </div>
-          <!-- 正文 -->
-          <div class="contArticle_text">
-            <div class="" id="fontzoom"> 
-      
-     <p style="text-align: center;"><span style="font-size:16px;"><strong>2014-09-22</strong>&nbsp; <strong>克里希那穆提/文&nbsp; </strong>&nbsp;<strong>张宽宽/译</strong></span></p>
-<p><span style="font-size:16px;"><strong>&nbsp; &nbsp; </strong></span><span style="font-size: 16px; line-height: 19.2pt; text-indent: 24pt;">如果一个人环游世界，他将注意到，不论在印度、美洲、欧洲或是澳洲，人的本性是多么地相似。在学院、大学里，情形尤其如此。我们好像用着模型制造出一种人的典型——以寻求安全感、成为重要人物，或尽可能少思考而过着舒服日子，为其主要关心的目标。</span></p>
-<div>
-	<p align="left" style="text-indent:24pt;line-height:19.2pt;"><span style="font-size:16px;">　　　　<br />
-	&nbsp;&nbsp;&nbsp; 传统的教育，使得独立思考成了一件极端困难的事。附和随从导致平庸。如果我们崇尚成功，那么要异于众人，或是反抗环境便非易事，而且可能是危险的。想要成功的动力——这是追求物质或所谓精神上的报偿、寻求内在或外在的安全感、寻求享乐的欲望——这整个过程都会阻碍了“不满之情”，遏止了自发创造，滋生了恐惧；而恐惧，则阻碍了我们对生活加以明智地了解。随着年龄的增加，心灵便冷漠迟滞了。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 当我们寻求舒适时，通常会在生活里找到一处最没有冲突的安静角落。于是，我们便惧于跨出这块隐蔽的地方。这种对生活、对奋斗、对新经验的恐惧，扼杀了我们心中的冒险精神。我们一切的环境教养与教育都促使我们不要异于他人，惟恐自己的思想与社会上的模式相左，使我们对权威和传统给予错误的尊敬。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 幸好，有些认真的人们，愿意摒除左派或右派的偏见，而探究有关人类的问题。然而，我们绝大部分的人，都没有真正的“不满之情”，真正的反抗之心。当我们对于环境不加以了解便屈服于其中，则我们可能具有的任何反抗之心便逐渐熄灭了。不久，我们的种种责任更使它完全死绝。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 反抗有两种。一种是暴力的反抗。这仅是对于既存的秩序不加了解的一种反作用而已。另一种是深入的、充满了智慧的心理反抗。有许多人反抗既存的正统规范，却又落入新的正统规范，落入了更进一步的迷惘和巧加隐饰的自溺自满之中。一般来说，我们总是脱离某一群人或某一组理想，而加入另一群人，背上另外的理想，如此地制造了新的思想模式；而对于这项思想模式，我们则必须再起而反抗。反作用只会产生对立，而改革则需要再度的改革。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 然而有一种明智的反抗，它并非反作用，而是由于一个人对他自己的思想、情感加以觉察，因而随着自我认识而产生。惟有当一种经验来临时，我们面对它，而不避开它所带来的骚扰，如此我们才能使智慧保持高度的觉醒；而高度觉醒的智慧就是直觉，它是生活中惟一的向导。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 那么，什么是生活的意义？我们为何生存，为何奋斗？如果我们受教育仅是为了出名，找到一份更好的工作，变得更能支配他人，那么，我们的生活将是肤浅而空洞的。如果我们受教育只是为了成为科学家，成为死守书本的学者，或成为沉迷于某种知识的专家，那么，我们将助长世界上的毁灭与不幸。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 虽然生活确有更高更广的意义，然而，如果我们未曾发现它，那么教育又有什么价值呢？我们可能受到高深的教育，然而，如果我们的思想和情感不能融为完整的一体，则我们的生活将是残缺的、矛盾的，被许多恐惧所折磨；一旦教育没有培养我们对生活持有一个完整的看法，它便没有多大的意义。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 在目前的文明世界里，我们把生活分成如此繁多的部门，以致于教育除了是学习一种特定的技术职业之外，便没有多大的意义。教育不但没有唤醒个人的智慧，反而鼓励个人去沿袭某种模式，因而阻碍了个人，使他无法将自身作为一项整体的过程来加以了解。将生活上的许多分门别类的问题，尝试着在它们个别的层次里加以解决，这表示完全欠缺了解。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 个人是由不同的实体（entities）所组成的，然而，强调它们的差异之处，而鼓励某种特定类型的发展，则导致诸多的纷乱与矛盾。教育应该使得这些分离的实体完整合一——因为如果欠缺了完整性，生活便成了一连串的冲突和悲哀。如果我们争讼持续不休，那么，被训练成律师又有什么价值？如果我们的混乱延续不止，那么，知识有何价值？如果我们利用技术上和工业上的能力来互相毁灭，那么，它们有何意义？如果我们的生活导致暴力与不幸，那么，它又有什么意思呢？虽然我们或许富有，或有能力赚取财富，虽然我们享有欢乐，拥有组织化的宗教，我们却生活在无止境的冲突中。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 我们必须对“私人”和“个人”加以区别。“私人”是偶然性的；我所谓偶然性的，意指我们出生时的境遇与情况，我们凑巧生长于其中的环境，以及随环境而来的爱国心、迷信、阶级的区分与偏见。“私人”或“偶然性的”只是暂时性的，虽然这一短暂的时刻可能持续一生。由于现在的教育制度是以“私人”、“偶然性的”、“暂时性的”为基础，所以它导致思想的腐化，以及对自我防御性恐惧的谆谆教诲。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 我们大家都被教育和环境所训练，而寻求私人的利益和安全，为我们自己而奋斗。虽然我们用美丽的言辞加以掩饰，然而，我们都是在一个基于剥削与因恐惧而贪得无厌的制度下被教育着来从事各种职业。这种训练，必会为我们自己以及世界带来混乱与不幸，因为它在每一个人的心中制造了心理上的障碍，使得他与别人分离。<br />
-	　　</span></p>
-	<p align="left" style="line-height:19.2pt;"><span style="font-size:16px;">　　</span></p>
-	<p align="left" style="line-height:19.2pt;"><span style="font-size:16px;">《最好的教育是爱》<br />
-	克里希那穆提/著<br />
-	张宽宽/译<br />
-	中信出版社<br />
-	2014年1月</span></p>
-	<p align="left" style="line-height:19.2pt;">&nbsp;</p>
-	<p align="left" style="text-indent:24pt;line-height:19.2pt;"><span style="font-size:16px;">教育，并非只是用来训练心智。训练提升了效率，然而却无法造就一个圆满的个人。一个只知接受训练的心智，只是过去的延续，这样的心智永远无法发现新的事物。所以，为了要寻出何谓正确的教育，我们必须探询生活的全部意义。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 整体的生活意义对于我们大部分人来说，并非是最重要的事，而我们的教育所强调的是次要的价值，仅仅使我们熟谙了某个部门的知识而已。虽然知识和效率是必须的，然而，把它们作为主要事物而加以强调的结果，则只会造成冲突与混乱。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 有一种由爱所启发的效率，它行得更远，此野心所造成的效率来得更伟大；如果没有爱——它使我们对生活有完整无缺的了解——效率便滋生了残暴与无情。现在整个世界上，情形不正是如此吗？我们现行的教育，是以发展效率为其主要目标，因此它便和工业化、战争相衔接；而我们便陷于这个无情竞争与互相毁灭的大机器里。如果教育导致战争，如果教育教导我们去毁灭他人或被人毁灭，它不是完全失败了吗？<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 要建设正确的教育，显然地，我们必须把生活当做一个整体来了解它的意义，而要做到这一点，我们必须要能够思考，不是指顽固不变、死守理论的思考，而是直接地、真实地思考。一个顽固不变、死守理论的思考者，是一个不假思索的人，因为他遵循着一个模式；他重复着说过的话，循着一个窠臼去思考。我们无法抽象地或根据理论来了解生活。了解生活，就是了解我们自己。而教育的全部内容就在于此。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 教育并非只是获取知识，聚集事实，将之编集汇合；教育是把生活当做一个整体而明白其中的意义。然而，整体能经由“部分”加以了解——可是这却是政府、组织化的宗教、独裁政党所尝试的工作。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 教育的功用在于培养完整的人，因而是具有智慧的人。我们可能获有学位，具有像机械似的效率，然而却没有智慧。智慧并非只是一些常识；它并非来自书本，它也不是机巧的自我防御的反应，或具侵略性的断言。一个没有读过书的人，可能比一个博学的人更有智慧。我们把考试和学位当做衡量智慧的标准，而培育了一种躲避人生重大问题的心智。智慧是对于根本事物、现在存在的事物的了解能力；而所谓教育，便是在自己以及别人身上唤醒这项能力。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 教育，应该帮助我们发现恒久不灭的价值，使我们不致于只依附公式或重复口号；教育应该帮助我们拆除在国籍和社会上所竖起的栅栏，而非强调它们，因为这些栅栏在人与人之间，造成了对立。不幸的是，现行的教育制度正促使我们变得卑屈，变得机械化，变得毫不思考，虽然教育唤醒我们的智力，然而，它使我们的内心残缺不全、矛盾、没有创造力。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 对生活如果没有整体性的了解，则我们个人的或集体的问题只有加深、加广。教育的目的，并非制造学者、专家、寻找工作的人，而是培养完整的男男女女，使他们从恐惧之中解脱出来；因为惟有在这样的人之中，才有持久的和平。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 惟有了解我们自己本身时，恐惧才会终止。如果每一个人想在每一刻里澄清他的生活，如果他想面对生活上纷杂的事物、生活上的灾难、生活上突然降临的苛求，他便必须更具弹性，因此，他必须不为种种理论或某种特定的思考模式所束缚。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 教育，不应该鼓励个人去附和社会，或与社会消极地和谐相处，而是要帮助个人去发现真正的价值——它是经由公正不偏的探讨和自我觉悟而来。如果没有自我认识，则自我表现便成为自我肯定，以及其所含的种种因野心和侵略性而造成的冲突。教育，应该唤醒一个人自觉的能力，而非只耽溺于满足自己的自我表现。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 如果在生活的过程中，我们相互毁灭，那么学识又有什么用呢？一连串残酷的战争，一次紧接着一次地爆发，显然在我们培养孩子的方式里，有某种根本上的错误。我想大部分人对此都有所察觉，然而，我们却不知道该如何加以处置。<br />
-	　　　　<br />
-	&nbsp;&nbsp;&nbsp; 制度——不论是教育上或政治上——的改变并不神奇；当我们自身发生了变化，它们便改变了。个人才是最重要的，而非制度；一旦个人不了解它自身的整体过程，那么任何制度——不论是左派或右派的——都无法为这个世界带来秩序与和平。</span></p>
-	<span style="font-size:16px;"><strong>来源：《最好的教育是爱》</strong></span></div>
-<p>&nbsp;</p>
-
-    
-    </div>
-             
-            <div class="c_main">
-            <dl>
-                <dt class="c_title">                    
-                    <a style="color:red">相关信息</a></dt>
-                    <dd class="c_contents">
-                       <font style="color:red">没有相关内容</font> </dd>
-            </dl>
-          </div>
-          </div>
-            
-          <div class="contArticle_bot_Artpage"> <span id="pe100_page_contentpage" class="pagecss"></span> </div>
-          <div class="contArticle_bot_text"> <span class="contArticle_bot_text_UpdateTime"> [<a href="/User/Contents/Favorite.aspx?Action=add&Id=3260">收藏</a>]
-            &nbsp;&nbsp;&nbsp;&nbsp;[<a href="/Print.aspx?id=3260">打印文章</a>]</span> <span>作者：</span> <span>&nbsp;&nbsp;&nbsp;&nbsp;来源：</div>
-          <div class="contArticle_bot_page">
-            <div class="cA_b_prew"><font style="color:red">上一篇：</font><img src="/images/ontop8.gif" alt="热门文章"><a href="/Item/3259.aspx" target="_self" title="标题：师者五境界&#xD;点击数：244&#xD;发表时间：14年09月24日">师者五境界</a>[ 09-24 ]</div>
-            <div class="cA_b_next"><font style="color:red">下一篇：</font><img src="/images/ontop8.gif" alt="热门文章"><a href="/Item/3261.aspx" target="_self" title="标题：首席语文老师告诉你：语文学习的秘诀&#xD;点击数：210&#xD;发表时间：14年09月24日">首席语文老师告诉你：语文学习的秘诀</a>[ 09-24 ]</div>
-          </div>
-          
-          <!-- 评论开始 -->
-          <div id="commentform"></div>
-          <!-- 评论结束 -->
+    <div class="college-container">
+        <div class="wrapper">
+            <div class="crumbs">
+                您的位置:
+                <a href="/" target="_blank">首页</a> >
+                <a href="/college.html">投资学院</a> >
+                <a href="/college/classify/7.html">金融</a> >
+                <a href="javascript:;" class="active">被红岭起诉 长城资产回应：重组方已进驻会先付</a>
+            </div>
+            <div class="college-main clearfix">
+                <div class="college-left">
+                    <div class="college-detail">
+                        <div class="news_bt">
+                            <h3>被红岭起诉 长城资产回应：重组方已进驻会先付</h3></div>
+                        <div class="show_tag">
+                            <span>2019-06-13 16:01:38</span>
+                            <div class="share">
+                                <div class="bdsharebuttonbox">
+                                    <a href="#" class="bds_more" data-cmd="more"></a>
+                                    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+                                    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+                                    <a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a>
+                                    <a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a>
+                                    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                                </div>
+                                <script>
+                                window._bd_share_config = {
+                                    "common": {
+                                        "bdSnsKey": {},
+                                        "bdText": "",
+                                        "bdMini": "2",
+                                        "bdMiniList": false,
+                                        "bdPic": "",
+                                        "bdStyle": "1",
+                                        "bdSize": "24"
+                                    },
+                                    "share": {},
+                                    "image": {
+                                        "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"],
+                                        "viewText": "分享到：",
+                                        "viewSize": "16"
+                                    },
+                                    "selectShare": {
+                                        "bdContainerClass": null,
+                                        "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]
+                                    }
+                                };
+                                with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                                </script>
+                                <!--   <a href="#" title=" 微信" class="weixin"></a>
+                                <a href="#" title="微博" class="weibo"></a>
+                                <a href="#" title="qq空间" class="qq"></a> -->
+                            </div>
+                        </div>
+                        <div class="detail-main">
+                            红岭创投董事长周世平有点怒了。                                                        <div style="padding:10px;text-align: center">
+                                    <img src="/data/upload/20190613/5d0202dfec99b.jpg" width="500" height="310" alt="被红岭起诉 长城资产回应：重组方已进驻会先付" />
+                                </div>                            <p>继公开“催债”之后，周世平开怼四大AMC之一的某资产管理公司，称即日启动诉讼。</p><p><br/></p><p>6月12日，周世平对外称，根据某资产管理公司与红岭创投的合约，2018年6月28日正式到期，本金三亿元及利息、罚息等至今未能处理，红岭创投本着友好协商的态度多次沟通，但至今未有明显进展。“贵为四大之一，这不是你应该有的态度，即日起启动诉讼程序，対不起，曾经耐心等过你。”</p><p><br/></p><p>虽然周世平未具体点名这个四大之一的资管公司，这个被催债的资产管理公司正是长城资产内蒙古分公司。</p><p><br/></p><p>长城资产分公司回应：已正式由第三方重组接盘</p><p><br/></p><p>早在4月9日，周世平在官网发布“催债”帖称，2017年6月，在内蒙古呼和浩特市当地政府的推动下，开发商内蒙古联发房地产在红岭创投借款3亿元，综合利率为年化15％，借款期限12个月，到期一次性归还剩余本金，并引入了担保方中国长城资产内蒙古分公司为此项目兜底回购。</p><p><br/></p><p>但是，内蒙古联发房地产开发有限公司在红岭创投的贷款已经出现逾期。截至2019年3月25日，贷款本金余额3亿元，利息加罚息共计652.87万元，利息、罚息和滞纳金共计5197.04万元。周世平此前已表示红岭创投在正准备起诉中国长城资产内蒙古分公司，确保债权收回。</p><p><br/></p><p>中国长城资产内蒙古分公司此前回应称，“项目逾期后，由于房地产监管政策的变化，公司收购这个房地产项目的方式已经难以实现。</p><p><br/></p><p>从今年4月到现在，可能项目处理没有进展，周世平才对长城资产发起诉讼。</p><p><br/></p><p>6月13日，长城资产内蒙古分公司有关负责人紧急回应《华夏时报》记者采访时说，“我们和红岭创投老周保持着沟通。这个房地产项目，现已正式由第三方重组接盘，目前第三方已进驻，会优先支付红岭创投5000万元，等项目全部完工之后，还有十几亿的销售回款，也会优先支付给红岭创投。如果回收尾款不理想，第三方也会支付红岭创投剩下的钱。”</p><p><br/></p><p>该负责人解释说，其实欠钱的不是我们，而是内蒙联发房地产，他们融资，我们做回购，收购这笔债权，因为现在政策有调整，收不上来，但这个过程中，我们积极努力，帮助房地产企业引进第三方重组，现在已签订了托管协议。</p><p><br/></p><p>一名金融机构人士表示，按常规来说，既然已签订协议担保回购，不管什么政策原因还是市场等原因，都应该履行合同，由担保方兜底负责。</p><p><br/></p><p>作为行业最大的P2P平台之一，红岭创投宣布“三年退出计划”之后，周世平一直在为“钱”奔波，甚至直言平台现在急需解决的核心就是“收债、收债、收债”，以满足流动性需求。</p><p><br/></p><p>5月29日，周世平发帖称，平台线上线下总兑付本金规模260亿，目前重组洽谈进展顺利，有望在上半年正式形成落地方案。他同时直言，现在红岭创投的兑付方案已经确定，根据可行性,今年能够收回的资金，在40亿元到50亿元之间，这里面包含正常的项目回款和不良项目的清收等。</p><p><br/></p><p>“红岭系”各个网贷，包括红岭创投、亿钱贷等平台线上线下总兑付本金规模260亿，这个待偿金额确实不小。截至目前，红岭创投共对投资者进行了八次兑付，合计兑付了6亿。</p><p><br/></p><p>6月2日，周世平发贴回应投资者的诸多问题中，红岭系各平台重组的进展仍然备受关注。周世平表示，虽然面临各种困难，而且今年二、三季度应该是最困难的时期，各种因素内外交困，但是不应该只顾眼前的困难去贱卖资产。选择三年清盘，引进机构重组更多是为今后考虑，将资产有序清理变现，发挥其最大的价值才能让清盘更具安全性、确定性。</p><p><br/></p><p>股票平仓危机</p><p><br/></p><p>屋漏偏逢连夜雨。</p><p><br/></p><p>在200多亿元的待偿压力下，一边各类资产遭遇回收难，另一边则是迫在眉睫的强制平仓。</p><p><br/></p><p>6月13日，深南股份（002417.SZ）发布公告称，公司大股东周世平于2019年6月11日继续被动减持3042000股，占公司总股本的1.13%，成交金额19991490元。周世平质押的部分公司股份存在被质权人首创证券进行处置而导致继续被动减持的可能。</p><p><br/></p><p>公告称，因股权质押业务被进行处置而导致被动减持的股份数量合计为6016900股，占公司总股本的2.23%，成交金额合计为人民币39968344.45元。本次减持后，周世平先生及其一致行动人红岭控股有限公司合计持有公司股份73663214股，占公司总股本的27.28%，周世平先生仍为公司第一大股东及实际控制人。</p><p><br/></p><p>此前6月3日，深南股份披露大股东周世平所持股份可能遭到首创证券强行平仓的公告，股价遭遇了开盘跌停。这份公告显示，周世平所持该公司股份因股票质押回购业务，近期可能将遭首创证券被动减持12.81%。</p><p><br/></p><p>据了解，周世平是在2016年7月在首创证券办理了股票质押式回购交易业务，质押到期日为2019年7月12日。6月2日，周世平在红岭创投社区公开回复出借人称，周世平质押股份总数为3458万股，融资金额为1亿元人民币，质押式回购合约“并未触及平仓线”；深南股份公司主营业务经营正常，并购正常推进中，即将迎来业绩拐点；红岭系各平台已初步稳定而且跟上市公司有防火墙隔离，不会传导风险。</p><p><br/></p><p>深南股份此前表示，周世平仍在积极与首创证券进行沟通，努力通过在合约到期前购回等相关措施，尽力避免或降低本次可能被动减持及可能发生违规减持的不利影响，妥善解决可能被动减持的问题。</p><p><br/></p><p>目前，深南股份的股价一直处于低位徘徊。在2016年7月，周世平签订股份质押回购合约时，深南股份股价仍在15元左右，三年后，深南股份的股价已经跌至6.5元，跌去将近6成，且一直处在“保壳边缘”。</p><p><br/></p><p>2018年年报显示，深南股份营收为1.81亿元，较上年同期的1.05亿元增长73.30%，但是归属股东的净利润为-4906.78万元，较上年同期的767.18万元下降739.58%。</p><p><br/></p><p>目前，上市公司的平仓压力，还有P2P大量不良资产待处置，“老周”目前身上的还钱压力可谓不小。一名市场人士表示，红岭创投是曾经最具影响力的互金公司，老周也是最阳光的老板，红岭创投解决眼下困难，走出危机对稳定市场都有重要意义。</p><p><br/></p>                        </div>
+                        <div class="statement">【声明】本文内容由网友发布，仅代表网友个人经验或观点，不代表本网站立场和观点。如果本文侵犯了您的知识产权，请 与我们取得联系，我们会及时修改或删除
+                        </div>
+                        <div class="source">
+                            <p>（文章来源：<a href="javascript:void(0);"><a href="http://hjcyh.com/college/7876.html">http://hjcyh.com/college/7876.html</a></a>）</p>
+                        </div>
+                        <div class="paging">
+                            <p>上一篇：
+                                <a href="/college/7877.html">胡玮炜挥别摩拜单车 正式卸任法定代表人</a>
+                                                            </p>
+                            <p>下一篇：
+                                <a href="/college/7875.html">伽满优宣布良性清盘，兑付方案分24期</a>
+                                                            </p>
+                        </div>
+                    </div>
+                    <!--列表-->
+                    <div class="p2p-list">
+                        <div class="p2pBox">
+                            <div class="hd">
+                                <ul>
+                                    <li class="on">P2P</li><li class="on">平台</li><li class="on">数据</li><li class="on">政策</li><li class="on">金融</li><li class="on">理财</li><li class="on">融资</li><li class="on">利率</li><li class="on">曝光</li>                                </ul>
+                            </div>
+                            <div class="bd">
+                                <ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/8076.html" target="_blank" title="宜贷网发布致歉信:兑付不尽人意 需要更多时间">
+                                                                                                    <img src="/data/upload/20190708/5d22f37d88cb7.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>宜贷网发布致歉信:兑付不尽人意 需要更多时间</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/8073.html" target="_blank" title="网信发布最新通知：延迟原定下周一的投资人见面会">
+                                                                                                    <img src="/data/upload/20190708/5d2292a159458.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>网信发布最新通知：延迟原定下周一的投资人见面会</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/8076.html" target="_blank" title="宜贷网发布致歉信:兑付不尽人意 需要更多时间">宜贷网发布致歉信:兑付不尽人意 需要更多时间</a></li><li><a href="/college/8073.html" target="_blank" title="网信发布最新通知：延迟原定下周一的投资人见面会">网信发布最新通知：延迟原定下周一的投资人见面会</a></li><li><a href="/college/8069.html" target="_blank" title="宜信公告：网传图片系“造谣” 已找到造谣者信息并报警">宜信公告：网传图片系“造谣” 已找到造谣者信息并报警</a></li><li><a href="/college/8066.html" target="_blank" title="众车在线最新进展 新增1500万到账">众车在线最新进展 新增1500万到账</a></li><li><a href="/college/8065.html" target="_blank" title="网信再发公告：正常运营 集团母公司在积极帮助兑付">网信再发公告：正常运营 集团母公司在积极帮助兑付</a></li><li><a href="/college/8062.html" target="_blank" title="宜贷网：兑付超7.5亿 回款占待偿本金的25%">宜贷网：兑付超7.5亿 回款占待偿本金的25%</a></li><li><a href="/college/8057.html" target="_blank" title="30家立案平台最新案情进展梳理">30家立案平台最新案情进展梳理</a></li><li><a href="/college/8054.html" target="_blank" title="94家平台4月协会信披盘点：拍拍贷未及时更新数据">94家平台4月协会信披盘点：拍拍贷未及时更新数据</a></li><li><a href="/college/8053.html" target="_blank" title="网信理财 还是扛不住了！">网信理财 还是扛不住了！</a></li><li><a href="/college/8036.html" target="_blank" title="网贷平台备案试点继续延期 6月成交量同比锐减逾5成">网贷平台备案试点继续延期 6月成交量同比锐减逾5成</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/8028.html" target="_blank" title="警方通报钱眼金融案情进展：查封24套房产">
+                                                                                                    <img src="/data/upload/20190702/5d1ab00d684a5.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>警方通报钱眼金融案情进展：查封24套房产</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/8026.html" target="_blank" title="天玑财富被警方立案侦查 3人被刑事拘留">
+                                                                                                    <img src="/data/upload/20190702/5d1aacd4b11f5.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>天玑财富被警方立案侦查 3人被刑事拘留</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/8028.html" target="_blank" title="警方通报钱眼金融案情进展：查封24套房产">警方通报钱眼金融案情进展：查封24套房产</a></li><li><a href="/college/8026.html" target="_blank" title="天玑财富被警方立案侦查 3人被刑事拘留">天玑财富被警方立案侦查 3人被刑事拘留</a></li><li><a href="/college/7946.html" target="_blank" title="P2P大时贷案2名嫌犯已移送审查起诉">P2P大时贷案2名嫌犯已移送审查起诉</a></li><li><a href="/college/7810.html" target="_blank" title="微贷网2019年一季度营收9.5亿 净利润1.35亿">微贷网2019年一季度营收9.5亿 净利润1.35亿</a></li><li><a href="/college/7718.html" target="_blank" title="今金贷案进展：张彦军等6人被捕 查封房产30套">今金贷案进展：张彦军等6人被捕 查封房产30套</a></li><li><a href="/college/7631.html" target="_blank" title="红岭创投发布资产收益权转让意见征集稿">红岭创投发布资产收益权转让意见征集稿</a></li><li><a href="/college/7562.html" target="_blank" title="抱财网旗下资产端年亏5000万业绩对赌失败">抱财网旗下资产端年亏5000万业绩对赌失败</a></li><li><a href="/college/7538.html" target="_blank" title="揭24家P2P大平台最新数据：8家近一年逾期率走势曝光(名单)">揭24家P2P大平台最新数据：8家近一年逾期率走势曝光(名单)</a></li><li><a href="/college/7495.html" target="_blank" title="深圳P2P绿化贷案有新进展 如期还款7962余万">深圳P2P绿化贷案有新进展 如期还款7962余万</a></li><li><a href="/college/7461.html" target="_blank" title="有融网案情进展：警方已开通借款人还款账户">有融网案情进展：警方已开通借款人还款账户</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/6530.html" target="_blank" title="“2018全球金融科技100强”榜单发布：蚂蚁金服第一，京东金融第二">
+                                                                                                    <img src="/data/upload/20181026/5bd2bf29d43b7.png" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>“2018全球金融科技100强”榜单发布：蚂蚁金服第一，京东金融第二</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/6247.html" target="_blank" title="P2P恶意逃废债企业和个人信息将纳入征信系统 百万条信息已上报">
+                                                                                                    <img src="/data/upload/20180903/5b8ce370e0cf7.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>P2P恶意逃废债企业和个人信息将纳入征信系统 百万条信息已上报</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/6530.html" target="_blank" title="“2018全球金融科技100强”榜单发布：蚂蚁金服第一，京东金融第二">“2018全球金融科技100强”榜单发布：蚂蚁金服第一，京东金融第二</a></li><li><a href="/college/6247.html" target="_blank" title="P2P恶意逃废债企业和个人信息将纳入征信系统 百万条信息已上报">P2P恶意逃废债企业和个人信息将纳入征信系统 百万条信息已上报</a></li><li><a href="/college/6246.html" target="_blank" title="P2P平台逾期风暴持续之下，上市公司各显神通为逾期的项目埋单">P2P平台逾期风暴持续之下，上市公司各显神通为逾期的项目埋单</a></li><li><a href="/college/6245.html" target="_blank" title="8月网贷正常运营平台持续下降1595家，刷新近一年以来的新高">8月网贷正常运营平台持续下降1595家，刷新近一年以来的新高</a></li><li><a href="/college/6230.html" target="_blank" title="余额宝的用户数已经接近美国总人口的2倍 ">余额宝的用户数已经接近美国总人口的2倍 </a></li><li><a href="/college/6225.html" target="_blank" title="真格系火币、币世界“踩雷”">真格系火币、币世界“踩雷”</a></li><li><a href="/college/6147.html" target="_blank" title="央行报纸：禁止地方政府变相鼓励逃废银行债务等行为">央行报纸：禁止地方政府变相鼓励逃废银行债务等行为</a></li><li><a href="/college/6105.html" target="_blank" title="乱象犹存 金交所再遭摸底清查">乱象犹存 金交所再遭摸底清查</a></li><li><a href="/college/6084.html" target="_blank" title="抓老赖现场曝光 100多名干警出动">抓老赖现场曝光 100多名干警出动</a></li><li><a href="/college/6077.html" target="_blank" title="深圳互金协会公布首批9名P2P老赖名单 将上报并纳入征信">深圳互金协会公布首批9名P2P老赖名单 将上报并纳入征信</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/7554.html" target="_blank" title="北京广东山东取消企业银行账户许可 开户手续更便捷">
+                                                                                                    <img src="/data/upload/20190429/5cc657566cf9b.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>北京广东山东取消企业银行账户许可 开户手续更便捷</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/7505.html" target="_blank" title="央行：新版征信采集水电缴费征信数据需获授权">
+                                                                                                    <img src="/data/upload/20190423/5cbe6ac7215e3.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>央行：新版征信采集水电缴费征信数据需获授权</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/7554.html" target="_blank" title="北京广东山东取消企业银行账户许可 开户手续更便捷">北京广东山东取消企业银行账户许可 开户手续更便捷</a></li><li><a href="/college/7505.html" target="_blank" title="央行：新版征信采集水电缴费征信数据需获授权">央行：新版征信采集水电缴费征信数据需获授权</a></li><li><a href="/college/7389.html" target="_blank" title="税务总局5月将再推服务措施降低社保费率">税务总局5月将再推服务措施降低社保费率</a></li><li><a href="/college/7294.html" target="_blank" title="《商业银行资产托管业务指引》">《商业银行资产托管业务指引》</a></li><li><a href="/college/7194.html" target="_blank" title="厦门市金融工作办公室关于进一步开展融资租赁公司摸底排查的通知">厦门市金融工作办公室关于进一步开展融资租赁公司摸底排查的通知</a></li><li><a href="/college/7053.html" target="_blank" title="《关于办理非法集资刑事案件若干问题的意见》">《关于办理非法集资刑事案件若干问题的意见》</a></li><li><a href="/college/6968.html" target="_blank" title="《东莞市商品房认购书（范本）》的通知》">《东莞市商品房认购书（范本）》的通知》</a></li><li><a href="/college/6899.html" target="_blank" title="年终奖个税新规 算算省了多少钱">年终奖个税新规 算算省了多少钱</a></li><li><a href="/college/6848.html" target="_blank" title="《关于加强存款准备金管理有关事项的通知》">《关于加强存款准备金管理有关事项的通知》</a></li><li><a href="/college/6796.html" target="_blank" title="深圳发布小额贷款保证保险试点实施办法">深圳发布小额贷款保证保险试点实施办法</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/8081.html" target="_blank" title="3家上市公司将集体退市，竟有人还在抄底">
+                                                                                                    <img src="/data/upload/20190708/5d2305376e7d0.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>3家上市公司将集体退市，竟有人还在抄底</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/8080.html" target="_blank" title="招行回应异常利率交易事件：已暂停了相关交易员资格">
+                                                                                                    <img src="/data/upload/20190708/5d2302d7818d1.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>招行回应异常利率交易事件：已暂停了相关交易员资格</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/8081.html" target="_blank" title="3家上市公司将集体退市，竟有人还在抄底">3家上市公司将集体退市，竟有人还在抄底</a></li><li><a href="/college/8080.html" target="_blank" title="招行回应异常利率交易事件：已暂停了相关交易员资格">招行回应异常利率交易事件：已暂停了相关交易员资格</a></li><li><a href="/college/8079.html" target="_blank" title="平安银行回应异常利率交易事件：已暂停相关交易员权限">平安银行回应异常利率交易事件：已暂停相关交易员权限</a></li><li><a href="/college/8077.html" target="_blank" title="拿去花资产暴涨背后保理ABS不良大增 携程能否复制花呗小贷？">拿去花资产暴涨背后保理ABS不良大增 携程能否复制花呗小贷？</a></li><li><a href="/college/8075.html" target="_blank" title="排放造假被罚1.7亿元 江淮汽车大跌逾6.07％">排放造假被罚1.7亿元 江淮汽车大跌逾6.07％</a></li><li><a href="/college/8074.html" target="_blank" title=" 德银耗资74亿欧元整改：退出股票交易业务 拟裁员2万人"> 德银耗资74亿欧元整改：退出股票交易业务 拟裁员2万人</a></li><li><a href="/college/8072.html" target="_blank" title="二三四五设立互联网保险公司未果 与各方协商后退出">二三四五设立互联网保险公司未果 与各方协商后退出</a></li><li><a href="/college/8071.html" target="_blank" title="51公积金IPO搁浅">51公积金IPO搁浅</a></li><li><a href="/college/8070.html" target="_blank" title="ST慧球称中江信托《保兑函》所盖上市公司公章系伪造">ST慧球称中江信托《保兑函》所盖上市公司公章系伪造</a></li><li><a href="/college/8068.html" target="_blank" title="新城控股被多家评级机构列入负面观察名单">新城控股被多家评级机构列入负面观察名单</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/8078.html" target="_blank" title="交行发售理财子公司产品：1元起投 股市投资比例最高20％">
+                                                                                                    <img src="/data/upload/20190708/5d22fe043d968.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>交行发售理财子公司产品：1元起投 股市投资比例最高20％</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/8014.html" target="_blank" title="联创永宣陷股东退出纠纷">
+                                                                                                    <img src="/data/upload/20190629/5d1709fd26570.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>联创永宣陷股东退出纠纷</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/8078.html" target="_blank" title="交行发售理财子公司产品：1元起投 股市投资比例最高20％">交行发售理财子公司产品：1元起投 股市投资比例最高20％</a></li><li><a href="/college/8014.html" target="_blank" title="联创永宣陷股东退出纠纷">联创永宣陷股东退出纠纷</a></li><li><a href="/college/7953.html" target="_blank" title="1元就能投理财子公司产品 需特别关注“理财说明书”">1元就能投理财子公司产品 需特别关注“理财说明书”</a></li><li><a href="/college/7829.html" target="_blank" title="工银理财正式开业 管理理财产品规模超3700亿">工银理财正式开业 管理理财产品规模超3700亿</a></li><li><a href="/college/7818.html" target="_blank" title="已有8家银行理财子公司获批成立 多家开业竞速">已有8家银行理财子公司获批成立 多家开业竞速</a></li><li><a href="/college/7798.html" target="_blank" title="建行旗下理财子公司正式开业运营">建行旗下理财子公司正式开业运营</a></li><li><a href="/college/7585.html" target="_blank" title="网贷返利平台：夏天都来了 你理财了吗？">网贷返利平台：夏天都来了 你理财了吗？</a></li><li><a href="/college/7530.html" target="_blank" title="银行理财这一年:现金管理产品异军突起 净值真假待考">银行理财这一年:现金管理产品异军突起 净值真假待考</a></li><li><a href="/college/7475.html" target="_blank" title="汇添富整改提速 理财60天估值转为市值法">汇添富整改提速 理财60天估值转为市值法</a></li><li><a href="/college/7433.html" target="_blank" title="3月银行理财预期收益率 创两年新低至4.31%">3月银行理财预期收益率 创两年新低至4.31%</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/6873.html" target="_blank" title="社科院报告：去年个人融资规模接近45万亿元">
+                                                                                                    <img src="/data/upload/20181226/5c22eedf579c2.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>社科院报告：去年个人融资规模接近45万亿元</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/6052.html" target="_blank" title="P2P平台点融获大连金投4000万美元融资">
+                                                                                                    <img src="/data/upload/20180807/5b6939d923423.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>P2P平台点融获大连金投4000万美元融资</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/6873.html" target="_blank" title="社科院报告：去年个人融资规模接近45万亿元">社科院报告：去年个人融资规模接近45万亿元</a></li><li><a href="/college/6052.html" target="_blank" title="P2P平台点融获大连金投4000万美元融资">P2P平台点融获大连金投4000万美元融资</a></li><li><a href="/college/5783.html" target="_blank" title="6月80家P2P平台存问题或停业，发生6例融资事件">6月80家P2P平台存问题或停业，发生6例融资事件</a></li><li><a href="/college/5711.html" target="_blank" title="P2P平台添米财富完成了新一轮千万元融资">P2P平台添米财富完成了新一轮千万元融资</a></li><li><a href="/college/5687.html" target="_blank" title="牛板金再获资本青睐 实缴注册资本提升至6亿元人民币">牛板金再获资本青睐 实缴注册资本提升至6亿元人民币</a></li><li><a href="/college/5586.html" target="_blank" title="蚂蚁金服对外宣布新一轮融资140亿美元">蚂蚁金服对外宣布新一轮融资140亿美元</a></li><li><a href="/college/5520.html" target="_blank" title="懒财金服宣布完成数亿元C轮融资">懒财金服宣布完成数亿元C轮融资</a></li><li><a href="/college/5354.html" target="_blank" title="什马完成3亿元C轮融资 铜板街等机构联合领投">什马完成3亿元C轮融资 铜板街等机构联合领投</a></li><li><a href="/college/5220.html" target="_blank" title="百融金服完成10亿元C轮融资">百融金服完成10亿元C轮融资</a></li><li><a href="/college/4753.html" target="_blank" title="发财猪获A轮融资，融资放疑似准备破产清算">发财猪获A轮融资，融资放疑似准备破产清算</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/5117.html" target="_blank" title="管家金服欠债不还被纳入法院强制处决，这老赖台子还敢投？">
+                                                                                                    <img src="/data/upload/20180403/5ac2f4e11d9c7.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>管家金服欠债不还被纳入法院强制处决，这老赖台子还敢投？</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/4865.html" target="_blank" title="春节后的“标慌”导致各大平台纷纷降息">
+                                                                                                    <img src="/data/upload/20180301/5a979568a4324.png" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>春节后的“标慌”导致各大平台纷纷降息</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/5117.html" target="_blank" title="管家金服欠债不还被纳入法院强制处决，这老赖台子还敢投？">管家金服欠债不还被纳入法院强制处决，这老赖台子还敢投？</a></li><li><a href="/college/4865.html" target="_blank" title="春节后的“标慌”导致各大平台纷纷降息">春节后的“标慌”导致各大平台纷纷降息</a></li><li><a href="/college/4623.html" target="_blank" title="多彩云刘德来根据客户投资金额时间收取费用">多彩云刘德来根据客户投资金额时间收取费用</a></li><li><a href="/college/4462.html" target="_blank" title="平安集团旗下的“平安好房”兑付困难">平安集团旗下的“平安好房”兑付困难</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul><ul>
+                                    <li style="border:0px;padding:0px;">
+                                        <div class="post-left">
+                                            <div class="left-img">
+                                                <a href="/college/6688.html" target="_blank" title="深圳从重打击违法P2P 已报送3批恶意逃废债人 ">
+                                                                                                    <img src="/data/upload/20181126/5bfba9224b396.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>深圳从重打击违法P2P 已报送3批恶意逃废债人 </h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div><div class="left-img">
+                                                <a href="/college/6687.html" target="_blank" title="神秘人“顺其自然”是谁？20年来捐款超1000万">
+                                                                                                    <img src="/data/upload/20181126/5bfb6bc064e92.jpg" width="250" height="140" alt="" class="list-img" />
+                                                    <div class="text">
+                                                        <h3>神秘人“顺其自然”是谁？20年来捐款超1000万</h3>
+                                                        <div class="text-bg"></div>
+                                                    </div>
+                                                </a>
+                                            </div>                                        </div>
+                                        <div class="post-right">
+                                            <ul>
+                                                <li><a href="/college/6688.html" target="_blank" title="深圳从重打击违法P2P 已报送3批恶意逃废债人 ">深圳从重打击违法P2P 已报送3批恶意逃废债人 </a></li><li><a href="/college/6687.html" target="_blank" title="神秘人“顺其自然”是谁？20年来捐款超1000万">神秘人“顺其自然”是谁？20年来捐款超1000万</a></li><li><a href="/college/6686.html" target="_blank" title="望洲财富新消息：法院预告拍卖资产 追缴变价后发还受害人">望洲财富新消息：法院预告拍卖资产 追缴变价后发还受害人</a></li><li><a href="/college/6685.html" target="_blank" title="通缉令上“酒托”高颜值女嫌犯火了！网友热议">通缉令上“酒托”高颜值女嫌犯火了！网友热议</a></li><li><a href="/college/6684.html" target="_blank" title="江苏联宝（原扬州宝缘）涉嫌集资诈骗罪、洗钱罪等多项罪名被起诉 ">江苏联宝（原扬州宝缘）涉嫌集资诈骗罪、洗钱罪等多项罪名被起诉 </a></li><li><a href="/college/6683.html" target="_blank" title="早起打卡居然也有骗局！牛轩平台卷款500万跑路！">早起打卡居然也有骗局！牛轩平台卷款500万跑路！</a></li><li><a href="/college/6682.html" target="_blank" title="中普集团因非吸已被立案 已控制帐户409个 归集资金6.09亿元">中普集团因非吸已被立案 已控制帐户409个 归集资金6.09亿元</a></li><li><a href="/college/6681.html" target="_blank" title="收集936万个人的信息已获刑 侵犯公民个人信息罪">收集936万个人的信息已获刑 侵犯公民个人信息罪</a></li><li><a href="/college/6679.html" target="_blank" title="福田分局通报合时代、小零钱、合拍在线进展">福田分局通报合时代、小零钱、合拍在线进展</a></li><li><a href="/college/6678.html" target="_blank" title="饭饭金服查封房产9处 冻结股票12个 冻结保单2份">饭饭金服查封房产9处 冻结股票12个 冻结保单2份</a></li>                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>                            </div>
+                        </div>
+                    </div>
+                    <!--列表 end-->
+                    <!--问答start-->
+                    <div class="p2p-list">
+                        <div class="p2pBox">
+                            <div class="hd">
+                                <ul>
+                                <style type="text/css">
+                                    .p2pBoxulli{padding:0px 16px !important;}
+                                </style>
+                                <li class="p2pBoxulli"><a href="/ask/askDetail/id/1.html">有问必答</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/2.html">投资理财</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/3.html">网贷知识</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/4.html">贷款百科</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/5.html">网贷曝光</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/6.html">利息收益</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/7.html">平台百科</a></li><li class="p2pBoxulli"><a href="/ask/askDetail/id/8.html">政策法规</a></li>                                </ul>
+                            </div>
+                            <style type="text/css">
+                                .bdulli{width: 50% !important;padding:5px 0px !important;border-bottom:none !important; float: left;}
+                                .bdulli>a{font-size: 16px !important;white-space:nowrap;}
+                            </style>
+                            <div class="bd">
+                                <ul>
+                                    <li class="bdulli"><a href="/ask/630.html" target="_blank" title="" title="P2P出监管政策，是好事还是坏事?"><!--P2P出监管政策，是好事还是坏事?-->P2P出监管政策，是好事还是坏事?</a></li><li class="bdulli"><a href="/ask/611.html" target="_blank" title="" title="有哪些比余额宝更好的理财方式？"><!--有哪些比余额宝更好的理财方式？-->有哪些比余额宝更好的理财方式？</a></li><li class="bdulli"><a href="/ask/610.html" target="_blank" title="" title="工薪族的投资理财渠道有哪些？"><!--工薪族的投资理财渠道有哪些？-->工薪族的投资理财渠道有哪些？</a></li><li class="bdulli"><a href="/ask/609.html" target="_blank" title="" title="怎样理财收益最大？各种投资理财怎么选？"><!--怎样理财收益最大？各种投资理财怎么选？-->怎样理财收益最大？各种投资理财怎么选？</a></li><li class="bdulli"><a href="/ask/607.html" target="_blank" title="" title="个人投资理财有什么值得推荐的网站？"><!--个人投资理财有什么值得推荐的网站？-->个人投资理财有什么值得推荐的网站？</a></li><li class="bdulli"><a href="/ask/604.html" target="_blank" title="" title="未来p2p网贷应该在哪方面进行创新"><!--未来p2p网贷应该在哪方面进行创新-->未来p2p网贷应该在哪方面进行创新</a></li><li class="bdulli"><a href="/ask/599.html" target="_blank" title="" title="网贷P2P第三方担保靠谱吗？"><!--网贷P2P第三方担保靠谱吗？-->网贷P2P第三方担保靠谱吗？</a></li><li class="bdulli"><a href="/ask/598.html" target="_blank" title="" title="国内最好的P2P理财平台是哪个？"><!--国内最好的P2P理财平台是哪个？-->国内最好的P2P理财平台是哪个？</a></li><li class="bdulli"><a href="/ask/597.html" target="_blank" title="" title="P2P 平台是怎么做风控的？"><!--P2P 平台是怎么做风控的？-->P2P 平台是怎么做风控的？</a></li><li class="bdulli"><a href="/ask/596.html" target="_blank" title="" title="投资p2p真的安全吗？"><!--投资p2p真的安全吗？-->投资p2p真的安全吗？</a></li><li class="bdulli"><a href="/ask/570.html" target="_blank" title="" title="月薪不同的人如何理财？"><!--月薪不同的人如何理财？-->月薪不同的人如何理财？</a></li><li class="bdulli"><a href="/ask/569.html" target="_blank" title="" title="p2p投资有哪些坑？"><!--p2p投资有哪些坑？-->p2p投资有哪些坑？</a></li><li class="bdulli"><a href="/ask/568.html" target="_blank" title="" title="怎么判断一个p2p平台的真实可靠"><!--怎么判断一个p2p平台的真实可靠-->怎么判断一个p2p平台的真实可靠</a></li><li class="bdulli"><a href="/ask/539.html" target="_blank" title="" title=" 是不是太低的利率没人会投资的？多少一个合规的范围？"><!-- 是不是太低的利率没人会投资的？多少一个合规的范围？--> 是不是太低的利率没人会投资的？多少一个合规的…</a></li><li class="bdulli"><a href="/ask/523.html" target="_blank" title="" title="这个可以让朋友注册嘛 是不是也会给我返利"><!--这个可以让朋友注册嘛 是不是也会给我返利-->这个可以让朋友注册嘛 是不是也会给我返利</a></li><li class="bdulli"><a href="/ask/516.html" target="_blank" title="" title="如果实现人生第一个一百万"><!--如果实现人生第一个一百万-->如果实现人生第一个一百万</a></li><li class="bdulli"><a href="/ask/509.html" target="_blank" title="" title=" 什么样的p2p平台够安全？"><!-- 什么样的p2p平台够安全？--> 什么样的p2p平台够安全？</a></li><li class="bdulli"><a href="/ask/508.html" target="_blank" title="" title=" 请问下：选择P2P平台的标准有哪些？请大家帮忙介绍下"><!-- 请问下：选择P2P平台的标准有哪些？请大家帮忙介绍下--> 请问下：选择P2P平台的标准有哪些？请大家帮…</a></li><li class="bdulli"><a href="/ask/495.html" target="_blank" title="" title="该怎样了解判断一家P2P平台的真实安全性？"><!--该怎样了解判断一家P2P平台的真实安全性？-->该怎样了解判断一家P2P平台的真实安全性？</a></li><li class="bdulli"><a href="/ask/486.html" target="_blank" title="" title=" 查询P2P平台背景信息的几种方式？"><!-- 查询P2P平台背景信息的几种方式？--> 查询P2P平台背景信息的几种方式？</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/627.html" target="_blank" title="" title="个人投资如何进行资产配置？"><!--个人投资如何进行资产配置？-->个人投资如何进行资产配置？</a></li><li class="bdulli"><a href="/ask/606.html" target="_blank" title="" title="10万元该如何投资理财？"><!--10万元该如何投资理财？-->10万元该如何投资理财？</a></li><li class="bdulli"><a href="/ask/605.html" target="_blank" title="" title="在保本的前提下，收益最高的投资理财方式有哪些？"><!--在保本的前提下，收益最高的投资理财方式有哪些？-->在保本的前提下，收益最高的投资理财方式有哪些？</a></li><li class="bdulli"><a href="/ask/601.html" target="_blank" title="" title="有哪些值得推荐的网贷平台？"><!--有哪些值得推荐的网贷平台？-->有哪些值得推荐的网贷平台？</a></li><li class="bdulli"><a href="/ask/594.html" target="_blank" title="" title="大家除了p2p网贷，还有没尝试过做其他理财"><!--大家除了p2p网贷，还有没尝试过做其他理财-->大家除了p2p网贷，还有没尝试过做其他理财</a></li><li class="bdulli"><a href="/ask/593.html" target="_blank" title="" title="有没年化15%以上，又比较靠谱的p2p平台推荐？"><!--有没年化15%以上，又比较靠谱的p2p平台推荐？-->有没年化15%以上，又比较靠谱的p2p平台推荐…</a></li><li class="bdulli"><a href="/ask/576.html" target="_blank" title="" title="E周行靠谱吗，为什么返利这么高"><!--E周行靠谱吗，为什么返利这么高-->E周行靠谱吗，为什么返利这么高</a></li><li class="bdulli"><a href="/ask/574.html" target="_blank" title="" title="个人投资理财有哪些注意事项"><!--个人投资理财有哪些注意事项-->个人投资理财有哪些注意事项</a></li><li class="bdulli"><a href="/ask/573.html" target="_blank" title="" title="新手投资理财有哪些入门知识要学？"><!--新手投资理财有哪些入门知识要学？-->新手投资理财有哪些入门知识要学？</a></li><li class="bdulli"><a href="/ask/572.html" target="_blank" title="" title="工资高但是没有存款，如何理财？"><!--工资高但是没有存款，如何理财？-->工资高但是没有存款，如何理财？</a></li><li class="bdulli"><a href="/ask/541.html" target="_blank" title="" title="怎么合理的利用手头资金理财"><!--怎么合理的利用手头资金理财-->怎么合理的利用手头资金理财</a></li><li class="bdulli"><a href="/ask/540.html" target="_blank" title="" title="P2P新手试水，第一次投多少钱比较好"><!--P2P新手试水，第一次投多少钱比较好-->P2P新手试水，第一次投多少钱比较好</a></li><li class="bdulli"><a href="/ask/537.html" target="_blank" title="" title=" P2P投资哪个好，帮忙分析一下呗？"><!-- P2P投资哪个好，帮忙分析一下呗？--> P2P投资哪个好，帮忙分析一下呗？</a></li><li class="bdulli"><a href="/ask/536.html" target="_blank" title="" title=" 网上个人贷款平台可靠吗"><!-- 网上个人贷款平台可靠吗--> 网上个人贷款平台可靠吗</a></li><li class="bdulli"><a href="/ask/499.html" target="_blank" title="" title="乐富支付还款客服电话是多少"><!--乐富支付还款客服电话是多少-->乐富支付还款客服电话是多少</a></li><li class="bdulli"><a href="/ask/496.html" target="_blank" title="" title="明天的超级返利日是哪家平台"><!--明天的超级返利日是哪家平台-->明天的超级返利日是哪家平台</a></li><li class="bdulli"><a href="/ask/484.html" target="_blank" title="" title="最近还有什么活动吗？"><!--最近还有什么活动吗？-->最近还有什么活动吗？</a></li><li class="bdulli"><a href="/ask/482.html" target="_blank" title="" title="现在网贷降息这么严重，怎么能减少损失？"><!--现在网贷降息这么严重，怎么能减少损失？-->现在网贷降息这么严重，怎么能减少损失？</a></li><li class="bdulli"><a href="/ask/480.html" target="_blank" title="" title="最近有没有好的平台可以投一下！"><!--最近有没有好的平台可以投一下！-->最近有没有好的平台可以投一下！</a></li><li class="bdulli"><a href="/ask/478.html" target="_blank" title="" title="降息已成趋势，我们如何在这个时期提高投资收益呢？"><!--降息已成趋势，我们如何在这个时期提高投资收益呢？-->降息已成趋势，我们如何在这个时期提高投资收益呢…</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/618.html" target="_blank" title="" title=" 不把鸡蛋放一个篮子里，做好分散投资吗？"><!-- 不把鸡蛋放一个篮子里，做好分散投资吗？--> 不把鸡蛋放一个篮子里，做好分散投资吗？</a></li><li class="bdulli"><a href="/ask/608.html" target="_blank" title="" title="网贷投资理财的风险在哪里？"><!--网贷投资理财的风险在哪里？-->网贷投资理财的风险在哪里？</a></li><li class="bdulli"><a href="/ask/603.html" target="_blank" title="" title="为什么出现很多p2p网贷平台?"><!--为什么出现很多p2p网贷平台?-->为什么出现很多p2p网贷平台?</a></li><li class="bdulli"><a href="/ask/600.html" target="_blank" title="" title="P2P网贷平台排名情况怎么样？"><!--P2P网贷平台排名情况怎么样？-->P2P网贷平台排名情况怎么样？</a></li><li class="bdulli"><a href="/ask/595.html" target="_blank" title="" title="P2P网贷和银行对比，优劣主要有哪些？"><!--P2P网贷和银行对比，优劣主要有哪些？-->P2P网贷和银行对比，优劣主要有哪些？</a></li><li class="bdulli"><a href="/ask/592.html" target="_blank" title="" title="网贷如何避雷，如何考察平台呢"><!--网贷如何避雷，如何考察平台呢-->网贷如何避雷，如何考察平台呢</a></li><li class="bdulli"><a href="/ask/551.html" target="_blank" title="" title=" 相对其他产品，P2P网贷的优势在哪里？"><!-- 相对其他产品，P2P网贷的优势在哪里？--> 相对其他产品，P2P网贷的优势在哪里？</a></li><li class="bdulli"><a href="/ask/546.html" target="_blank" title="" title=" 新手理财投资要注意什么呀？"><!-- 新手理财投资要注意什么呀？--> 新手理财投资要注意什么呀？</a></li><li class="bdulli"><a href="/ask/538.html" target="_blank" title="" title=" 资深可靠的p2p投资平台都有哪些？"><!-- 资深可靠的p2p投资平台都有哪些？--> 资深可靠的p2p投资平台都有哪些？</a></li><li class="bdulli"><a href="/ask/507.html" target="_blank" title="" title=" P2P年化收益率多少合理"><!-- P2P年化收益率多少合理--> P2P年化收益率多少合理</a></li><li class="bdulli"><a href="/ask/506.html" target="_blank" title="" title=" 经常听到平台说100%本息保障，这承诺靠谱吗？?"><!-- 经常听到平台说100%本息保障，这承诺靠谱吗？?--> 经常听到平台说100%本息保障，这承诺靠谱吗…</a></li><li class="bdulli"><a href="/ask/505.html" target="_blank" title="" title=" 有什么挑选p2p平台的方法？"><!-- 有什么挑选p2p平台的方法？--> 有什么挑选p2p平台的方法？</a></li><li class="bdulli"><a href="/ask/501.html" target="_blank" title="" title=" p2p网贷平台逾期不还款怎么维权？                                    "><!-- p2p网贷平台逾期不还款怎么维权？                                    --> p2p网贷平台逾期不还款怎么维权？     …</a></li><li class="bdulli"><a href="/ask/500.html" target="_blank" title="" title="快钱支付还款客服电话是多少"><!--快钱支付还款客服电话是多少-->快钱支付还款客服电话是多少</a></li><li class="bdulli"><a href="/ask/498.html" target="_blank" title="" title="判断一个平台安全与否都要看那几点？"><!--判断一个平台安全与否都要看那几点？-->判断一个平台安全与否都要看那几点？</a></li><li class="bdulli"><a href="/ask/497.html" target="_blank" title="" title="禁净值标，陆金所、红岭创投何去何从？"><!--禁净值标，陆金所、红岭创投何去何从？-->禁净值标，陆金所、红岭创投何去何从？</a></li><li class="bdulli"><a href="/ask/493.html" target="_blank" title="" title=" P2P平台上的标那些类型的不靠谱？"><!-- P2P平台上的标那些类型的不靠谱？--> P2P平台上的标那些类型的不靠谱？</a></li><li class="bdulli"><a href="/ask/491.html" target="_blank" title="" title="为何最近看到好多平台还是有超过100w的标啊？？？"><!--为何最近看到好多平台还是有超过100w的标啊？？？-->为何最近看到好多平台还是有超过100w的标啊？…</a></li><li class="bdulli"><a href="/ask/489.html" target="_blank" title="" title=" 对于评价P2P平台，第三方资金托管有多重要"><!-- 对于评价P2P平台，第三方资金托管有多重要--> 对于评价P2P平台，第三方资金托管有多重要</a></li><li class="bdulli"><a href="/ask/488.html" target="_blank" title="" title=" 去平台实地考察都要看哪些地方？"><!-- 去平台实地考察都要看哪些地方？--> 去平台实地考察都要看哪些地方？</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/602.html" target="_blank" title="" title="怎么看待P2P网贷？P2P网贷平台发展前景怎么样？"><!--怎么看待P2P网贷？P2P网贷平台发展前景怎么样？-->怎么看待P2P网贷？P2P网贷平台发展前景怎么…</a></li><li class="bdulli"><a href="/ask/565.html" target="_blank" title="" title=" 大型的网贷门户网站除了之家，天眼，网贷互联还有其他的吗"><!-- 大型的网贷门户网站除了之家，天眼，网贷互联还有其他的吗--> 大型的网贷门户网站除了之家，天眼，网贷互联还…</a></li><li class="bdulli"><a href="/ask/562.html" target="_blank" title="" title=" 今后P2P会成为理财主流吗？"><!-- 今后P2P会成为理财主流吗？--> 今后P2P会成为理财主流吗？</a></li><li class="bdulli"><a href="/ask/548.html" target="_blank" title="" title=" 谁能分析一下投资p2p车贷的优缺点？"><!-- 谁能分析一下投资p2p车贷的优缺点？--> 谁能分析一下投资p2p车贷的优缺点？</a></li><li class="bdulli"><a href="/ask/547.html" target="_blank" title="" title="懒丁贷是个什么平台？"><!--懒丁贷是个什么平台？-->懒丁贷是个什么平台？</a></li><li class="bdulli"><a href="/ask/524.html" target="_blank" title="" title="用钱宝还款电话是多少"><!--用钱宝还款电话是多少-->用钱宝还款电话是多少</a></li><li class="bdulli"><a href="/ask/510.html" target="_blank" title="" title=" 最近发现很多人都开始投P2P平台了，大家为什么如此热衷呢？"><!-- 最近发现很多人都开始投P2P平台了，大家为什么如此热衷呢？--> 最近发现很多人都开始投P2P平台了，大家为什…</a></li><li class="bdulli"><a href="/ask/487.html" target="_blank" title="" title=" P2p网贷理财怎么减少投资风险呢啊？"><!-- P2p网贷理财怎么减少投资风险呢啊？--> P2p网贷理财怎么减少投资风险呢啊？</a></li><li class="bdulli"><a href="/ask/443.html" target="_blank" title="" title="理财返利平台是怎样审核P2P平台的？"><!--理财返利平台是怎样审核P2P平台的？-->理财返利平台是怎样审核P2P平台的？</a></li><li class="bdulli"><a href="/ask/437.html" target="_blank" title="" title="钱内助这是个怎么样的平台？"><!--钱内助这是个怎么样的平台？-->钱内助这是个怎么样的平台？</a></li><li class="bdulli"><a href="/ask/433.html" target="_blank" title="" title=" 投资P2P行业，投资人需满足什么样的条件才能进行投资？"><!-- 投资P2P行业，投资人需满足什么样的条件才能进行投资？--> 投资P2P行业，投资人需满足什么样的条件才能…</a></li><li class="bdulli"><a href="/ask/430.html" target="_blank" title="" title=" P2P监管倒计时之后行业会怎么样？"><!-- P2P监管倒计时之后行业会怎么样？--> P2P监管倒计时之后行业会怎么样？</a></li><li class="bdulli"><a href="/ask/370.html" target="_blank" title="" title="爱钱进借款逾期上征信吗？"><!--爱钱进借款逾期上征信吗？-->爱钱进借款逾期上征信吗？</a></li><li class="bdulli"><a href="/ask/358.html" target="_blank" title="" title="通过芝麻信用能贷款的有哪些app？根据芝麻信用能贷多少？"><!--通过芝麻信用能贷款的有哪些app？根据芝麻信用能贷多少？-->通过芝麻信用能贷款的有哪些app？根据芝麻信用…</a></li><li class="bdulli"><a href="/ask/333.html" target="_blank" title="" title="任何东西都可以贷款"><!--任何东西都可以贷款-->任何东西都可以贷款</a></li><li class="bdulli"><a href="/ask/332.html" target="_blank" title="" title="抵押贷款的范围是"><!--抵押贷款的范围是-->抵押贷款的范围是</a></li><li class="bdulli"><a href="/ask/320.html" target="_blank" title="" title="大家有有没有好的贷款渠道？"><!--大家有有没有好的贷款渠道？-->大家有有没有好的贷款渠道？</a></li><li class="bdulli"><a href="/ask/315.html" target="_blank" title="" title="蚂蚁借呗额从1万提升到7.5万这样正常吗？"><!--蚂蚁借呗额从1万提升到7.5万这样正常吗？-->蚂蚁借呗额从1万提升到7.5万这样正常吗？</a></li><li class="bdulli"><a href="/ask/313.html" target="_blank" title="" title="P2P网络贷款支持提前还款吗？"><!--P2P网络贷款支持提前还款吗？-->P2P网络贷款支持提前还款吗？</a></li><li class="bdulli"><a href="/ask/311.html" target="_blank" title="" title="在融360上，贷款金额已经申请下来，但是没有提现运用，会不会影响征信？"><!--在融360上，贷款金额已经申请下来，但是没有提现运用，会不会影响征信？-->在融360上，贷款金额已经申请下来，但是没有提…</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/626.html" target="_blank" title="" title=" 新人理财的投资策略是什么?"><!-- 新人理财的投资策略是什么?--> 新人理财的投资策略是什么?</a></li><li class="bdulli"><a href="/ask/624.html" target="_blank" title="" title=" P2P平台的坏账、逾期都是哪些问题引起的?"><!-- P2P平台的坏账、逾期都是哪些问题引起的?--> P2P平台的坏账、逾期都是哪些问题引起的?</a></li><li class="bdulli"><a href="/ask/623.html" target="_blank" title="" title=" 网贷投资理财，投资人到底应该怎么投？"><!-- 网贷投资理财，投资人到底应该怎么投？--> 网贷投资理财，投资人到底应该怎么投？</a></li><li class="bdulli"><a href="/ask/622.html" target="_blank" title="" title=" 投资p2p平台的成功要素有哪些？"><!-- 投资p2p平台的成功要素有哪些？--> 投资p2p平台的成功要素有哪些？</a></li><li class="bdulli"><a href="/ask/621.html" target="_blank" title="" title=" 正规的P2P网贷平台要去哪里找？"><!-- 正规的P2P网贷平台要去哪里找？--> 正规的P2P网贷平台要去哪里找？</a></li><li class="bdulli"><a href="/ask/620.html" target="_blank" title="" title=" p2p网贷行业，是不是哪个公司投放的广 告越多越安全的？"><!-- p2p网贷行业，是不是哪个公司投放的广 告越多越安全的？--> p2p网贷行业，是不是哪个公司投放的广 告越…</a></li><li class="bdulli"><a href="/ask/619.html" target="_blank" title="" title=" P2P网贷理财相对其流动性好吗？"><!-- P2P网贷理财相对其流动性好吗？--> P2P网贷理财相对其流动性好吗？</a></li><li class="bdulli"><a href="/ask/617.html" target="_blank" title="" title=" 哪种理财产品理财方式更受欢迎？"><!-- 哪种理财产品理财方式更受欢迎？--> 哪种理财产品理财方式更受欢迎？</a></li><li class="bdulli"><a href="/ask/616.html" target="_blank" title="" title=" 国家支持监管细则的出台的初衷是什么？"><!-- 国家支持监管细则的出台的初衷是什么？--> 国家支持监管细则的出台的初衷是什么？</a></li><li class="bdulli"><a href="/ask/615.html" target="_blank" title="" title=" 现在“价低安全”的个人住房按揭贷款有望迎来大幅增长是吗？"><!-- 现在“价低安全”的个人住房按揭贷款有望迎来大幅增长是吗？--> 现在“价低安全”的个人住房按揭贷款有望迎来大…</a></li><li class="bdulli"><a href="/ask/614.html" target="_blank" title="" title=" 什么是P2P平台的风投控制？"><!-- 什么是P2P平台的风投控制？--> 什么是P2P平台的风投控制？</a></li><li class="bdulli"><a href="/ask/613.html" target="_blank" title="" title=" 请问现在都有哪些银行取消了P2P交易接口？"><!-- 请问现在都有哪些银行取消了P2P交易接口？--> 请问现在都有哪些银行取消了P2P交易接口？</a></li><li class="bdulli"><a href="/ask/612.html" target="_blank" title="" title=" 现在互联网投资理财最受欢迎是吗？"><!-- 现在互联网投资理财最受欢迎是吗？--> 现在互联网投资理财最受欢迎是吗？</a></li><li class="bdulli"><a href="/ask/591.html" target="_blank" title="" title=" 请教一下，平台的利率是谁决定的？"><!-- 请教一下，平台的利率是谁决定的？--> 请教一下，平台的利率是谁决定的？</a></li><li class="bdulli"><a href="/ask/590.html" target="_blank" title="" title=" P2P债权转让靠谱吗？有啥风险？"><!-- P2P债权转让靠谱吗？有啥风险？--> P2P债权转让靠谱吗？有啥风险？</a></li><li class="bdulli"><a href="/ask/589.html" target="_blank" title="" title=" 如何预测P2P平台的风险？"><!-- 如何预测P2P平台的风险？--> 如何预测P2P平台的风险？</a></li><li class="bdulli"><a href="/ask/588.html" target="_blank" title="" title=" p2p借贷发展史是怎么回事？"><!-- p2p借贷发展史是怎么回事？--> p2p借贷发展史是怎么回事？</a></li><li class="bdulli"><a href="/ask/587.html" target="_blank" title="" title=" 银行利率持续下滑，资金难道都流向P2P了？"><!-- 银行利率持续下滑，资金难道都流向P2P了？--> 银行利率持续下滑，资金难道都流向P2P了？</a></li><li class="bdulli"><a href="/ask/586.html" target="_blank" title="" title=" 网络借贷行业标准是什么？"><!-- 网络借贷行业标准是什么？--> 网络借贷行业标准是什么？</a></li><li class="bdulli"><a href="/ask/582.html" target="_blank" title="" title=" 选择P2P网贷，哪种还款方式最好？"><!-- 选择P2P网贷，哪种还款方式最好？--> 选择P2P网贷，哪种还款方式最好？</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/544.html" target="_blank" title="" title=" 短期理财比较好还是活期理财比较好呢？"><!-- 短期理财比较好还是活期理财比较好呢？--> 短期理财比较好还是活期理财比较好呢？</a></li><li class="bdulli"><a href="/ask/475.html" target="_blank" title="" title="银行理财产品利率提高，p2p行业的利率将会有什么变化.？"><!--银行理财产品利率提高，p2p行业的利率将会有什么变化.？-->银行理财产品利率提高，p2p行业的利率将会有什…</a></li><li class="bdulli"><a href="/ask/426.html" target="_blank" title="" title=" 有本息保障承诺的平台是否就会更安全？"><!-- 有本息保障承诺的平台是否就会更安全？--> 有本息保障承诺的平台是否就会更安全？</a></li><li class="bdulli"><a href="/ask/420.html" target="_blank" title="" title="大家选择P2P平台是看重收益还是背景？有没有平台可以推荐的？"><!--大家选择P2P平台是看重收益还是背景？有没有平台可以推荐的？-->大家选择P2P平台是看重收益还是背景？有没有平…</a></li><li class="bdulli"><a href="/ask/380.html" target="_blank" title="" title="等额本息和等额本金的区别是什么啊？"><!--等额本息和等额本金的区别是什么啊？-->等额本息和等额本金的区别是什么啊？</a></li><li class="bdulli"><a href="/ask/372.html" target="_blank" title="" title="凤凰金融利率多少？"><!--凤凰金融利率多少？-->凤凰金融利率多少？</a></li><li class="bdulli"><a href="/ask/359.html" target="_blank" title="" title="在e周行平台直投的利率为什么没有在银桥网上高？"><!--在e周行平台直投的利率为什么没有在银桥网上高？-->在e周行平台直投的利率为什么没有在银桥网上高？</a></li><li class="bdulli"><a href="/ask/351.html" target="_blank" title="" title="大家的P2P利率都在多少啊？"><!--大家的P2P利率都在多少啊？-->大家的P2P利率都在多少啊？</a></li><li class="bdulli"><a href="/ask/324.html" target="_blank" title="" title="P2P额外加息好，还是在原本的利息上加息好，哪个安全?"><!--P2P额外加息好，还是在原本的利息上加息好，哪个安全?-->P2P额外加息好，还是在原本的利息上加息好，哪…</a></li><li class="bdulli"><a href="/ask/323.html" target="_blank" title="" title="银行结构型理财产品7%收益，普通人可以买吗"><!--银行结构型理财产品7%收益，普通人可以买吗-->银行结构型理财产品7%收益，普通人可以买吗</a></li><li class="bdulli"><a href="/ask/303.html" target="_blank" title="" title="P2P平台的利率都是怎么计算的？"><!--P2P平台的利率都是怎么计算的？-->P2P平台的利率都是怎么计算的？</a></li><li class="bdulli"><a href="/ask/302.html" target="_blank" title="" title="什么样的原因导致P2P降息？"><!--什么样的原因导致P2P降息？-->什么样的原因导致P2P降息？</a></li><li class="bdulli"><a href="/ask/273.html" target="_blank" title="" title="农业银行的抵押房产的利息是怎么算的？"><!--农业银行的抵押房产的利息是怎么算的？-->农业银行的抵押房产的利息是怎么算的？</a></li><li class="bdulli"><a href="/ask/272.html" target="_blank" title="" title="农业银行的汽车抵押贷款的利息怎么算的？"><!--农业银行的汽车抵押贷款的利息怎么算的？-->农业银行的汽车抵押贷款的利息怎么算的？</a></li><li class="bdulli"><a href="/ask/269.html" target="_blank" title="" title="农业银行个人小额贷款申请条件有哪些？利率是多少"><!--农业银行个人小额贷款申请条件有哪些？利率是多少-->农业银行个人小额贷款申请条件有哪些？利率是多少</a></li><li class="bdulli"><a href="/ask/264.html" target="_blank" title="" title="网贷理财中网贷利息会不会高出本金呢？"><!--网贷理财中网贷利息会不会高出本金呢？-->网贷理财中网贷利息会不会高出本金呢？</a></li><li class="bdulli"><a href="/ask/262.html" target="_blank" title="" title="大家现阶段的收益大约是多少啊？"><!--大家现阶段的收益大约是多少啊？-->大家现阶段的收益大约是多少啊？</a></li><li class="bdulli"><a href="/ask/191.html" target="_blank" title="" title="我朋友介绍我去3M金融圈，这个收益很高！"><!--我朋友介绍我去3M金融圈，这个收益很高！-->我朋友介绍我去3M金融圈，这个收益很高！</a></li><li class="bdulli"><a href="/ask/176.html" target="_blank" title="" title="P2P理财、银行活期存款、余额宝这三种利率有什么样的区别？"><!--P2P理财、银行活期存款、余额宝这三种利率有什么样的区别？-->P2P理财、银行活期存款、余额宝这三种利率有什…</a></li><li class="bdulli"><a href="/ask/170.html" target="_blank" title="" title="农业银行的活期利息怎么算的，比我我有20万，一个月后收益是多？"><!--农业银行的活期利息怎么算的，比我我有20万，一个月后收益是多？-->农业银行的活期利息怎么算的，比我我有20万，一…</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/585.html" target="_blank" title="" title="好车贷，这个平台可以吗？"><!--好车贷，这个平台可以吗？-->好车贷，这个平台可以吗？</a></li><li class="bdulli"><a href="/ask/584.html" target="_blank" title="" title="巨人理财这个平台如何？？"><!--巨人理财这个平台如何？？-->巨人理财这个平台如何？？</a></li><li class="bdulli"><a href="/ask/567.html" target="_blank" title="" title=" 下半年想投资一些收益中上、银行存管等齐备的平台有何推荐？"><!-- 下半年想投资一些收益中上、银行存管等齐备的平台有何推荐？--> 下半年想投资一些收益中上、银行存管等齐备的平…</a></li><li class="bdulli"><a href="/ask/556.html" target="_blank" title="" title="融金所好像不错，我关注好久了，大家觉得如何？？"><!--融金所好像不错，我关注好久了，大家觉得如何？？-->融金所好像不错，我关注好久了，大家觉得如何？？</a></li><li class="bdulli"><a href="/ask/555.html" target="_blank" title="" title="金陵贷最近怎么样啦，可以不？"><!--金陵贷最近怎么样啦，可以不？-->金陵贷最近怎么样啦，可以不？</a></li><li class="bdulli"><a href="/ask/542.html" target="_blank" title="" title=" 有哪些用户体验比较好的理财平台，求推荐。"><!-- 有哪些用户体验比较好的理财平台，求推荐。--> 有哪些用户体验比较好的理财平台，求推荐。</a></li><li class="bdulli"><a href="/ask/522.html" target="_blank" title="" title="大家推荐一个安全稳定，收益合理的小平台"><!--大家推荐一个安全稳定，收益合理的小平台-->大家推荐一个安全稳定，收益合理的小平台</a></li><li class="bdulli"><a href="/ask/515.html" target="_blank" title="" title="监管日益严格，诸多P2P平台如何在不降低风控水平的前提下控制成本"><!--监管日益严格，诸多P2P平台如何在不降低风控水平的前提下控制成本-->监管日益严格，诸多P2P平台如何在不降低风控水…</a></li><li class="bdulli"><a href="/ask/514.html" target="_blank" title="" title="最近看了下易通贷发现还不错，大家觉得呢？"><!--最近看了下易通贷发现还不错，大家觉得呢？-->最近看了下易通贷发现还不错，大家觉得呢？</a></li><li class="bdulli"><a href="/ask/513.html" target="_blank" title="" title="融金所这个平台靠谱不？"><!--融金所这个平台靠谱不？-->融金所这个平台靠谱不？</a></li><li class="bdulli"><a href="/ask/504.html" target="_blank" title="" title="链金所这个平台如何？"><!--链金所这个平台如何？-->链金所这个平台如何？</a></li><li class="bdulli"><a href="/ask/502.html" target="_blank" title="" title="花果金融这个平台怎么样？                       "><!--花果金融这个平台怎么样？                       -->花果金融这个平台怎么样？           …</a></li><li class="bdulli"><a href="/ask/490.html" target="_blank" title="" title="小树时代这个平台如何呢？"><!--小树时代这个平台如何呢？-->小树时代这个平台如何呢？</a></li><li class="bdulli"><a href="/ask/485.html" target="_blank" title="" title="链金所这个平台怎么样？"><!--链金所这个平台怎么样？-->链金所这个平台怎么样？</a></li><li class="bdulli"><a href="/ask/481.html" target="_blank" title="" title="拍拍贷的借款利息高吗？         "><!--拍拍贷的借款利息高吗？         -->拍拍贷的借款利息高吗？         </a></li><li class="bdulli"><a href="/ask/450.html" target="_blank" title="" title="不做网贷的红岭接下来要干啥？"><!--不做网贷的红岭接下来要干啥？-->不做网贷的红岭接下来要干啥？</a></li><li class="bdulli"><a href="/ask/441.html" target="_blank" title="" title="友金所怎么样？靠谱不？？？"><!--友金所怎么样？靠谱不？？？-->友金所怎么样？靠谱不？？？</a></li><li class="bdulli"><a href="/ask/440.html" target="_blank" title="" title="友金所这个平台怎么样？"><!--友金所这个平台怎么样？-->友金所这个平台怎么样？</a></li><li class="bdulli"><a href="/ask/428.html" target="_blank" title="" title="赶钱网这个新加盟的平台怎么样？"><!--赶钱网这个新加盟的平台怎么样？-->赶钱网这个新加盟的平台怎么样？</a></li><li class="bdulli"><a href="/ask/416.html" target="_blank" title="" title="金领贷怎么样？"><!--金领贷怎么样？-->金领贷怎么样？</a></li>                                  </ul><ul>
+                                    <li class="bdulli"><a href="/ask/629.html" target="_blank" title="" title="大变局前夜，新监管政策下P2P将走向何方？"><!--大变局前夜，新监管政策下P2P将走向何方？-->大变局前夜，新监管政策下P2P将走向何方？</a></li><li class="bdulli"><a href="/ask/628.html" target="_blank" title="" title="请教一下稳健的货币政策和金融去杠杆是否矛盾？"><!--请教一下稳健的货币政策和金融去杠杆是否矛盾？-->请教一下稳健的货币政策和金融去杠杆是否矛盾？</a></li><li class="bdulli"><a href="/ask/494.html" target="_blank" title="" title="监管为什么要求平台存管属地化？"><!--监管为什么要求平台存管属地化？-->监管为什么要求平台存管属地化？</a></li><li class="bdulli"><a href="/ask/492.html" target="_blank" title="" title=" 目前还没有存管的平台该何去何从？"><!-- 目前还没有存管的平台该何去何从？--> 目前还没有存管的平台该何去何从？</a></li><li class="bdulli"><a href="/ask/471.html" target="_blank" title="" title=" 现在监管细则是怎样的？风险准备金这块是什么意见？"><!-- 现在监管细则是怎样的？风险准备金这块是什么意见？--> 现在监管细则是怎样的？风险准备金这块是什么意…</a></li><li class="bdulli"><a href="/ask/421.html" target="_blank" title="" title=" p2p平台的风险备用金能保障本金安全吗？"><!-- p2p平台的风险备用金能保障本金安全吗？--> p2p平台的风险备用金能保障本金安全吗？</a></li><li class="bdulli"><a href="/ask/411.html" target="_blank" title="" title="网贷所有类型中是不是车贷的接受度最高！？"><!--网贷所有类型中是不是车贷的接受度最高！？-->网贷所有类型中是不是车贷的接受度最高！？</a></li><li class="bdulli"><a href="/ask/406.html" target="_blank" title="" title="独家|惊天内幕？曝同一老板炮制多家跑路平台"><!--独家|惊天内幕？曝同一老板炮制多家跑路平台-->独家|惊天内幕？曝同一老板炮制多家跑路平台</a></li><li class="bdulli"><a href="/ask/398.html" target="_blank" title="" title="广东要求P2P平台禁止个人间债权转让！有病吗？"><!--广东要求P2P平台禁止个人间债权转让！有病吗？-->广东要求P2P平台禁止个人间债权转让！有病吗？</a></li><li class="bdulli"><a href="/ask/375.html" target="_blank" title="" title="年化7%银行理财是不是真的？"><!--年化7%银行理财是不是真的？-->年化7%银行理财是不是真的？</a></li><li class="bdulli"><a href="/ask/362.html" target="_blank" title="" title="穿透性监管中的穿透性是指的什么？"><!--穿透性监管中的穿透性是指的什么？-->穿透性监管中的穿透性是指的什么？</a></li><li class="bdulli"><a href="/ask/321.html" target="_blank" title="" title="“银行存管归属化”到底还能不能落实啊？"><!--“银行存管归属化”到底还能不能落实啊？-->“银行存管归属化”到底还能不能落实啊？</a></li><li class="bdulli"><a href="/ask/318.html" target="_blank" title="" title="民间借贷的利率无上限吗？高出多少将不受法律的保护？"><!--民间借贷的利率无上限吗？高出多少将不受法律的保护？-->民间借贷的利率无上限吗？高出多少将不受法律的保…</a></li><li class="bdulli"><a href="/ask/304.html" target="_blank" title="" title="P2P平台的年化利率超过40%合规吗？法律管的到吗？"><!--P2P平台的年化利率超过40%合规吗？法律管的到吗？-->P2P平台的年化利率超过40%合规吗？法律管的…</a></li><li class="bdulli"><a href="/ask/279.html" target="_blank" title="" title="《关于促进互联网金融健康发展的指导意见》对小额贷款的说明"><!--《关于促进互联网金融健康发展的指导意见》对小额贷款的说明-->《关于促进互联网金融健康发展的指导意见》对小额…</a></li><li class="bdulli"><a href="/ask/278.html" target="_blank" title="" title="北京地区网贷监管细则全文中最核心的内容强调了什么？"><!--北京地区网贷监管细则全文中最核心的内容强调了什么？-->北京地区网贷监管细则全文中最核心的内容强调了什…</a></li><li class="bdulli"><a href="/ask/267.html" target="_blank" title="" title="个人民间贷在法律上承认吗？"><!--个人民间贷在法律上承认吗？-->个人民间贷在法律上承认吗？</a></li><li class="bdulli"><a href="/ask/252.html" target="_blank" title="" title="P2P签订的电子合同协议有法律效力吗？"><!--P2P签订的电子合同协议有法律效力吗？-->P2P签订的电子合同协议有法律效力吗？</a></li><li class="bdulli"><a href="/ask/239.html" target="_blank" title="" title="《通知》中提及的升级校园贷治理的工作要点有哪些？"><!--《通知》中提及的升级校园贷治理的工作要点有哪些？-->《通知》中提及的升级校园贷治理的工作要点有哪些…</a></li><li class="bdulli"><a href="/ask/232.html" target="_blank" title="" title="“自融”后，把资金用在其他地方，法律对这样的情况是什么态度？"><!--“自融”后，把资金用在其他地方，法律对这样的情况是什么态度？-->“自融”后，把资金用在其他地方，法律对这样的情…</a></li>                                  </ul>                            </div>
+                        </div>
+                    </div>
+                    <!--问答 end-->
+                </div>
+                <link href="/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+<div class="college-right">
+    <div class="label">
+        <div class="college-title"><span class="title-border"></span>热门标签</div>
+        <div class="label-list">
+            <ul>
+                <li><a href="/college/tag/1.html" target="_blank"><i class="fa fa-p2p fa-2x" style="width:50px;margin-top: 6px"></i>P2P</a></li><li><a href="/college/tag/2.html" target="_blank"><i class="fa fa-jinrong fa-2x" style="width:50px;margin-top: 6px"></i>金融</a></li><li><a href="/college/tag/3.html" target="_blank"><i class="fa fa-pintai fa-2x" style="width:50px;margin-top: 6px"></i>平台</a></li><li><a href="/college/tag/4.html" target="_blank"><i class="fa fa-shuju fa-2x" style="width:50px;margin-top: 6px"></i>数据</a></li><li><a href="/college/tag/5.html" target="_blank"><i class="fa fa-rongzi fa-2x" style="width:50px;margin-top: 6px"></i>融资</a></li><li><a href="/college/tag/6.html" target="_blank"><i class="fa fa-zhengce fa-2x" style="width:50px;margin-top: 6px"></i>政策</a></li><li><a href="/college/tag/7.html" target="_blank"><i class="fa fa-licai fa-2x" style="width:50px;margin-top: 6px"></i>理财</a></li><li><a href="/college/tag/8.html" target="_blank"><i class="fa fa-lilv fa-2x" style="width:50px;margin-top: 6px"></i>利率</a></li>            </ul>
         </div>
-      </div>
-      <!-- end con -->
     </div>
-  </div>
-  <!--网站底部开始-->
-<div id="footer">
-  <div class="fmenu"> <a href="javascript:window.external.addFavorite('http://www.gxqzyz.com','钦州市每一中学');">加
-    
-    入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gxqzyz.com');" 
-
-href="#">设为首页</a> | <a href="mailto:">联系我们</a> | <a href="/admin/index.aspx" 
-
-title="管理">管理</a> </div>
-  <div class="fbt">
-    <table>
-      <tbody>
-        <tr>
-          <td style="width:80px;"><!--事业单位标识-->
-            <A href="http://bszs.conac.cn/sitename?method=show&amp;id=3664F98791ED335FE053022819ACB693" 
-
-target=_blank><img id="imgConac" vspace="0" hspace="0" border="0" src="http://www.gxqzyz.com/images/blue_error.png" 
-
-data-bd-imgshare-binded="1" /></A>
-            <!--<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript 
-
-src='http://dcs.conac.cn/js/21/328/0000/40700970/CA213280000407009700002.js' type='text/javascript'%3E%3C/script
-
-%3E"));</script>-->
-            <!--事业单位标识结束--></td>
-          <td style="width:400px;"><div id="copyright">
-              <p>Copyright © 2013 钦州市一中信息技术中心 All Rights Reserved<br/>
-                地址：广西钦州市新华路北<br/>
-                <a href="http://icp.valu.cn/beianxinxi/c307830a-7e12-461f-abd4-d38a4bd5d270.html">桂ICP备05004062号</a> |
-                <!--	ICP备案代码开始（以后维护此段代码可Ctrl+F查询此段注释）-->
-                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45070202000517">桂公网安备45070202000517号</a> <br/>
-                <!--	ICP备案代码结束	-->
-              </p>
-              <div id="footSafe" > </div>
-            </div></td>
-          <td style="width:130px;"><!--	报警岗亭代码开始（以后维护此段代码可Ctrl+F查询此段注释）-->
-            <a id='_gx_gangting' href="http://www.gx.cyberpolice.cn/AlarmInfo/getTishi.do?
-
-icon=gangting&checkCode=e935bfe35038fa9e1a136e040ab177d6" target=_blank> <img src="http://www.gxqzyz.com/images/cyberhome.gif" alt="广西网警虚拟岗亭" border="0" width="130px"> </a>
-            <!-- 	报警岗亭代码结束	--></td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+    <div class="label">
+        <div class="college-title title-bottom"><span class="title-border"></span>热门排行</div>
+        <div class="label-ranking">
+            <!--切换-->
+            <div class="rankingBox">
+                <div class="hd">
+                    <ul>
+                        <li class="on">月</li>
+                        <li>周</li>
+                        <li>日</li>
+                        
+                    </ul>
+                </div>
+                <div class="bd">
+                    <ul>
+                        <li>
+                            <span class="date"></span>
+                            <a href="/college/8015.html" title="信而富发布6月平台回款公告 并推出“共赢计划”" target="_blank">信而富发布6月平台回款公告 并推出“共赢计划”</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8016.html" title="恒富金融涉嫌非吸被立案 限制涉案人员出入境" target="_blank">恒富金融涉嫌非吸被立案 限制涉案人员出入境</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8017.html" title="苏宁易购完成剥离旗下子公司苏宁小店 预计增加净利34.28亿" target="_blank">苏宁易购完成剥离旗下子公司苏宁小店 预计增加净</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8018.html" title="今年以来8家信托公司领14张罚单 信托业严监管势头不减" target="_blank">今年以来8家信托公司领14张罚单 信托业严监管</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8019.html" title="招行钱端事件立案背后：实控人陈强爆雷前涉诉9.22亿" target="_blank">招行钱端事件立案背后：实控人陈强爆雷前涉诉9.</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8020.html" title="6月网贷月报：持续保持“三降”趋势 正常运营平台数跌破900家" target="_blank">6月网贷月报：持续保持“三降”趋势 正常运营平</a>
+                        </li>                    </ul>
+                    <ul style="display: none;">
+                        <li>
+                            <span class="date"></span>
+                            <a href="/college/8073.html" title="网信发布最新通知：延迟原定下周一的投资人见面会" target="_blank">网信发布最新通知：延迟原定下周一的投资人见面会</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8074.html" title=" 德银耗资74亿欧元整改：退出股票交易业务 拟裁员2万人" target="_blank"> 德银耗资74亿欧元整改：退出股票交易业务 拟</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8075.html" title="排放造假被罚1.7亿元 江淮汽车大跌逾6.07％" target="_blank">排放造假被罚1.7亿元 江淮汽车大跌逾6.07</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8076.html" title="宜贷网发布致歉信:兑付不尽人意 需要更多时间" target="_blank">宜贷网发布致歉信:兑付不尽人意 需要更多时间</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8077.html" title="拿去花资产暴涨背后保理ABS不良大增 携程能否复制花呗小贷？" target="_blank">拿去花资产暴涨背后保理ABS不良大增 携程能否</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8078.html" title="交行发售理财子公司产品：1元起投 股市投资比例最高20％" target="_blank">交行发售理财子公司产品：1元起投 股市投资比例</a>
+                        </li>                    </ul>
+                    <ul style="display: none;">
+                        <li>
+                            <span class="date"></span>
+                            <a href="/college/8073.html" title="网信发布最新通知：延迟原定下周一的投资人见面会" target="_blank">网信发布最新通知：延迟原定下周一的投资人见面会</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8074.html" title=" 德银耗资74亿欧元整改：退出股票交易业务 拟裁员2万人" target="_blank"> 德银耗资74亿欧元整改：退出股票交易业务 拟</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8075.html" title="排放造假被罚1.7亿元 江淮汽车大跌逾6.07％" target="_blank">排放造假被罚1.7亿元 江淮汽车大跌逾6.07</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8076.html" title="宜贷网发布致歉信:兑付不尽人意 需要更多时间" target="_blank">宜贷网发布致歉信:兑付不尽人意 需要更多时间</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8077.html" title="拿去花资产暴涨背后保理ABS不良大增 携程能否复制花呗小贷？" target="_blank">拿去花资产暴涨背后保理ABS不良大增 携程能否</a>
+                        </li><li>
+                            <span class="date"></span>
+                            <a href="/college/8078.html" title="交行发售理财子公司产品：1元起投 股市投资比例最高20％" target="_blank">交行发售理财子公司产品：1元起投 股市投资比例</a>
+                        </li>                    </ul>
+                    
+                </div>
+            </div>
+            <!--切换-->
+        </div>
+    </div>
+<!--     <div class="label">
+        <div class="college-title"><span class="title-border"></span>媒体报道<a href="#" target="_blank">更多+</a></div>
+        <div class="label-report">
+            <div class="report-heat">
+                <img src="/assets/images/test/img-128-86.png" width="128" height="86" alt="" class="list-img" />
+                <div class="list-det">
+                    <h3><a href="#" target="_blank">p2p行业的投资者</a></h3>
+                    <p class="details">虽然近两年来p2p平台暴雷事件影响非常恶劣，但是其实...</p>
+                </div>
+            </div>
+            <div class="headlines-list clearfix">
+                <ul>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">44家互金独角兽估值1287亿美元 资本最为活跃</a></li>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">停业已非丑闻 P2P网贷行业逐渐趋于良性</a></li>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">米缸金融获CFCA电子签章认证 加固电子合同安全</a>
+                    </li>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">中国打破了世界软件巨头规则</a></li>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">中国打破了世界软件巨头规则</a></li>
+                    <li><a href="http://www.SuperSlide2.com" target="_blank">中国打破了世界软件巨头规则</a></li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
 </div>
+            </div>
+        </div>
+    </div>
+    
+<!--底部通用-->
+<style>
+footer ul.clearfix{
+	margin: 0 auto;
+	position: relative;
+	left: 49%;
+}
+footer ul.clearfix li {
+	float: left;
+	width: 140px;
+	margin: 0 10px 30px;
+}
+</style>
+	<footer>
+		<div style="background:#FFF!important;" class="clearfix">
+		<div class="footer_center clearfix">
+			<div class="footer_left">
+				<dl>
+					<dt><i class="icon icon_about mr12"></i>关于我们</dt>
+					<dd><a href="/aboutus/index.html" target="_blank">了解我们</a></dd>
+					<dd><a href="/aboutus/advertise.html" target="_blank">加入我们</a></dd>
+					<dd><a href="/aboutus/contactus.html" target="_blank">联系我们</a></dd>
+				</dl>
+				<dl>
+					<dt><i class="icon icon_help mr12"></i>服务工具箱</dt>
+					<dd><a href="/faq.html" target="_blank">新手上路</a></dd>
+					<dd><a href="/aboutus/agreement.html" target="_blank">服务协议</a></dd>
+					<dd><a href="/aboutus/scafina.html" target="_blank">收益计算器</a></dd>
+				</dl>
+				<dl>
+					<dt><i class="icon icon_pro mr12"></i>产品服务</dt>
+					<dd><a href="/witkey.html" target="_blank">首投返利</a></dd>
+					<dd><a href="/rebate.html" target="_blank">复投专享</a></dd>
+				</dl>
+				<dl style="border-left: solid 1px #f3f3f3; border-right: solid 1px #f3f3f3; margin-right: 0px; padding-right: 100px; padding-left: 80px;">
+					<dt><i class="icon icon_see mr12"></i></dt>
+					<dd style="height:95px;"><img src="/themes/simplebootx/Public/images/weixin.jpg" height="100" width="100"></dd>
+					<dd><a href="javascript:;">微信公众号</a></dd>
+				</dl>
+			</div>
+			<div class="footer_rig">
+				<dl>
+					<dt><i class="icon icon_service"></i>服务支持</dt>
+					<dd class="fz30 color2">0530-5342994</dd>
+					<dd class="mt10">送钱网QQ群：<a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=7456307f5236a04aaad6b05abe978d1dd1cef4b6b29e4f5bd9f3819021267fbd" title="点击申请加群">669600739</a></dd>
+					<dd class="mt10">服务时间：9:00-21:00</dd>
+					<dd class="mt12"><a href="http://wpa.qq.com/msgrd?v=3&uin=531247347&site=qq&menu=yes">意见反馈</a></dd>
+				</dl>
+			</div>
+		</div>
+		<div class="footer_copyright">
+			<div class="copyright"><p>运营中心：山东省菏泽市东关街道华瑞花园4号楼2单元</p>
+            <p>
+                Copyright ? 2013-2016 送钱网 HJCYH.com  山东银灯网络科技有限公司 Inc. All Rights Reserved.&nbsp;&nbsp;&nbsp;<script src="https://s95.cnzz.com/z_stat.php?id=1261038503&web_id=1261038503" language="JavaScript"></script>
+<!--                //百度统计-->
+                <script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?9ec9d849345216f88f7aebef9831ae76";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>                <!--百度统计-->
+                &nbsp;&nbsp;&nbsp;<a href="http://www.beian.miit.gov.cn">沪ICP备17048089号-3</a> 
+            </p>
+            <p>技术支持：<a href="http://www.yintiao.net/" target="_blank">银条软件</a></p>
+                        </div>
+		</div>
+	</div>
+	<div style="width:1200px;background:#FFF;">
+            <ul class="clearfix">
+            <li>
+                <a target="_blank" href="https://v.pinpaibao.com.cn/cert/site/?site=www.hjcyh.com&at=realname" ><img src="https://static.anquan.org/static/outer/image/sm_124x47.png"></img></a>
+            </li>
+                 <li>
+                    <a target="_blank" href="https://v.pinpaibao.com.cn/cert/site/?site=www.hjcyh.com&at=realname" ><img src="https://static.anquan.org/static/outer/image/aqkx_124x47.png"></img></a>
+                </li>
+                
+            </ul>
+        </div>
 
-
-<!--百度推送开始-->
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
+	</footer>
+        <script src="/themes/simplebootx/Public/js/plugins/flexslider/jquery.flexslider.js"></script>	
+        <script src="/themes/simplebootx/Public/js/plugins/jquery.SuperSlide.2.1.1.js"></script>
+        <script src="/themes/simplebootx/Public/js/college/college.js"></script>
+        <script src="/themes/simplebootx/Public/js/plugins/utility.js"></script>
+        <link src="/themes/simplebootx/Public/js/plugins/layer/skin/layer.css" />
+        <script src="/themes/simplebootx/Public/js/plugins/layer/layer.js"></script>
+		<script>(function(){
+var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?5adbee5cd75c42ca22112ee98b1eb516":"https://jspassport.ssl.qhimg.com/11.0.1.js?5adbee5cd75c42ca22112ee98b1eb516";
+document.write('<script src="' + src + '" id="sozz"><\/script>');
 })();
 </script>
-<!--百度推送结束-->
-<!--网站底部结束--> </div>
- </div>
- </div>
-<!-- 统计点击数 -->
-<!--
-    <input type="hidden" id="commentViewpoint" value="1" />
-    <input type="hidden" id="commentIsPrivate" value="0" />
-    <input type="hidden" id="commentIsAnonymous" value="false" />
-    <input type="hidden" id="commentRanking" value="3" />
-
-    <script language="javascript" type="text/javascript">
-
-        function $getE(obj) {
-            return document.getElementById(obj);
-        }
-
-        //初始化评论
-        function commentInit() {
-            var x = new AjaxRequest('XML', 'commentForm');
-            x.labelname = "内容评论标签";
-            x.para = ['itemId=3260','nodeId=210'];
-            x.currentpage = 1;
-            x.post('updatelabel', '/ajax.aspx', function(s) {
-                var xml = x.createXmlDom(s);
-                $getE('commentform').innerHTML = xml.getElementsByTagName("body")[0].firstChild.data;
-                changepage(1, '评论列表', 'JS_基本风格');
-                setCurrentUserInfo();
-            });
-        }
-
-        //添加评论
-        function addComment() {
-            if ($getE('commentTitle').value == '') {
-                alert("请输入标题！");
-                $getE("commentTitle").focus();
-                return;
-            }
-
-            if ($getE('commentIsAnonymous').value == 'false') {
-                if ($getE('commentUsername').value == '') {
-                    alert("请输入用户名！");
-                    $getE('commentUsername').focus();
-                    return;
-                }
-
-                if ($getE('commentEmail').value == '') {
-                    alert('请输入Email地址！');
-                    $getE('commentEmail').focus();
-                    return;
-                }
-
-                var regEmail = /^([a-zA-Z0-9]+[_|\-|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\-|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
-                if ($getE('commentEmail').value.match(regEmail) == null) {
-                    alert('请输入正确的Email格式！');
-                    $getE('commentEmail').focus();
-                    return;
-                }
-            }
-
-            if ($getE("commentContnet").value == '') {
-                alert("请输入评论内容！");
-                $getE("commentContnet").focus();
-                return false;
-            }
-
-            var commentValidCode = "";
-            var checkValidCode = false;
-            if ($getE("commentValidCode") != null) {
-                if ($getE("commentValidCode").value == '') {
-                    alert("请输入验证码！");
-                    $getE("commentValidCode").focus();
-                    return;
-                }
-                commentValidCode = $getE("commentValidCode").value;
-                checkValidCode = true;
-            }
-
-            var x = new AjaxRequest('XML', 'status');
-            x.para = ['username=' + $getE("commentUsername").value, 'commenttitle=' + $getE("commentTitle").value, 'content=' + $getE("commentContnet").value, 'email=' + $getE("commentEmail").value, 'gid=3260', 'nid=' + 210, 'private=' + $getE("commentIsPrivate").value, 'position=' + $getE("commentViewpoint").value, 'score=' + $getE("commentRanking").value, 'TxtValidCode=' + commentValidCode, 'isguest=' + $getE("commentIsAnonymous").value];
-            x.paratype = ['nohtml', 'nohtml', 'nohtml']
-            x.post('addcomment', '/ajax.aspx', function(s) {
-                var xml = x.createXmlDom(s);
-                var status = xml.getElementsByTagName("status")[0].firstChild.data;
-                switch (status) {
-                    case "ok":
-                        changepage(1, '评论列表', 'JS_基本风格');
-                        alert("发表评论成功！");
-                        window.location.href = '#commentTarget';
-                        $getE("commentContnet").value = '';
-                        break;
-                    case "check":
-                        alert("发表评论成功，请等待管理员审核。");
-                        break;
-                    case "err":
-                        alert("发表评论失败！");
-                        break;
-                    case "nopurview":
-                        alert("此栏目已禁止发表评论！");
-                        break;
-                    case "noTourists":
-                        alert("此栏目已禁止游客发表评论！");
-                        break;
-                    case "checkCodeError":
-                        $getE("commentValidCode").value = '';
-                        refreshValidCode($getE("commentValidCodeImg"));
-                        alert("您输入的验证码和系统产生的不一致，请重新输入！");
-                        break;
-                    default:
-                        alert("发表评论失败！");
-                        break;
-                }
-                if (checkValidCode) {
-                    refreshValidCode($getE("commentValidCodeImg"));
-                    $getE("commentValidCode").value = '';
-                    checkValidCode = false;
-                }
-            });
-        }
-
-        function addPkZone(commentid, position, content) {
-            var x = new AjaxRequest('XML', 'status');
-            x.para = ['commentid=' + commentid, 'position=' + position, 'content=' + content];
-            x.post('addpkzone', '/ajax.aspx', function(s) {
-                var xml = x.createXmlDom(s);
-                var status = xml.getElementsByTagName("status")[0].firstChild.data;
-                switch (status) {
-                    case "ok":
-                        changepage(1, '评论列表', 'JS_基本风格');
-                        break;
-                    default:
-                        alert("辩论失败！");
-                        break;
-                }
-            });
-        }
-
-        //更新列表
-        function changepage(pagenum, sourcename, spanname) {
-            var x = new AjaxRequest('XML', 'pe100_' + sourcename);
-            x.labelname = sourcename;
-            x.currentpage = pagenum;
-            x.para = ['itemId=3260', 'outputQty=10', 'page=true', 'pagesize=10', 'currentpage=' + pagenum];
-            x.post('updatelabel', '/ajax.aspx', function(s) {
-                var xml = x.createXmlDom(s);
-                var plstr = "";
-                for (var i = 0; i < xml.getElementsByTagName("body")[0].childNodes.length; i++) {
-                    plstr += xml.getElementsByTagName("body")[0].childNodes[i].nodeValue;
-                }
-                $getE('pe100_' + sourcename).innerHTML = plstr;
-                $getE('commentCount').innerHTML = xml.getElementsByTagName("total")[0].firstChild.data;
-                updatepage(spanname, sourcename, xml);
-            });
-        }
-
-        //更新分页
-        function updatepage(spanname, sourcename, xml) {
-            if (parseInt(xml.getElementsByTagName("total")[0].firstChild.data) > 0) {
-                var x = new AjaxRequest('XML', 'pe100_page_' + sourcename);
-                x.labelname = spanname;
-                x.sourcename = sourcename;
-                x.total = xml.getElementsByTagName("total")[0].firstChild.data;
-                x.currentpage = xml.getElementsByTagName("currentpage")[0].firstChild.data;
-                x.pagesize = xml.getElementsByTagName("pagesize")[0].firstChild.data;
-                x.post('updatepage', '/ajax.aspx', function(s) {
-                    var xml = x.createXmlDom(s);
-                    if ($getE('pe100_page_' + sourcename) != null) {
-                        var plstr = "";
-                        for (var i = 0; i < xml.getElementsByTagName("body")[0].childNodes.length; i++) {
-                            plstr += xml.getElementsByTagName("body")[0].childNodes[i].nodeValue;
-                        }
-                        $getE('pe100_page_' + sourcename).innerHTML = plstr;
-                    }
-                });
-            }
-        }
-
-        //设置默用户信息
-        function setCurrentUserInfo() {
-            try {
-                var x = new AjaxRequest('XML', '');
-                x.post('logincheck', '/ajax.aspx', function(s) {
-                    var xml = x.createXmlDom(s);
-                    if (xml.getElementsByTagName("status")[0].firstChild.data == "ok") {
-                        if ($getE('commentUsername') != null) {
-                            $getE('commentUsername').value = xml.getElementsByTagName("username")[0].firstChild.data;
-                            $getE('commentEmail').value = xml.getElementsByTagName("email")[0].firstChild.data;
-                            $getE('commentUsername').disabled = true;
-                            $getE('commentEmail').disabled = true;
-                        }
-                    }
-                });
-            }
-            catch (e) {
-            }
-        }
-
-        //刷新验证码
-        function refreshValidCode(obj) {
-            obj.src = obj.src + '?code=' + randomNumber(10);
-        }
-
-        function randomNumber(n) {
-            var rnd = '';
-            for (var i = 0; i < n; i++)
-                rnd += Math.floor(Math.random() * 10);
-            return rnd;
-        }
-
-        //设置匿名
-        function setAnonymous(obj) {
-            if (obj.checked) {
-                $getE('commentUsernameBlock').style.display = 'none';
-                $getE('commentEmailBlock').style.display = 'none';
-                $getE('commentIsAnonymous').value = 'true';
-            }
-            else {
-                $getE('commentUsernameBlock').style.display = '';
-                $getE('commentEmailBlock').style.display = '';
-                $getE('commentIsAnonymous').value = 'false';
-            }
-        }
-
-        //设置私有
-        function setPrivate(obj) {
-            if (obj.checked) {
-                $getE('commentIsPrivate').value = 1;
-            }
-            else {
-                $getE('commentIsPrivate').value = 0;
-            }
-        }
-
-        //设置观点
-        function setViewpoint(value) {
-            for (i = -1; i < 2; i++) {
-                if (i == value) {
-                    $getE('commentViewpointTab' + i).className = "current";
-                }
-                else {
-                    $getE('commentViewpointTab' + i).className = "";
-                }
-            }
-            $getE('commentViewpoint').value = value;
-        }
-
-        //设置按钮
-        function changeBtnStyle(obj, className) {
-            obj.className = className;
-        }
-
-        //设置评分
-        function changeRanking(index, isfixed) {
-            var colStars = $getE("commentRankingBlock").getElementsByTagName("input");
-            var k = isfixed ? parseInt($getE("commentRanking").value) : index;
-            for (var i = 0; i < colStars.length; i++) {
-                colStars[i].src = (i < k ? "/Images/fstar.gif" : "/Images/estar.gif");
-            }
-        }
-
-        function rankingClick(index) {
-            $getE("commentRanking").value = index;
-        }
-
-        function rankingMouseOver(index) {
-            changeRanking(index, false);
-        }
-
-        function rankingMouseOut() {
-            changeRanking(0, true);
-        }
-
-        //初始化评论
-        commentInit();
-
-    </script>-->
-<script language="javascript" type="text/javascript">
-//无级缩放图片大小
-function bbimg(o)
-{
-  return true;
+<style type="text/css">
+#nav_activity{height:260px;width:100%;position:fixed;left:0;bottom:0;opacity:0;z-index:100}
+#nav_activity  img{width:100%;}
+#nav_activity  #nav_activity-exit{height:30px;width:30px;cursor:pointer;position:absolute;right:40px;top:30px;background:url(/themes/simplebootx/Public/images/public/ad_close.png) no-repeat;transition:transform .5s }
+#nav_activity #nav_activity-exit:hover{
+    transform:rotate(200deg);
+    -ms-transform:rotate(200deg);     /* IE 9 */
+    -moz-transform:rotate(200deg);    /* Firefox */
+    -webkit-transform:rotate(200deg); /* Safari 和 Chrome */
+    -o-transform:rotate(200deg);  /* Opera */
 }
-//双击鼠标滚动屏幕的代码
-var currentpos,timer;
-function initialize()
-{
-timer=setInterval ("scrollwindow ()",30);
-}
-function sc()
-{
-clearInterval(timer);
-}
-function scrollwindow()
-{
-currentpos=document.body.scrollTop;
-window.scroll(0,++currentpos);
-if (currentpos !=document.body.scrollTop)
-sc();
-}
-document.onmousedown=sc
-document.ondblclick=initialize
-
-//更改字体大小
-var status0='';
-var curfontsize=10;
-var curlineheight=18;
-function fontZoomA(){
-  if(curfontsize>8){
-    document.getElementById('fontzoom').style.fontSize=(--curfontsize)+'pt';
-	document.getElementById('fontzoom').style.lineHeight=(--curlineheight)+'pt';
+</style>
+<script type="text/javascript">
+  function cloase_ad()
+  {
+      document.getElementById('nav_activity').style.display="none";
+      return false;
   }
-}
-function fontZoomB(){
-  if(curfontsize<64){
-    document.getElementById('fontzoom').style.fontSize=(++curfontsize)+'pt';
-	document.getElementById('fontzoom').style.lineHeight=(++curlineheight)+'pt';
-  }
-}
 </script>
-
-</body>
-</html>
-
+<!-- <div id="nav_activity" style="transition-delay: 0.5s; margin-left: 0px; opacity: 1; display: block;">
+    <a href='http://www.hjcyh.com/notice/100.html'><img src='/data/upload/20180609/5b1b8b98a3039.jpg' alt='' width='1920' height='246' /></a>    <div id="nav_activity-exit" onclick="return cloase_ad()"></div>
+ </div> -->
+</body></html>
+<!--底部通用结束-->
+    <script src="/themes/simplebootx/Public/js/college/college.js"></script>
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.
