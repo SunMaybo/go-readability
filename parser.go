@@ -1146,6 +1146,8 @@ func (ps *Parser) FilterSourceName(text string) string {
 			}
 			if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
 				cleanSource = result[len(result)-1]
+				cleanSource = strings.ReplaceAll(cleanSource, "来源", "")
+				cleanSource = strings.ReplaceAll(cleanSource, "来源于", "")
 				if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
 					if len(result)-2 > 0 {
 						cleanSource = result[len(result)-2]
