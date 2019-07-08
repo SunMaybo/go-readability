@@ -47,482 +47,415 @@ var content = `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>“水氢发动机”下  地方招商引资痛点何在_中国科技网</title>
-<meta name="keywords" content="招商引资,企业,招商" />
-<meta name="description" content="  近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市" />
-<link href="/96kaifa/css/basic.css" type="text/css" rel="stylesheet" />
-<script src="/96kaifa/js/jquery.js" type="text/javascript"></script>
-<script src="/96kaifa/js/common.js" type="text/javascript"></script>
-<script src="/96kaifa/js/banner.js" type="text/javascript"></script>
-<script src="/96kaifa/js/article.js" type="text/javascript"></script>
-<script type="text/javascript">
-    (function(){var ua=navigator.userAgent.toLowerCase();var bIsIpad=ua.match(/ipad/i)=="ipad";var bIsIphoneOs=ua.match(/iphone os/i)=="iphone os";var bIsAndroid=ua.match(/android/i)=="android";var bIsWM=ua.match(/windows mobile/i)=="windows mobile";if(bIsIpad||bIsIphoneOs||bIsAndroid||bIsWM){window.location.href="http://m.lztsh.com/news/cjpl/36709.html"}})();
-</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>多用户商城系统：钢铁电商生存者与出局者的竞争 _HiMall</title>
+<meta name="keywords" content="多用户商城,多用户商城系统" />
+<meta name="description" content="HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以" />
+<meta http-equiv="Cache-Control" content="no-transform"/>
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta http-equiv="mobile-agent" content="format=xhtml;url=https://m.hishop.com.cn/himall/show_46945.html">
+<link rel="alternate" media="only screen and(max-width: 640px)" href="https://m.hishop.com.cn/himall/show_46945.html">
+<meta name="applicable-device" content="pc">
+<link rel="stylesheet" type="text/css" href="/templets/default/style/head_footer_2017.css"/>
+<link rel="stylesheet" href="/templets/default/style/list_article_2015.css" type="text/css"/>
+<script type="text/javascript" src="/templets/default/js/index/jquery-1.7.2.min.js"></script>
+<script src="/scripts/wap.js" type="text/javascript"></script>
+<script src="/templets/default/js/art_wap.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body>
-<!--头部-->
-<script src="/96kaifa/js/jquery.js" type="text/javascript"></script>
-<div class="h_infoNav">
-  <div class="h_masthead">
-    <p><span class="cRed">搜集最新资讯！索引互联网信息！</span></p>
-    <div class="h_set"> <span class="cGray">
-      <div class="toplinks"><a href="/e/member/login/">登录</a>&#160;<a href="/e/member/register/index.php?groupid=1&button">注册</a>&#160; <span><a href="/shijian/" title="事件记录">事件记录</a></span></div>
-    </div>
-  </div>
-</div>
-<!--logo-->
-<div class="h_logo">
-  <div class="thelogo"> <a href="/" title="中国科技网"><img src="/96kaifa/images/logo.png" alt="中国科技网"/></a>
-  </div>
-  <div class="search">
-    <form name="form1" method="post" action="/e/search/" target="_blank">
-      <dl>
-        <dd class="search-ico"></dd>
-        <dd class="search-input">
-          <input type="text" name="keyboard"  id="bdcsMain" value="请输入搜索内容" autocomplete="off" onfocus="if(this.value=='请输入搜索内容'){this.value=''}" onblur="if(this.value==''){this.value='请输入搜索内容'}">
-        </dd>
-      </dl>
-      <a type="submit"><img src="/96kaifa/images/btn-search.gif" alt="搜索" style="width:73px;height:40px;"></a>
-	  <div style="display:none">
-	   <input type="hidden" value="title" name="show"></input>
-	   <input type="hidden" name="tbname" value="news">
-	   <input type="hidden" name="tempid" value="1">
-	  </div>
-    </form>
-  </div>
-</div>
-<!--导航-->
-<div id="menu">
-  <ul id="nav">
-    <li class="mainlevel thisclass" style="background:none"> <a href="/" title="中国科技网">首页</a> </li>
-    <li class="mainlevel" id="mainlevel_01"><a href="/news/" >经济新闻</a>
-      <ul id="sub_01" style="display: none;">
-        <li><a href="/news/zhongguo/">国内资讯</a></li>
-        <li><a href="/news/guoji/">国际资讯</a></li>
-        <li><a href="/news/cjpl/">专家评论</a></li>
-        <li><a href="/news/jinrong/">金融曝光</a></li>
-      </ul>
-    </li>
-    <li class="mainlevel" id="mainlevel_02"><a href="/finance/" >财经资讯</a>
-      <ul id="sub_02" style="display: none;">
-        <li><a href="/finance/jrcj/"> 今日财经</a></li>
-        <li><a href="/finance/cjpl/">财经评论</a></li>
-        <li><a href="/finance/gszj/">股市证券</a></li>
-        <li><a href="/finance/cjbt/">财经曝光</a></li>
-      </ul>
-    </li>
-    <li class="mainlevel" id="mainlevel_03"><a href="/qiye/" >产业资讯</a>
-      <ul id="sub_03" style="display: none;">
-        <li><a href="/qiye/qydt/"> 企业动态</a></li>
-        <li><a href="/qiye/cyjj/">产业经济</a></li>
-        <li><a href="/qiye/cybg/">产业曝光</a></li>
-        <li><a href="/qiye/qybg/">企业曝光</a></li>
-      </ul>
-    </li>
-    <li class="mainlevel" id="mainlevel_03"><a href="/P2P/" >网贷资讯</a>
-      <ul id="sub_03" style="display: none;">
-        <li><a href="/P2P/wdxw/">网贷新闻</a></li>
-        <li><a href="/P2P/ptdt/">平台动态</a></li>
-        <li><a href="/P2P/zhouchaolishi/">行业观点</a></li>
-        <li><a href="/P2P/minguolishi/">事件档案</a></li>
-        <li><a href="/P2P/shijielishi/">考察评测</a></li>
-        <li><a href="/P2P/wdbg/">网贷曝光</a></li>
-      </ul>
-    </li>    <li class="mainlevel" id="mainlevel_03"><a href="/hulianwang/" >IT资讯</a>
-      <ul id="sub_03" style="display: none;">
-        <li><a href="/hulianwang/itxw/">IT新闻</a></li>
-        <li><a href="/hulianwang/itrz/">IT融资</a></li>
-        <li><a href="/hulianwang/wzbg/">网站曝光</a></li>
-      </ul>
-    </li>
-    <li class="mainlevel" id="mainlevel_05"><a href="/yule/" >娱乐新闻</a>
-      <ul id="sub_05" style="display: none;">
-        <li><a href="/yule/dianshi/">电视新闻</a></li>
-        <li><a href="/yule/dianying/">电影新闻</a></li>
-        <li><a href="/yule/zongyi/">综艺新闻</a></li>
-        <li><a href="/yule/bagua/">娱乐八卦</a></li>
-      </ul>
-    </li>
-    <li class="mainlevel" id="mainlevel_05"><a href="/jiankang/" >行业资讯</a>
-      <ul id="sub_05" style="display: none;">
-        <li><a href="/jiankang/jkbj/">消费资讯</a></li>
-        <li><a href="/jiankang/aqls/">食品健康</a></li>
-        <li><a href="/jiankang/yaopin/">医疗药品</a></li>
-        <li><a href="/jiankang/ypbg/">315曝光</a></li>
-    
-      </ul>
-    </li>
-    <div class="clear"></div>
-  </ul>
-</div>
-<!--logo-->
-<div class="main">
-  <div class="postion">您当前位置：<a href="/">首页</a>&nbsp;>&nbsp;<a href="/news/">经济资讯</a>&nbsp;>&nbsp;<a href="/news/cjpl/">专家评论</a> > “水氢发动机”下  地方招商引资痛点何在</div>
-  <div class="wraper">
-    <div class="box_left">
-      <div class="art_top"><h1>“水氢发动机”下  地方招商引资痛点何在</h1></div>
 
-      <div class="art_ext"> <span>时间：2019-06-01</span> <span>作者：佚名</span> <span>浏览：
-        <script src="/e/public/ViewClick/?classid=5&id=36709&addclick=1"></script>
-        </span>
-      </div>
-      <div class="body">
-        <script src=/d/js/acmsd/thea1.js></script>
-        <div class="topdes">  近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市</div>
-        <p>　　近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市委书记“点赞”的“高科技产品”究竟如何还有待有关方面的进一步澄清，还公众一个真相。但是，这个事件却折射到我国经济发展的“痛点”，就是如何规范地方政府招商引资行为，防止部分官员“乱作为”，不让逐利的资本“有空可钻”。</p>
- <p>　　不可否认，地方政府招商引资是我国经济发展的一个动力。以至于张五常老先生在冥思苦想之后，发明了“县域经济竞争”理论来解释中国改革开放以来的经济成就。诚如所言，各级地方政府把当地作为一个“大企业”来运营，通过招商引资，发展产业经济，创造更多就业，增加居民的收入，为当地带来了经济繁荣，中国经济发展与地方政府主动作为、开拓创新是分不开的。这是被无数实践所反复证明了的，从近期的事例看，贵阳大数据产业发展是有力的证明，贵阳的地理位置、发展程度、人文环境在全国众多的城市中并不占优势，但由于贵阳市政府作出了前瞻性的部署，比别人深想一层，先行一步，引进了<span id="stock_NASDAQ_INTC7">英特尔</span><span id="quote_INTC7"></span>、思爱普、富士康等一批世界大型企业，构建起较为完整的大数据产业链，2018年贵阳市大数据企业主营业务收入达千亿元，2025年全市大数据产值将破万亿元，实现了跨越式发展。从更早的时期看，改革开放之初，深圳从一个小渔村发展到今天的大都市，很大程度上是依靠招商引资，引进了香港和国际的<span id="Info.385">外商直接投资</span>，通过外部的资本和内部的劳动力结合，创造了“经济奇迹”，这里面政府是功不可没的。</p>
- <p>　　招商引资是个技术活儿，并不是每个地方政府都会招商，也不是都能成功。招商引资首先要找到理想的企业，一般而言，各级地方政府都想“招大引强”，世界500强、中国500强往往是各级政府紧盯的目标。这些企业在产业链上处于核心地位，一个核心企业引进来，会带来一批上下游的中小企业入驻，从而实现做大产业、发展经济的目标。但是，好的企业数量是有限的，企业的产能也是有限的，各级政府都想引进，就存在“僧多粥少”的问题，于是，各地开始在招商引资方式上进行探索创新，出现了产业<span id="Info.3293">基金</span>招商、产业链招商、飞地招商、校友招商等多种形式。武汉是校友招商的首创地，通过在汉高校，对外地校友企业家进行招商，加之武汉的科研人才优势，取得了不俗成效，引起各地纷纷效仿。在经济发展的大潮中，招商引资也逐渐成了检验各级地方政府能力的“试金石”，招商引资是各级政府官员的“必修课”。</p>
- <p>　　凡事都有两面，兴一利必生一弊，在招商引资的过程中，也出现了一些问题。主要有两个方面：一是恶性竞争。由于各地招商引资蜂拥而至，企业可以“待价而沽”，各地只能是拼优惠政策，于是开始出现“零地价”，企业可以不付出成本就能获得土地使用权，再接着出现了“拎包入驻”，政府把企业的厂房先建好。不少地方政府在招商引资上投入了大量的资金，但最后却没有收获到预期的成果，造成了巨大的浪费。二是名不副实。一些不法商人利用地方政府招商引资的迫切心理，包装一些“高大上”的企业，占用大量的土地，然后穷尽各种办法，钻政策的空子“瞒天过海”，把土地变现从中牟取暴利，导致了国有资产和资源的大量流失。在当前经济下行的态势下，政府发展经济的动力比以往更大，在招商引资上也存在“捡到篮子的都是菜”的现象。尤其近年来，经济处于新旧动能转换的换挡期，各地都在寻找新动能，一些贴上流行的高科技标签的企业容易被各地政府“青睐”，也容易产生“鱼目混珠”的问题。</p>
- <p>　　要彻底解决这些乱象，根本在于树立正确的政绩观。招商引资的背后是官员的考核和激励机制，都是来自经济发展这个指挥棒，考核更多的是强调约束，而激励则更多的是引导。在这样的制度下，各级政府官员主要关心的是各项经济指标，企业引进来了，工厂开工了，经济指标提高了，政绩也就上去了。对于企业本身发展如何、是否符合当地实际、是否名不副实，则不是考虑的重点。针对这些问题，要切实加快改革步伐。一要进一步加强顶层设计，明确规则、制定标准、指导操作、开展评估，通过一套有效的机制来对各地的招商引资进行规范，防止招商引资偏离正常轨道。二要在政府和市场之间做好区分，让政府和市场做各自擅长的事情。要充分利用市场上的专业招商团队，把专业性的工作交给市场主体，政府主要负责宏观管理和微观督察。三要提高政府官员素质。对具体从事招商引资工作的干部进行系统培训，尤其是要加强科技知识学习，充实一批科技人才到招商队伍中来，形成招商引资“智力”支撑。</p><p class="em_media">（文章来源：中国经营报）</p>
-        <!--原文标题-->
-        
-            
-                            <br />【本文为网友上传或转载其它网站，文章版权归原作者及原出处所有。文章系作者个人观点，不代表本网站立场，转载请联系原作者及原出处获得授权。有任何疑问都请联系（125021638@qq.com）】		<div class="art_tag"> 相关标签 
-<a href='/e/tags/?tagname=招商引资' target='_blank'>招商引资</a><a href='/e/tags/?tagname=企业' target='_blank'>企业</a><a href='/e/tags/?tagname=招商' target='_blank'>招商</a>		 </div>
-        <div class="pages2">
-          <ul>
-		  	
-          </ul>
-        </div>
-        <div class="art_tag"> </div>
-        <script src=/d/js/acmsd/thea2.js></script>
-        <div style="clear: both;"></div>
-      </div>
-      <div class="handover"> 上一篇：<a href="/news/cjpl/36708.html" target="_blank">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a>  下一篇：<a>没有了</a> </div>
-     <div style="height:32px; width:500px;" class="tag_fl"><strong><a >相关文章</a></strong></div>
-	  <div class=" tag_fl">
-        <ul class="listbox">
-          <li><a href="/news/cjpl/36709.html" title="“水氢发动机”下  地方招商引资痛点何在">“水氢发动机”下  地方招商引资痛点何在</a></li>
-          <li><a href="/news/cjpl/36706.html" title="提升城市流动人口的社会接纳水平">提升城市流动人口的社会接纳水平</a></li>
-          <li><a href="/news/cjpl/36708.html" title="坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a></li>
-          <li><a href="/news/cjpl/34937.html" title="综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？">综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？</a></li>
-          <li><a href="/news/cjpl/34944.html" title="交行首席经济学家连平：小型银行应坚持本地化经营导向 鼓励中小民营资本分散持股">交行首席经济学家连平：小型银行应坚持本地化经营导向 鼓励中小民营资本分散持股</a></li>
-          <li><a href="/news/cjpl/34941.html" title="58贝壳争夺战：抢人、互诉与喊话带来的流量物语">58贝壳争夺战：抢人、互诉与喊话带来的流量物语</a></li>
-        </ul>
-      </div>
-      <div class=" tag_fr">
-        <ul class="listbox">
-          <li><a href="/news/cjpl/34946.html" title="清华大学白重恩：金融不应过多承担财政职能">清华大学白重恩：金融不应过多承担财政职能</a></li>
-          <li><a href="/news/cjpl/34947.html" title="农村网络零售额不断攀升 下沉市场用户的春天？">农村网络零售额不断攀升 下沉市场用户的春天？</a></li>
-          <li><a href="/news/cjpl/34948.html" title="股市派对不会持续太久 白银大幅反弹势在必行">股市派对不会持续太久 白银大幅反弹势在必行</a></li>
-          <li><a href="/news/cjpl/34949.html" title="宏观杠杆率再攀升 不能仅仅金融去杠杆">宏观杠杆率再攀升 不能仅仅金融去杠杆</a></li>
-          <li><a href="/news/cjpl/34951.html" title="金融供给侧结构性改革还须防止供需错位">金融供给侧结构性改革还须防止供需错位</a></li>
-          <li><a href="/news/cjpl/34950.html" title="多措并举助力企业创新">多措并举助力企业创新</a></li>
-        </ul>
-      </div>
-      <div class="art_lbox"> <span class="art_tit"><a>热门推荐</a></span>
-        <div class="art_pic">
-          <ul>
-            <li><a href="/qiye/cyjj/14937.html"><img src="/d/file/201711091221/201711081613132001768410.jpg" /></a>
-              <p><a href="/qiye/cyjj/14937.html">汽车金融渗透率持续提升 2017年贷款规模将超万亿</a></p>
-            </li>
-            <li><a href="/qiye/cyjj/14951.html"><img src="/d/file/201711091222/20171108155345274005438.jpg" /></a>
-              <p><a href="/qiye/cyjj/14951.html">2017年10月新能源乘用车销量6.5万辆 同比增长翻番</a></p>
-            </li>
-            <li><a href="/qiye/cyjj/14965.html"><img src="/d/file/201711091221/201711081543271247843453.jpg" /></a>
-              <p><a href="/qiye/cyjj/14965.html">中国医药行业市场规模及市场前景分析</a></p>
-            </li>
-            <li><a href="/qiye/cyjj/14960.html"><img src="/d/file/201711091222/201711081545451967705376.jpg" /></a>
-              <p><a href="/qiye/cyjj/14960.html">全国能源生产总量历年数据分析：2016年能源产量明显下降</a></p>
-            </li>
-          </ul>
-        </div>
-        <div class=" rel_art">
-          <ul>
-            <li><a href="/qiye/cyjj/14960.html" title="全国能源生产总量历年数据分析：2016年能源产量明显下降">全国能源生产总量历年数据分析：2016年能源产量明显下降</a></li>
-            <li><a href="/qiye/cyjj/14966.html" title="工业应用领域优势明显 机器视觉市场将超200亿">工业应用领域优势明显 机器视觉市场将超200亿</a></li>
-            <li><a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%">Snap第三季度用户增长低于预期 盘后股价暴跌17%</a></li>
-            <li><a href="/hulianwang/itxw/14271.html" title="网络现金贷仍存灰色地带 隐蔽收费名目繁多">网络现金贷仍存灰色地带 隐蔽收费名目繁多</a></li>
-            <li><a href="/hulianwang/itxw/14270.html" title="股价大跌八成 网宿科技高管3个月或套现4亿">股价大跌八成 网宿科技高管3个月或套现4亿</a></li>
-            <li><a href="/hulianwang/itxw/14269.html" title="现金贷数据江湖:1.5元买到一条借款人信息">现金贷数据江湖:1.5元买到一条借款人信息</a></li>
-            <li><a href="/hulianwang/itxw/14267.html" title="不仅仅是中国，现在亚洲年轻人大多热衷网上购物">不仅仅是中国，现在亚洲年轻人大多热衷网上购物</a></li>
-            <li><a href="/hulianwang/itxw/14266.html" title="美国科技五巨头业绩"亮眼" 对其他企业是好事吗">美国科技五巨头业绩"亮眼" 对其他企业是好事吗</a></li>
-            <li><a href="/hulianwang/itxw/14265.html" title="内地比特币交易关闭后 投机者涌向香港 场外交易">内地比特币交易关闭后 投机者涌向香港 场外交易</a></li>
-            <li><a href="/hulianwang/itxw/14264.html" title="百度推无人驾驶技术背后 陆奇详解AI的商业化逻">百度推无人驾驶技术背后 陆奇详解AI的商业化逻</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="project">
-        <div class="tab">
-          <div id="bg" class="xi1">
-            <div id="font1" class="tab1" onmouseover="setTab03Syn(1);document.getElementById('bg').className='xi1'" style="color: rgb(27, 109, 157);">时事资讯</div>
-            <div id="font2" class="tab2" onmouseover="setTab03Syn(2);document.getElementById('bg').className='xi2'" style="color: rgb(0, 0, 0);">财经头条</div>
-            <div id="font3" class="tab3" onmouseover="setTab03Syn(3);document.getElementById('bg').className='xi3'" style="color: rgb(0, 0, 0);">网贷资讯</div>
-            <div id="font4" class="tab4" onmouseover="setTab03Syn(4);document.getElementById('bg').className='xi4'" style="color: rgb(0, 0, 0);">产业经济</div>
-            <div id="font5" class="tab5" onmouseover="setTab03Syn(5);document.getElementById('bg').className='xi5'" style="color: rgb(0, 0, 0);">IT科技</div>
-            <div id="font6" class="tab6" onmouseover="setTab03Syn(6);document.getElementById('bg').className='xi6'" style="color: rgb(0, 0, 0);">娱乐八卦</div>
-          </div>
-          <div id="TabTab03Con1" style="display: block;">
-            <div class="pro_txt">
-                <a href="/news/guoji/14809.html" title="亚马逊业绩超预期 贝索斯成世界新首富"><img src="/d/file/201711082209/Quote.png" width="320" height="215" alt="亚马逊业绩超预期 贝索斯成世界新首富"/>
-                <p>亚马逊业绩超预期 贝索斯成世界新首富</p>
-                </a>
-                <ul>
-                  <li><a href="/news/cjpl/36709.html" title="“水氢发动机”下  地方招商引资痛点何在">“水氢发动机”下  地方招商引资痛点何在</a></li>
-                  <li><a href="/news/cjpl/36706.html" title="提升城市流动人口的社会接纳水平">提升城市流动人口的社会接纳水平</a></li>
-                  <li><a href="/news/cjpl/36708.html" title="坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a></li>
-                  <li><a href="/news/zhongguo/34774.html" title="5月份PMI低于荣枯线？莫慌！进来看看金融业“首席们”为啥有信心">5月份PMI低于荣枯线？莫慌！进来看看金融业“首席们”为啥有信心</a></li>
-                  <li><a href="/news/zhongguo/34779.html" title="30万亿元养老金入市是“10年目标” 专家称有助于建设有韧性资本市场">30万亿元养老金入市是“10年目标” 专家称有助于建设有韧性资本市场</a></li>
-                  <li><a href="/news/guoji/34618.html" title="美国5月密歇根大学5年通胀预期终值 2.6">美国5月密歇根大学5年通胀预期终值 2.6</a></li>
-                  <li><a href="/news/cjpl/34937.html" title="综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？">综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="TabTab03Con2" style="display: none;">
-            <div class="pro_txt">
-                <a href="/finance/cjpl/10539.html" title="央视评论:看楼市再看天气 这次风向真的变了吗？"><img src="http://cms-bucket.nosdn.127.net/catchpic/f/f0/f0b62fc4032b6995e2ec4f2d9608301e.jpg?imageView&thumbnail=550x0" width="320" height="215" alt="央视评论:看楼市再看天气 这次风向真的变了吗？"/>
-                <p>央视评论:看楼市再看天气 这次风向真的变了吗？</p>
-                </a>
-                <ul>
-                  <li><a href="/finance/gszj/35830.html" title="商务部：中国将建立不可靠实体清单制度">商务部：中国将建立不可靠实体清单制度</a></li>
-                  <li><a href="/finance/gszj/35829.html" title="北向资金多事之月 创多项记录">北向资金多事之月 创多项记录</a></li>
-                  <li><a href="/finance/gszj/35828.html" title="这个题材爆发！龙头12天10涨停，暴涨1.8倍！一类股却成跌停重灾区">这个题材爆发！龙头12天10涨停，暴涨1.8倍！一类股却成跌停重灾区</a></li>
-                  <li><a href="/finance/gszj/35827.html" title="烟草系杀入消费金融领域！继百度金融参股哈银消费 红塔银行也入股苏宁消费金融">烟草系杀入消费金融领域！继百度金融参股哈银消费 红塔银行也入股苏宁消费金融</a></li>
-                  <li><a href="/finance/gszj/35826.html" title="上交所：本周加大信息披露和股价异常的联动监管">上交所：本周加大信息披露和股价异常的联动监管</a></li>
-                  <li><a href="/finance/gszj/35825.html" title="中国证券投资基金业协会会长：建议基金产品层面取消增值税">中国证券投资基金业协会会长：建议基金产品层面取消增值税</a></li>
-                  <li><a href="/finance/gszj/35824.html" title="集体重挫！全球股市“黑五月”！北上资金净卖537亿创纪录！6月会好么？">集体重挫！全球股市“黑五月”！北上资金净卖537亿创纪录！6月会好么？</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="TabTab03Con3" style="display: none;">
-            <div class="pro_txt">
-                <a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人"><img src="http://img.p2peye.com/2017/11/07/d333aeee153c253b2f33d916d340dc36.png" width="320" height="215" alt="汇聚百家平台，网贷天眼双十一阶段性战报喜人"/>
-                <p>汇聚百家平台，网贷天眼双十一阶段性战报喜人</p>
-                </a>
-                <ul>
-                  <li><a href="/P2P/minguolishi/36704.html" title="信而富发布5月回款公告 全面催收短期消费贷">信而富发布5月回款公告 全面催收短期消费贷</a></li>
-                  <li><a href="/P2P/minguolishi/36703.html" title="近百名团贷网利益相关人员非法聚集 3人被刑拘">近百名团贷网利益相关人员非法聚集 3人被刑拘</a></li>
-                  <li><a href="/P2P/minguolishi/36702.html" title="团贷网最新通报：警方已对群众线索开展核查">团贷网最新通报：警方已对群众线索开展核查</a></li>
-                  <li><a href="/P2P/minguolishi/36701.html" title="警方通报“利民网”“零钱罐”案件最新进展">警方通报“利民网”“零钱罐”案件最新进展</a></li>
-                  <li><a href="/P2P/minguolishi/36700.html" title="警方通报银都控股案进展：一犯罪嫌疑人被抓">警方通报银都控股案进展：一犯罪嫌疑人被抓</a></li>
-                  <li><a href="/P2P/minguolishi/36699.html" title="人人贷已对接金融服务平台">人人贷已对接金融服务平台</a></li>
-                  <li><a href="/P2P/shijielishi/36698.html" title="你我贷加仓">你我贷加仓</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="TabTab03Con4" style="display: none;">
-            <div class="pro_txt">
-                <a href="/qiye/cyjj/14965.html" title="中国医药行业市场规模及市场前景分析"><img src="/d/file/201711091221/201711081543271247843453.jpg" width="320" height="215" alt="中国医药行业市场规模及市场前景分析"/>
-                <p>中国医药行业市场规模及市场前景分析</p>
-                </a>
-                <ul>
-                  <li><a href="/qiye/cyjj/31277.html" title="不良率突飙升最高超20% 农商行打寒颤">不良率突飙升最高超20% 农商行打寒颤</a></li>
-                  <li><a href="/qiye/cyjj/31280.html" title="北京扩大特殊病用药报销范围 125类药品9月起新纳入报销">北京扩大特殊病用药报销范围 125类药品9月起新纳入报销</a></li>
-                  <li><a href="/qiye/cyjj/31281.html" title="深圳开出区块链电子发票">深圳开出区块链电子发票</a></li>
-                  <li><a href="/qiye/cyjj/31284.html" title="百白破疫苗相关科普知识(三)：接种百白破疫苗必须要知道的几个事实">百白破疫苗相关科普知识(三)：接种百白破疫苗必须要知道的几个事实</a></li>
-                  <li><a href="/qiye/cyjj/31286.html" title="百白破疫苗相关科普知识(一)：一文了解什么是百白破">百白破疫苗相关科普知识(一)：一文了解什么是百白破</a></li>
-                  <li><a href="/qiye/cyjj/31287.html" title="8月10日海安兄弟锦纶长丝报价持稳">8月10日海安兄弟锦纶长丝报价持稳</a></li>
-                  <li><a href="/qiye/cyjj/31289.html" title="福州钢市一周回顾（8.03-8.10）">福州钢市一周回顾（8.03-8.10）</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="TabTab03Con5" style="display: none;">
-            <div class="pro_txt">
-                <a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%"><img src="http://cms-bucket.nosdn.127.net/catchpic/c/c2/c282dc907985ad6471655944cb0ca39b.png?imageView&thumbnail=550x0" width="320" height="215" alt="Snap第三季度用户增长低于预期 盘后股价暴跌17%"/>
-                <p>Snap第三季度用户增长低于预期 盘后股价暴跌17%</p>
-                </a>
-                <ul>
-                  <li><a href="/hulianwang/itxw/36327.html" title="司库立方获信天创投、海贝资本数千万元Pre-A轮">司库立方获信天创投、海贝资本数千万元Pre-A轮</a></li>
-                  <li><a href="/hulianwang/itxw/36326.html" title="喜茶苏州圆融店被查封?喜茶：制作过程未发现苍">喜茶苏州圆融店被查封?喜茶：制作过程未发现苍</a></li>
-                  <li><a href="/hulianwang/itxw/36325.html" title="小米成立新集团质量办公室 任命李涛为办公室主">小米成立新集团质量办公室 任命李涛为办公室主</a></li>
-                  <li><a href="/hulianwang/itxw/36324.html" title="B站开启Vlog星计划，每月100万专项奖金支持">B站开启Vlog星计划，每月100万专项奖金支持</a></li>
-                  <li><a href="/hulianwang/itxw/36323.html" title="H连锁酒店获华住战略投资 "连锁化"破解单体酒店">H连锁酒店获华住战略投资 "连锁化"破解单体酒店</a></li>
-                  <li><a href="/hulianwang/itxw/36322.html" title="百度与东软达成战略合作 推进人工智能规模化落">百度与东软达成战略合作 推进人工智能规模化落</a></li>
-                  <li><a href="/hulianwang/itxw/36321.html" title="阿里投资VMate亿级美元 称要打造印度短视频社区">阿里投资VMate亿级美元 称要打造印度短视频社区</a></li>
-              </ul>
-            </div>
-          </div>
-          <div id="TabTab03Con6" style="display: none;">
-            <div class="pro_txt">
-                <a href="/yule/dianshi/12735.html" title="《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味"><img src="/d/file/201711081042/20170913091951_b22ddf63cd148f841a11129ce40dbe0c_1.jpg" width="320" height="215" alt="《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味"/>
-                <p>《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味</p>
-                </a>
-                <ul>
-                  <li><a href="/yule/bagua/34120.html" title="袁惟仁被拍到与美女约会 两人互动十分亲密">袁惟仁被拍到与美女约会 两人互动十分亲密</a></li>
-                  <li><a href="/yule/bagua/34119.html" title="女神“秋雅”王智结婚啦 男友居然是圏内有名的摄影师尤奕">女神“秋雅”王智结婚啦 男友居然是圏内有名的摄影师尤奕</a></li>
-                  <li><a href="/yule/bagua/34118.html" title="林志玲凌晨晒出婚纱照 引发网友猜测:这是要结婚了？">林志玲凌晨晒出婚纱照 引发网友猜测:这是要结婚了？</a></li>
-                  <li><a href="/yule/bagua/34117.html" title="40岁萧淑慎与小14岁男友登记结婚 双方亲友到场见证">40岁萧淑慎与小14岁男友登记结婚 双方亲友到场见证</a></li>
-                  <li><a href="/yule/bagua/34116.html" title="宋仲基婚礼甜蜜宣誓内容曝光：致我高尚的新娘">宋仲基婚礼甜蜜宣誓内容曝光：致我高尚的新娘</a></li>
-                  <li><a href="/yule/bagua/34115.html" title="言承旭与林志玲复合 昔日绯闻女友晒照发文">言承旭与林志玲复合 昔日绯闻女友晒照发文</a></li>
-                  <li><a href="/yule/bagua/34114.html" title="言承旭承认与林志玲复合 获林志玲妈妈点头认可">言承旭承认与林志玲复合 获林志玲妈妈点头认可</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="art_lbox">
-        <div class="hr10"></div>
-        <span class="art_tit"><a>猜你喜欢</a></span>
-        <div class=" ztbox">
-          <div class="zt_pic left">
-            <ul>
-              <li class="aniTit"><a href="/P2P/minguolishi/24687.html"><img src="http://imgmywdzj.wdzj.com/group1/M00/44/89/rBAEX1tHFsuAfz8JAAEpaMTsi1g290.jpg"/></a><span class="title-alpha"><a href="/P2P/minguolishi/24687.html">石头理财没有按时回款？有没有朋友知道是怎么回事的？</a></span></li>
-              <li class="aniTit"><a href="/yule/bagua/34056.html"><img src="http://img.mingxing.com/upload/thumb/1059/317585.jpg"/></a><span class="title-alpha"><a href="/yule/bagua/34056.html">陈晓东自爆被阔太包养三十多年 主持人都惊呆</a></span></li>
-            </ul>
-          </div>
-          <div class="ztlist left">
-            <ul>
-              <li><a href="/news/zhongguo/31426.html">易纲：中国将进一步推动改革扩大开放 金融部门内部控杠杆取得阶段性成效</a></li>
-              <li><a href="/yule/dianying/11617.html">大表姐詹妮弗·劳伦斯指责飓风与特朗普有关 震惊美国网友</a></li>
-              <li><a href="/hulianwang/itrz/25682.html">何晓飞首次披露飞步自动驾驶方案：无人货运起步 自研AI芯片</a></li>
-              <li><a href="/P2P/ptdt/24752.html">用科技力量践行社会公益  凡普金科集团2013-2017企业社会责任报告亮相</a></li>
-              <li class="line"></li>
-              <li><a href="/finance/cjpl/10256.html">证券日报：明年退市制度或有新动向新突破</a></li>
-              <li><a href="/yule/zongyi/15987.html">一周的偶像SJ挑战最新偶像潮流</a></li>
-              <li><a href="/finance/jrcj/33907.html">安信信托大换血 国之杰派驻多面手</a></li>
-              <li><a href="/news/zhongguo/31643.html">郑州“学区房”将何去何从</a></li>
-            </ul>
-          </div>
-          <div class="zt_pic right">
-            <ul>
-              <li class="aniTit"><a href="/finance/gszj/35762.html"><img src="https://i.ssimg.cn/sscms/2019/05/30/63dca9762b62443696c40c0550bff3a5.png"/></a><span class="title-alpha"><a href="/finance/gszj/35762.html">两市缩量盘整 近300只个股日成交不足千万元</a></span></li>
-              <li class="aniTit"><a href="/news/guoji/32100.html"><img src="http://www.lztsh.com/d/file/20190524/Quote.png"/></a><span class="title-alpha"><a href="/news/guoji/32100.html">咖喱味儿的40000点历史新高！印度凭什么走出十年大牛市？</a></span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="pic_pre">
-        <script src="/jsfile/du114.js" type="text/javascript"></script>
-      </div>
-      <style>
-.tj-box{display:inline-block;width:99.5%;background:#f0f0f0;border-radius: 5px;border:1px solid #e1e1e1;}
-.tj-title{float:left;width:5.4%;background:#FFF;padding:8px 6px 8px 8px;border-radius: 5px;border-right:1px solid #e1e1e1;}
-.tj-title strong{ float:left;font-weight: normal;font-size: 14px;
-color: #1b6d9d;letter-spacing: 4px;line-height: 25px;}
-.tj-txt{float:right;width:91.6%; height:58px; overflow:hidden;padding:3px 2px 3px 3px;}
-.tj-txt a{display:inline-block;font-size:12px;color:#333;padding:2px;text-decoration:none;}
-.tj-txt a:hover{ color:#1b6d9d;}
-</style>
-    </div>
-    <div class="box_right">
-      <script>
-			article_zhuanqu();
-	</script>
-      <div class="read"> <span class="mark">热门标签</span>
-        <div class="tag1">
-		<a target="_blank" href="/e/tags/?tagname=[db:关键词]" title="[db:关键词]">[db:关键词]</a>
-		<a target="_blank" href="/e/tags/?tagname=中国" title="中国">中国</a>
-		<a target="_blank" href="/e/tags/?tagname=平台" title="平台">平台</a>
-		<a target="_blank" href="/e/tags/?tagname=亿元" title="亿元">亿元</a>
-		<a target="_blank" href="/e/tags/?tagname=互联网" title="互联网">互联网</a>
-		<a target="_blank" href="/e/tags/?tagname=信息" title="信息">信息</a>
-		<a target="_blank" href="/e/tags/?tagname=来源" title="来源">来源</a>
-		<a target="_blank" href="/e/tags/?tagname=给我们" title="给我们">给我们</a>
-		<a target="_blank" href="/e/tags/?tagname=金融" title="金融">金融</a>
-		<a target="_blank" href="/e/tags/?tagname=美国" title="美国">美国</a>
-		<a target="_blank" href="/e/tags/?tagname=银行" title="银行">银行</a>
-		<a target="_blank" href="/e/tags/?tagname=融资" title="融资">融资</a>
-		<a target="_blank" href="/e/tags/?tagname=天眼" title="天眼">天眼</a>
-		<a target="_blank" href="/e/tags/?tagname=首页" title="首页">首页</a>
-		<a target="_blank" href="/e/tags/?tagname=企业" title="企业">企业</a>
-		<a target="_blank" href="/e/tags/?tagname=未找到" title="未找到">未找到</a>
-		<a target="_blank" href="/e/tags/?tagname=此页面" title="此页面">此页面</a>
-		<a target="_blank" href="/e/tags/?tagname=投资" title="投资">投资</a>
-		<a target="_blank" href="/e/tags/?tagname=编辑" title="编辑">编辑</a>
-		<a target="_blank" href="/e/tags/?tagname=骗子" title="骗子">骗子</a>
+<body>
+<div class="head clearfix">
+	<div class="head_top">
+		<div class="width">
+			<p>商城类电商软件及服务提供商--HiShop海商，欢迎您！</p>
+			<a href="http://www.hishop.cn/" target="_blank" rel="nofollow">北京公司</a>|
+			<a href="http://www.hishop.net/" target="_blank" rel="nofollow">深圳公司</a>|
+			<span><script src='/plus/rpad/js.php?aid=117' language='javascript'></script></span>
 		</div>
-      </div>
-      <div class="read">
-        <script src=/d/js/acmsd/thea3.js></script>
-      </div>
-      <div class="read"> <span class="mark">阅读排行</span>
-        <div class="tab">
-          <div id="TabTab03Con1" style="width:320px;">
-            <ul class="tab_txt">
-              <li class="one"><em>1</em> <a href="/hulianwang/itxw/21686.html" title="Pokémon Go开发商获2亿美元融资 加入独角兽俱">Pokémon Go开发商获2亿美元融资 加</a> <span><a href="/hulianwang/itxw/21686.html"><img src="http://cms-bucket.nosdn.127.net/c970194e2d084b3c88698e6bdf4e775420171125141334.jpeg?imageView thumbnail=550x0" width="100" height="71" alt="Pokémon Go开发商获2亿美元融资 加入独角兽俱"/></a>
-                <p>网易科技讯11月25日消息，据金融时报报道，PokémonGo游戏...<a class="deta" href="/hulianwang/itxw/21686.html" >详细>></a></p>
-                </span> </li>
-              <li class="one"> <em>2</em> <a href="/jiankang/yaopin/19606.html" title="天演药业：独辟蹊径，创新生物药赛道的“中国样本”">天演药业：独辟蹊径，创新生物药赛道的</a> </li>
-              <li class="one"> <em>3</em> <a href="/P2P/shijielishi/10938.html" title="东银金服（小微金融）的爹东方银座集团具体有多少资产和负债？">东银金服（小微金融）的爹东方银座集团</a> </li>
-              <li> <em>4</em> <a href="/P2P/wdxw/9680.html" title="这5种食物，不但可以防癌抗癌，而且非常神奇，可惜很少人知道">这5种食物，不但可以防癌抗癌，而且非常</a> </li>
-              <li> <em>5</em> <a href="/P2P/wdxw/11267.html" title="美IPO市场今年最忙一周：搜狗等11家公司将上市">美IPO市场今年最忙一周：搜狗等11家公</a> </li>
-              <li> <em>6</em> <a href="/jiankang/jkbj/19893.html" title="和海鸥一起奔跑！中国第一个全程海景马拉松成功举办">和海鸥一起奔跑！中国第一个全程海景</a> </li>
-              <li> <em>7</em> <a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人">汇聚百家平台，网贷天眼双十一阶段性</a> </li>
-              <li> <em>8</em> <a href="/news/guoji/14343.html" title="博通1300亿美元“豪娶”高通 科技行业最大并购能否成功？">博通1300亿美元“豪娶”高通 科技行</a> </li>
-              <li> <em>9</em> <a href="/P2P/wdxw/11266.html" title="招联、马上、玖富、苏宁等参战“虚拟信用卡”">招联、马上、玖富、苏宁等参战“虚</a> </li>
-              <li> <em>10</em> <a href="/jiankang/jkbj/19899.html" title="欧玛士电器：极简为傲&nbsp;差异化精工单品系列">欧玛士电器：极简为傲 差异化精工单品</a> </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="pic">
-        <div class="read">
-          <script src=/d/js/acmsd/thea4.js></script>
-        </div>
-        <div class="read"> <span class="mark">图片推荐</span>
-          <div class="read">
-            <div class="pic_rec">
-              <ul>
-          <li><a href="/qiye/cyjj/14965.html" title="中国医药行业市场规模及市场前景分析"><img src="/d/file/201711091221/201711081543271247843453.jpg" width="140" height="99" alt="中国医药行业市场规模及市场前景分析"/></a>
-            <p>  医药制造业是指原料</p>
-          </li>
-          <li><a href="/qiye/cyjj/14966.html" title="工业应用领域优势明显 机器视觉市场将超200亿"><img src="/d/file/201711091223/201711081515441167723915.jpg" width="140" height="99" alt="工业应用领域优势明显 机器视觉市场将超200亿"/></a>
-            <p>  机器视觉可以在各种</p>
-          </li>
-          <li><a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%"><img src="http://cms-bucket.nosdn.127.net/catchpic/c/c2/c282dc907985ad6471655944cb0ca39b.png?imageView&thumbnail=550x0" width="140" height="99" alt="Snap第三季度用户增长低于预期 盘后股价暴跌17%"/></a>
-            <p>网易科技讯11月8日消</p>
-          </li>
-          <li><a href="/hulianwang/itxw/14271.html" title="网络现金贷仍存灰色地带 隐蔽收费名目繁多"><img src="http://img1.cache.netease.com/cnews/css13/img/end_tech.png" width="140" height="99" alt="网络现金贷仍存灰色地带 隐蔽收费名目繁多"/></a>
-            <p>（原标题：　网络“现金贷</p>
-          </li>
-          <li><a href="/hulianwang/itxw/14270.html" title="股价大跌八成 网宿科技高管3个月或套现4亿"><img src="http://cms-bucket.nosdn.127.net/catchpic/b/bb/bbd8389cb6e74f2b3f510f30a47b9663.jpg?imageView&thumbnail=550x0" width="140" height="99" alt="股价大跌八成 网宿科技高管3个月或套现4亿"/></a>
-            <p>（原标题：股价大跌八成机</p>
-          </li>
-          <li><a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人"><img src="http://img.p2peye.com/2017/11/07/d333aeee153c253b2f33d916d340dc36.png" width="140" height="99" alt="汇聚百家平台，网贷天眼双十一阶段性战报喜人"/></a>
-            <p>一年一度的双十一狂欢</p>
-          </li>
-          <li><a href="/P2P/wdxw/11267.html" title="美IPO市场今年最忙一周：搜狗等11家公司将上市"><img src="http://img.p2peye.com/2017/11/07/97ed421b68bde82ee35615cc65c9f349.jpg" width="140" height="99" alt="美IPO市场今年最忙一周：搜狗等11家公司将上市"/></a>
-            <p>北京时间11月7日凌晨</p>
-          </li>
-          <li><a href="/P2P/wdxw/11266.html" title="招联、马上、玖富、苏宁等参战“虚拟信用卡”"><img src="http://img.p2peye.com/2017/11/07/e7710b481320135694f4df0031136f29.jpg" width="140" height="99" alt="招联、马上、玖富、苏宁等参战“虚拟信用卡”"/></a>
-            <p>10月底，马上消费金融旗</p>
-          </li>
-          <li><a href="/news/guoji/14809.html" title="亚马逊业绩超预期 贝索斯成世界新首富"><img src="/d/file/201711082209/Quote.png" width="140" height="99" alt="亚马逊业绩超预期 贝索斯成世界新首富"/></a>
-            <p>  美国电子商务巨头亚</p>
-          </li>
-          <li><a href="/news/guoji/14808.html" title="全球呈“双低型”增长 货币政策分化加剧"><img src="/d/file/201711082209/20171031064136650702594.jpg" width="140" height="99" alt="全球呈“双低型”增长 货币政策分化加剧"/></a>
-            <p> 【全球呈“双低型”</p>
-          </li>
-              </ul>
-            </div>
-          </div>
-          <span class="mark">随机推荐</span>
-          <div id="TabTab03Con1" style="width:320px;">
-            <ul class="tab_txt">
-              <li class="one"><em>1</em><a href="/hulianwang/itxw/26856.html" title="京东商城开始实施轮值CEO制度 徐雷任首任轮值CE">京东商城开始实施轮值CEO制度 徐雷</a></li>
-              <li class="one"><em>2</em><a href="/news/guoji/34643.html" title="内蒙古：农产品将“持证上岗”">内蒙古：农产品将“持证上岗”</a></li>
-              <li class="one"><em>3</em><a href="/finance/gszj/30932.html" title="135亿净资金全面流出 五大板块遭遇杀跌">135亿净资金全面流出 五大板块遭遇</a></li>
-              <li class="one"><em>4</em><a href="/yule/bagua/19350.html" title="周冬雨恋情疑似曝光 获小鲜肉探班两人嬉笑打闹互动不断">周冬雨恋情疑似曝光 获小鲜肉探班两</a></li>
-              <li class="one"><em>5</em><a href="/yule/dianshi/15890.html" title="高庚杓曹在显确定出演tvN新月火剧Cross男主">高庚杓曹在显确定出演tvN新月火剧Cr</a></li>
-              <li class="one"><em>6</em><a href="/P2P/zhouchaolishi/11311.html" title="网贷信披新标准能否升级为“国标”">网贷信披新标准能否升级为“国标”</a></li>
-              <li class="one"><em>7</em><a href="/finance/gszj/28094.html" title="股市资金供需正寻求新的均衡">股市资金供需正寻求新的均衡</a></li>
-              <li class="one"><em>8</em><a href="/news/cjpl/29735.html" title="我国金融市场的主要缺陷与地方政府金融的发展">我国金融市场的主要缺陷与地方政府</a></li>
-              <li class="one"><em>9</em><a href="/finance/gszj/29644.html" title="上万亿元黑臭水体治理市场 地方政府该怎么投">上万亿元黑臭水体治理市场 地方政府</a></li>
-              <li class="one"><em>10</em><a href="/finance/gszj/33041.html" title="收评：成交缩量沪指微涨0.02% 稀土等概念股大幅回调">收评：成交缩量沪指微涨0.02% 稀土等</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="read">
-          <script src=/d/js/acmsd/thea5.js></script>
-        </div>
-      </div>
+	</div>
+	<div class="head_menu width clearfix">
+		<a href="/" class="logo"><img alt="多用户商城,多用户商城系统" src="/templets/default/images/2017/top_logo.jpg"/></a>
+		<p>
+			<a id="head_zc" href="http://member.hishop.com.cn/Register.aspx" target="_blank" rel="nofollow" class="reg">注册有礼</a>
+			<a href="http://member.hishop.com.cn/login.aspx?/himall/show_46945.html" target="_blank" rel="nofollow" class="login">登录</a>			
+		</p>
+		<ul class="nav">
+			<li><a href="/">首页</a></li>
+			<li><a href="/products/himall/">HiMall</a>			
+			</li>
+			<li><a href="/products/himall/banben/">同城O2O系统</a>				
+			</li>
+			<li><a href="/products/himall/himall_product.html">产品功能</a></li>
+			<li><a href="/products/himall/app/">商家管理APP</a></li>
+			<li><a href="/products/himall/himall_casepage.html">成功案例</a></li>
+			<li><a href="/products/himall/b2b/">B2B功能</a></li>
+		</ul>
+	</div>
+</div>	
+  <div class="banner clear" style="background:url(/templets/default/hiscxt/images/arc_himall.jpg) no-repeat top center;">
+<a class="banner_a"  onclick="popup('banner_试用','申请多用户商城系统试用帐号，抢先体验')"> </a></div> 
+
+<div class="w1200">
+<div class="main_left f_left">
+	<div class="floor1 ">          
+    	<div class="title f_left"><a href='http://www.hishop.com.cn/'>HiShop</a> > <a href='/himall/'>多用户商城系统</a> > <a href='/himall/b2b2c/'>b2b2c运营</a> > </div>
     </div>
-  </div>
+   	
+    <div class="content">
+    	<div class="title">
+            <h1>多用户商城系统：钢铁电商生存者与出局者的竞争 </h1>
+            <div class="release">           
+            <em>2017-12-06</em>|<em>HiShop</em>|<em>阅读量：<script src="/plus/count.php?view=yes&aid=46945&mid=21669" type='text/javascript' language="javascript"></script></em>
+            </div>
+        </div>
+        
+		<div class="takeaway"><b>导读：</b>HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以...</div>
+		
+        
+    	<div class="article">HiShop最新消息，经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以后的众多平台将在市场竞争中成为出局者。
+<p>
+	笔者认为，如今的钢铁电商领域，虽然已经进入了数百个平台竞相角斗的&ldquo;春秋战国时期&rdquo;，但未来不一定只有前面所说的那一条路可选择&mdash;&mdash;只有一两个平台垄断市场。尽管人们有&ldquo;合久必分、分久必合&rdquo;之说，但这样的分和合不应该只停留在平台的存量上，而应该更多地体现在质的提升上。因为谈到平台的定义，泛泛地说，每一台手机都可以是一个接收发送各类信息、完成交易的平台，故而仅仅从量上预测未来的竞争格局未免有失偏颇。为此，笔者从现实出发，对未来钢铁电商竞争格局作一些试探性的分析和预测。</p>
+<p style="text-align: center;">
+	<img alt='多用户商城系统：钢铁电商生存者与出局者的竞争 ' src="/uploads/allimg/171206/21669-1G206135US16.jpg" style="width: 397px; height: 294px;" /></p>
+<p>
+	<strong>大小平台齐发力，相互融合谋发展</strong></p>
+<p>
+	商道兴衰从来就与&ldquo;天时地利人和&rdquo;密切相关。</p>
+<p>
+	天时方面，党的十九大提出构建人类命运共同体，实现共赢共享。在这一大背景下，作为中国钢铁产业链上的钢铁人理应立足本职，胸怀大局，撸起袖子，脚踏实地干一番事业。从哪里着手？就从构建一条完善的承载着钢铁大国梦的我国钢铁产业链做起。目前，我国钢材市场还存在着诸多不尽人意的地方。针对一些问题，国家相关部门已经出台进一步深化改革的各项激励政策，在新长征路上，改革大有可为。</p>
+<p>
+	地利方面，互联网技术为我们整合资源，实现互利共赢和弯道超车，打开了方便之门。下一步要做的是，利用云计算、大数据技术，建立起市场诚信经营体系，整合钢铁产业链上中下游各类有效资源，促使大小平台融合，线上虚拟市场和实体现货市场融合，平台与包括物流、加工企业在内的上中下游企业融合。整合钢铁产业链内外一切可以整合到的有效资源，营造出一个与传统市场不一样的经营氛围，建立钢铁生产、经营新秩序。</p>
+<p>
+	人和方面，钢铁强国梦激发了中国钢铁人无比高涨的热情，树立以和为贵的理念,这也可视为是一种文化自信的表现。近年来，众多平台远离恶性竞争，联手组织各种论坛，进行多样性的合作。如今，不仅有钢贸商参与平台交易，而且有越来越多的钢厂将资源放到网上销售，很多专业仓库、物流配送加工企业也成为平台服务体系中不可或缺的一部分。这从一个侧面表明，钢铁电商市场不大可能再出现与&ldquo;天时地利人和&rdquo;背道而驰的传统竞争模式&mdash;&mdash;大鱼吃小鱼，小鱼吃虾米，最终形成一两个超级企业垄断市场的格局。相反，市场将出现这样的情况：在互利共赢的旗帜下，大小平台融合发展，不断提高服务质量，安全、高效、低成本地助力我国钢铁产业链实现现代化。</p>
+<p>
+	目前，有迹象表明，不少钢铁电商在布点的同时，通过结盟、互相持股、互补互助等方式做强做实平台的服务功能，提高信息、资源、金融、物流等方面的优势，扩大了交易覆盖面，增加了交易流量，为日后的融合打下了坚实的基础。今年上半年，不少钢铁电商的交易量已经达到3000多万吨，并呈现出强劲的上升势头。如此规模的平台，仅上海就有3家-4家，其流量已经达到本世纪初上海钢贸行业鼎盛时期的交易总量。最近，又有消息在业内广为流传&mdash;&mdash;不少钢铁企业与平台合作，将资源在平台上挂牌，以加大线上销售力度。</p>
+<p>
+	可以预见的是，至今仍在烧钱却无法盈利的平台中，有一部分终将在市场竞争中成为出局者，而一些富有特色的平台，无论目前的体量是大或小，不但不会倒下，而且会长期存在，并会在与各平台和各相关企业的互动中，利用自身的特色，不断优化服务，朝着做强做大的方向迈进。今人扼腕的是，目前这样有特色的平台还不多，希望以后会有更多。</p>
+<p>
+	<strong>业绩彰显于线上，功夫落实于线下</strong></p>
+<p>
+	在互联网技术普及之初，各平台因为缺乏对新技术应用的全面认识，偏重于编制网上流程，消耗了大量人力、物力和财力。具体表现在：有的平台在唯技术理念的指导下，多层次组建技术团队，结果还是出现线上线下脱节的状况，这又在一定程度上影响了网上流程的畅通。无奈之下，只得依靠打补丁维持运行。</p>
+<p>
+	据HiShop<a href="http://www.hishop.com.cn/products/himall/" target="_blank">多用户商城系统</a>了解到，有一家平台不但独自组建了一家元件开发有限公司，还组建了流程编制团队和应对日常运行故障的维修保养队伍。尽管线上流程布置得严丝合缝，但在实施过程中还是出现了线上与线下脱节的情况，致使线上交易流程不畅通。而另一家平台在组建技术团队后，提货单上仍然需要再盖3个章才能让钢材出库，远未达到安全、高效、快捷、降低成本的目的。</p>
+<p>
+	随着钢铁行业两化融合工作的推进，上游钢厂的生产自动化程度日渐提高，下游用钢终端用户的自动化生产水平也在不断提高，而处于中游的仓储、物流、加工环节几乎是原地踏步，维持旧时模样。因此，平台在对上、中、下游企业实施无缝连接时，应重视钢铁存储、加工、流通等中游企业在智能化方面的建设，为专业的钢铁仓储、加工、运输企业的智能化运作提供帮助。</p>
+<p>
+	有的平台实力雄厚、条件优越，有能力自建智能化仓库，并在同行业中提供智能化运作的样板。这种由平台自建的方式投入非常大，不适合普及推广。对于大多数平台来说，还是应该立足现实，加大与相关企业的磨合力度，运用互联网技术不断在钢铁仓储、加工、物流等环节进行创新。这就需要平台在关注线上运作的同时，还要关注线下运作情况，适时向相关参与合作的企业提出智能化运作要求。在条件具备的情况下，平台可尝试与专业钢铁物流企业共建智能化物流体系，为行业提供实践经验并加以推广。</p>
+<p>
+	<strong>不忘初心争回报，&ldquo;五流&rdquo;汇聚谱新篇</strong></p>
+<p>
+	在设置交易流程时，平台一定要不忘初心，以普惠共享的互联网理念为指导，在每个细节上让参与者体验到新技术带来的轻松欢愉。可是，在现实生活中，平台真正做到普惠共享并非易事。</p>
+<p>
+	前几年，笔者从一位钢铁电商平台负责人处得知，该平台在融得资金加点贷出的基础上，还将做足融贷周期的文章。经粗略计算，即使不拉大价差，平台也能在吨钢上获取一两百元的利润。这家平台如此操作了两三年后，也就关门了。如此过分的&ldquo;玩法&rdquo;，虽然在行业里并不多见，但也在一定程度上反映出某些平台忘却了初心。即便到了今天，还是有这样的情况存在。</p>
+<p>
+	例如，有些平台在用自有资金放贷时，非得在银行贷款利率上加点，把平台提供服务的窗口搞成盈利的节点。实际上，银行利率点中已经包含着平台自身应得的那部分利润，再加点不仅变成了&ldquo;高利贷&rdquo;，而且提高了交易过程中资金运作的成本，对贷款企业有所不公。如果平台秉承了普惠共享的理念，那么在做融贷款业务时，一定会考虑到贷款方的利益，通过创新互联网金融方法来降低线上资金运作成本，而不是在盈利基础上再加点贷出。</p>
+<p>
+	上面所述的只是平台&ldquo;五流&rdquo;（信息流、资源流、商流、资金流和人才流）之一的资金流的问题。笔者相信，随着深化改革的推进，平台将树立起普惠共享的服务观念，构建有效的线上线下互动系统，以达到安全、快捷、高效和降低成本的目的，伴之而来的一定是开放的、新颖的平台。这样的平台将汇聚&ldquo;五流&rdquo;，构建钢铁流通新格局。</p>
+<p>
+	在过去几年里，钢铁电商平台把注意力集中在增加流量上，这无可厚非。但是，随着互联网技术的普及应用，用户对新技术应用的期望值也在提高，平台在实际运作中只抓流量已经远远不够了。平台建设是一项系统工程，需要线上线下各个环节的相互协同。目前看来，多数平台在抓&ldquo;五流&rdquo;的过程中，忽视了对相关人才的培养和发现。因此，在对未来发展进行规划时，各大平台应做好人才方面的功课，一方面通过优秀人才，发挥好信息流的优势，为上、下游企业介绍国内外先进的管理理念、技术设施，另一方面也可以为上下游企业推荐所需优秀人才，使人才流成为上下游企业沟通联动的纽带。</p>
+<p>
+	在中游企业中，平台除了可以帮助企业共建智能化物流体系外，还应在流通商中培育为终端用户服务的类销客队伍，千方百计地把平台拥有的优势服务与流通商共享，加大为终端用户服务的力度。平台千万不要把&ldquo;精简中介环节&rdquo;中的&ldquo;去中介&rdquo;看作是去掉中间钢贸商，事实上，截至目前，线上流量中的绝大部分都是由钢贸商创造的。平台在为终端用户服务的过程中，应学会融合，帮助钢贸商不断提高其为终端用户服务的质量。</p>
+
+                      <p>文章来源：https://www.hishop.com.cn/himall/show_46945.html</p>
+<p><海商（www.hishop.com.cn）是国内知名商城系统及商城网站建设提供商，HiMall为企业级商家提供<a href="/products/himall/">B2B2C商城系统</a>、多店铺商城系统、<a href="/products/himall/">多用户商城系统</a>等多端商城及电子商务行业解决方案></p>
+<p>申明：本网站部分文章和图片来源网络编辑，如有侵权及时沟通删除。海商hishop网站原创文章，转载请注明来源。</p>
+               <div class="mk_03 clear">
+        <ul>
+           
+    </ul>
+           
+       </div>      
+         <!-- 新媒体广告 -->
+            <p class="newmide" style="text-align:center;margin:10px 0;"><script src='/plus/rpad/js.php?aid=81' language='javascript'></script></p>        
+       </div>
+        <div class="tags">
+            <div>TAGS: <a href='/tags/2675.html'>B2B2C商城系统</a><a href='/tags/2715.html'>多用户商城系统</a></div>
+            <div class="Turn">
+            <em>上一篇：<a href='/himall/show_46944.html'>做区域共同配送B2B经销商怎样实现盈利？ </a> </em>
+            <em>下一篇：<a href='/himall/show_47027.html'>超市订货管理系统具备哪些功能优势？</a> </em>
+            
+            </div>
+        </div>
+        
+        <div class="details">
+        	<div class="title"><em></em>推荐阅读</div>
+             <ul class="bd-l">
+             
+          </ul>       
+        </div>        
+	</div>
 </div>
-<div class="clear"></div>
-<div id="j_gotop" style="display: block;"><a href="#" class="btn-top"></a></div>
-<div class="clear"></div>
-<div class="foot">
-  <div class="foot_m">
-    <p>Copyright @ 2017-2018 &nbsp;中国科技网 &nbsp;All Rights Reserved. &nbsp;www.lztsh.com  &nbsp;QQ：125021638 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1269421587'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269421587%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>    </p>
-    <p>免责声明：本站所有信息均搜集自互联网，并不代表本站观点，本站不对其真实合法性负责。如有信息侵犯了您的权益，请告知，本站将立刻删除。</p>
-    <p><a href="http://www.lztsh.com" style="color:#1b6d9d; text-decoration:none;"><strong>中国科技网</strong></a>：一直以来坚持文明办网，传播健康、娱乐、感知照片！每一套作品都经过我们专业编辑的精挑细选。&nbsp;</p>
-    <p><a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/96kaifa/images/备案图标.png" style="float:left;"/><b style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;font-weight:normal;">备案号：粤ICP备17024501号-2</b></a> </p>
-  </div>
+
+<div class="main_right f_right ">
+  <div class="floor6 clear">
+        <div class="title"><span>今日热点</span></div>
+          <p class="floorp">
+           最新消息， HiShop消息，做多用户商城系统的运营是需要时间和精力去做的，想要做好运营不是那么容易的事，但只要思路明确，方法科学也是完全可以做好的。那么怎么做好运营呢?那么，B2B2C 多用户商城系统 运营需要做到哪七点? 个体或者小企业在天猫、....</a>
+
+          </p>
+  </div> 
+    <div class="floor6 clear">
+        <div class="title"><span>热门文章</span></div>
+        <ul>
+            <li>
+                   
+                        <a href="/himall/show_71386.html" target="_blank">b2b2c多用户商城系统的知识点，谁都得看看</a>
+                             <p class="time">2小时前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71800.html" target="_blank">b2b2c商城系统功能之经典案例爱乐商城</a>
+                             <p class="time">3天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71744.html" target="_blank">b2b2c网上商城系统怎么做可以直接提升商城的用户流量！</a>
+                             <p class="time">4天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71693.html" target="_blank">怎么利用b2b2c商城系统源码来直接提升商城自身？</a>
+                             <p class="time">5天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71629.html" target="_blank">对于b2b2c商城系统要多少钱不少很清楚？我们拿易订商城的例子</a>
+                             <p class="time">6天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71590.html" target="_blank">多商户B2B2C商城系统怎么从用户去入手？抓住市场！</a>
+                             <p class="time">7天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71545.html" target="_blank">b2b2c商城系统功能要怎么去布置？哪些要哪些不必要？</a>
+                             <p class="time">10天前</p>
+             </li>
+<li>
+                   
+                        <a href="/himall/show_71501.html" target="_blank">现在的b2b2c网上商城系统有没改进的办法？</a>
+                             <p class="time">11天前</p>
+             </li>
+  
+        </ul>
+    </div> 
+
+    <div class="floor5">
+    	<div class="title"><span>产品推荐</span></div>
+        <ul>
+        	<li >
+                <div class="pic_1"><a href="/products/himall/" target="_blank">
+                <img src="/templets/default/ecschool/images/temp/16_1.jpg"></a></div>                
+                <em>Himall</em><br />
+                <span>构筑京东，天猫同等级多用户商城系统，首个打通全网pc+微信+app+触屏的B2B2C多用户商城系统。为用户带来互联网最便捷的盈利模式，精细化运营，精准化推广，充分挖掘互联网市场潜力，点击详情，马上申请免费体验。</span><a href="/products/himall/" target="_blank">详情</a>                       
+            </li>
+        </ul>
+    </div>
+    <div class="floor7">
+        <div class="title"><span>经典阅读</span></div>
+    	<ul>
+            <li><a href="/products/himall/">b2b2c商城系统</a><a href="/products/himall/">多商家商城系统</a></li>
+            <li><a href="/himall/">多用户商城系统</a><a href="/products/himall/">多商户商城系统</a></li>
+             <li><a href="/ydsc/dsxt/">电子商务系统</a><a href="/ydsc/dsxt/">电商网站建设</a></li>
+            <li><a href="/himall/scym/" target="_blank">b2b2c商城源码</a><a href="/himall/scym/">b2b2c源码</a></li>
+        </ul>
+    </div>
+  <div class="floor8 clear">
+      <div class="title"><span>热门搜索</span></div>
+       <div class="fl8">
+       <p><a href='/products/himall/'>多用户商城系统</a></p><p><a href='/products/himall/'>B2B2C商城系统</a></p>
+       <p><a href="/himall/scym/">b2b2c源码</a></p><p><a href="/himall/scym/">b2b2c商城源码</a></p>
+        <p><a href='/tags/16679.html'>B2B2C商城系统功能</a></p><p><a href='/tags/18900.html'>多商户B2B2C商城系统</a></p><p><a href='/tags/13085.html'>京东新通路</a></p><p><a href='/tags/19643.html'>2019中国电商网站排名</a></p><p><a href='/tags/19628.html'>b2b2c与s2b2c</a></p><p><a href='/tags/19594.html'>b2b2c系统展示</a></p><p><a href='/tags/16685.html'>B2B2C商城系统价格</a></p><p><a href='/tags/19536.html'>社区团购平台怎么做</a></p><p><a href='/tags/19367.html'>新零售B2B2C商城系统</a></p><p><a href='/tags/19386.html'>b2b2c系统平台</a></p><p><a href='/tags/11355.html'>网易考拉</a></p><p><a href='/tags/14531.html'>商城系统开发</a></p><p><a href='/tags/18170.html'>B2B2C商城系统架构</a></p><p><a href='/tags/19366.html'>B2B2C网站管理系统</a></p><p><a href='/tags/19066.html'>B2B2C商城系统代码</a></p><p><a href='/tags/11461.html'>网易严选</a></p><p><a href='/tags/19255.html'>b2b2c电商开发</a></p><p><a href='/tags/15311.html'>B2B2C网站建设</a></p><p><a href='/tags/19226.html'>b2b2c商城功能</a></p><p><a href='/tags/19265.html'>b2b2c系统多少钱</a></p>
+        </div>
+    </div>
+    <div class="floor9">
+		<div class="title"><span>推荐专题</span></div>
+		<i>
+			<a href="/himall/show_65773.html" target="_blank">
+					<img src="/uploads/190129/21662-1Z129110200a1.jpg"/>
+					<p>电商系统源码_商城系统源码_电商网站系统源码怎么选？</p>
+				</a>
+<a href="/himall/show_65592.html" target="_blank">
+					<img src="/uploads/allimg/190124/21716-1Z124152T60-L.jpg"/>
+					<p>B2B2C网站系统-B2B2C网站系统哪个好-B2B2C商城系统</p>
+				</a>
+<a href="/himall/show_65746.html" target="_blank">
+					<img src="/uploads/181220/21704-1Q220142523913.png"/>
+					<p>多用户商城源码_多用户商城系统源码_多用户商城开发</p>
+				</a>
+<a href="/himall/show_65751.html" target="_blank">
+					<img src="/uploads/181220/21704-1Q220142523913.png"/>
+					<p>b2b2c商城多少钱_b2b2c商城系统报价_B2B2C商城开发</p>
+				</a>
+<a href="/himall/show_65769.html" target="_blank">
+					<img src="/images/defaultpic.gif"/>
+					<p>B2B2C建站_多用户建站_B2B2C多用户建站怎么搭建？</p>
+				</a>
+<a href="/himall/show_65784.html" target="_blank">
+					<img src="/images/defaultpic.gif"/>
+					<p>深圳B2B2C电商系统哪家好？就选HiMallB2B2C商城系统</p>
+				</a>
+
+		</i>
+	</div>
 </div>
+</div>
+
+<div class="new_footer">
+	<div class="width t">
+		<div class="fl">
+		分公司：<a href="http://www.hishop.cn/" target="_blank" rel="nofollow">北京公司</a>|<a href="http://www.hishop.net/" target="_blank" rel="nofollow">深圳公司</a>|<a>广州公司</a>
+		</div>
+		<dl class="fl">
+			<dt><span></span>总部电话：<em>4006-089-731</em></dt>
+			<dd>
+				<span></span>
+				北京公司<br />
+				<em>4006-601-982</em>
+			</dd>
+			<dd>
+				<span></span>
+				深圳公司<br />
+				<em>4008-400-198</em>
+			</dd>
+			<dd>
+				<span></span>
+				广州公司<br />
+				<em>4006-808-668</em>
+			</dd>
+		</dl>
+		<ul class="fr">
+			<li>
+				<a><em></em></a>
+				干货分享
+			</li>
+			<li>
+				<img src="/templets/default/images/2017/footer_wx.png"/>
+				官方微信
+			</li>
+		</ul>
+	</div>
+	<div class="width">
+		<div class="s_nav">
+			<a href="/hishop/about/"rel="nofollow">关于我们</a>|<a href="/hishop/buy/"rel="nofollow">如何购买</a>|<a href="/hishop/contactus/"rel="nofollow">联系我们</a>|<a href="https://help.hishop.com.cn" target="_blank" rel="nofollow">帮助中心</a>|<a href="/hishop/job/" rel="nofollow">诚聘英才</a>|<a href="/hishop/sitemap/">网站地图</a>|<a href="/hishop/link/" rel="nofollow">友情链接</a>|<a href="/hishop/legalnotices/" rel="nofollow">法律声明</a>|<a href="http://mb.hishop.com.cn/" target="_blank" rel="nofollow">商城模板</a>|<a href="/service/" rel="nofollow">技术服务</a>
+		</div>
+		<div class="copy">
+			软件企业编号：湘R-2009-0055&nbsp;&nbsp;|&nbsp;&nbsp;高新技术企业编号：GR201043000270&nbsp;&nbsp;|&nbsp;&nbsp;增值业务电信许可证：湘B2-20160062<br />
+			软件产品编号：湘DGY-2009-0155&nbsp;&nbsp;|&nbsp;&nbsp;软件著作权登记号：2006SR09906 2009SR047196<br />
+			湖南省职业经理人协会理事&nbsp;&nbsp;|&nbsp;&nbsp;长沙市电子商务协会理事&nbsp;&nbsp;|&nbsp;&nbsp;长沙市软件协会会员&nbsp;&nbsp;|&nbsp;&nbsp;长沙服务外包行业协会会员<br />
+			Copyright©2003-2019 HiShop商城系统<a href="/">微信分销系统</a>以及<a href="/products/vfx/">微分销系统</a>多用户B2B2C商城系统一站式网上<a href="/">商城网站建设</a>服务商All Rights Reserved.湘ICP备08105577号
+			<p>
+				<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43010202000038" rel="nofollow" target="_blank" class="n1"></a>
+				<a href="http://www.hngswj.gov.cn/ei/Ei!certificate.action?id=8d5edfc6ad054507b73396b8b1802a5e" rel="nofollow" target="_blank" class="n2"></a>
+			</p>
+		</div>
+	</div>
+	<!--hishoppc-->
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?779041bffe6533ef44f74c2fdc69a426";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</div>
+<!--在线客服-->
+<!--<script src='/plus/rpad/js.php?aid=23' language='javascript'></script>
+<script  type="application/ld+json"> {
+       "@context": "https://zhanzhang.baidu.com/contexts/cambrian.jsonld",
+       "@id": "https://www.hishop.com.cn/himall/show_46945.html",
+        "appid": "1600581270734074",
+       "title":"多用户商城系统：钢铁电商生存者与出局者的竞争 ",
+       "images": [
+           "/uploads/allimg/171206/21669-1G206135US16-lp.jpg"        
+       ],
+       "description": "HiShop最新消息， 经常有朋友与笔者聊起关于钢铁电商未来竞争格局的话题，听到最多并带有总结性的结论是：整个产业链上将仅有一两个既强又大的平台生存得很好，而排在三、四名以",
+       "pubDate": "2017-12-06T13:56:45",
+       "puDate": "2019-07-01T11:05:45",
+       "data":{
+        "data.WebPage":{
+          "pcUrl":"https://www.hishop.com.cn/himall/show_46945.html",
+          "wapUrl":"https://m.hishop.com.cn/himall/show_46945.html"
+        }
+        }
+}</script>-->
+<!-- 自动推送 -->
+
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('a:[href="http://member.hishop.com.cn/Register.aspx"]').click(function(){
+    $(this).attr("href","http://member.hishop.com.cn/Register.aspx?myurl="+window.location.href);
+  })
+});
+</script>
+<!--弹出层开始-->
+	<link rel="stylesheet" type="text/css" href="/templets/default/style/popup.css"/>
+    <script src="/templets/default/js/crm_ajax.js" type="text/javascript"></script>
+	<div id="back_over"></div>
+    <div class="popup_bg" id="pop_box" style="display:none;">
+    	<img src="/templets/default/images/popbox/pop_icot.png"/>
+    	<div class="pop_box">     		
+	        <div class="pop_tit"><em>获取解决方案</em><span id="popup_x" onclick="popclose();" title="关闭">
+				<img class="popup_close" src="/templets/default/images/popbox/pop_close.png"/></span>
+	        </div>
+	        	<input type="hidden" id="txtInfoCategoryId" name="InfoCategoryId" value="3" />
+		        <input type="hidden" name="txtProductName" id="txtProductName" value="Himall" />  
+	        	<input type="hidden" name="mudi" id="mudi" value="" />
+		        <input type="hidden" name="myurl" id="myurl" value="" />
+		        <input type="hidden" name="jump" id="jump" value="https://www.hishop.com.cn/register/himall_ty.html" />
+		        <ul class="pop_cont">
+		        	<li><input onkeyup="value=value.replace(/\D+/g,'')" id="Phone" name="Phone" type="text"  placeholder="您的手机号码" /></li>
+		            <li><input name="validate" type="text" id="validate" placeholder="图形验证码" style="width:70%"/>
+		            	<img src='/include/vdimgck.php?iw=112&ih=38&fz=18' onClick="this.src=this.src+'?'" /></li>
+		            <li><input name="PhoneCode" id="PhoneCode" type="text" placeholder="请填写手机验证码" style="width:60%;" />
+		            	<input class="input_c" type="button" value="获取手机验证码" onclick="sendPhoneSMS()" /></li>  
+		            <li><input name="button" id="popup_btn" type="button" value="提  交" onclick="FormSub()" /></li>	            
+		        </ul>
+			<div class="tel">咨询电话：4006-089-731</div>
+	    </div>
+    </div>
+<script type="text/javascript">
+$("#myurl").val(window.location.href);
+	// 弹窗
+function popup(mudi,title){
+        var maskWidth = $(window).width(); //窗口的宽度		
+        var maskHeight = $(window).height(); //窗口高度		
+        var popTop = (maskHeight / 2) - ($('#pop_box').height() / 2);
+        var popLeft = (maskWidth / 2) - ($('#pop_box').width() / 2);
+        $('#pop_box').css({ top: popTop, left: popLeft }).slideDown(600);        
+        $('#back_over').css("display","block");
+        title = title ==""?"免费体验网店系统后台功能":title;
+    	$('#pop_box .pop_tit em').html(title);
+    	$('#mudi').val(mudi);
+    }
+    function popclose(){
+    	$('#pop_box').slideUp(600,function(){
+    		$('#back_over').css("display","none");
+    	})
+    }
+</script>
+<!--弹出层结束-->
 </body>
 </html>
+
+
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.
@@ -542,7 +475,7 @@ func InnerHTML(node *html.Node) string {
 func TestNewParser(t *testing.T) {
 	parser := NewParser()
 	parser.Parse(bytes.NewReader([]byte(content)), "https://www.baidu.com")
-
+	fmt.Println(parser.sourceName)
 	//fmt.Println(article.Title)
 	//fmt.Println(article.SiteName)
 	//fmt.Println(article.Content)

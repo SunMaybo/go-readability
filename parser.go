@@ -43,7 +43,7 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
-	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：\s\f][“]*([\w` + "\u4e00-\u9fa5" + `]{2,50}|(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])`)
+	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[:：\s\f]+[“]*(((https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])|[\w` + "\u4e00" + "-" + "\u9fa5" + `]{2,50})`)
 )
 
 // Constants that used by readability.
@@ -1141,6 +1141,11 @@ func (ps *Parser) FilterSourceName(text string) string {
 	if len(result) > 0 {
 		if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
 			cleanSource = result[len(result)-1]
+			if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
+				if len(result)-2 > 0 {
+					cleanSource = result[len(result)-2]
+				}
+			}
 		}
 	}
 
