@@ -1154,6 +1154,9 @@ func (ps *Parser) FilterSourceName(text string) string {
 			}
 
 		}
+		if len(cleanSource) >= 2 {
+			break
+		}
 	}
 	return cleanSource
 }
