@@ -1126,26 +1126,33 @@ func (ps *Parser) FilterSourceName(text string) string {
 	maohaoC := "：" // 全角空格
 	text = strings.ReplaceAll(text, spaceC, " ")
 	text = strings.ReplaceAll(text, maohaoC, ":")
-	allStringResult := rxSourceSearch.FindStringSubmatch(text)
+	allStringResult := rxSourceSearch.FindAllStringSubmatch(text, -1)
 	if len(allStringResult) == 0 {
 		return ""
 	}
 	fmt.Println(allStringResult)
 	var cleanSource string
-	var result []string
+
 	for _, restl := range allStringResult {
-		if len(restl) >= 2 {
-			result = append(result, restl)
-		}
-	}
-	if len(result) > 0 {
-		if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
-			cleanSource = result[len(result)-1]
-			if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
-				if len(result)-2 > 0 {
-					cleanSource = result[len(result)-2]
+		if len(restl) > 0 {
+			var result []string
+			for _, r := range restl {
+				if len(r) >= 2 {
+					result = append(result, r)
 				}
 			}
+			if len(result) <= 0 {
+				continue
+			}
+			if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
+				cleanSource = result[len(result)-1]
+				if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
+					if len(result)-2 > 0 {
+						cleanSource = result[len(result)-2]
+					}
+				}
+			}
+
 		}
 	}
 	return cleanSource

@@ -44,314 +44,634 @@ func TestSource(t *testing.T){
 }
 var content = `
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv=Content-Type content="text/html; charset=GBK">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-    <title>流量业务陷瓶颈 同程艺龙布局金融会否病急乱投医?_嗨武汉</title>
-    <meta name="keywords" content="同程,艺龙,腾讯,互联网,流量" />
-    <meta name="description" content="本年以来，在监管趋严的布景下，诸多玩家已经逐步收缩金融业务板块，但记者却发现，同程艺龙依旧逆势选择扩张之路。近期，中国光大银行苏州分行与同程艺龙达成战略合作，为其旗下“同驿贷”产品提供创新金融服务支持" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script>
-        var serverData = {
-            logowidth: '144',
-            logoheight: '30',
-            coverlogoheight: '50',
-            menuCount: 9,
-            terms: '',
-            menu: [],
-            channelname: '',
-            device: 'pc'
-        }
-    </script>
-    <link rel="stylesheet" type="text/css" href="/skin/css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="/skin/css/art.css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit">
+    <meta charset="utf-8">
+
+    <title>平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上_股市实战(gssz)股吧_东方财富网股吧</title>
+    <meta name="keywords" content="股市实战股吧,gssz股吧,股市实战怎么样,股市实战分析">
+    <meta name="description" content="股市实战(gssz)股吧，股民朋友可以在这里畅所欲言，分析讨论股票名的最新动态。股市实战股吧，专业的股票论坛社区。">
+            <meta name="mobile-agent" content="format=html5; url=https://mguba.eastmoney.com/mguba/article/0/802527008">
+
+            <link rel="canonical" href="http://guba.eastmoney.com/list,gssz,802527008.html" />
+
+
+            <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/old/news_c.css?r=72" />
+            <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/release/news.css?r=72" />
+
+    <base target="_blank" />
 </head>
-<body>
+<body class="hlbody">
+    <div id="header">
+    <!-- 微信分享img -->
+    <img id="weixin-share" src="http://cmsjs.eastmoney.com/common/weixin-share.png" style="position: absolute; width: 0; height: 0; left: -1000px;z-index: -1;">
+    <div class="gbbody" id="headergbbody">
+        <ul id="topnav">
+            <li class="user_info dfcfw" tracker-eventcode="gb_xgbsy_ zdh_djdfcf">
+                <a href="http://www.eastmoney.com/" target="_blank">东方财富网</a>
+                <em class="trg icon_down_s"></em>
+                <ul class="slide_down dc_site">
+                    <li><a href="https://zqhd.eastmoney.com/Html/aghd/pc/20170918/html/activity2.html">移动客户端</a></li>
+                    <li><a href="http://fund.eastmoney.com">天天基金网</a></li>
+                    <li><a href="https://zqhd.eastmoney.com/index.html?ad_id=web_kh_dcsy_jycdl_01_01_01_1">东方财富证券</a></li>
+                    <li><a href="https://www.eastmoneyfutures.com/kh/index.html">东方财富期货</a></li>
+                    <li><a href="http://choice.eastmoney.com">choice数据</a></li>
+                    <li><a href="http://guba.eastmoney.com">股吧</a></li>
+                </ul>
+            </li> |
+            <li tracker-eventcode="gb_xgbsy_zdh_djgbsy"><a href="http://guba.eastmoney.com/" target="_blank">股吧首页</a></li>
+            <li tracker-eventcode="gb_xgbsy_zdh_djjjb"><a href="//guba.eastmoney.com/jj.html">基金吧</a></li>
+
+            <li tracker-eventcode="gb_xgbsy_zdh_djgbft"><a href="http://guba.eastmoney.com/ft_list.aspx" target="_blank">访谈</a></li>
+            <li class="guba_topic" tracker-eventcode="gb_xgbsy_zdh_djgbht"><a href="http://gubatopic.eastmoney.com/" target="_blank">话题</a><i class="red_point"></i></li>
+            <li tracker-eventcode="gb_xgbsy_zdh_djwdm"><a href="http://guba.eastmoney.com/qa/qa_list.aspx" target="_blank">问董秘</a></li>
+            <li tracker-eventcode="gb_xgbsy_zdh_djxswd"><a href="//ask.eastmoney.com" target="_blank">悬赏问答</a></li>
+            
+        </ul>
+        <!-- 功能废弃2017-06-08 -->
+        <!-- <form method="GET" action="" id="topnavsearch" target="_blank">
+            <input type="text" name="" id="topnavskey" placeholder="搜索 股票/讨论/用户" autocomplete="off" /><input type="submit" value=" " id="topnavsubmit" title="点击开始搜索" tracker-eventcode="iguba_topbar_search_topbarS"/>
+            <div id="topnavsearchre">
+                <ul ></ul>
+            </div>
+        </form> -->
+        <ul id="topnavper">
+            <li class="topbarhaslogin" id="topbarloginuserdiv" style="display:none;">
+                <span class="headerusername tnavsel">
+                    <em class="userhead"></em>
+                    <span class="username"></span>
+                    <em class="tnavselic"></em>
+                    <div class="topnavdown">
+                        <!-- <div class="topnavdownt">设置<em class="tnavselid"></em></div> -->
+                        <ul class="topnavdownul">
+                            <li><a href="https://passport2.eastmoney.com/pub/basicinfo" target="_blank">个人设置</a></li>
+                            <li><a href="https://passport2.eastmoney.com/pub/changepassword" target="_blank">修改密码</a></li>
+                            <li><a href="http://iguba.eastmoney.com/setting/privacy" target="_blank">隐私设置</a></li>
+                            <li><a href="http://iguba.eastmoney.com/setting/message" target="_blank">消息设置</a></li>
+                            <li><a href="http://v2.eastmoney.com" target="_blank">V认证</a></li>
+                            <li><a href="//i.eastmoney.com/qianbao.html" target="_blank">我的钱包</a></li>
+                            <li class="nobg"><a href="javascript:;" target="_self" id="topbarlogoutlink">退出</a></li>
+                        </ul>
+                    </div>
+                </span>
+            </li>
+            <li class="topbarhaslogin" style="display:none;">
+                <span class="tnavsel">
+                    <a href="http://i.eastmoney.com"><em class="top_name">我的股吧</em></a><em class="tnavselic"></em>
+                    <div class="topnavdown">
+                        <!-- <div class="topnavdownt">设置<em class="tnavselid"></em></div> -->
+                        <ul class="topnavdownul">
+                            <li><a href="http://i.eastmoney.com">我关注的股</a></li>
+                            <li><a href="http://i.eastmoney.com">我关注的人</a></li>
+                            <li><a href="http://i.eastmoney.com/myarts">我的发言</a></li>
+                            <li><a href="http://i.eastmoney.com/collection">我的收藏</a></li>
+                        </ul>
+                    </div>
+                </span>
+            </li>
+
+            <li class="topbarhaslogin" style="display:none;">
+                <span class="tnavsel">
+                    <em class="top_name my_msg">我的消息<i></i></em><em class="tnavselic"></em>
+                    <div class="topnavdown">
+                        <!-- <div class="topnavdownt">消息<em class="tnavselid"></em></div> -->
+                        <ul class="topnavdownul topnavdownulmsgul">
+                            <li><a href="http://i.eastmoney.com">我关注的股</a></li>
+                            <li><a href="http://i.eastmoney.com">我关注的人</a></li>
+                            <li><a href="http://i.eastmoney.com/myarts">我的发言</a></li>
+                            <li><a href="http://i.eastmoney.com/collection">我的收藏</a></li>
+                            <li><a id="my_wdmsg" href="http://i.eastmoney.com/myinfo">&nbsp;&nbsp;查看问答消息<em></em></a></li>
+
+                        </ul>
+                    </div>
+                </span>
+            </li>          
+        </ul>
+    </div>
+</div>
+<script>
+    window.shimingOption = 2;
+</script>
+    <script src="//gbfek.dfcfw.com/project/guba/modules/h5Adaptation.js?r=6"></script>
+
+    <link rel="stylesheet" href="//gbfek.dfcfw.com//project/xeditor/editor_frame.css?r=72" />
+
+<script>
+    var topictype = "20";
+    var topicid = "802527008";
+
+    var barcode = "gssz";
+    var code = "gssz";
+    var tabtype = "";
+    var stockname = "股市实战";
+    var RelatedCode = "";
+    var RelatedName = "";
+    var OuterCode = "gssz";
+    var Category = "201";
+    var Division = "2";
+    var Market = "-1";
+    var Type = "-1";
+    var QuoteCode = "";
+    var BarType = "3";
+    var CodeWithMarket = "gssz";
+    var qq_code = "";
+    var qq_code2 = "";
+    var IsStockA = "False";
+
+    var page="1";
+</script>
+
 <style>
-    body {
-        padding-top: 0
+    #topnav li .red_point_jj {
+        position: absolute;
+        top: -3px;
+        left: 30px;
+        background-image: url(http://gbfek.dfcfw.com/gubav5/images/header_bg.png);
+        background-position: -25px 0;
+        width: 6px;
+        height: 6px;
+        margin: 0 auto;
     }
-    #Header {
+
+    #topnav li {
+        display: inline-block;
+        padding: 0 6px;
+        *display: inline;
+        *zoom: 1;
         position: relative;
+        height: 30px;
+    }
+
+    .guba_topic .topics {
+        display: none;
+    }
+
+    .guba_topic ul li {
+        display: block;
+        background-color: #08417f;
+        width: 61px;
+        height: 33px;
+        margin-top: 2px;
+        line-height: 33px;
+        text-align: center;
+    }
+
+    .guba_topic:hover ul {
+        display: block;
+        position: absolute;
+        top: 25px;
+        left: -13px;
     }
 </style>
-<div class="wrap">
-<div id="Cover" class="mod-cover">
-    <div class="cover">
-        <div class="coverbg"></div>
-        <div class="coverlogo"><img
-                src="/skin/images/logo1.png"></div>
-        <div class="coverslogan">
-            <p class="ll"></p>
-            <span>关注武汉,了解武汉</span>
-            <p class="rl"></p>
-        </div>
+
+
+
+<div id="header_ad" class="gbbody">
+    <div class="dh10"></div>
+    <iframe width="1000" height="60" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1553&op=1"></iframe>
+</div>
+
+<div id="headerban" class="gbbody">
+    <div id="searchbar_wrap">
+    </div>
+    <div id="gbhri">
+        
     </div>
 </div>
-<div id="Header">
-    <div class="header">
-        <h1 class="test"></h1>
-        <div class="logo" style="width:144px;"><a href="/" target="_blank"><img src="/skin/images/logo3.png" style="height:30px"/></a></div>
-        <div class="menulist large" style="margin:0 144px">
-            <ul></ul>
-        </div>
-        <div class="menulist medium" style="margin:0 144px">
-            <ul></ul>
-        </div>
-        <div class="headerSearch">
-            <form  name="formsearch" action="http://www.hiwuhan.net/">
-                <input type="hidden" name="kwtype" value="0" />
-                <p class="searchbar">
-                    <a href="javascript:;" class="searchA"><i class="i"></i></a>
-                    <i class="txt"><i class="i nodis"></i><input name="q" type="text" class="nodis"></i>
-                </p>
-                <button type="submit" class="search-submit" style="display: none">搜索</button>
-            </form>
-            <p class="sub-menu"><i class="icon-submenu"></i></p>
 
-            <p class="baiduLogo"><a href="/" target="_blank"><img src="/skin/images/blogo.png"></a></p>
+<div class="zwheadbline gbbody">
+    <div class="zwheadblineb"></div>
+</div>
+<div class="gbbody ">
+    <div class="his_wrap clearfix">
+        <div class="read_path">
+            <a href="/" target="_self" class="icon icon_gubahome"></a>
+            <a href="/" target="_self">股吧首页</a> &gt;
+                <a href="/list,gssz.html" target="_self">股市实战吧（gssz）</a>
+             &gt;
+            <span class="path_news">正文</span>
+        </div>
+        <div id="zjfw" class="zjfw">
+            <ul>
+                <li class="zjfwdb">最近访问：</li>
+                <li><span id="baHistory"></span></li>
+            </ul>
         </div>
     </div>
+    <div id="headerfloat"></div>
+    <div id="mainbody">
+        <div id="stockheader" class="gbbody">
+            <div class="stockheader_wrap">
+                <span id="stockif">
+                    <span id="stockname" data-popstock="gssz" data-poptype="1">
+                            <a href="/list,gssz.html">股市实战吧</a>
+                    </span>
+                </span>
+                <span id="follow_wrap"></span>
+               
+            </div>
+        </div>
+        <div class="zwheadbline gbbody">
+            <div class="zwheadblineb"></div>
+        </div>
+        <div class="zwheadpager">
+            <div class="zwhpager"></div>
+            <div class="zwhpagerr">
+                    <a href="list,gssz.html">返回股市实战吧&gt;&gt;</a>
+            </div>
+        </div>
+        <div id="zwmbti">
+            <ul id="head_topic" class="head_topic">
+                <li class="topic">
+                    <ul><li><a href="http://acttg.eastmoney.com/pub/web_nr_gbzwy_ttz_01_01_01_0" >好文章，能赚钱！</a></li></ul>
+                </li>
+            </ul>
 
-    <script type="text/javascript">
-        var menu = [];
+            <div id="zwmbtilr"></div>
+        </div>
+                    <div id="zwcontent">
 
-        menu.push({
-            'name': '首页',
-            'enname': '',
-            'url': '/',
-            'list': []
-        });
-		menu.push({
-            'name': '建材',
-            'enname': '',
-            'url': 'http://www.hiwuhan.net/jiancai/',
-            'list': []
-        });menu.push({
-            'name': '房产',
-            'enname': '',
-            'url': 'http://www.hiwuhan.net/housenews/',
-            'list': []
-        });menu.push({
-            'name': '图片',
-            'enname': '',
-            'url': 'http://www.hiwuhan.net/photos/',
-            'list': []
-        });menu.push({
-            'name': '市场',
-            'enname': '',
-            'url': 'http://www.hiwuhan.net/shichang/',
-            'list': []
-        }); 
-        serverData.menu = menu;
-    </script>
-</div>
-    <div id="Body">
-        <div class="body">
-            <div class="left">
-                <div id="banners">
-                    <div class="hclc">
-                        <article>
-                            <h1>流量业务陷瓶颈 同程艺龙布局金融会否病急乱投医?</h1>
-                            <div class="contInfo"><div class="floatL"><span id="pubtime_baidu">2019-06-25 17:21</span><span id="“source_baidu”">栏目：<a href=''>实时</a></span></div><div class="floatR"><style type="text/css">.bshare-custom{font-size:12px!important;}.bshare-custom a{margin:0 3px!important;line-height:16px;}#bsLogoList li{padding-left:0;background:none;}.b-drag{border-radius:0!important;}.b-drag-arrow{left:0!important;}</style><div class="bshare-custom"><div class="bsPromo bsPromo2"></div><span>TAG：</span> <a href='http://www.hiwuhan.net/tags.php?/%BB%A5%C1%AA%CD%F8/'>互联网</a> <a href='http://www.hiwuhan.net/tags.php?/%CC%DA%D1%B6/'>腾讯</a> <a href='http://www.hiwuhan.net/tags.php?/%C1%F7%C1%BF/'>流量</a> <a href='http://www.hiwuhan.net/tags.php?/%CD%AC%B3%CC/'>同程</a> <a href='http://www.hiwuhan.net/tags.php?/%D2%D5%C1%FA/'>艺龙</a></div>
-                            </div></div>
-                            <p style="margin: 20px 0px 0px; padding: 0px; font-family: 'Microsoft Yahei', sans-serif; border: 0px; font-size: 16px; line-height: 1.7; color: rgb(51, 51, 51);"><p>本年以来，在监管趋严的布景下，诸多玩家已经逐步收缩金融业务板块，但记者却发现，同程艺龙依旧逆势选择扩张之路。<br></p><p>&nbsp;</p><p>近期，中国光大银行苏州分行与同程艺龙达成战略合作，为其旗下“同驿贷”产品提供创新金融服务支持。业内人士指出，作为同程艺龙的主要业务着力点，同程金服的业务发展似乎进入了瓶颈，同程艺龙只能逆势向金融领域跑马圈地，以此突破瓶颈，但此时结构金融板块是否是最佳时机，还不能够彻底评判，如果一旦结构失败，同程艺龙可能会上演一出“病急乱投医”的闹剧。</p><p>&nbsp;</p><p>折射出变现焦虑</p><p>&nbsp;</p><p>近日，同程艺龙发布上市后第一份季度公告。根据公告显示，本年第一季度，按合并基准，实现收入17.83亿元，同比增17.5%；经调整的净利润达4.49亿元；经调整净利润率为25.1%，较去年同期有所下滑。</p><p>&nbsp;</p><p>同时，平均月活跃用户由2018年同期的163.4百万人同比增22.0%至199.3百万人；平均月付费用户由2018年同期的16.9百万人同比增36.7%至23.1百万人。</p><p>&nbsp;</p><p>然而同程艺龙的增长却离不开以微信为主的腾讯“流量池”。相关数据显示，2019年一季度，同程艺龙平均月活跃用户达到1.99亿人，其中1.73亿人来自腾讯旗下平台，占比进一步提升到了86.9%。</p><p>&nbsp;</p><p>同程艺龙暗示，受益于腾讯的战略合作伙伴关系及自身有效的销售及营销策略，公司拥有较低的获客渠道成本和更为不乱的用户黏性，特别是借助对小步伐趋势结构，同程艺龙实现了对用户、尤其是一线城市用户的高触达和高转化。</p><p>&nbsp;</p><p>但在《腾讯合作协议》中有约定，即：同程艺龙在2021年7月31日前，都是微信及移动QQ的移动支付界面火车票机票及酒店的独家运营方。</p><p>&nbsp;</p><p>值得注意的是，同程艺龙也有着本身的金融版图，为游客和旅游企业提供平安、不乱收益、定制化的金融服务。不过记者发现，同程金服却不能从腾讯引流的客户中分得一杯羹，而只能依靠官方渠道开展金融业务，显然这对于公司的规模扩张也非常晦气。</p><p>&nbsp;</p><p>别的，同程金服对于同程艺龙的的贡献也微乎其微。数据显示，2019年一季度，仅酒店和交通收入就占据了同程艺龙总营收的98%以上。但比拟诸如携程、去哪儿等，这些公司的金融业务已明显遥遥领先。</p><p>&nbsp;</p><p>为什么要做金融？</p><p>&nbsp;</p><p>公开资料显示，同程金服成立于2015年底，注册资本为1亿元。概况上看，同程金服是上海引旅金融信息服务有限公司独资的金融服务公司，但其最终的控股股东却是同程艺龙。</p><p>&nbsp;</p><p>为什么互联网公司都要涉足金融？在业内人士看来，不外乎以下几点原因：</p><p>&nbsp;</p><p>一是随着互联网C端新增流量几近枯竭，流量焦虑弥漫互联网公司，如何把既有流量开发出更多价值成为他们要解决的下一道难题。</p><p>&nbsp;</p><p>二是广告与金融被称为互联网流量变现的两大捷径与利器，靠金融业务可以直接获得不菲收益。</p><p>&nbsp;</p><p>三是当互联网公司发展到必然水平，原有核心业务的增长红利就会慢慢消失，必要拓展新的业务。</p><p>&nbsp;</p><p>四是生态结构的必要，未来趋势是金融业务在大公司生态体系中的价值将会越来越凸显。</p><p>&nbsp;</p><p>于同程艺龙而言，以上几点均有可能是其结构金融业务的考虑。</p><p>&nbsp;</p><p>流量方面，据同程艺龙2018年年报显示，截至2018年末，其平均月活跃用户1.75亿，同比增长44.6%。</p><p>&nbsp;</p><p>值得注意的是，同程艺龙横眉前的大部分流量来自微信的生态体系，对腾讯依赖明显。对此，同程艺龙首席战略官吴嘉竹曾回应称，腾讯小步伐的社交属性为公司带来不乱流量，同时二者也是相互依赖，“其实是相互必要”。</p><p>&nbsp;</p> <p>转载注明来源：http://www.dmzjs.com/315/52627.html</p>
-<!-- page start -->
-<div class="pagination"><ul><li><a>共2页: </a></li><li><a href='#'>上一页</a></li><li class="thisclass"><a href='#'>1</a></li><li><a href='701836_2.html'>2</a></li><li><a href='701836_2.html'>下一页</a></li></ul></div>
-<!-- page end -->   
-                        </article>
-<!--兼容版，可保证页面完全兼容-->
-<div id="SOHUCS"></div>
-<script>
-  (function(){
-    var appid = 'cyrna3OIQ',
-    conf = 'prod_f12acd6648a127b270c750fbbf8ecb1a';
-    var doc = document,
-    s = doc.createElement('script'),
-    h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
-    s.type = 'text/javascript';
-    s.charset = 'GBK';
-    s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
-    h.insertBefore(s,h.firstChild);
-  })()
-</script>
-<!-- Comment END -->
+                        <div id="zwcontt">
+<div class='data' data-json='{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0}'></div>                                <div id="zwconttphoto">
+
+                                        <a href="http://iguba.eastmoney.com/1529085151583734" data-poptype="2" data-popper="1529085151583734">
+                                            <img src="http://avator.eastmoney.com/qface/1529085151583734/50" width="50" height="50" class="userphoto" />
+                                        </a>
+
+                                </div>
+                                <div id="zwconttb">
+                                    <div id="zwconttbn">
+                                        <strong>
+                                            <a href="http://iguba.eastmoney.com/1529085151583734"  data-popper="1529085151583734" data-poptype="1" target="_blank"><font>券商中国</font></a><input type="hidden" value="31000" /><em class="icon icon_jv_org" title="东方财富机构认证"></em>
+
+                                        </strong>
+                                            <div class="influence_wrap" data-user_age="1.5年" data-user_level="8" data-user_black_type="0" data-type="0"></div>
+                                    </div>
+                                    <div class="zwfbtime">发表于 2019-01-24 07:47:30 股吧网页版</div>
+
+                                </div>
+
+                            <div id="zwconttbtns">
+                                <a href="//v2.eastmoney.com/" style="display: none;" id="dongmilink" class="graylink">V认证</a>&ensp;<a href="javascript:;" target="_self" id="jubaolink" class="graylink" style="color: #039;font-size: 14px;font-weight: bolder;">举报</a>
+                            </div>
+                        </div>
+                            <div id="post_content" class="zwcontentmain xeditor">
+                                <div id="zwconttbt">
+平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上                                                                    </div>
+                                <div id="zwconbody">
+                                    <div class="stockcodec .xeditor">
+<p><img src="https://dfscdn.dfcfw.com/download/A120180903205892" class="__bg_gif " alt=""></p><p><img src="https://dfscdn.dfcfw.com/download/A120190124121383" class="" alt=""></p><p>图片来源：图虫创意</p><p>一举打破<span data-code="601818,1,1" data-type="1" class="zwstock">光大银行</span><span data-code="395021,2,0" data-type="1" class="zwstock">可转债</span>网下200倍的申购纪录，<span data-code="000001,2,0" data-type="1" class="zwstock">平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type="2" data-code="162717" class="zwstock">再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code="600919,1,1" data-type="1" class="zwstock">江苏银行</span>、<span data-code="601998,1,1" data-type="1" class="zwstock">中信银行</span>、<span data-code="601328,1,1" data-type="1" class="zwstock">交通银行</span>共计1200亿元可转债已经获批，而<span data-code="600000,1,1" data-type="1" class="zwstock">浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code="000832,1,1" data-type="1" class="zwstock"><span data-type="2" data-code="161826" class="zwstock">中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src="https://dfscdn.dfcfw.com/download/A120180903207161" class="" alt=""></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟"躺赚时间"正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>"定向降息"落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供"主力"？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src="https://dfscdn.dfcfw.com/download/A120181015152104" class="" alt=""></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src="https://dfscdn.dfcfw.com/download/A120181227111531" class="__bg_gif " alt=""></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href="http://caifuhao.eastmoney.com/news/20190124053117311720040" target="_blank" style="color:Red"><b>[点击查看原文]</b></a></p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        <script>
+                            try{
+                                var imgs = document.getElementsByTagName('img')
+                                if(imgs&&imgs.length>0){
+                                    var len = imgs.length
+                                    for(var i=0;i<len;++i){
+                                        var img = imgs[i]                                        
+                                        img.onerror = function(e){
+                                            this.src='//gbfek.dfcfw.com/project/guba/images/error/error_img_160.png'
+                                            this.className = this.className+" img_error"
+                                        }
+                                        
+                                    }
+                                }
+                                var isfund=false;
+                                if(isfund==false)
+                                {
+                                    (function (){
+                                        var zwconbody = document.getElementById('zwconbody');
+                                        var hideHeight =window.page > 1 ? 200 : 1500;
+                                        if(zwconbody.offsetHeight > hideHeight){
+                                            zwconbody.style.height = hideHeight+'px';
+                                            zwconbody.style.overflow = 'hidden';
+                                            zwconbody.style.position = 'relative';
+                                            var newHtml = document.createElement('div');
+                                            newHtml.className = 'readmore';
+                                            newHtml.innerHTML = '<span class="readmore_text"><span class="icon icon_readmore"></span>展开阅读全文</span>'
+                                            //var appendHtml = '<div class="readmore"><span class="readmore_text"><span class="icon icon_readmore"></span>展开阅读全文</span></div>'
+                                            zwconbody.appendChild(newHtml);
+                                        }
+                                    })();
+                                }
+                            }catch(e){                                
+                            }
+
+                        </script>
+                            <div class="social clearfix">
+                                <div id="like_wrap" data-like_count="0"></div>
+                                <div id="favorite_wrap"></div>
+                                <div id="forward_wrap"></div>
+                               
+                                <div id="share_wrap"></div>
+                                <div class="zwconbtnsi" id="zwconbtnsi_pl" onclick="try{gudong.stat(3,null);}catch (e){};">
+                                    <em class="icon icon_reply"></em>
+                                    <a href="javascript:;" target="_self">评论</a>
+                                </div>
+                            </div>
+
+                        <div class="gubamobilegg2014" id="zwcontentbgg" style="display: none; text-align: center;">
+                            <ul><li><span class="red"><a href="http://js5.eastmoney.com/tg.aspx?ID=2334 " ><strong>绝地反弹？资金流量揭晓主力动作</strong></a></span>&nbsp;<span class="black"><a href="https://acttg.eastmoney.com/pub/webtg_hskh_act_gbzwydt_01_01_01_1" ><strong>精准操盘的秘密在这里</strong></a></span>&nbsp;<span class="red"><a href="http://acttg.eastmoney.com/pub/web_nr_gblb_gbnrdbkcbwzl_01_01_01_1" ><strong>科创板申报企业名单</strong></a></span>&nbsp;<span class="black"><a href="http://fund.eastmoney.com/trade/yzzq.html?spm=gb.01.ht#zwf_,sc_jn,st_desc" ><strong>基金今年来最高涨超81%</strong></a></span>&nbsp;<span class="red"><a href="http://data.eastmoney.com/gzfx/" ><strong>如何锁定低估值个股？</strong></a></span></li></ul>
+                        </div>  
+                        <div class="wrap guba_warning">
+                            <div style="color: #666666; padding: 20px 0 0 0; clear: both; line-height: 18px;">
+                                郑重声明：用户在财富号/股吧/博客社区发表的所有信息（包括但不限于文字、视频、音频、数据及图表）仅代表个人观点，与本网站立场无关，不对您构成任何投资建议，据此操作风险自担。
+                            </div>
+                        </div>
+                        <div style="position:relative;"><div id="storeply" name="storeply" style="position:absolute;top:-100px;"></div></div>
+                                            
+                        <div class="clear"></div>
                     </div>
+                        <div class="zwbb1"></div>
+
+
+       <!--耗时 46.875 毫秒 (2019/7/8 14:43:56 - 2019/7/8 14:43:56 )-->
+
+        <div id="zwlist">
+
+        </div>
+
+
+        
+        <div style="clear: both; height: 29px; border-top: 0; padding: 2px 0 8px 10px;">
+            <div id="zwbtextlink">
+                
+            </div>
+        </div>
+
+            <div class="gbbox_comment" id="sendnewt">
+                <div class="gbboxt"><div class="commenttext">评论该主题</div> <span class="appealspan"><a href="javascript:;" target="_self" id="appealuserlink">帖子不见了！怎么办？</a></span></div>
+                <div class="gbboxtr"><span class="topbarlogin">作者：您目前是匿名发表 &nbsp; <a href="" id="bottomlogin" class="gubaloginlink"><strong>登录</strong></a> | <a href="" class="strlink gubareglink" id="bottomreg">5秒注册</a></span> <span class="topbarhaslogin">作者：<span class="headerusername"><span class="username"></span></span>，欢迎留言 <a href="javascript:;" class="logoutbtn" target="_self">退出</a></span><a class="publishtext" href="/list,gssz.html#sendnewt)"><strong>发表新主题</strong></a></div>
+                <div class="gbboxb publishnew">
+                    <form name="gbsform" method="post" action="" id="gbsform" class="gbsform">
+                        <div class="mtj1 clearfix" id="yzmp">
+                            <label for="" class="l tzla">内容：</label><span class="triangle_ico"></span><textarea class="gbsformt1 editor_title" id="gbtainput" placeholder="内容"></textarea>
+                        </div>
+                        <div class="mtj2">
+                            <div class="editorfuns" id="editorfuns">
+                                <a href="javascript:;" id="gbtainpubtn4" data-fun="face" target="_self"><em class="iconface"></em><span class="textface">表情</span></a>
+                                
+                            </div>
+                            <div class="gbsformbtns">
+                                <a href="http://acttg.eastmoney.com/pub/web_nr_gbzwy_bmy_01_01_01_0" >实名认证 ，即可获得价值100元大礼包！</a></li></ul>
+                                <span id="gdregbtn"></span>&nbsp;
+                                <button type="submit" class="gbsformi3">发  布</button>
+                            </div>
+                            <div class="clear"></div>
+                        </div>
+
+                    </form>
                 </div>
             </div>
-<div class="right">
-    <div class="ap">
-        <div class="apt">
-            <h4>随机看看</h4>
-            <p class="entit"><span>NEW ARTICLE</span></p>
+        <div class="post_warning" style="color: #666666; padding: 16px 0 0 0; clear: both; line-height: 20px;">           
+            郑重声明：用户在社区发表的所有资料、言论等仅代表个人观点，与本网站立场无关，不对您构成任何投资建议。用户应基于自己的独立判断，自行决定证券投资并承担相应风险。<a href="https://passport2.eastmoney.com/pub/FAQ/Service.html" target="_blank">《服务条款》</a><a href="http://guba.eastmoney.com/CommitmentLetter.aspx" target="_blank">《跟帖评论自律管理承诺书》</a>
         </div>
-        <div class="apc">
-            <ul class="ulist">
-			<li>
-                    <span class="num top3">1</span>
-                    <a href="http://www.hiwuhan.net/shishi/659989.html" title="游戏子公司亏损奥飞娱乐称团队解散 原团队另起炉">游戏子公司亏损奥飞娱乐称团队解散 原团队另起炉</a>
-                    <span class="tm">04-07</span>
-                </li>
-<li>
-                    <span class="num top3">2</span>
-                    <a href="http://www.hiwuhan.net/shishi/689422.html" title="“双十一”临近 电商微商备货忙">“双十一”临近 电商微商备货忙</a>
-                    <span class="tm">06-09</span>
-                </li>
-<li>
-                    <span class="num top3">3</span>
-                    <a href="http://www.hiwuhan.net/shishi/681481.html" title="泉州逸肤中医皮肤病医院激光祛痘坑失败 院方：已">泉州逸肤中医皮肤病医院激光祛痘坑失败 院方：已</a>
-                    <span class="tm">06-07</span>
-                </li>
-<li>
-                    <span class="num top3">4</span>
-                    <a href="http://www.hiwuhan.net/shishi/692905.html" title="别让网售款儿童家具变成“伤害款”">别让网售款儿童家具变成“伤害款”</a>
-                    <span class="tm">06-12</span>
-                </li>
-<li>
-                    <span class="num top3">5</span>
-                    <a href="http://www.hiwuhan.net/shishi/691045.html" title="山东省市场监管局公平交易局局长接受新浪潮等采">山东省市场监管局公平交易局局长接受新浪潮等采</a>
-                    <span class="tm">06-12</span>
-                </li>
-<li>
-                    <span class="num top3">6</span>
-                    <a href="http://www.hiwuhan.net/shishi/693206.html" title="百合网5年亏2.2亿 翟欣欣再现世纪佳缘暴露审核问">百合网5年亏2.2亿 翟欣欣再现世纪佳缘暴露审核问</a>
-                    <span class="tm">06-12</span>
-                </li>
-<li>
-                    <span class="num top3">7</span>
-                    <a href="http://www.hiwuhan.net/shishi/699123.html" title="入住陕西宝鸡轩苑尚城小区半年还不通天然气 居民">入住陕西宝鸡轩苑尚城小区半年还不通天然气 居民</a>
-                    <span class="tm">06-20</span>
-                </li>
-<li>
-                    <span class="num top3">8</span>
-                    <a href="http://www.hiwuhan.net/shishi/678743.html" title="哈尔滨一家人到香坊城管局 “指认”救火恩人“是">哈尔滨一家人到香坊城管局 “指认”救火恩人“是</a>
-                    <span class="tm">06-03</span>
-                </li>
-<li>
-                    <span class="num top3">9</span>
-                    <a href="http://www.hiwuhan.net/shishi/688472.html" title="欧国联揭幕战：C罗帽子戏法，赞助商海信闪耀赛场">欧国联揭幕战：C罗帽子戏法，赞助商海信闪耀赛场</a>
-                    <span class="tm">06-09</span>
-                </li>
-<li>
-                    <span class="num top3">10</span>
-                    <a href="http://www.hiwuhan.net/shishi/695915.html" title="问诊“返利”传销">问诊“返利”传销</a>
-                    <span class="tm">06-12</span>
-                </li>
 
+
+                <div class="siderg" style="padding-top: 10px; clear: both;">
+                    <iframe width="730" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1554&op=1"></iframe>
+                </div>
+
+    </div>
+    <div id="sider"></div>
+</div>
+<div class="clear"></div>
+
+
+
+<script>
+    if (document.all && !window.XMLHttpRequest) {
+        $(".qrli").hover(function () {
+            $(".icon_qr", this).show();
+        }, function () {
+            $(".icon_qr", this).hide();
+        });
+    }
+</script>
+<div id="stockhqh" style="display: none;"></div>
+
+
+<script>
+    var post_article = {"post":{"post_id":802527008,"post_user":{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0,"user_bizflag":"2","user_bizsubflag":"003006","user_extend":{"uid":"1529085151583734","ncfh_authorid":222804,"ncfh_status":1,"ncfh_orgtag":"003006","ncfh_isdel":0,"ncfh_bigvip":1,"ncfh_qualificationinfo":"券商中国","ncfh_organizationtag":1,"ncfh_updatetime":"2019-07-07 20:43:31","pushtime":"2019-07-07 20:47:37"},"user_introduce":"致力于提供最及时的财经资讯，最专业的解读分析，覆盖宏观经济、金融机构、A股市场、上市公司、投资理财等财经领域。"},"post_guba":{"stockbar_type":10,"stockbar_code":"gssz","stockbar_inner_code":"gssz","stockbar_name":"股市实战","stockbar_market":"gssz","stockbar_quote":2,"stockbar_exchange":-1,"stockbar_external_code":"gssz"},"post_title":"平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上","post_content":"<p><img src='https://dfscdn.dfcfw.com/download/A120180903205892' class='__bg_gif ' alt=''></p><p><img src='https://dfscdn.dfcfw.com/download/A120190124121383' class='' alt=''></p><p>图片来源：图虫创意</p><p>一举打破<span data-code='601818,1,1' data-type='1' class='zwstock'>光大银行</span><span data-code='395021,2,0' data-type='1' class='zwstock'>可转债</span>网下200倍的申购纪录，<span data-code='000001,2,0' data-type='1' class='zwstock'>平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type='2' data-code='162717' class='zwstock'>再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code='600919,1,1' data-type='1' class='zwstock'>江苏银行</span>、<span data-code='601998,1,1' data-type='1' class='zwstock'>中信银行</span>、<span data-code='601328,1,1' data-type='1' class='zwstock'>交通银行</span>共计1200亿元可转债已经获批，而<span data-code='600000,1,1' data-type='1' class='zwstock'>浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code='000832,1,1' data-type='1' class='zwstock'><span data-type='2' data-code='161826' class='zwstock'>中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src='https://dfscdn.dfcfw.com/download/A120180903207161' class='' alt=''></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟'躺赚时间'正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>'定向降息'落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供'主力'？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src='https://dfscdn.dfcfw.com/download/A120181015152104' class='' alt=''></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src='https://dfscdn.dfcfw.com/download/A120181227111531' class='__bg_gif ' alt=''></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href='http://caifuhao.eastmoney.com/news/20190124053117311720040' target='_blank' style='color:Red'><b>[点击查看原文]</b></a></p>","post_abstract":"图片来源：图虫创意一举打破光大银行可转债网下200倍的申购纪录，平安银行日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条...","post_publish_time":"2019-01-24 07:47:30","post_last_time":"2019-01-24 07:47:30","post_display_time":"2019-01-24 07:47:30","post_ip":"","post_state":0,"post_checkState":0,"post_click_count":6608,"post_forward_count":0,"post_comment_count":0,"post_comment_authority":0,"post_like_count":0,"post_is_like":false,"post_is_collected":false,"post_type":20,"post_source_id":"20190124053117311720040","post_top_status":0,"post_status":0,"post_from":"股吧网页版","post_from_num":20,"post_pdf_url":"","post_has_pic":false,"has_pic_not_include_content":false,"post_pic_url":[],"source_post_id":0,"source_post_state":0,"source_post_user_id":"","source_post_user_nickname":"","source_post_user_type":0,"source_post_user_is_majia":false,"source_post_pic_url":[],"source_post_title":"","source_post_content":"","source_post_ip":"","source_post_type":0,"source_post_guba":{"stockbar_type":0,"stockbar_code":"","stockbar_inner_code":null,"stockbar_name":"","stockbar_market":"","stockbar_quote":-1,"stockbar_exchange":-1,"stockbar_external_code":""},"post_video_url":null,"source_post_video_url":null,"source_post_source_id":"","code_name":"gssz","product_type":"0","v_user_code":"0","source_click_count":null,"source_comment_count":"","source_forward_count":"","source_publish_time":"","source_user_is_majia":"False","ask_chairman_state":null,"selected_post_code":"","selected_post_name":"","selected_relate_guba":null,"ask_question":null,"ask_answer":null,"qa":null,"fp_code":"u29","codepost_count":1708463,"extend":null,"post_pic_url2":[],"source_post_pic_url2":[],"relate_topic":{"id":"","name":"","h5_url":"","btype":"","stype":"","guide":""},"source_extend":null,"digest_type":1,"source_post_atuser":[],"post_inshare_count":0},"rc":1,"me":"操作成功"};
+    
+    var is_test=false;
+    var is_fake=false;
+    var comment_count="0";
+</script>
+
+
+<script src="//gbfek.dfcfw.com/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="//emcharts.dfcfw.com/suggest/stocksuggest2017.min.js"></script>
+
+
+<script src="//emcharts.dfcfw.com/ec/3.10.0/emcharts.min.js"></script>
+
+
+            <script src="//gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js"></script>
+            <script src="//gbfek.dfcfw.com/gubav5/js/module_0ff83f4823.js"></script>
+            <script src="//gbfek.dfcfw.com/project/guba/old/news_m.js?r=72"></script>
+            <script src="//gbfek.dfcfw.com/project/guba/old/news_c.js?r=72"></script>
+            <script src="//gbfek.dfcfw.com/project/guba/release/news.js?r=72"></script>
+
+<script src="//gbfek.dfcfw.com/gubav5/modules/rightpromotion/rightpromotion.js?r=5"></script>
+<script src="//gbfek.dfcfw.com/tg/EMBottomSearchTG/EMBottomSearchTG-1.0.3.min.js?v=1"></script>
+
+<script type="text/javascript">
+    var newEMBottomSearchTG = new EMBottomSearchTG({
+        main_width: 1000,
+        main_img: 'http://z1.dfcfw.com/2015/6/10/201506101029321460568336.jpg', //推广图片  imgurl
+        link: 'http://stattg.eastmoney.com/10267' //推广链接  aurl
+    });
+    newEMBottomSearchTG.show();
+</script>
+
+
+
+
+<script type="text/javascript" src="//emcharts.dfcfw.com/newsts/newsts.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="//emcharts.dfcfw.com/usercollect/usercollect.min.js" charset="utf-8"></script>
+
+<script>var _gglist = 'gssz.2.股市实战.3';</script>
+
+<script type="text/javascript" charset="UTF-8">
+    try {
+        var emtj_isUpload = 1;
+        var emtj_pageId = 117001300541;
+        var emtj_startTime = new Date().getTime();
+        var emtj_logSet = "1100000000";
+        var emtj_sampleRate = 100;
+    } catch (err) {       
+    }
+</script>
+<script type="text/javascript" src="https://bdstatics.eastmoney.com/web/prd/jump_tracker.js" charset="UTF-8"></script>
+
+    
+    <!-- footer-2016 -->
+<style>
+    .footer2016 ul {list-style: none;margin: 0;padding: 0;}
+    .footer2016 a:hover{color:#ff4901 !important;text-decoration: underline !important;}
+    .footer2016 .icon, .footer2016 .navlist li a {display: inline-block;}
+    .footer2016 .icon {background-image: url(https://g1.dfcfw.com/g3/201802/20180206095814.png);background-repeat: no-repeat;}
+    .footer2016 {margin: 0 auto;clear: both;width: 1000px;line-height: 1.1;_line-height: 1.2;font-family: simsun;font-size: 12px;border-top: 2px solid #2F5895;}
+    .footer2016 .footertg {background-color: #F3F3F3;float: left;width: 100%;padding: 12px 0 0;height: 140px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qr {float: left;width: 80px;height: 140px;line-height: 150%;padding: 0 10px 0 8px;}
+    .footer2016 .qr .t {font-weight: 700;font-size: 14px;padding-bottom: 10px;}
+    .footer2016 .icon_qrem80, .footer2016 .icon_qrjj80 {background-image: url(https://g1.dfcfw.com/g2/201607/20160728133707.png);width: 80px;height: 80px;}
+    .footer2016 .icon_qrem80 {background-position: 0 -330px;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {background-image: url(https://g1.dfcfw.com/g2/201607/20160728133707.png);width: 86px;height: 106px;}
+    .footer2016 .icon_emwxqr {background-position: -90px 0;}
+    .footer2016 .ftglist ul li.qrli {position: relative;}
+    .footer2016 .ftglist ul li.qrli:hover .icon_qr, .footer2016 .scl-news .name a {display: block;}
+    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {display: none;position: absolute;left: 0;top: 24px;}
+    .footer2016 .ftglist {float: left;height: 140px;padding: 0px 10px;}
+    .footer2016 .ftglistt {font-size: 14px;font-weight: 700;line-height: 130%;padding-bottom: 6px;text-align: left;}
+    .footer2016 .ftglist ul li {padding: 5px 0;color: #676767;text-align: left;}
+    .footer2016 .icon_wb {background-position: -24px 0;width: 14px;height: 12px;}
+    .footer2016 .icon_wx {background-position: 0 0;width: 14px;height: 11px;}
+    .footer2016 .icon_note {background-position: -47px 0;width: 13px;height: 11px;}
+    .footer2016 .ftglist .icon {vertical-align: -1px;margin-right: 2px;}
+    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
+    .footer2016 .qrl {border-left: 1px solid #ddd;margin-left: 10px;padding-left: 20px;}
+    .footer2016 .icon_qrjj80 {background-position: -90px -330px;}
+    .footer2016 .footercr {clear: both;text-align: center;line-height: 26px;font-size: 12px;width:1000px;margin: 0 auto;height:26px;overflow:hidden;}
+    .footer2016 .icon_icp {background-position: -24px -21px;width: 15px;height: 17px;}
+    .footer2016 .footercr .icon {vertical-align: -3px;margin-right: 2px;}
+    .footer2016 .icon_pol {background-position: 0 -22px;width: 18px;height: 20px;}
+    .footer2016 .footerlinks {background-color: #2F5895;height: 30px;text-align: center;line-height: 30px;}
+    .footer2016 .footerlinks a:link, .footer2016 .footerlinks a:visited, .footer2016 .footerlinks a:hover {color: #fff !important;text-decoration: none;margin: 0 14px;}
+    .footer2016 .footerbz {text-align: center;padding: 12px 0;}
+    .footer2016 .footerbz a {margin: 0 4px;}
+    .footer2016 .footer-police {background-position: 0 -112px;width: 110px;height: 40px;}
+    .footer2016 .footer-zx110 {background-position: -120px -113px;width: 110px;height: 40px;}
+    .footer2016 .footer-shjubao {background-position: 0 -172px;width: 110px;height: 40px;}
+    .footer2016 .footer-cxzx {background-position: -120px -174px;width: 40px;height: 40px;}
+    .footer2016 .footer-shgs {background-position: -180px -174px;width: 47px;height: 40px;}
+    .footer2016 .footer-12377 {background-position: 0 -54px;width: 186px;height: 40px;}
+    .footer2016 .footer-yhjb {background-position: 0 -229px;width: 123px;height: 40px;}
+    .footer2016 .footer-qrlast {width: 90px;}
+    .footer2016 .footer-icon-qihuoqr { background: url(https://emcharts.dfcfw.com/images/qihuoqr.png);width: 80px;height: 80px;display: inline-block;background-repeat: no-repeat;vertical-align: -5px;}
+</style>
+
+<div class="footer2016">
+    <div class="footertg">
+        <div class="qr">
+            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富</a></div>
+            <a href="http://acttg.eastmoney.com/pub/web_app_dcsy_2wm_01_01_01_0" target="_blank"><em class="icon icon_qrem80"></em></a><br />扫一扫下载APP
+        </div>
+
+        <div class="ftglist">
+            <div class="ftglistt">东方财富产品</div>
+            <ul>
+                <li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfwmfb_01_01_01_0" target="_blank">东方财富免费版</a></li>
+                <li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfwl2_01_01_01_0" target="_blank">东方财富Level-2</a></li>
+                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=1483" target="_blank">投资大师</a></li>
+                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=2749" target="_blank">Choice金融终端</a></li>
+                <li style="display: none;"><a href="http://www.langke.com/" target="_blank">浪客 - 财经视频</a></li>
+            </ul>
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">证券交易</div>
+            <ul>
+                <li><a href="http://gpkh.eastmoney.com/310100" target="_blank">东方财富证券开户</a></li>
+                <li><a href="https://jy.xzsec.com/Trade/Buy" target="_blank">东方财富在线交易</a></li>
+				<li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfzqjy_01_01_01_0"  target="_blank">东方财富证券交易</a></li>
+                <li><a href="http://www.emsec.hk/3m-Account.html" target="_blank">港美股开户</a></li>
+                <li><a href="https://jy.xzsec.com/?mode=hk" target="_blank">港美股交易 </a></li>
+            </ul>
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">关注东方财富</div>
+            <ul>
+                <li><a href="http://weibo.com/dfcfw" target="_blank"><em class="icon icon_wb"></em>东方财富网微博</a></li>
+                <li class="qrli"><a href="javascript:;" target="_self"><em class="icon icon_wx"></em>东方财富网微信</a><em class="icon icon_qr icon_emwxqr"></em></li>
+                <li><a href="http://corp.eastmoney.com/Lianxi_liuyan.asp" target="_blank"><em class="icon icon_note"></em>意见与建议</a></li>
+            </ul>
+        </div>
+        <div class="qr qrl">
+            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_ttjjsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">天天基金</a></div>
+            <a href="http://js1.eastmoney.com/tg.aspx?ID=4672" target="_blank"><em class="icon icon_qrjj80"></em></a><br />扫一扫下载APP
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">基金交易</div>
+            <ul>
+                <li><a href="https://trade6.1234567.com.cn/reg/step1" target="_blank">基金开户</a></li>
+                <li><a href="https://trade.1234567.com.cn/login" target="_blank">基金交易</a></li>
+                <li><a href="http://huoqibao.1234567.com.cn/" target="_blank">活期宝</a></li>
+                <li><a href="http://fund.eastmoney.com/trade/default.html" target="_blank">基金产品</a></li>
+                <li><a href="http://fund.eastmoney.com/gslc/" target="_blank">稳健理财</a></li>
+            </ul>
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">关注天天基金</div>
+            <ul>
+                <li><a href="http://weibo.com/ttfund" target="_blank"><em class="icon icon_wb"></em>天天基金网微博</a></li>
+                <li class="qrli"><a href="javascript:;" target="_self"><em class="icon icon_wx"></em>天天基金网微信<em class="icon icon_qr icon_jjwxqr"></em></a></li>
+            </ul>
+        </div>
+        <div class="qr qrl footer-qrlast">
+            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfqhsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富期货</a></div>
+            <a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibudfcfqh_01_01_01_1" target="_blank"><em class="footer-icon-qihuoqr"></em></a><br>扫一扫下载APP
+        </div>
+        <div class="ftglist">
+            <div class="ftglistt">期货交易</div>
+            <ul>
+                <li><a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibuqhsjkh_01_01_01_1" target="_blank">期货手机开户</a></li>
+                <li><a href="https://acttg.eastmoney.com/pub/web_kh_dcsy_dibudnkh_01_01_01_1" target="_blank">期货电脑开户</a></li>
+                <li><a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibuqhgfwz_01_01_01_1" target="_blank">期货官方网站</a></li>
             </ul>
         </div>
     </div>
-    <div class="ap apRecommend">
-        <div class="apt">
-            <h4>热门文章</h4>
-
-            <p class="entit"><span>HOT ARTICLE</span></p>
+        <div class="footercr" style="padding-top:8px;">信息网络传播视听节目许可证：0908328号 经营证券期货业务许可证编号：913101046312860336 违法和不良信息举报:021-34289898 举报邮箱：<a target="_self" href="mailto:jubao@eastmoney.com">jubao@eastmoney.com</a></div>
+        <div class="footercr" style="padding-bottom:8px;">
+            <em class="icon icon_icp"></em>沪ICP证:沪B2-20070217 <a target="_blank" rel="nofollow" href="http://shcainfo.miitbeian.gov.cn" style="color: #3F3F3F;text-decoration:none;">网站备案号:沪ICP备05006054号-11 </a> <a target="_blank" rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000120" target="_blank" style="color: #3F3F3F;text-decoration:none;"><em class="icon icon_pol"></em>沪公网安备 31010402000120号</a> 版权所有:东方财富网 意见与建议:021-54509966/021-24099099
         </div>
-        <div class="apc">
-            <ul class="ulist">
-			<li>
-                    <span class="num top3">1</span>
-                    <a href="http://www.hiwuhan.net/shishi/658769.html" title="充气蹦蹦床被卷上天2死20伤 游乐设施咋成了伤人">充气蹦蹦床被卷上天2死20伤 游乐设施咋成了伤人</a>
-                    <span class="tm">04-07</span>
-                </li>
-<li>
-                    <span class="num top3">2</span>
-                    <a href="http://www.hiwuhan.net/shishi/659033.html" title="电子烟再遭打击！FDA声明：电子烟或能诱发癫痫">电子烟再遭打击！FDA声明：电子烟或能诱发癫痫</a>
-                    <span class="tm">04-07</span>
-                </li>
-<li>
-                    <span class="num top3">3</span>
-                    <a href="http://www.hiwuhan.net/shishi/659863.html" title="郑州华章剑桥外语高价培训 承诺考高分上名校落了">郑州华章剑桥外语高价培训 承诺考高分上名校落了</a>
-                    <span class="tm">04-07</span>
-                </li>
-<li>
-                    <span class="num top3">4</span>
-                    <a href="http://www.hiwuhan.net/shishi/669681.html" title="罚450元，扣5分，拘留！祸害郑州陇海高架的渣土">罚450元，扣5分，拘留！祸害郑州陇海高架的渣土</a>
-                    <span class="tm">05-11</span>
-                </li>
-<li>
-                    <span class="num top3">5</span>
-                    <a href="http://www.hiwuhan.net/shishi/670901.html" title="江西萍乡这位女司机真是惹不起！无证驾驶 躺地撒">江西萍乡这位女司机真是惹不起！无证驾驶 躺地撒</a>
-                    <span class="tm">05-16</span>
-                </li>
-<li>
-                    <span class="num top3">6</span>
-                    <a href="http://www.hiwuhan.net/shishi/673522.html" title="长春八旬老人公交车上犯糊涂 22路驾驶员为其联系">长春八旬老人公交车上犯糊涂 22路驾驶员为其联系</a>
-                    <span class="tm">05-21</span>
-                </li>
-<li>
-                    <span class="num top3">7</span>
-                    <a href="http://www.hiwuhan.net/shishi/674760.html" title="<strong>湘潭市区老年公寓 湘潭普亲养老院</strong>"><strong>湘潭市区老年公寓 湘潭普亲养老院</strong></a>
-                    <span class="tm">05-23</span>
-                </li>
-<li>
-                    <span class="num top3">8</span>
-                    <a href="http://www.hiwuhan.net/shishi/674762.html" title="河北保定一居民家四个月欠水费6000多 上千吨的水">河北保定一居民家四个月欠水费6000多 上千吨的水</a>
-                    <span class="tm">05-23</span>
-                </li>
-<li>
-                    <span class="num top3">9</span>
-                    <a href="http://www.hiwuhan.net/shishi/675288.html" title="<strong>禁止朋友圈分销 热衷微信营销的教培机构怎么办</strong>"><strong>禁止朋友圈分销 热衷微信营销的教培机构怎么办</strong></a>
-                    <span class="tm">05-24</span>
-                </li>
-<li>
-                    <span class="num top3">10</span>
-                    <a href="http://www.hiwuhan.net/shishi/675757.html" title="广东江门台山女子持水管当街将3岁幼童暴打至倒地">广东江门台山女子持水管当街将3岁幼童暴打至倒地</a>
-                    <span class="tm">05-25</span>
-                </li>
-
-            </ul>
-        </div>
+    <div class="footerlinks">
+			<a href="http://about.eastmoney.com" target="_blank" rel="nofollow">关于我们</a>
+			<a href="http://emhd2.eastmoney.com/market" target="_blank" rel="nofollow">广告服务</a>
+			<a href="http://about.eastmoney.com/home/contact" target="_blank" rel="nofollow">联系我们</a>
+			<a href="http://eastmoney.zhiye.com" target="_blank" rel="nofollow">诚聘英才</a>
+			<a href="http://about.eastmoney.com/home/disclaimer" target="_blank" rel="nofollow">免责声明</a>
+			<a href="http://about.eastmoney.com/home/legal" target="_blank" rel="nofollow">法律声明</a>
+            <a href="http://about.eastmoney.com/home/conceal" target="_blank" rel="nofollow">隐私保护</a>
+			<a href="http://about.eastmoney.com/home/parper" target="_blank" rel="nofollow">征稿启事</a>
+			<a href="http://www.eastmoney.com/sitemap.html" target="_blank">网站地图</a>
+			<a href="http://www.zx110.org/cxs/index.html" target="_blank" rel="nofollow">放心搜</a>
+			<a href="http://about.eastmoney.com/home/links" target="_blank" rel="nofollow">友情链接</a>
     </div>
+    <div class="footerbz">
+        <img src="https://g1.dfcfw.com/g3/201905/20190531140719.png" title="亲爱的市民朋友，上海警方反诈劝阻电
+话“962110”系专门针对避免您财产被
+骗受损而设，请您一旦收到来电，立即
+接听。" style="vertical-align: bottom;">
+        <a rel="nofollow" href="http://www.cyberpolice.cn/" class="icon footer-police" title="上海网警网络110" target="_blank"></a>
+        <a rel="nofollow" href="http://www.zx110.org/" class="icon footer-zx110" title="网络社会征信网" target="_blank"></a>
+        <a rel="nofollow" href="http://www.shjbzx.cn/" class="icon footer-shjubao" title="上海违法和违规信息举报中心" target="_blank"></a>
+        <a rel="nofollow" href="http://www.51315.cn/company_details_1138" class="icon footer-cxzx" title="诚信在线" target="_blank"></a>
+        <a rel="nofollow" href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=dov73ne2cwgd88longlpxsn0hcrfn5m2aa" class="icon footer-shgs" title="上海工商" target="_blank"></a>
+        <a rel="nofollow" href="http://www.12377.cn" class="icon footer-12377" title="中国互联网违法和不良信息举报中心" target="_blank"></a>
+        <a rel="nofollow" href="http://report.12377.cn:13225/toreportinputNormal_anis.do" class="icon footer-yhjb" title="上海市互联网违法和不良信息举报中心" target="_blank"></a>
+	</div>
 </div>
-</div>
-</div>
-<div id="Footer">
-    <p class="top-nav">
-        <span style="color: #000">友情链接：</span>
-        
-        
-    </p>
 
-    <p class="site-info">
-        <i></i>
-        <span></a></span>
-    </p>
-</div>
-</div>
-<div class="mod-sidebar">
-    <ul class="menu">
-        <li class="item">
-            <a href="/">首页</a>
-        </li>
-        <li class="item">
-            <a href="http://www.hiwuhan.net/jiancai/">建材</a>
-        </li><li class="item">
-            <a href="http://www.hiwuhan.net/housenews/">房产</a>
-        </li><li class="item">
-            <a href="http://www.hiwuhan.net/photos/">图片</a>
-        </li><li class="item">
-            <a href="http://www.hiwuhan.net/shichang/">市场</a>
-        </li> 
-        <li class="logo"><a href="/"><img src="/skin/images/baidu_logo.png" height="26px" alt="blogo"></a>
-        </li>
-    </ul>
-</div>
-<script type="text/javascript" src="/skin/js/mod.js"></script>
-<script type="text/javascript" src="/skin/js/jquery-1.10.1.js"></script>
-<script type="text/javascript" src="/skin/js/aio.js"></script>
-<script type="text/javascript" src="/skin/js/mod_page.js"></script>
-<script type="text/javascript" src="/skin/js/ap_ulist.js"></script>
-<script type="text/javascript" src="/skin/js/header.js"></script>
-<script type="text/javascript" src="/skin/js/cover.js"></script>
-<script type="text/javascript" src="/skin/js/iscroll.js"></script>
-<script type="text/javascript" src="/skin/js/velocity.js"></script>
-<script type="text/javascript" src="/skin/js/lessimgindex.js"></script>
-<script type="text/javascript" src="/skin/js/mod_sidebar.js"></script>
+<script>
+    if(document.all && !window.XMLHttpRequest){
+        $(".qrli").hover(function(){
+            $(".icon_qr",this).show();
+        },function(){
+            $(".icon_qr",this).hide();
+        });
+    }
+</script>
 </body>
 </html>
+
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.
