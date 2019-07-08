@@ -43,7 +43,7 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
-	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：\s\f“]*([\w` + "\u4e00-\u9fa5" + `]{2,50}|(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])`)
+	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自)于?[\:：\s\f][“]*([\w` + "\u4e00-\u9fa5" + `]{2,50}|(https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])`)
 )
 
 // Constants that used by readability.
@@ -1130,6 +1130,7 @@ func (ps *Parser) FilterSourceName(text string) string {
 	if len(allStringResult) == 0 {
 		return ""
 	}
+	fmt.Println(allStringResult)
 	var cleanSource string
 	var result []string
 	for _, restl := range allStringResult {

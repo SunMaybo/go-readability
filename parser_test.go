@@ -47,126 +47,482 @@ var content = `
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>张昭卸任乐创文娱CEO 孙宏斌长子孙喆一接棒_蜘蛛资讯网</title>
-<meta name="keywords" content="新报跑狗图今期跑狗图,香港正版赌经侠诗,香港创富合数单双,四海图库彩色印刷区" />
-<meta name="description" content="淮安蜘蛛资讯网为广大玩家提供最新、最全、最具特色的淮安蜘蛛资讯，同时还有各种八卦奇闻趣事。看蜘蛛资讯，就来淮安蜘蛛资讯网！" />
-<link href="http://img.alizhizhuchi.com/templates/moban31/css/index.css" type="text/css" rel="stylesheet" />
-<style>#_con{line-height: 30px;font-size:14px;}#_con img{max-width:100%;}</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>“水氢发动机”下  地方招商引资痛点何在_中国科技网</title>
+<meta name="keywords" content="招商引资,企业,招商" />
+<meta name="description" content="  近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市" />
+<link href="/96kaifa/css/basic.css" type="text/css" rel="stylesheet" />
+<script src="/96kaifa/js/jquery.js" type="text/javascript"></script>
+<script src="/96kaifa/js/common.js" type="text/javascript"></script>
+<script src="/96kaifa/js/banner.js" type="text/javascript"></script>
+<script src="/96kaifa/js/article.js" type="text/javascript"></script>
+<script type="text/javascript">
+    (function(){var ua=navigator.userAgent.toLowerCase();var bIsIpad=ua.match(/ipad/i)=="ipad";var bIsIphoneOs=ua.match(/iphone os/i)=="iphone os";var bIsAndroid=ua.match(/android/i)=="android";var bIsWM=ua.match(/windows mobile/i)=="windows mobile";if(bIsIpad||bIsIphoneOs||bIsAndroid||bIsWM){window.location.href="http://m.lztsh.com/news/cjpl/36709.html"}})();
+</script>
 </head>
 <body>
-<div class="top_heard">
-    <div class="tip"><img src="/static/logo.jpg" alt="蜘蛛资讯网" title="蜘蛛资讯网" /></div>
-	<div class="top_right"></div>
+<!--头部-->
+<script src="/96kaifa/js/jquery.js" type="text/javascript"></script>
+<div class="h_infoNav">
+  <div class="h_masthead">
+    <p><span class="cRed">搜集最新资讯！索引互联网信息！</span></p>
+    <div class="h_set"> <span class="cGray">
+      <div class="toplinks"><a href="/e/member/login/">登录</a>&#160;<a href="/e/member/register/index.php?groupid=1&button">注册</a>&#160; <span><a href="/shijian/" title="事件记录">事件记录</a></span></div>
+    </div>
+  </div>
 </div>
-<div class="menu">
-  <ul>
-    <li><a href="/">首页</a></li>
-
-      <LI><a href="http://www.mojbuy.com/9ih/" title="国内" >国内</a></LI>
-
-      <LI><a href="http://qklvpks.bkhmx.com/ehh7s69p/" title="国际" >国际</a></LI>
-
-      <LI><a href="http://pjwuoq87.gctcd.com/qhbgjdtc5/" title="军事" >军事</a></LI>
-
-      <LI><a href="http://www.mojbuy.com/5dp/" title="财经" >财经</a></LI>
-
-      <LI><a href="http://bn23igw5f.tbcdx.com/1037ri/" title="房产" >房产</a></LI>
-
-      <LI><a href="http://siy.xtyzg.com/gei9w/" title="汽车" >汽车</a></LI>
-
-      <LI><a href="http://www.mojbuy.com/iewcdy/" title="体育" >体育</a></LI>
-
-      <LI><a href="http://9may7zy7u.zfyfh.com/ic7dyktv/" title="娱乐" >娱乐</a></LI>
-
-      <LI><a href="http://9x49wsya.tbxwz.com/pu2k2xr6/" title="教育" >教育</a></LI>
-
-      <LI><a href="http://www.mojbuy.com/20mek7/" title="科技" >科技</a></LI>
-
-      <LI><a href="http://u3k00co.xtxxm.com/9hvjz3/" title="社会" >社会</a></LI>
+<!--logo-->
+<div class="h_logo">
+  <div class="thelogo"> <a href="/" title="中国科技网"><img src="/96kaifa/images/logo.png" alt="中国科技网"/></a>
+  </div>
+  <div class="search">
+    <form name="form1" method="post" action="/e/search/" target="_blank">
+      <dl>
+        <dd class="search-ico"></dd>
+        <dd class="search-input">
+          <input type="text" name="keyboard"  id="bdcsMain" value="请输入搜索内容" autocomplete="off" onfocus="if(this.value=='请输入搜索内容'){this.value=''}" onblur="if(this.value==''){this.value='请输入搜索内容'}">
+        </dd>
+      </dl>
+      <a type="submit"><img src="/96kaifa/images/btn-search.gif" alt="搜索" style="width:73px;height:40px;"></a>
+	  <div style="display:none">
+	   <input type="hidden" value="title" name="show"></input>
+	   <input type="hidden" name="tbname" value="news">
+	   <input type="hidden" name="tempid" value="1">
+	  </div>
+    </form>
+  </div>
+</div>
+<!--导航-->
+<div id="menu">
+  <ul id="nav">
+    <li class="mainlevel thisclass" style="background:none"> <a href="/" title="中国科技网">首页</a> </li>
+    <li class="mainlevel" id="mainlevel_01"><a href="/news/" >经济新闻</a>
+      <ul id="sub_01" style="display: none;">
+        <li><a href="/news/zhongguo/">国内资讯</a></li>
+        <li><a href="/news/guoji/">国际资讯</a></li>
+        <li><a href="/news/cjpl/">专家评论</a></li>
+        <li><a href="/news/jinrong/">金融曝光</a></li>
+      </ul>
+    </li>
+    <li class="mainlevel" id="mainlevel_02"><a href="/finance/" >财经资讯</a>
+      <ul id="sub_02" style="display: none;">
+        <li><a href="/finance/jrcj/"> 今日财经</a></li>
+        <li><a href="/finance/cjpl/">财经评论</a></li>
+        <li><a href="/finance/gszj/">股市证券</a></li>
+        <li><a href="/finance/cjbt/">财经曝光</a></li>
+      </ul>
+    </li>
+    <li class="mainlevel" id="mainlevel_03"><a href="/qiye/" >产业资讯</a>
+      <ul id="sub_03" style="display: none;">
+        <li><a href="/qiye/qydt/"> 企业动态</a></li>
+        <li><a href="/qiye/cyjj/">产业经济</a></li>
+        <li><a href="/qiye/cybg/">产业曝光</a></li>
+        <li><a href="/qiye/qybg/">企业曝光</a></li>
+      </ul>
+    </li>
+    <li class="mainlevel" id="mainlevel_03"><a href="/P2P/" >网贷资讯</a>
+      <ul id="sub_03" style="display: none;">
+        <li><a href="/P2P/wdxw/">网贷新闻</a></li>
+        <li><a href="/P2P/ptdt/">平台动态</a></li>
+        <li><a href="/P2P/zhouchaolishi/">行业观点</a></li>
+        <li><a href="/P2P/minguolishi/">事件档案</a></li>
+        <li><a href="/P2P/shijielishi/">考察评测</a></li>
+        <li><a href="/P2P/wdbg/">网贷曝光</a></li>
+      </ul>
+    </li>    <li class="mainlevel" id="mainlevel_03"><a href="/hulianwang/" >IT资讯</a>
+      <ul id="sub_03" style="display: none;">
+        <li><a href="/hulianwang/itxw/">IT新闻</a></li>
+        <li><a href="/hulianwang/itrz/">IT融资</a></li>
+        <li><a href="/hulianwang/wzbg/">网站曝光</a></li>
+      </ul>
+    </li>
+    <li class="mainlevel" id="mainlevel_05"><a href="/yule/" >娱乐新闻</a>
+      <ul id="sub_05" style="display: none;">
+        <li><a href="/yule/dianshi/">电视新闻</a></li>
+        <li><a href="/yule/dianying/">电影新闻</a></li>
+        <li><a href="/yule/zongyi/">综艺新闻</a></li>
+        <li><a href="/yule/bagua/">娱乐八卦</a></li>
+      </ul>
+    </li>
+    <li class="mainlevel" id="mainlevel_05"><a href="/jiankang/" >行业资讯</a>
+      <ul id="sub_05" style="display: none;">
+        <li><a href="/jiankang/jkbj/">消费资讯</a></li>
+        <li><a href="/jiankang/aqls/">食品健康</a></li>
+        <li><a href="/jiankang/yaopin/">医疗药品</a></li>
+        <li><a href="/jiankang/ypbg/">315曝光</a></li>
     
+      </ul>
+    </li>
+    <div class="clear"></div>
   </ul>
 </div>
-<div class="menu_active">
-    <div>蜘蛛资讯网最近更新：<a href="http://5xz5.ymyyk.com/9ccahjyuy/15933-33653-54336.html">国家卫生委员会：西藏自治区人均预期寿命提高到70.6岁</a>&nbsp;&nbsp;
-        <a href="http://qznei9cd.zfjcx.com/6k0/34735-57095-51037.html">iOS 13 设计指南：深色模式篇</a>&nbsp;&nbsp;
-        <a href="http://www.mojbuy.com/vyp/45155-56218-23674.html">06月18日上海金交所iAu99.99价格298.90</a>&nbsp;&nbsp;
-        <a href="http://z69.kjey.top/28nieue57/20402-62764-70890.html">经济日报：放心吧！猪肉供应得到充分保证</a>&nbsp;&nbsp;
-        <a href="http://sdc8qenbv.kjmi.top/m1trpxsug/9782-22389-43515.html">工业互联网红利：3200多万企业将拥有自己的智能应用程序</a>&nbsp;&nbsp;
-    </div>
-</div>
+<!--logo-->
+<div class="main">
+  <div class="postion">您当前位置：<a href="/">首页</a>&nbsp;>&nbsp;<a href="/news/">经济资讯</a>&nbsp;>&nbsp;<a href="/news/cjpl/">专家评论</a> > “水氢发动机”下  地方招商引资痛点何在</div>
+  <div class="wraper">
+    <div class="box_left">
+      <div class="art_top"><h1>“水氢发动机”下  地方招商引资痛点何在</h1></div>
 
-<div id="list">
-  <div class="list_l">
-    <div class="zhaopin fram">
-        <div class="tit">
-            <h2><a href="http://c8xm0hn.kjuf.top/8pav/">蜘蛛资讯网最新文章</a></h2>
-        </div>
-        <div class="zhaopin_list cont">
-            <a href="http://oet.kjed.top/i106f/26902-52622-73619.html" title="为什么不推荐用勺子吃西瓜？原因在于你的摄入量。">&middot;为什么不推荐用勺子吃西瓜？原因在于你的摄入量。</a>
-            <a href="http://b0gl0.kjop.top/t816/12112-16174-73529.html" title="俄罗斯媒体：四名在美国被捕的“反政变人士”因害怕面临长达一年的监禁而获释。">&middot;俄罗斯媒体：四名在美国被捕的“反政变人士”因害怕面临长达一年的监禁而获释。</a>
-            <a href="http://hhq.kjknx.top/ge22/1015-74175-12569.html" title="8.9不同的电影，现实生活改编：12岁的男孩起诉他的父母，“因为他们生了我。”">&middot;8.9不同的电影，现实生活改编：12岁的男孩起诉他的父母，“因为他们生了我。”</a>
-            <a href="http://www.mojbuy.com/hf59dr/44175-55459-12076.html" title="应王毅邀请 荷兰外交大臣布洛克将访华">&middot;应王毅邀请 荷兰外交大臣布洛克将访华</a>
-            <a href="http://oykhk2.lhccq.top/n5jnz152c/38451-65222-68395.html" title="原高管被查+不良高企 富滇银行风控受考">&middot;原高管被查+不良高企 富滇银行风控受考</a>
-            <a href="http://m0hy6e.kjjpw.top/yei/56309-62679-42993.html" title="“崩盘危机”将重现？外界担忧这个国家成目标">&middot;“崩盘危机”将重现？外界担忧这个国家成目标</a>
-            <a href="http://www.mojbuy.com/105cpucn/58101-70564-84999.html" title="重磅！大湾区可享受颁布的《万元年薪政府补助30万税》规定。">&middot;重磅！大湾区可享受颁布的《万元年薪政府补助30万税》规定。</a>
-            <a href="http://8ck9.kjwo.top/npaj/2650-46044-45951.html" title="海滨精品酒店荣获2018年第二届GXA-良好体验奖">&middot;海滨精品酒店荣获2018年第二届GXA-良好体验奖</a>
-            <a href="http://yizsgo.kjjln.top/hdeyy82j9/33451-40008-10633.html" title="不是个例！深圳高空坠落，砸中小男孩——这样的悲剧，该如何避免">&middot;不是个例！深圳高空坠落，砸中小男孩——这样的悲剧，该如何避免</a>
-            <a href="http://www.mojbuy.com/kfauaa/38690-58814-39405.html" title="山东证监局原局长徐铁被查 曾任发行监管部副主任">&middot;山东证监局原局长徐铁被查 曾任发行监管部副主任</a>
-            <a href="http://1lzkyc.kjah.top/83n9/24320-29523-98288.html" title="中国证监会除尘处罚*ST中安">&middot;中国证监会除尘处罚*ST中安</a>
-            <a href="http://lmlqr9i.kjcnt.top/htc/36983-71379-72767.html" title="鹏博士(600804.SH)拟向讯通联盈增资3亿元">&middot;鹏博士(600804.SH)拟向讯通联盈增资3亿元</a>
-        </div>
-    </div>
-    <div class="clear"></div>
-    <div class="zhaopin fram">
-        <div class="tit">
-            <h2><a href="http://6vsdzm.kjgfy.top/9i8x5drk/">蜘蛛资讯网热门文章</a></h2></div>
-        <div class="xinwen_list cont">
-            <ul>
-                <li><a href="http://8yn1o.lhcgh.top/lmz6c6wyt/898-36110-39664.html" title="短池世锦赛4x100混傅园慧率队摘银 徐嘉余200仰仅第六_体育" >短池世锦赛4x100混傅园慧率队摘银 徐嘉余200仰仅第六_体育</a><span>06-24</span></li>
-                <li><a href="http://x9ca.lhcjk.top/yt1/22891-57082-55199.html" title="对退市的强力监管触发了ST行业的风格转变" >对退市的强力监管触发了ST行业的风格转变</a><span>06-26</span></li>
-                <li><a href="http://www.mojbuy.com/c78v/35883-54686-80013.html" title="中国政企数字化联盟成立大会暨北京部委央企及大型企业CIO大会即将召开" >中国政企数字化联盟成立大会暨北京部委央企及大型企业CIO大会即将召开</a><span>06-27</span></li>
-                <li><a href="http://www.mojbuy.com/sth665j93/20859-51441-52352.html" title="卷取卷取卷几何" >卷取卷取卷几何</a><span>06-24</span></li>
-                <li><a href="http://5dqhqpjvt.lhcjy.top/3cp3w7/5489-49011-27713.html" title="真正的大盗车" >真正的大盗车</a><span>06-25</span></li>
-                <li><a href="http://ik9.lhcnf.top/rkflhp/7235-18639-52735.html" title="DNF Grunt Stew策略摘要综合公式/可用奖励列表" >DNF Grunt Stew策略摘要综合公式/可用奖励列表</a><span>06-24</span></li>
-                <li><a href="http://qzruy.lhcqm.top/nwb6s/11161-65602-84132.html" title="公告选择：长营精密布局氢燃料电池金属极板江苏索普重组失败" >公告选择：长营精密布局氢燃料电池金属极板江苏索普重组失败</a><span>06-30</span></li>
-                <li><a href="http://s1c.mhbhy.top/30io3/37047-71454-44520.html" title="科创板来袭 新三板路在何方？" >科创板来袭 新三板路在何方？</a><span>06-24</span></li>
-                <li><a href="http://k5kspxat6.mhdkc.top/skicax/23474-33508-87969.html" title="美国股市暴跌，美国政界人士正将美国经济推入“衰退”的深渊。" >美国股市暴跌，美国政界人士正将美国经济推入“衰退”的深渊。</a><span>06-30</span></li>
-                <li><a href="http://vtp.mhdpm.top/jejy9zn/28226-64193-54927.html" title="乔新迈的海军被捕了？娱乐圈浪漫炒作的运作是666。" >乔新迈的海军被捕了？娱乐圈浪漫炒作的运作是666。</a><span>06-29</span></li>
-                <li><a href="http://pbn.mheg.top/e5i5aqlz/68688-73244-53784.html" title="超3亿“黑财”被查封冻结扣押" >超3亿“黑财”被查封冻结扣押</a><span>06-30</span></li>
-            </ul>
-        </div>
-    </div>
-  </div>
-  <div class="list_r fram">
-    <div class="tit">
-      <p>您当前的位置：<a href="http://8lkvp.mhfgd.top/q8fh3ztmx/">主页</a> > <a href="http://t89m1.mhic.top/46qy9/">蜘蛛资讯网国内</a> >
-      <p>
-    </div>
-    <div class="body cont">
-      <div class="body_tit">
-        <p>作者：建王密建  来源：原创   发布日期：06-29</p>
+      <div class="art_ext"> <span>时间：2019-06-01</span> <span>作者：佚名</span> <span>浏览：
+        <script src="/e/public/ViewClick/?classid=5&id=36709&addclick=1"></script>
+        </span>
       </div>
-		<div class="con">
-			<div id="_con"><h1 style="text-align:center">www00676金光佛论坛</h1><h2>张昭卸任乐创文娱CEO 孙宏斌长子孙喆一接棒</h2><p><p>&nbsp;&nbsp;&nbsp;&nbsp;<div><p>　　张昭卸任乐创文娱CEO，孙宏斌长子孙喆一接棒 | 钛快讯</p><p>　　钛媒体快讯 | 6月24日消息：乐创文娱官方微博发布了原董事长、CEO张昭的辞任公告，宣布张昭因个人原因卸任乐创文娱相关职位。融创文化集团总裁孙喆一将接任乐创文CEO一职，而孙喆一正是融创中国董事长孙宏斌的长子。目前，张昭与孙喆一已完成相关工作交接。 </p><p>　　资料显示，张昭于2003年加盟<span id="stock_sz300251">光线传媒</span><span id="quote_sz300251"></span>，2006年创立光线影业，2011年离开光线影业，创立乐视影业，任职CEO及执行董事。乐视影业先后拥有过张艺谋、徐克、陆川、郭敬明等多位签约导演。2014年，乐视影业获得B轮投资，投后估值48亿元，投资方包括孙俪、邓超、黄晓明、冯绍峰等多位明星。</p><p>　　乐视影业曾计划以98亿元估值注入<span id="stock_sz300104">乐视网</span><span id="quote_sz300104"></span>（维权）（1.690， 0.00， 0.00%），但随着乐视系的溃败，这一计划也以失败告终。2018年3月27日，原乐视影业董事长、CEO张昭发表内部信，宣布公司将更名为乐创文娱，融创占股40.75%，为第一大股东。而贾跃亭旗下乐视控股持有的16.3592%乐创文娱股份，将在未来逐步通过转让或拍卖方式剥离。此后，通过司法拍卖，乐视控股持有的乐创文娱股份也悉数卖出，乐创文娱与乐视系彻底剥离。</p><p>　　由于此前的视风波，一直由乐创文娱运作的《熊出没》，其第五部并没有让乐创文娱操作。而第六部《熊出没·原始时代》再次回到乐创文娱，其在2019年春节档收获7.14亿票房，这被认为是乐创文娱重回主流视野的重要作品。</p><p>　　而近期，乐创文娱出品的影片则是6月14日上映的《秦明·生死语者》，但这部影片并不成功，票房仅为2908.7万。</p><p>　　融创文化集团成立于2018年12月。2019年2月21日，融创中国官方发布消息，融创文化集团总裁一职由融创中国董事长孙宏斌的长子孙喆一担任。</p><p>　　东方影都融创影视产业园、乐创文娱与乐融致新是融创文化集团的三块核心业务，其中乐融致新的主要业务是原来的乐视电视。此前融创文化集团表示还将增设的新内容板块，共同完成文化集团的“内容+平台+实景”战略。</p><p>　　6月，融创文化集团再添新成员。在<span id="stock_sh601595">上海电影</span><span id="quote_sh601595"></span>节期间，融创文化集团宣布投资电影《解放了》《刺杀小说家》，全新内容厂牌“融创影视”就此浮出水面。</p><p>　　《刺杀小说家》的出品方信息显示，“融创影视”的实体公司为融创未来文化娱乐（北京）有限公司，成立于2019年4月10日，法定代表人为融创中国执行董事兼行政总裁汪孟德。</p><p>　　 ci sha xiao shuo jia de chu pin fang xin xi xian shi," rong chuang ying shi" de shi ti gong si wei rong chuang wei lai wen hua yu le bei jing you xian gong si, cheng li yu 2019 nian 4 yue 10 ri, fa ding dai biao ren wei rong chuang zhong guo zhi xing dong shi jian xing zheng zong cai wang meng de.</p><p>　　在融创文化集团官方微信的介绍中，“融创影视”被放在青岛东方影都融创影视产业园、乐融致新、乐创文娱等业务板块之前，可见对这一内容厂牌的重视。</p><p>　　此外，有媒体表示，卸任后的张昭已有新的创业计划，或为复星集团投资的一家影视公司。而在电影领域，复星集团比较大的动作是此前对博纳影视和好莱坞的Studio 8均有投资。</p><p>责任编辑：陈志杰 </p></div></p></p><p>当前文章：http://0q6f7dw.mojbuy.com/lko/61857-67117-17906.html</p><p>发布时间：07:47:17</p><p><a href='http://www.www-4227c.com' target='_blank'>宝马论坛管家婆四肖期期准中特网</a>&nbsp;&nbsp;<a href='http://www.bbkgolf.com' target='_blank'>www85777王中王资料</a>&nbsp;&nbsp;<a href='http://www.www200605.com' target='_blank'>www.950999.com</a>&nbsp;&nbsp;<a href='http://www.www-4394b.com' target='_blank'>静心阁高手论坛</a>&nbsp;&nbsp;<a href='http://www.www-281114.com' target='_blank'>香港马会资料大全</a>&nbsp;&nbsp;<a href='http://www.kj717.net' target='_blank'>www.kj717.com</a>&nbsp;&nbsp;<a href='http://www.www-614411.com' target='_blank'>王中王开奖记录</a>&nbsp;&nbsp;<a href='http://www.pt606.com' target='_blank'>香港白小姐一码中特料</a>&nbsp;&nbsp;<a href='http://www.cjgdj.com' target='_blank'>www.130355.com</a>&nbsp;&nbsp;<a href='http://www.www56012a.com' target='_blank'>港最快开奖现场2019结果</a>&nbsp;&nbsp; <br/></p><p><p style='font-size:16px;'>{相关文章}</p><h3>新时代文明实践站里的大忙人</h3><p><p>&nbsp;&nbsp;&nbsp;&nbsp;<p style="text-indent:2em;">见到李燕的时候，她正在北京市延庆区香水园街道恒安社区新时代文明实践站的活动大厅里组织社区的文艺队伍进行舞蹈排练。在人群<a href='http://g9j2rfcx7.mhmi.top/pmbemn061/'><em>六和彩生肖图_蜘蛛资讯网</em></a>中，李燕很显眼，一袭黑色的衣装，衬托她的皮肤更显白皙，声音洪亮，乌黑的短发让她看起来精神干练。今年是她在恒安社区工作的第五年，也是作为新时代文明实践站文明指导员的第二个年头。</p><p style="text-indent:2em;">2018年7月，恒安社区新时代文明实践站挂牌成立，同时，恒安社区新时代文明实践站四楼的一个面积80余平米冬奥世园展览馆也正式对外开放，李燕担起了新时代文明实践文明指导员的职责。2018年12月，四楼的世园冬奥展览馆挂牌新时代文明实践基地。李燕肩上的责任更重了，她不仅要负责基地平台的日常维护发布活动，同时还要接待参观人员。</p><p style="text-indent:2em;">“自从加入了‘点单派单’系统，我们展览馆接到了更多区内外的机构或兄弟单位的参观学习点单，在给他们的讲解过程中，对我个人来说其实也是一种进步和提升。”李燕说。</p><p style="text-indent:2em;">最多的时候，李燕一天接待过三组参观团队，一天讲解下来，她的嗓子嘶哑的说不出话，让她印象最深的一次是接待一个河北宣化的参观团，看了延庆区内各地的美丽景色，参观团中一名代表羡慕的对李燕说：“你们这儿的环境太好了，在延庆生活一定很幸福吧？”李燕先是一怔，随后心中不由得升起阵阵自豪。</p><p style="text-indent:2em;">除了日常的接待讲解外，新时代文明实践站的日常工作她也搞得有声有色。恒安社区新时代文明实践站成立以后，社区对实践站的组织机构进行了优化调整。下设政策宣传、文化体育、党课宣讲、安全教育、法律咨询等七项活动内容。李燕主要负责活动的组织和开展，以及<a href='http://yjib.mhvq.top/xjq/'><em>京港印刷图源_蜘蛛资讯网</em></a>了解民情民意根据实际情况在志愿服务平台进行点单，邀请区级各类志愿者为社区开展活动提供便利条件。</p><p style="text-indent:2em;">恒安社区里有一支舞蹈队，以前大家排练都是在广场或者随便挑个人少的地方就进行了，再加上没有专业的舞蹈老师进行指导，除了几个特别的舞蹈爱好者以外，队员流失严重。李燕得知了这一情况，主动找到舞蹈队的负责人宋芳珍，拉着她们来新时代文明实践基地进行<a href='http://qtbub.tbxwz.com/mz694f/'><em>大森林心水论谈_蜘蛛资讯网</em></a>排练，同时通过‘点单派单’平台，邀请了专业的舞蹈老师进行指导。</p><p style="text-indent:2em;">“现在咱们舞蹈队队员达到了二十余人，大家排练节目都很积极。我们的节目已经在区里很多文艺汇演上表演过了，这多亏了李燕的帮忙。”宋芳珍感激地说。</p><p style="text-indent:2em;">为社区群众提供娱<a href='http://www.mojbuy.com/nj9juftbc/'><em>宝马平特论坛_蜘蛛资讯网</em></a>乐平台的同时，在李燕的主持下，实践站还成立了七支志愿服务队伍，其中将原有的恒安社区“1+X”搭把手志愿服务队融入实践站，由原来的的50名志愿者发展到现在的300名，所有在职党员、共建单位、青少年、社区民警都成了服务队的一员，<a href='http://jqe5u8v.mhdkc.top/58gw9/'><em>2019全年跑狗玄机图_蜘蛛资讯网</em></a>针对社区失独老人、残疾人等弱势群体开展送温暖、送服务、送真情等系列活动。</p><p style="text-indent:2em;">83岁的沈秀芬是恒安社区的老党员，多年独身生活的她一直是李燕重点关照的对象。自从李燕到恒安社区工作起，她就成了沈秀芬家的常客。逢年过节、下雨下雪她都要带人过来看望沈秀芬。</p><p style="text-indent:2em;">“沈阿姨这些年来挺不容易的，即使没有这份儿责任，我也应该帮扶她一下！有些事儿对我们年轻人来说很容易，但是对他们上了年纪的人来说却很难。让他们能够过一个安心的晚年，这挺好的。”李燕说道。</p><p style="text-indent:2em;">因为临近“七一”，采访当天，李燕带着社区工作者又一次走进了沈秀芬家。老太太的屋子收拾的干净利落，见到李燕她们进来，她立马拿出水果招呼大家吃。李燕和沈秀芬聊了聊近来的身体状况，叮嘱她要注意身体，随后组织大家抢着帮沈秀芬又仔细打扫了一遍屋子。</p><p style="text-indent:2em;">“小李人不错，对我们这群老人家很好。现在咱们社区新时代文明实践站几支志愿服务队都帮助过我，我就是年纪大了，如果年轻一些，会跟他们一起做活动呢。”沈秀芬笑着说。</p><p style="text-indent:2em;">从沈秀芬家出来已经临近中午，而下午还有外省的<a href='http://7tt9o9n3.mhmi.top/o2s5/'><em>2019马经挂牌系列e_蜘蛛资讯网</em></a>参观团来基地学习，李燕匆匆巴拉了几口饭，便又忙活起讲解的事情。对于她来说这是工作的常态，忙起来常常顾不上家里。由于爱人在市区工作，孩子只能由她照顾，对于孩子，她满是亏欠。不过让她欣慰的是，儿子很懂事，对李燕的工作很支持。</p><p style="text-indent:2em;">“冬天的时候，有一次早上我室外执勤，当时天色还有些黑，我儿子非要跟我一起去。他说‘妈妈是大志愿者，我是小志愿者。’在学校，他也总是做一些帮助同学的事儿，可能潜移默化间，他受我的一些影响吧。”说起儿子李燕眼神里流露出慈爱。</p><p style="text-indent:2em;">现在，日常工作之余，李燕还做了一个计划：把恒安社区的新时代文明实践站的内容再丰富健全一些，让社区老百姓(603883)能获得更多的便利，让区内外来基地的参观团队能收获更多的经验。为此，她一直都在默默努力着。（通讯员 张宏民）</p></p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;			</p><p>&nbsp;&nbsp;&nbsp;&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;			<div style="text-align:right;font-size:12px">（责任编辑： HN666）</div></p></p></p></div>
+      <div class="body">
+        <script src=/d/js/acmsd/thea1.js></script>
+        <div class="topdes">  近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市</div>
+        <p>　　近日，南阳“水氢发动机”事件成为了社会关注的热点。从目前媒体披露的情况看，南阳市高新区管委会官员称相关技术是科技部“973计划”立项项目，而专家指出这个研究仅停留在理论层面；当事人强调水制氢试验车是第四代，基本各项功能都已经成熟。这个市委书记“点赞”的“高科技产品”究竟如何还有待有关方面的进一步澄清，还公众一个真相。但是，这个事件却折射到我国经济发展的“痛点”，就是如何规范地方政府招商引资行为，防止部分官员“乱作为”，不让逐利的资本“有空可钻”。</p>
+ <p>　　不可否认，地方政府招商引资是我国经济发展的一个动力。以至于张五常老先生在冥思苦想之后，发明了“县域经济竞争”理论来解释中国改革开放以来的经济成就。诚如所言，各级地方政府把当地作为一个“大企业”来运营，通过招商引资，发展产业经济，创造更多就业，增加居民的收入，为当地带来了经济繁荣，中国经济发展与地方政府主动作为、开拓创新是分不开的。这是被无数实践所反复证明了的，从近期的事例看，贵阳大数据产业发展是有力的证明，贵阳的地理位置、发展程度、人文环境在全国众多的城市中并不占优势，但由于贵阳市政府作出了前瞻性的部署，比别人深想一层，先行一步，引进了<span id="stock_NASDAQ_INTC7">英特尔</span><span id="quote_INTC7"></span>、思爱普、富士康等一批世界大型企业，构建起较为完整的大数据产业链，2018年贵阳市大数据企业主营业务收入达千亿元，2025年全市大数据产值将破万亿元，实现了跨越式发展。从更早的时期看，改革开放之初，深圳从一个小渔村发展到今天的大都市，很大程度上是依靠招商引资，引进了香港和国际的<span id="Info.385">外商直接投资</span>，通过外部的资本和内部的劳动力结合，创造了“经济奇迹”，这里面政府是功不可没的。</p>
+ <p>　　招商引资是个技术活儿，并不是每个地方政府都会招商，也不是都能成功。招商引资首先要找到理想的企业，一般而言，各级地方政府都想“招大引强”，世界500强、中国500强往往是各级政府紧盯的目标。这些企业在产业链上处于核心地位，一个核心企业引进来，会带来一批上下游的中小企业入驻，从而实现做大产业、发展经济的目标。但是，好的企业数量是有限的，企业的产能也是有限的，各级政府都想引进，就存在“僧多粥少”的问题，于是，各地开始在招商引资方式上进行探索创新，出现了产业<span id="Info.3293">基金</span>招商、产业链招商、飞地招商、校友招商等多种形式。武汉是校友招商的首创地，通过在汉高校，对外地校友企业家进行招商，加之武汉的科研人才优势，取得了不俗成效，引起各地纷纷效仿。在经济发展的大潮中，招商引资也逐渐成了检验各级地方政府能力的“试金石”，招商引资是各级政府官员的“必修课”。</p>
+ <p>　　凡事都有两面，兴一利必生一弊，在招商引资的过程中，也出现了一些问题。主要有两个方面：一是恶性竞争。由于各地招商引资蜂拥而至，企业可以“待价而沽”，各地只能是拼优惠政策，于是开始出现“零地价”，企业可以不付出成本就能获得土地使用权，再接着出现了“拎包入驻”，政府把企业的厂房先建好。不少地方政府在招商引资上投入了大量的资金，但最后却没有收获到预期的成果，造成了巨大的浪费。二是名不副实。一些不法商人利用地方政府招商引资的迫切心理，包装一些“高大上”的企业，占用大量的土地，然后穷尽各种办法，钻政策的空子“瞒天过海”，把土地变现从中牟取暴利，导致了国有资产和资源的大量流失。在当前经济下行的态势下，政府发展经济的动力比以往更大，在招商引资上也存在“捡到篮子的都是菜”的现象。尤其近年来，经济处于新旧动能转换的换挡期，各地都在寻找新动能，一些贴上流行的高科技标签的企业容易被各地政府“青睐”，也容易产生“鱼目混珠”的问题。</p>
+ <p>　　要彻底解决这些乱象，根本在于树立正确的政绩观。招商引资的背后是官员的考核和激励机制，都是来自经济发展这个指挥棒，考核更多的是强调约束，而激励则更多的是引导。在这样的制度下，各级政府官员主要关心的是各项经济指标，企业引进来了，工厂开工了，经济指标提高了，政绩也就上去了。对于企业本身发展如何、是否符合当地实际、是否名不副实，则不是考虑的重点。针对这些问题，要切实加快改革步伐。一要进一步加强顶层设计，明确规则、制定标准、指导操作、开展评估，通过一套有效的机制来对各地的招商引资进行规范，防止招商引资偏离正常轨道。二要在政府和市场之间做好区分，让政府和市场做各自擅长的事情。要充分利用市场上的专业招商团队，把专业性的工作交给市场主体，政府主要负责宏观管理和微观督察。三要提高政府官员素质。对具体从事招商引资工作的干部进行系统培训，尤其是要加强科技知识学习，充实一批科技人才到招商队伍中来，形成招商引资“智力”支撑。</p><p class="em_media">（文章来源：中国经营报）</p>
+        <!--原文标题-->
+        
+            
+                            <br />【本文为网友上传或转载其它网站，文章版权归原作者及原出处所有。文章系作者个人观点，不代表本网站立场，转载请联系原作者及原出处获得授权。有任何疑问都请联系（125021638@qq.com）】		<div class="art_tag"> 相关标签 
+<a href='/e/tags/?tagname=招商引资' target='_blank'>招商引资</a><a href='/e/tags/?tagname=企业' target='_blank'>企业</a><a href='/e/tags/?tagname=招商' target='_blank'>招商</a>		 </div>
+        <div class="pages2">
+          <ul>
+		  	
+          </ul>
+        </div>
+        <div class="art_tag"> </div>
+        <script src=/d/js/acmsd/thea2.js></script>
+        <div style="clear: both;"></div>
+      </div>
+      <div class="handover"> 上一篇：<a href="/news/cjpl/36708.html" target="_blank">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a>  下一篇：<a>没有了</a> </div>
+     <div style="height:32px; width:500px;" class="tag_fl"><strong><a >相关文章</a></strong></div>
+	  <div class=" tag_fl">
+        <ul class="listbox">
+          <li><a href="/news/cjpl/36709.html" title="“水氢发动机”下  地方招商引资痛点何在">“水氢发动机”下  地方招商引资痛点何在</a></li>
+          <li><a href="/news/cjpl/36706.html" title="提升城市流动人口的社会接纳水平">提升城市流动人口的社会接纳水平</a></li>
+          <li><a href="/news/cjpl/36708.html" title="坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a></li>
+          <li><a href="/news/cjpl/34937.html" title="综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？">综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？</a></li>
+          <li><a href="/news/cjpl/34944.html" title="交行首席经济学家连平：小型银行应坚持本地化经营导向 鼓励中小民营资本分散持股">交行首席经济学家连平：小型银行应坚持本地化经营导向 鼓励中小民营资本分散持股</a></li>
+          <li><a href="/news/cjpl/34941.html" title="58贝壳争夺战：抢人、互诉与喊话带来的流量物语">58贝壳争夺战：抢人、互诉与喊话带来的流量物语</a></li>
+        </ul>
+      </div>
+      <div class=" tag_fr">
+        <ul class="listbox">
+          <li><a href="/news/cjpl/34946.html" title="清华大学白重恩：金融不应过多承担财政职能">清华大学白重恩：金融不应过多承担财政职能</a></li>
+          <li><a href="/news/cjpl/34947.html" title="农村网络零售额不断攀升 下沉市场用户的春天？">农村网络零售额不断攀升 下沉市场用户的春天？</a></li>
+          <li><a href="/news/cjpl/34948.html" title="股市派对不会持续太久 白银大幅反弹势在必行">股市派对不会持续太久 白银大幅反弹势在必行</a></li>
+          <li><a href="/news/cjpl/34949.html" title="宏观杠杆率再攀升 不能仅仅金融去杠杆">宏观杠杆率再攀升 不能仅仅金融去杠杆</a></li>
+          <li><a href="/news/cjpl/34951.html" title="金融供给侧结构性改革还须防止供需错位">金融供给侧结构性改革还须防止供需错位</a></li>
+          <li><a href="/news/cjpl/34950.html" title="多措并举助力企业创新">多措并举助力企业创新</a></li>
+        </ul>
+      </div>
+      <div class="art_lbox"> <span class="art_tit"><a>热门推荐</a></span>
+        <div class="art_pic">
+          <ul>
+            <li><a href="/qiye/cyjj/14937.html"><img src="/d/file/201711091221/201711081613132001768410.jpg" /></a>
+              <p><a href="/qiye/cyjj/14937.html">汽车金融渗透率持续提升 2017年贷款规模将超万亿</a></p>
+            </li>
+            <li><a href="/qiye/cyjj/14951.html"><img src="/d/file/201711091222/20171108155345274005438.jpg" /></a>
+              <p><a href="/qiye/cyjj/14951.html">2017年10月新能源乘用车销量6.5万辆 同比增长翻番</a></p>
+            </li>
+            <li><a href="/qiye/cyjj/14965.html"><img src="/d/file/201711091221/201711081543271247843453.jpg" /></a>
+              <p><a href="/qiye/cyjj/14965.html">中国医药行业市场规模及市场前景分析</a></p>
+            </li>
+            <li><a href="/qiye/cyjj/14960.html"><img src="/d/file/201711091222/201711081545451967705376.jpg" /></a>
+              <p><a href="/qiye/cyjj/14960.html">全国能源生产总量历年数据分析：2016年能源产量明显下降</a></p>
+            </li>
+          </ul>
+        </div>
+        <div class=" rel_art">
+          <ul>
+            <li><a href="/qiye/cyjj/14960.html" title="全国能源生产总量历年数据分析：2016年能源产量明显下降">全国能源生产总量历年数据分析：2016年能源产量明显下降</a></li>
+            <li><a href="/qiye/cyjj/14966.html" title="工业应用领域优势明显 机器视觉市场将超200亿">工业应用领域优势明显 机器视觉市场将超200亿</a></li>
+            <li><a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%">Snap第三季度用户增长低于预期 盘后股价暴跌17%</a></li>
+            <li><a href="/hulianwang/itxw/14271.html" title="网络现金贷仍存灰色地带 隐蔽收费名目繁多">网络现金贷仍存灰色地带 隐蔽收费名目繁多</a></li>
+            <li><a href="/hulianwang/itxw/14270.html" title="股价大跌八成 网宿科技高管3个月或套现4亿">股价大跌八成 网宿科技高管3个月或套现4亿</a></li>
+            <li><a href="/hulianwang/itxw/14269.html" title="现金贷数据江湖:1.5元买到一条借款人信息">现金贷数据江湖:1.5元买到一条借款人信息</a></li>
+            <li><a href="/hulianwang/itxw/14267.html" title="不仅仅是中国，现在亚洲年轻人大多热衷网上购物">不仅仅是中国，现在亚洲年轻人大多热衷网上购物</a></li>
+            <li><a href="/hulianwang/itxw/14266.html" title="美国科技五巨头业绩"亮眼" 对其他企业是好事吗">美国科技五巨头业绩"亮眼" 对其他企业是好事吗</a></li>
+            <li><a href="/hulianwang/itxw/14265.html" title="内地比特币交易关闭后 投机者涌向香港 场外交易">内地比特币交易关闭后 投机者涌向香港 场外交易</a></li>
+            <li><a href="/hulianwang/itxw/14264.html" title="百度推无人驾驶技术背后 陆奇详解AI的商业化逻">百度推无人驾驶技术背后 陆奇详解AI的商业化逻</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="project">
+        <div class="tab">
+          <div id="bg" class="xi1">
+            <div id="font1" class="tab1" onmouseover="setTab03Syn(1);document.getElementById('bg').className='xi1'" style="color: rgb(27, 109, 157);">时事资讯</div>
+            <div id="font2" class="tab2" onmouseover="setTab03Syn(2);document.getElementById('bg').className='xi2'" style="color: rgb(0, 0, 0);">财经头条</div>
+            <div id="font3" class="tab3" onmouseover="setTab03Syn(3);document.getElementById('bg').className='xi3'" style="color: rgb(0, 0, 0);">网贷资讯</div>
+            <div id="font4" class="tab4" onmouseover="setTab03Syn(4);document.getElementById('bg').className='xi4'" style="color: rgb(0, 0, 0);">产业经济</div>
+            <div id="font5" class="tab5" onmouseover="setTab03Syn(5);document.getElementById('bg').className='xi5'" style="color: rgb(0, 0, 0);">IT科技</div>
+            <div id="font6" class="tab6" onmouseover="setTab03Syn(6);document.getElementById('bg').className='xi6'" style="color: rgb(0, 0, 0);">娱乐八卦</div>
+          </div>
+          <div id="TabTab03Con1" style="display: block;">
+            <div class="pro_txt">
+                <a href="/news/guoji/14809.html" title="亚马逊业绩超预期 贝索斯成世界新首富"><img src="/d/file/201711082209/Quote.png" width="320" height="215" alt="亚马逊业绩超预期 贝索斯成世界新首富"/>
+                <p>亚马逊业绩超预期 贝索斯成世界新首富</p>
+                </a>
+                <ul>
+                  <li><a href="/news/cjpl/36709.html" title="“水氢发动机”下  地方招商引资痛点何在">“水氢发动机”下  地方招商引资痛点何在</a></li>
+                  <li><a href="/news/cjpl/36706.html" title="提升城市流动人口的社会接纳水平">提升城市流动人口的社会接纳水平</a></li>
+                  <li><a href="/news/cjpl/36708.html" title="坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题">坚决反对美方霸凌主义 重大原则问题决不让步——专家评析中美经贸热点问题</a></li>
+                  <li><a href="/news/zhongguo/34774.html" title="5月份PMI低于荣枯线？莫慌！进来看看金融业“首席们”为啥有信心">5月份PMI低于荣枯线？莫慌！进来看看金融业“首席们”为啥有信心</a></li>
+                  <li><a href="/news/zhongguo/34779.html" title="30万亿元养老金入市是“10年目标” 专家称有助于建设有韧性资本市场">30万亿元养老金入市是“10年目标” 专家称有助于建设有韧性资本市场</a></li>
+                  <li><a href="/news/guoji/34618.html" title="美国5月密歇根大学5年通胀预期终值 2.6">美国5月密歇根大学5年通胀预期终值 2.6</a></li>
+                  <li><a href="/news/cjpl/34937.html" title="综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？">综艺营销迎来“至暗时刻” 价值王国会由短视频接管吗？</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="TabTab03Con2" style="display: none;">
+            <div class="pro_txt">
+                <a href="/finance/cjpl/10539.html" title="央视评论:看楼市再看天气 这次风向真的变了吗？"><img src="http://cms-bucket.nosdn.127.net/catchpic/f/f0/f0b62fc4032b6995e2ec4f2d9608301e.jpg?imageView&thumbnail=550x0" width="320" height="215" alt="央视评论:看楼市再看天气 这次风向真的变了吗？"/>
+                <p>央视评论:看楼市再看天气 这次风向真的变了吗？</p>
+                </a>
+                <ul>
+                  <li><a href="/finance/gszj/35830.html" title="商务部：中国将建立不可靠实体清单制度">商务部：中国将建立不可靠实体清单制度</a></li>
+                  <li><a href="/finance/gszj/35829.html" title="北向资金多事之月 创多项记录">北向资金多事之月 创多项记录</a></li>
+                  <li><a href="/finance/gszj/35828.html" title="这个题材爆发！龙头12天10涨停，暴涨1.8倍！一类股却成跌停重灾区">这个题材爆发！龙头12天10涨停，暴涨1.8倍！一类股却成跌停重灾区</a></li>
+                  <li><a href="/finance/gszj/35827.html" title="烟草系杀入消费金融领域！继百度金融参股哈银消费 红塔银行也入股苏宁消费金融">烟草系杀入消费金融领域！继百度金融参股哈银消费 红塔银行也入股苏宁消费金融</a></li>
+                  <li><a href="/finance/gszj/35826.html" title="上交所：本周加大信息披露和股价异常的联动监管">上交所：本周加大信息披露和股价异常的联动监管</a></li>
+                  <li><a href="/finance/gszj/35825.html" title="中国证券投资基金业协会会长：建议基金产品层面取消增值税">中国证券投资基金业协会会长：建议基金产品层面取消增值税</a></li>
+                  <li><a href="/finance/gszj/35824.html" title="集体重挫！全球股市“黑五月”！北上资金净卖537亿创纪录！6月会好么？">集体重挫！全球股市“黑五月”！北上资金净卖537亿创纪录！6月会好么？</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="TabTab03Con3" style="display: none;">
+            <div class="pro_txt">
+                <a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人"><img src="http://img.p2peye.com/2017/11/07/d333aeee153c253b2f33d916d340dc36.png" width="320" height="215" alt="汇聚百家平台，网贷天眼双十一阶段性战报喜人"/>
+                <p>汇聚百家平台，网贷天眼双十一阶段性战报喜人</p>
+                </a>
+                <ul>
+                  <li><a href="/P2P/minguolishi/36704.html" title="信而富发布5月回款公告 全面催收短期消费贷">信而富发布5月回款公告 全面催收短期消费贷</a></li>
+                  <li><a href="/P2P/minguolishi/36703.html" title="近百名团贷网利益相关人员非法聚集 3人被刑拘">近百名团贷网利益相关人员非法聚集 3人被刑拘</a></li>
+                  <li><a href="/P2P/minguolishi/36702.html" title="团贷网最新通报：警方已对群众线索开展核查">团贷网最新通报：警方已对群众线索开展核查</a></li>
+                  <li><a href="/P2P/minguolishi/36701.html" title="警方通报“利民网”“零钱罐”案件最新进展">警方通报“利民网”“零钱罐”案件最新进展</a></li>
+                  <li><a href="/P2P/minguolishi/36700.html" title="警方通报银都控股案进展：一犯罪嫌疑人被抓">警方通报银都控股案进展：一犯罪嫌疑人被抓</a></li>
+                  <li><a href="/P2P/minguolishi/36699.html" title="人人贷已对接金融服务平台">人人贷已对接金融服务平台</a></li>
+                  <li><a href="/P2P/shijielishi/36698.html" title="你我贷加仓">你我贷加仓</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="TabTab03Con4" style="display: none;">
+            <div class="pro_txt">
+                <a href="/qiye/cyjj/14965.html" title="中国医药行业市场规模及市场前景分析"><img src="/d/file/201711091221/201711081543271247843453.jpg" width="320" height="215" alt="中国医药行业市场规模及市场前景分析"/>
+                <p>中国医药行业市场规模及市场前景分析</p>
+                </a>
+                <ul>
+                  <li><a href="/qiye/cyjj/31277.html" title="不良率突飙升最高超20% 农商行打寒颤">不良率突飙升最高超20% 农商行打寒颤</a></li>
+                  <li><a href="/qiye/cyjj/31280.html" title="北京扩大特殊病用药报销范围 125类药品9月起新纳入报销">北京扩大特殊病用药报销范围 125类药品9月起新纳入报销</a></li>
+                  <li><a href="/qiye/cyjj/31281.html" title="深圳开出区块链电子发票">深圳开出区块链电子发票</a></li>
+                  <li><a href="/qiye/cyjj/31284.html" title="百白破疫苗相关科普知识(三)：接种百白破疫苗必须要知道的几个事实">百白破疫苗相关科普知识(三)：接种百白破疫苗必须要知道的几个事实</a></li>
+                  <li><a href="/qiye/cyjj/31286.html" title="百白破疫苗相关科普知识(一)：一文了解什么是百白破">百白破疫苗相关科普知识(一)：一文了解什么是百白破</a></li>
+                  <li><a href="/qiye/cyjj/31287.html" title="8月10日海安兄弟锦纶长丝报价持稳">8月10日海安兄弟锦纶长丝报价持稳</a></li>
+                  <li><a href="/qiye/cyjj/31289.html" title="福州钢市一周回顾（8.03-8.10）">福州钢市一周回顾（8.03-8.10）</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="TabTab03Con5" style="display: none;">
+            <div class="pro_txt">
+                <a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%"><img src="http://cms-bucket.nosdn.127.net/catchpic/c/c2/c282dc907985ad6471655944cb0ca39b.png?imageView&thumbnail=550x0" width="320" height="215" alt="Snap第三季度用户增长低于预期 盘后股价暴跌17%"/>
+                <p>Snap第三季度用户增长低于预期 盘后股价暴跌17%</p>
+                </a>
+                <ul>
+                  <li><a href="/hulianwang/itxw/36327.html" title="司库立方获信天创投、海贝资本数千万元Pre-A轮">司库立方获信天创投、海贝资本数千万元Pre-A轮</a></li>
+                  <li><a href="/hulianwang/itxw/36326.html" title="喜茶苏州圆融店被查封?喜茶：制作过程未发现苍">喜茶苏州圆融店被查封?喜茶：制作过程未发现苍</a></li>
+                  <li><a href="/hulianwang/itxw/36325.html" title="小米成立新集团质量办公室 任命李涛为办公室主">小米成立新集团质量办公室 任命李涛为办公室主</a></li>
+                  <li><a href="/hulianwang/itxw/36324.html" title="B站开启Vlog星计划，每月100万专项奖金支持">B站开启Vlog星计划，每月100万专项奖金支持</a></li>
+                  <li><a href="/hulianwang/itxw/36323.html" title="H连锁酒店获华住战略投资 "连锁化"破解单体酒店">H连锁酒店获华住战略投资 "连锁化"破解单体酒店</a></li>
+                  <li><a href="/hulianwang/itxw/36322.html" title="百度与东软达成战略合作 推进人工智能规模化落">百度与东软达成战略合作 推进人工智能规模化落</a></li>
+                  <li><a href="/hulianwang/itxw/36321.html" title="阿里投资VMate亿级美元 称要打造印度短视频社区">阿里投资VMate亿级美元 称要打造印度短视频社区</a></li>
+              </ul>
+            </div>
+          </div>
+          <div id="TabTab03Con6" style="display: none;">
+            <div class="pro_txt">
+                <a href="/yule/dianshi/12735.html" title="《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味"><img src="/d/file/201711081042/20170913091951_b22ddf63cd148f841a11129ce40dbe0c_1.jpg" width="320" height="215" alt="《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味"/>
+                <p>《美味奇缘》首播收视破1 美食题材剧集传递生活真实滋味</p>
+                </a>
+                <ul>
+                  <li><a href="/yule/bagua/34120.html" title="袁惟仁被拍到与美女约会 两人互动十分亲密">袁惟仁被拍到与美女约会 两人互动十分亲密</a></li>
+                  <li><a href="/yule/bagua/34119.html" title="女神“秋雅”王智结婚啦 男友居然是圏内有名的摄影师尤奕">女神“秋雅”王智结婚啦 男友居然是圏内有名的摄影师尤奕</a></li>
+                  <li><a href="/yule/bagua/34118.html" title="林志玲凌晨晒出婚纱照 引发网友猜测:这是要结婚了？">林志玲凌晨晒出婚纱照 引发网友猜测:这是要结婚了？</a></li>
+                  <li><a href="/yule/bagua/34117.html" title="40岁萧淑慎与小14岁男友登记结婚 双方亲友到场见证">40岁萧淑慎与小14岁男友登记结婚 双方亲友到场见证</a></li>
+                  <li><a href="/yule/bagua/34116.html" title="宋仲基婚礼甜蜜宣誓内容曝光：致我高尚的新娘">宋仲基婚礼甜蜜宣誓内容曝光：致我高尚的新娘</a></li>
+                  <li><a href="/yule/bagua/34115.html" title="言承旭与林志玲复合 昔日绯闻女友晒照发文">言承旭与林志玲复合 昔日绯闻女友晒照发文</a></li>
+                  <li><a href="/yule/bagua/34114.html" title="言承旭承认与林志玲复合 获林志玲妈妈点头认可">言承旭承认与林志玲复合 获林志玲妈妈点头认可</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="art_lbox">
+        <div class="hr10"></div>
+        <span class="art_tit"><a>猜你喜欢</a></span>
+        <div class=" ztbox">
+          <div class="zt_pic left">
+            <ul>
+              <li class="aniTit"><a href="/P2P/minguolishi/24687.html"><img src="http://imgmywdzj.wdzj.com/group1/M00/44/89/rBAEX1tHFsuAfz8JAAEpaMTsi1g290.jpg"/></a><span class="title-alpha"><a href="/P2P/minguolishi/24687.html">石头理财没有按时回款？有没有朋友知道是怎么回事的？</a></span></li>
+              <li class="aniTit"><a href="/yule/bagua/34056.html"><img src="http://img.mingxing.com/upload/thumb/1059/317585.jpg"/></a><span class="title-alpha"><a href="/yule/bagua/34056.html">陈晓东自爆被阔太包养三十多年 主持人都惊呆</a></span></li>
+            </ul>
+          </div>
+          <div class="ztlist left">
+            <ul>
+              <li><a href="/news/zhongguo/31426.html">易纲：中国将进一步推动改革扩大开放 金融部门内部控杠杆取得阶段性成效</a></li>
+              <li><a href="/yule/dianying/11617.html">大表姐詹妮弗·劳伦斯指责飓风与特朗普有关 震惊美国网友</a></li>
+              <li><a href="/hulianwang/itrz/25682.html">何晓飞首次披露飞步自动驾驶方案：无人货运起步 自研AI芯片</a></li>
+              <li><a href="/P2P/ptdt/24752.html">用科技力量践行社会公益  凡普金科集团2013-2017企业社会责任报告亮相</a></li>
+              <li class="line"></li>
+              <li><a href="/finance/cjpl/10256.html">证券日报：明年退市制度或有新动向新突破</a></li>
+              <li><a href="/yule/zongyi/15987.html">一周的偶像SJ挑战最新偶像潮流</a></li>
+              <li><a href="/finance/jrcj/33907.html">安信信托大换血 国之杰派驻多面手</a></li>
+              <li><a href="/news/zhongguo/31643.html">郑州“学区房”将何去何从</a></li>
+            </ul>
+          </div>
+          <div class="zt_pic right">
+            <ul>
+              <li class="aniTit"><a href="/finance/gszj/35762.html"><img src="https://i.ssimg.cn/sscms/2019/05/30/63dca9762b62443696c40c0550bff3a5.png"/></a><span class="title-alpha"><a href="/finance/gszj/35762.html">两市缩量盘整 近300只个股日成交不足千万元</a></span></li>
+              <li class="aniTit"><a href="/news/guoji/32100.html"><img src="http://www.lztsh.com/d/file/20190524/Quote.png"/></a><span class="title-alpha"><a href="/news/guoji/32100.html">咖喱味儿的40000点历史新高！印度凭什么走出十年大牛市？</a></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="pic_pre">
+        <script src="/jsfile/du114.js" type="text/javascript"></script>
+      </div>
+      <style>
+.tj-box{display:inline-block;width:99.5%;background:#f0f0f0;border-radius: 5px;border:1px solid #e1e1e1;}
+.tj-title{float:left;width:5.4%;background:#FFF;padding:8px 6px 8px 8px;border-radius: 5px;border-right:1px solid #e1e1e1;}
+.tj-title strong{ float:left;font-weight: normal;font-size: 14px;
+color: #1b6d9d;letter-spacing: 4px;line-height: 25px;}
+.tj-txt{float:right;width:91.6%; height:58px; overflow:hidden;padding:3px 2px 3px 3px;}
+.tj-txt a{display:inline-block;font-size:12px;color:#333;padding:2px;text-decoration:none;}
+.tj-txt a:hover{ color:#1b6d9d;}
+</style>
+    </div>
+    <div class="box_right">
+      <script>
+			article_zhuanqu();
+	</script>
+      <div class="read"> <span class="mark">热门标签</span>
+        <div class="tag1">
+		<a target="_blank" href="/e/tags/?tagname=[db:关键词]" title="[db:关键词]">[db:关键词]</a>
+		<a target="_blank" href="/e/tags/?tagname=中国" title="中国">中国</a>
+		<a target="_blank" href="/e/tags/?tagname=平台" title="平台">平台</a>
+		<a target="_blank" href="/e/tags/?tagname=亿元" title="亿元">亿元</a>
+		<a target="_blank" href="/e/tags/?tagname=互联网" title="互联网">互联网</a>
+		<a target="_blank" href="/e/tags/?tagname=信息" title="信息">信息</a>
+		<a target="_blank" href="/e/tags/?tagname=来源" title="来源">来源</a>
+		<a target="_blank" href="/e/tags/?tagname=给我们" title="给我们">给我们</a>
+		<a target="_blank" href="/e/tags/?tagname=金融" title="金融">金融</a>
+		<a target="_blank" href="/e/tags/?tagname=美国" title="美国">美国</a>
+		<a target="_blank" href="/e/tags/?tagname=银行" title="银行">银行</a>
+		<a target="_blank" href="/e/tags/?tagname=融资" title="融资">融资</a>
+		<a target="_blank" href="/e/tags/?tagname=天眼" title="天眼">天眼</a>
+		<a target="_blank" href="/e/tags/?tagname=首页" title="首页">首页</a>
+		<a target="_blank" href="/e/tags/?tagname=企业" title="企业">企业</a>
+		<a target="_blank" href="/e/tags/?tagname=未找到" title="未找到">未找到</a>
+		<a target="_blank" href="/e/tags/?tagname=此页面" title="此页面">此页面</a>
+		<a target="_blank" href="/e/tags/?tagname=投资" title="投资">投资</a>
+		<a target="_blank" href="/e/tags/?tagname=编辑" title="编辑">编辑</a>
+		<a target="_blank" href="/e/tags/?tagname=骗子" title="骗子">骗子</a>
 		</div>
+      </div>
+      <div class="read">
+        <script src=/d/js/acmsd/thea3.js></script>
+      </div>
+      <div class="read"> <span class="mark">阅读排行</span>
+        <div class="tab">
+          <div id="TabTab03Con1" style="width:320px;">
+            <ul class="tab_txt">
+              <li class="one"><em>1</em> <a href="/hulianwang/itxw/21686.html" title="Pokémon Go开发商获2亿美元融资 加入独角兽俱">Pokémon Go开发商获2亿美元融资 加</a> <span><a href="/hulianwang/itxw/21686.html"><img src="http://cms-bucket.nosdn.127.net/c970194e2d084b3c88698e6bdf4e775420171125141334.jpeg?imageView thumbnail=550x0" width="100" height="71" alt="Pokémon Go开发商获2亿美元融资 加入独角兽俱"/></a>
+                <p>网易科技讯11月25日消息，据金融时报报道，PokémonGo游戏...<a class="deta" href="/hulianwang/itxw/21686.html" >详细>></a></p>
+                </span> </li>
+              <li class="one"> <em>2</em> <a href="/jiankang/yaopin/19606.html" title="天演药业：独辟蹊径，创新生物药赛道的“中国样本”">天演药业：独辟蹊径，创新生物药赛道的</a> </li>
+              <li class="one"> <em>3</em> <a href="/P2P/shijielishi/10938.html" title="东银金服（小微金融）的爹东方银座集团具体有多少资产和负债？">东银金服（小微金融）的爹东方银座集团</a> </li>
+              <li> <em>4</em> <a href="/P2P/wdxw/9680.html" title="这5种食物，不但可以防癌抗癌，而且非常神奇，可惜很少人知道">这5种食物，不但可以防癌抗癌，而且非常</a> </li>
+              <li> <em>5</em> <a href="/P2P/wdxw/11267.html" title="美IPO市场今年最忙一周：搜狗等11家公司将上市">美IPO市场今年最忙一周：搜狗等11家公</a> </li>
+              <li> <em>6</em> <a href="/jiankang/jkbj/19893.html" title="和海鸥一起奔跑！中国第一个全程海景马拉松成功举办">和海鸥一起奔跑！中国第一个全程海景</a> </li>
+              <li> <em>7</em> <a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人">汇聚百家平台，网贷天眼双十一阶段性</a> </li>
+              <li> <em>8</em> <a href="/news/guoji/14343.html" title="博通1300亿美元“豪娶”高通 科技行业最大并购能否成功？">博通1300亿美元“豪娶”高通 科技行</a> </li>
+              <li> <em>9</em> <a href="/P2P/wdxw/11266.html" title="招联、马上、玖富、苏宁等参战“虚拟信用卡”">招联、马上、玖富、苏宁等参战“虚</a> </li>
+              <li> <em>10</em> <a href="/jiankang/jkbj/19899.html" title="欧玛士电器：极简为傲&nbsp;差异化精工单品系列">欧玛士电器：极简为傲 差异化精工单品</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="pic">
+        <div class="read">
+          <script src=/d/js/acmsd/thea4.js></script>
+        </div>
+        <div class="read"> <span class="mark">图片推荐</span>
+          <div class="read">
+            <div class="pic_rec">
+              <ul>
+          <li><a href="/qiye/cyjj/14965.html" title="中国医药行业市场规模及市场前景分析"><img src="/d/file/201711091221/201711081543271247843453.jpg" width="140" height="99" alt="中国医药行业市场规模及市场前景分析"/></a>
+            <p>  医药制造业是指原料</p>
+          </li>
+          <li><a href="/qiye/cyjj/14966.html" title="工业应用领域优势明显 机器视觉市场将超200亿"><img src="/d/file/201711091223/201711081515441167723915.jpg" width="140" height="99" alt="工业应用领域优势明显 机器视觉市场将超200亿"/></a>
+            <p>  机器视觉可以在各种</p>
+          </li>
+          <li><a href="/hulianwang/itxw/14272.html" title="Snap第三季度用户增长低于预期 盘后股价暴跌17%"><img src="http://cms-bucket.nosdn.127.net/catchpic/c/c2/c282dc907985ad6471655944cb0ca39b.png?imageView&thumbnail=550x0" width="140" height="99" alt="Snap第三季度用户增长低于预期 盘后股价暴跌17%"/></a>
+            <p>网易科技讯11月8日消</p>
+          </li>
+          <li><a href="/hulianwang/itxw/14271.html" title="网络现金贷仍存灰色地带 隐蔽收费名目繁多"><img src="http://img1.cache.netease.com/cnews/css13/img/end_tech.png" width="140" height="99" alt="网络现金贷仍存灰色地带 隐蔽收费名目繁多"/></a>
+            <p>（原标题：　网络“现金贷</p>
+          </li>
+          <li><a href="/hulianwang/itxw/14270.html" title="股价大跌八成 网宿科技高管3个月或套现4亿"><img src="http://cms-bucket.nosdn.127.net/catchpic/b/bb/bbd8389cb6e74f2b3f510f30a47b9663.jpg?imageView&thumbnail=550x0" width="140" height="99" alt="股价大跌八成 网宿科技高管3个月或套现4亿"/></a>
+            <p>（原标题：股价大跌八成机</p>
+          </li>
+          <li><a href="/P2P/wdxw/11268.html" title="汇聚百家平台，网贷天眼双十一阶段性战报喜人"><img src="http://img.p2peye.com/2017/11/07/d333aeee153c253b2f33d916d340dc36.png" width="140" height="99" alt="汇聚百家平台，网贷天眼双十一阶段性战报喜人"/></a>
+            <p>一年一度的双十一狂欢</p>
+          </li>
+          <li><a href="/P2P/wdxw/11267.html" title="美IPO市场今年最忙一周：搜狗等11家公司将上市"><img src="http://img.p2peye.com/2017/11/07/97ed421b68bde82ee35615cc65c9f349.jpg" width="140" height="99" alt="美IPO市场今年最忙一周：搜狗等11家公司将上市"/></a>
+            <p>北京时间11月7日凌晨</p>
+          </li>
+          <li><a href="/P2P/wdxw/11266.html" title="招联、马上、玖富、苏宁等参战“虚拟信用卡”"><img src="http://img.p2peye.com/2017/11/07/e7710b481320135694f4df0031136f29.jpg" width="140" height="99" alt="招联、马上、玖富、苏宁等参战“虚拟信用卡”"/></a>
+            <p>10月底，马上消费金融旗</p>
+          </li>
+          <li><a href="/news/guoji/14809.html" title="亚马逊业绩超预期 贝索斯成世界新首富"><img src="/d/file/201711082209/Quote.png" width="140" height="99" alt="亚马逊业绩超预期 贝索斯成世界新首富"/></a>
+            <p>  美国电子商务巨头亚</p>
+          </li>
+          <li><a href="/news/guoji/14808.html" title="全球呈“双低型”增长 货币政策分化加剧"><img src="/d/file/201711082209/20171031064136650702594.jpg" width="140" height="99" alt="全球呈“双低型”增长 货币政策分化加剧"/></a>
+            <p> 【全球呈“双低型”</p>
+          </li>
+              </ul>
+            </div>
+          </div>
+          <span class="mark">随机推荐</span>
+          <div id="TabTab03Con1" style="width:320px;">
+            <ul class="tab_txt">
+              <li class="one"><em>1</em><a href="/hulianwang/itxw/26856.html" title="京东商城开始实施轮值CEO制度 徐雷任首任轮值CE">京东商城开始实施轮值CEO制度 徐雷</a></li>
+              <li class="one"><em>2</em><a href="/news/guoji/34643.html" title="内蒙古：农产品将“持证上岗”">内蒙古：农产品将“持证上岗”</a></li>
+              <li class="one"><em>3</em><a href="/finance/gszj/30932.html" title="135亿净资金全面流出 五大板块遭遇杀跌">135亿净资金全面流出 五大板块遭遇</a></li>
+              <li class="one"><em>4</em><a href="/yule/bagua/19350.html" title="周冬雨恋情疑似曝光 获小鲜肉探班两人嬉笑打闹互动不断">周冬雨恋情疑似曝光 获小鲜肉探班两</a></li>
+              <li class="one"><em>5</em><a href="/yule/dianshi/15890.html" title="高庚杓曹在显确定出演tvN新月火剧Cross男主">高庚杓曹在显确定出演tvN新月火剧Cr</a></li>
+              <li class="one"><em>6</em><a href="/P2P/zhouchaolishi/11311.html" title="网贷信披新标准能否升级为“国标”">网贷信披新标准能否升级为“国标”</a></li>
+              <li class="one"><em>7</em><a href="/finance/gszj/28094.html" title="股市资金供需正寻求新的均衡">股市资金供需正寻求新的均衡</a></li>
+              <li class="one"><em>8</em><a href="/news/cjpl/29735.html" title="我国金融市场的主要缺陷与地方政府金融的发展">我国金融市场的主要缺陷与地方政府</a></li>
+              <li class="one"><em>9</em><a href="/finance/gszj/29644.html" title="上万亿元黑臭水体治理市场 地方政府该怎么投">上万亿元黑臭水体治理市场 地方政府</a></li>
+              <li class="one"><em>10</em><a href="/finance/gszj/33041.html" title="收评：成交缩量沪指微涨0.02% 稀土等概念股大幅回调">收评：成交缩量沪指微涨0.02% 稀土等</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="read">
+          <script src=/d/js/acmsd/thea5.js></script>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-
+<div class="clear"></div>
+<div id="j_gotop" style="display: block;"><a href="#" class="btn-top"></a></div>
+<div class="clear"></div>
 <div class="foot">
-	<div id="links"><a href='http://www.www-4227c.com' target='_blank'>宝马论坛管家婆四肖期期准中特网</a>&nbsp;&nbsp;<a href='http://www.bbkgolf.com' target='_blank'>www85777王中王资料</a>&nbsp;&nbsp;<a href='http://www.www200605.com' target='_blank'>www.950999.com</a>&nbsp;&nbsp;<a href='http://www.www-4394b.com' target='_blank'>静心阁高手论坛</a>&nbsp;&nbsp;<a href='http://www.www-281114.com' target='_blank'>香港马会资料大全</a>&nbsp;&nbsp;<a href='http://www.kj717.net' target='_blank'>www.kj717.com</a>&nbsp;&nbsp;<a href='http://www.www-614411.com' target='_blank'>王中王开奖记录</a>&nbsp;&nbsp;<a href='http://www.pt606.com' target='_blank'>香港白小姐一码中特料</a>&nbsp;&nbsp;<a href='http://www.cjgdj.com' target='_blank'>www.130355.com</a>&nbsp;&nbsp;<a href='http://www.www56012a.com' target='_blank'>港最快开奖现场2019结果</a>&nbsp;&nbsp;</div>
-	<div class="foot_c">
-		Copyright ＠ 2016-2018 蜘蛛资讯网 版权所有
-	</div>
+  <div class="foot_m">
+    <p>Copyright @ 2017-2018 &nbsp;中国科技网 &nbsp;All Rights Reserved. &nbsp;www.lztsh.com  &nbsp;QQ：125021638 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1269421587'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269421587%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>    </p>
+    <p>免责声明：本站所有信息均搜集自互联网，并不代表本站观点，本站不对其真实合法性负责。如有信息侵犯了您的权益，请告知，本站将立刻删除。</p>
+    <p><a href="http://www.lztsh.com" style="color:#1b6d9d; text-decoration:none;"><strong>中国科技网</strong></a>：一直以来坚持文明办网，传播健康、娱乐、感知照片！每一套作品都经过我们专业编辑的精挑细选。&nbsp;</p>
+    <p><a style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="/96kaifa/images/备案图标.png" style="float:left;"/><b style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;font-weight:normal;">备案号：粤ICP备17024501号-2</b></a> </p>
+  </div>
 </div>
-
-
-
-<script src='/static/bd_tui.js'></script>
 </body>
 </html>
-<pre class='wup2c'></pre><pre class='dxcq8'><span class='a7w'><i class='5acnjnyge'></i></span></pre><b class='erujyc'></b><em class='cgkq'></em><pre class='fhvjxzmc'></pre><b class='fxdc25f'></b><span class='fkz1wk0qh'><b class='zy32gf8l'><i class='xt6z'></i></b></span><em class='daw3'></em><em class='kxi3'></em><em class='p0zbd'></em><pre class='5ft5'></pre><b class='ft9boik'></b><span  class='oca90'></span><span class='71fh5f'><em class='owkfu'></em></span><pre class='2e3v82hkj'></pre><b class='9jwk'></b><span class='lgewu'><em class='99vb'></em></span><em class='vjgplc'></em><em class='2o8'></em><pre class='o3kkd9j'><span class='99a2t'><i class='usxvfc'></i></span></pre><pre class='iizo'></pre><i class='fii8a'></i><b class='zg9'></b>
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.
