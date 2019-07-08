@@ -1147,13 +1147,12 @@ func (ps *Parser) FilterSourceName(text string) string {
 			if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
 				cleanSource = result[len(result)-1]
 				cleanSource = strings.ReplaceAll(cleanSource, "来源", "")
-				cleanSource = strings.ReplaceAll(cleanSource, "来源于", "")
 				if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
 					if len(result)-2 > 0 {
 						cleanSource = result[len(result)-2]
 					}
 				}
-				if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") {
+				if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") || strings.Contains(strings.ToLower(cleanSource), "人气") || strings.Contains(strings.ToLower(cleanSource), "日期") || strings.Contains(strings.ToLower(cleanSource), "次数") {
 					cleanSource = ""
 				}
 				reg, _ := regexp.Compile(`\d+`)
