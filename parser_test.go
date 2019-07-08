@@ -44,631 +44,936 @@ func TestSource(t *testing.T){
 }
 var content = `
 
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="UTF-8">
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="renderer" content="webkit">
-    <meta charset="utf-8">
-
-    <title>平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上_股市实战(gssz)股吧_东方财富网股吧</title>
-    <meta name="keywords" content="股市实战股吧,gssz股吧,股市实战怎么样,股市实战分析">
-    <meta name="description" content="股市实战(gssz)股吧，股民朋友可以在这里畅所欲言，分析讨论股票名的最新动态。股市实战股吧，专业的股票论坛社区。">
-            <meta name="mobile-agent" content="format=html5; url=https://mguba.eastmoney.com/mguba/article/0/802527008">
-
-            <link rel="canonical" href="http://guba.eastmoney.com/list,gssz,802527008.html" />
-
-
-            <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/old/news_c.css?r=72" />
-            <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/release/news.css?r=72" />
-
-    <base target="_blank" />
-</head>
-<body class="hlbody">
-    <div id="header">
-    <!-- 微信分享img -->
-    <img id="weixin-share" src="http://cmsjs.eastmoney.com/common/weixin-share.png" style="position: absolute; width: 0; height: 0; left: -1000px;z-index: -1;">
-    <div class="gbbody" id="headergbbody">
-        <ul id="topnav">
-            <li class="user_info dfcfw" tracker-eventcode="gb_xgbsy_ zdh_djdfcf">
-                <a href="http://www.eastmoney.com/" target="_blank">东方财富网</a>
-                <em class="trg icon_down_s"></em>
-                <ul class="slide_down dc_site">
-                    <li><a href="https://zqhd.eastmoney.com/Html/aghd/pc/20170918/html/activity2.html">移动客户端</a></li>
-                    <li><a href="http://fund.eastmoney.com">天天基金网</a></li>
-                    <li><a href="https://zqhd.eastmoney.com/index.html?ad_id=web_kh_dcsy_jycdl_01_01_01_1">东方财富证券</a></li>
-                    <li><a href="https://www.eastmoneyfutures.com/kh/index.html">东方财富期货</a></li>
-                    <li><a href="http://choice.eastmoney.com">choice数据</a></li>
-                    <li><a href="http://guba.eastmoney.com">股吧</a></li>
-                </ul>
-            </li> |
-            <li tracker-eventcode="gb_xgbsy_zdh_djgbsy"><a href="http://guba.eastmoney.com/" target="_blank">股吧首页</a></li>
-            <li tracker-eventcode="gb_xgbsy_zdh_djjjb"><a href="//guba.eastmoney.com/jj.html">基金吧</a></li>
-
-            <li tracker-eventcode="gb_xgbsy_zdh_djgbft"><a href="http://guba.eastmoney.com/ft_list.aspx" target="_blank">访谈</a></li>
-            <li class="guba_topic" tracker-eventcode="gb_xgbsy_zdh_djgbht"><a href="http://gubatopic.eastmoney.com/" target="_blank">话题</a><i class="red_point"></i></li>
-            <li tracker-eventcode="gb_xgbsy_zdh_djwdm"><a href="http://guba.eastmoney.com/qa/qa_list.aspx" target="_blank">问董秘</a></li>
-            <li tracker-eventcode="gb_xgbsy_zdh_djxswd"><a href="//ask.eastmoney.com" target="_blank">悬赏问答</a></li>
-            
-        </ul>
-        <!-- 功能废弃2017-06-08 -->
-        <!-- <form method="GET" action="" id="topnavsearch" target="_blank">
-            <input type="text" name="" id="topnavskey" placeholder="搜索 股票/讨论/用户" autocomplete="off" /><input type="submit" value=" " id="topnavsubmit" title="点击开始搜索" tracker-eventcode="iguba_topbar_search_topbarS"/>
-            <div id="topnavsearchre">
-                <ul ></ul>
-            </div>
-        </form> -->
-        <ul id="topnavper">
-            <li class="topbarhaslogin" id="topbarloginuserdiv" style="display:none;">
-                <span class="headerusername tnavsel">
-                    <em class="userhead"></em>
-                    <span class="username"></span>
-                    <em class="tnavselic"></em>
-                    <div class="topnavdown">
-                        <!-- <div class="topnavdownt">设置<em class="tnavselid"></em></div> -->
-                        <ul class="topnavdownul">
-                            <li><a href="https://passport2.eastmoney.com/pub/basicinfo" target="_blank">个人设置</a></li>
-                            <li><a href="https://passport2.eastmoney.com/pub/changepassword" target="_blank">修改密码</a></li>
-                            <li><a href="http://iguba.eastmoney.com/setting/privacy" target="_blank">隐私设置</a></li>
-                            <li><a href="http://iguba.eastmoney.com/setting/message" target="_blank">消息设置</a></li>
-                            <li><a href="http://v2.eastmoney.com" target="_blank">V认证</a></li>
-                            <li><a href="//i.eastmoney.com/qianbao.html" target="_blank">我的钱包</a></li>
-                            <li class="nobg"><a href="javascript:;" target="_self" id="topbarlogoutlink">退出</a></li>
-                        </ul>
-                    </div>
-                </span>
-            </li>
-            <li class="topbarhaslogin" style="display:none;">
-                <span class="tnavsel">
-                    <a href="http://i.eastmoney.com"><em class="top_name">我的股吧</em></a><em class="tnavselic"></em>
-                    <div class="topnavdown">
-                        <!-- <div class="topnavdownt">设置<em class="tnavselid"></em></div> -->
-                        <ul class="topnavdownul">
-                            <li><a href="http://i.eastmoney.com">我关注的股</a></li>
-                            <li><a href="http://i.eastmoney.com">我关注的人</a></li>
-                            <li><a href="http://i.eastmoney.com/myarts">我的发言</a></li>
-                            <li><a href="http://i.eastmoney.com/collection">我的收藏</a></li>
-                        </ul>
-                    </div>
-                </span>
-            </li>
-
-            <li class="topbarhaslogin" style="display:none;">
-                <span class="tnavsel">
-                    <em class="top_name my_msg">我的消息<i></i></em><em class="tnavselic"></em>
-                    <div class="topnavdown">
-                        <!-- <div class="topnavdownt">消息<em class="tnavselid"></em></div> -->
-                        <ul class="topnavdownul topnavdownulmsgul">
-                            <li><a href="http://i.eastmoney.com">我关注的股</a></li>
-                            <li><a href="http://i.eastmoney.com">我关注的人</a></li>
-                            <li><a href="http://i.eastmoney.com/myarts">我的发言</a></li>
-                            <li><a href="http://i.eastmoney.com/collection">我的收藏</a></li>
-                            <li><a id="my_wdmsg" href="http://i.eastmoney.com/myinfo">&nbsp;&nbsp;查看问答消息<em></em></a></li>
-
-                        </ul>
-                    </div>
-                </span>
-            </li>          
-        </ul>
-    </div>
-</div>
-<script>
-    window.shimingOption = 2;
-</script>
-    <script src="//gbfek.dfcfw.com/project/guba/modules/h5Adaptation.js?r=6"></script>
-
-    <link rel="stylesheet" href="//gbfek.dfcfw.com//project/xeditor/editor_frame.css?r=72" />
-
-<script>
-    var topictype = "20";
-    var topicid = "802527008";
-
-    var barcode = "gssz";
-    var code = "gssz";
-    var tabtype = "";
-    var stockname = "股市实战";
-    var RelatedCode = "";
-    var RelatedName = "";
-    var OuterCode = "gssz";
-    var Category = "201";
-    var Division = "2";
-    var Market = "-1";
-    var Type = "-1";
-    var QuoteCode = "";
-    var BarType = "3";
-    var CodeWithMarket = "gssz";
-    var qq_code = "";
-    var qq_code2 = "";
-    var IsStockA = "False";
-
-    var page="1";
-</script>
-
-<style>
-    #topnav li .red_point_jj {
-        position: absolute;
-        top: -3px;
-        left: 30px;
-        background-image: url(http://gbfek.dfcfw.com/gubav5/images/header_bg.png);
-        background-position: -25px 0;
-        width: 6px;
-        height: 6px;
-        margin: 0 auto;
-    }
-
-    #topnav li {
-        display: inline-block;
-        padding: 0 6px;
-        *display: inline;
-        *zoom: 1;
-        position: relative;
-        height: 30px;
-    }
-
-    .guba_topic .topics {
-        display: none;
-    }
-
-    .guba_topic ul li {
-        display: block;
-        background-color: #08417f;
-        width: 61px;
-        height: 33px;
-        margin-top: 2px;
-        line-height: 33px;
-        text-align: center;
-    }
-
-    .guba_topic:hover ul {
-        display: block;
-        position: absolute;
-        top: 25px;
-        left: -13px;
-    }
-</style>
-
-
-
-<div id="header_ad" class="gbbody">
-    <div class="dh10"></div>
-    <iframe width="1000" height="60" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1553&op=1"></iframe>
-</div>
-
-<div id="headerban" class="gbbody">
-    <div id="searchbar_wrap">
-    </div>
-    <div id="gbhri">
-        
-    </div>
-</div>
-
-<div class="zwheadbline gbbody">
-    <div class="zwheadblineb"></div>
-</div>
-<div class="gbbody ">
-    <div class="his_wrap clearfix">
-        <div class="read_path">
-            <a href="/" target="_self" class="icon icon_gubahome"></a>
-            <a href="/" target="_self">股吧首页</a> &gt;
-                <a href="/list,gssz.html" target="_self">股市实战吧（gssz）</a>
-             &gt;
-            <span class="path_news">正文</span>
-        </div>
-        <div id="zjfw" class="zjfw">
-            <ul>
-                <li class="zjfwdb">最近访问：</li>
-                <li><span id="baHistory"></span></li>
-            </ul>
-        </div>
-    </div>
-    <div id="headerfloat"></div>
-    <div id="mainbody">
-        <div id="stockheader" class="gbbody">
-            <div class="stockheader_wrap">
-                <span id="stockif">
-                    <span id="stockname" data-popstock="gssz" data-poptype="1">
-                            <a href="/list,gssz.html">股市实战吧</a>
-                    </span>
-                </span>
-                <span id="follow_wrap"></span>
-               
-            </div>
-        </div>
-        <div class="zwheadbline gbbody">
-            <div class="zwheadblineb"></div>
-        </div>
-        <div class="zwheadpager">
-            <div class="zwhpager"></div>
-            <div class="zwhpagerr">
-                    <a href="list,gssz.html">返回股市实战吧&gt;&gt;</a>
-            </div>
-        </div>
-        <div id="zwmbti">
-            <ul id="head_topic" class="head_topic">
-                <li class="topic">
-                    <ul><li><a href="http://acttg.eastmoney.com/pub/web_nr_gbzwy_ttz_01_01_01_0" >好文章，能赚钱！</a></li></ul>
-                </li>
-            </ul>
-
-            <div id="zwmbtilr"></div>
-        </div>
-                    <div id="zwcontent">
-
-                        <div id="zwcontt">
-<div class='data' data-json='{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0}'></div>                                <div id="zwconttphoto">
-
-                                        <a href="http://iguba.eastmoney.com/1529085151583734" data-poptype="2" data-popper="1529085151583734">
-                                            <img src="http://avator.eastmoney.com/qface/1529085151583734/50" width="50" height="50" class="userphoto" />
-                                        </a>
-
-                                </div>
-                                <div id="zwconttb">
-                                    <div id="zwconttbn">
-                                        <strong>
-                                            <a href="http://iguba.eastmoney.com/1529085151583734"  data-popper="1529085151583734" data-poptype="1" target="_blank"><font>券商中国</font></a><input type="hidden" value="31000" /><em class="icon icon_jv_org" title="东方财富机构认证"></em>
-
-                                        </strong>
-                                            <div class="influence_wrap" data-user_age="1.5年" data-user_level="8" data-user_black_type="0" data-type="0"></div>
-                                    </div>
-                                    <div class="zwfbtime">发表于 2019-01-24 07:47:30 股吧网页版</div>
-
-                                </div>
-
-                            <div id="zwconttbtns">
-                                <a href="//v2.eastmoney.com/" style="display: none;" id="dongmilink" class="graylink">V认证</a>&ensp;<a href="javascript:;" target="_self" id="jubaolink" class="graylink" style="color: #039;font-size: 14px;font-weight: bolder;">举报</a>
-                            </div>
-                        </div>
-                            <div id="post_content" class="zwcontentmain xeditor">
-                                <div id="zwconttbt">
-平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上                                                                    </div>
-                                <div id="zwconbody">
-                                    <div class="stockcodec .xeditor">
-<p><img src="https://dfscdn.dfcfw.com/download/A120180903205892" class="__bg_gif " alt=""></p><p><img src="https://dfscdn.dfcfw.com/download/A120190124121383" class="" alt=""></p><p>图片来源：图虫创意</p><p>一举打破<span data-code="601818,1,1" data-type="1" class="zwstock">光大银行</span><span data-code="395021,2,0" data-type="1" class="zwstock">可转债</span>网下200倍的申购纪录，<span data-code="000001,2,0" data-type="1" class="zwstock">平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type="2" data-code="162717" class="zwstock">再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code="600919,1,1" data-type="1" class="zwstock">江苏银行</span>、<span data-code="601998,1,1" data-type="1" class="zwstock">中信银行</span>、<span data-code="601328,1,1" data-type="1" class="zwstock">交通银行</span>共计1200亿元可转债已经获批，而<span data-code="600000,1,1" data-type="1" class="zwstock">浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code="000832,1,1" data-type="1" class="zwstock"><span data-type="2" data-code="161826" class="zwstock">中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src="https://dfscdn.dfcfw.com/download/A120180903207161" class="" alt=""></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟"躺赚时间"正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>"定向降息"落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供"主力"？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src="https://dfscdn.dfcfw.com/download/A120181015152104" class="" alt=""></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src="https://dfscdn.dfcfw.com/download/A120181227111531" class="__bg_gif " alt=""></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href="http://caifuhao.eastmoney.com/news/20190124053117311720040" target="_blank" style="color:Red"><b>[点击查看原文]</b></a></p>
-                                    </div>
-                                </div>
-
-                            </div>
-                        <script>
-                            try{
-                                var imgs = document.getElementsByTagName('img')
-                                if(imgs&&imgs.length>0){
-                                    var len = imgs.length
-                                    for(var i=0;i<len;++i){
-                                        var img = imgs[i]                                        
-                                        img.onerror = function(e){
-                                            this.src='//gbfek.dfcfw.com/project/guba/images/error/error_img_160.png'
-                                            this.className = this.className+" img_error"
-                                        }
-                                        
-                                    }
-                                }
-                                var isfund=false;
-                                if(isfund==false)
-                                {
-                                    (function (){
-                                        var zwconbody = document.getElementById('zwconbody');
-                                        var hideHeight =window.page > 1 ? 200 : 1500;
-                                        if(zwconbody.offsetHeight > hideHeight){
-                                            zwconbody.style.height = hideHeight+'px';
-                                            zwconbody.style.overflow = 'hidden';
-                                            zwconbody.style.position = 'relative';
-                                            var newHtml = document.createElement('div');
-                                            newHtml.className = 'readmore';
-                                            newHtml.innerHTML = '<span class="readmore_text"><span class="icon icon_readmore"></span>展开阅读全文</span>'
-                                            //var appendHtml = '<div class="readmore"><span class="readmore_text"><span class="icon icon_readmore"></span>展开阅读全文</span></div>'
-                                            zwconbody.appendChild(newHtml);
-                                        }
-                                    })();
-                                }
-                            }catch(e){                                
-                            }
-
-                        </script>
-                            <div class="social clearfix">
-                                <div id="like_wrap" data-like_count="0"></div>
-                                <div id="favorite_wrap"></div>
-                                <div id="forward_wrap"></div>
-                               
-                                <div id="share_wrap"></div>
-                                <div class="zwconbtnsi" id="zwconbtnsi_pl" onclick="try{gudong.stat(3,null);}catch (e){};">
-                                    <em class="icon icon_reply"></em>
-                                    <a href="javascript:;" target="_self">评论</a>
-                                </div>
-                            </div>
-
-                        <div class="gubamobilegg2014" id="zwcontentbgg" style="display: none; text-align: center;">
-                            <ul><li><span class="red"><a href="http://js5.eastmoney.com/tg.aspx?ID=2334 " ><strong>绝地反弹？资金流量揭晓主力动作</strong></a></span>&nbsp;<span class="black"><a href="https://acttg.eastmoney.com/pub/webtg_hskh_act_gbzwydt_01_01_01_1" ><strong>精准操盘的秘密在这里</strong></a></span>&nbsp;<span class="red"><a href="http://acttg.eastmoney.com/pub/web_nr_gblb_gbnrdbkcbwzl_01_01_01_1" ><strong>科创板申报企业名单</strong></a></span>&nbsp;<span class="black"><a href="http://fund.eastmoney.com/trade/yzzq.html?spm=gb.01.ht#zwf_,sc_jn,st_desc" ><strong>基金今年来最高涨超81%</strong></a></span>&nbsp;<span class="red"><a href="http://data.eastmoney.com/gzfx/" ><strong>如何锁定低估值个股？</strong></a></span></li></ul>
-                        </div>  
-                        <div class="wrap guba_warning">
-                            <div style="color: #666666; padding: 20px 0 0 0; clear: both; line-height: 18px;">
-                                郑重声明：用户在财富号/股吧/博客社区发表的所有信息（包括但不限于文字、视频、音频、数据及图表）仅代表个人观点，与本网站立场无关，不对您构成任何投资建议，据此操作风险自担。
-                            </div>
-                        </div>
-                        <div style="position:relative;"><div id="storeply" name="storeply" style="position:absolute;top:-100px;"></div></div>
-                                            
-                        <div class="clear"></div>
-                    </div>
-                        <div class="zwbb1"></div>
-
-
-       <!--耗时 46.875 毫秒 (2019/7/8 14:43:56 - 2019/7/8 14:43:56 )-->
-
-        <div id="zwlist">
-
-        </div>
-
-
-        
-        <div style="clear: both; height: 29px; border-top: 0; padding: 2px 0 8px 10px;">
-            <div id="zwbtextlink">
-                
-            </div>
-        </div>
-
-            <div class="gbbox_comment" id="sendnewt">
-                <div class="gbboxt"><div class="commenttext">评论该主题</div> <span class="appealspan"><a href="javascript:;" target="_self" id="appealuserlink">帖子不见了！怎么办？</a></span></div>
-                <div class="gbboxtr"><span class="topbarlogin">作者：您目前是匿名发表 &nbsp; <a href="" id="bottomlogin" class="gubaloginlink"><strong>登录</strong></a> | <a href="" class="strlink gubareglink" id="bottomreg">5秒注册</a></span> <span class="topbarhaslogin">作者：<span class="headerusername"><span class="username"></span></span>，欢迎留言 <a href="javascript:;" class="logoutbtn" target="_self">退出</a></span><a class="publishtext" href="/list,gssz.html#sendnewt)"><strong>发表新主题</strong></a></div>
-                <div class="gbboxb publishnew">
-                    <form name="gbsform" method="post" action="" id="gbsform" class="gbsform">
-                        <div class="mtj1 clearfix" id="yzmp">
-                            <label for="" class="l tzla">内容：</label><span class="triangle_ico"></span><textarea class="gbsformt1 editor_title" id="gbtainput" placeholder="内容"></textarea>
-                        </div>
-                        <div class="mtj2">
-                            <div class="editorfuns" id="editorfuns">
-                                <a href="javascript:;" id="gbtainpubtn4" data-fun="face" target="_self"><em class="iconface"></em><span class="textface">表情</span></a>
-                                
-                            </div>
-                            <div class="gbsformbtns">
-                                <a href="http://acttg.eastmoney.com/pub/web_nr_gbzwy_bmy_01_01_01_0" >实名认证 ，即可获得价值100元大礼包！</a></li></ul>
-                                <span id="gdregbtn"></span>&nbsp;
-                                <button type="submit" class="gbsformi3">发  布</button>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        <div class="post_warning" style="color: #666666; padding: 16px 0 0 0; clear: both; line-height: 20px;">           
-            郑重声明：用户在社区发表的所有资料、言论等仅代表个人观点，与本网站立场无关，不对您构成任何投资建议。用户应基于自己的独立判断，自行决定证券投资并承担相应风险。<a href="https://passport2.eastmoney.com/pub/FAQ/Service.html" target="_blank">《服务条款》</a><a href="http://guba.eastmoney.com/CommitmentLetter.aspx" target="_blank">《跟帖评论自律管理承诺书》</a>
-        </div>
-
-
-                <div class="siderg" style="padding-top: 10px; clear: both;">
-                    <iframe width="730" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1554&op=1"></iframe>
-                </div>
-
-    </div>
-    <div id="sider"></div>
-</div>
-<div class="clear"></div>
-
-
-
-<script>
-    if (document.all && !window.XMLHttpRequest) {
-        $(".qrli").hover(function () {
-            $(".icon_qr", this).show();
-        }, function () {
-            $(".icon_qr", this).hide();
-        });
-    }
-</script>
-<div id="stockhqh" style="display: none;"></div>
-
-
-<script>
-    var post_article = {"post":{"post_id":802527008,"post_user":{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0,"user_bizflag":"2","user_bizsubflag":"003006","user_extend":{"uid":"1529085151583734","ncfh_authorid":222804,"ncfh_status":1,"ncfh_orgtag":"003006","ncfh_isdel":0,"ncfh_bigvip":1,"ncfh_qualificationinfo":"券商中国","ncfh_organizationtag":1,"ncfh_updatetime":"2019-07-07 20:43:31","pushtime":"2019-07-07 20:47:37"},"user_introduce":"致力于提供最及时的财经资讯，最专业的解读分析，覆盖宏观经济、金融机构、A股市场、上市公司、投资理财等财经领域。"},"post_guba":{"stockbar_type":10,"stockbar_code":"gssz","stockbar_inner_code":"gssz","stockbar_name":"股市实战","stockbar_market":"gssz","stockbar_quote":2,"stockbar_exchange":-1,"stockbar_external_code":"gssz"},"post_title":"平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上","post_content":"<p><img src='https://dfscdn.dfcfw.com/download/A120180903205892' class='__bg_gif ' alt=''></p><p><img src='https://dfscdn.dfcfw.com/download/A120190124121383' class='' alt=''></p><p>图片来源：图虫创意</p><p>一举打破<span data-code='601818,1,1' data-type='1' class='zwstock'>光大银行</span><span data-code='395021,2,0' data-type='1' class='zwstock'>可转债</span>网下200倍的申购纪录，<span data-code='000001,2,0' data-type='1' class='zwstock'>平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type='2' data-code='162717' class='zwstock'>再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code='600919,1,1' data-type='1' class='zwstock'>江苏银行</span>、<span data-code='601998,1,1' data-type='1' class='zwstock'>中信银行</span>、<span data-code='601328,1,1' data-type='1' class='zwstock'>交通银行</span>共计1200亿元可转债已经获批，而<span data-code='600000,1,1' data-type='1' class='zwstock'>浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code='000832,1,1' data-type='1' class='zwstock'><span data-type='2' data-code='161826' class='zwstock'>中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src='https://dfscdn.dfcfw.com/download/A120180903207161' class='' alt=''></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟'躺赚时间'正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>'定向降息'落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供'主力'？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src='https://dfscdn.dfcfw.com/download/A120181015152104' class='' alt=''></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src='https://dfscdn.dfcfw.com/download/A120181227111531' class='__bg_gif ' alt=''></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href='http://caifuhao.eastmoney.com/news/20190124053117311720040' target='_blank' style='color:Red'><b>[点击查看原文]</b></a></p>","post_abstract":"图片来源：图虫创意一举打破光大银行可转债网下200倍的申购纪录，平安银行日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条...","post_publish_time":"2019-01-24 07:47:30","post_last_time":"2019-01-24 07:47:30","post_display_time":"2019-01-24 07:47:30","post_ip":"","post_state":0,"post_checkState":0,"post_click_count":6608,"post_forward_count":0,"post_comment_count":0,"post_comment_authority":0,"post_like_count":0,"post_is_like":false,"post_is_collected":false,"post_type":20,"post_source_id":"20190124053117311720040","post_top_status":0,"post_status":0,"post_from":"股吧网页版","post_from_num":20,"post_pdf_url":"","post_has_pic":false,"has_pic_not_include_content":false,"post_pic_url":[],"source_post_id":0,"source_post_state":0,"source_post_user_id":"","source_post_user_nickname":"","source_post_user_type":0,"source_post_user_is_majia":false,"source_post_pic_url":[],"source_post_title":"","source_post_content":"","source_post_ip":"","source_post_type":0,"source_post_guba":{"stockbar_type":0,"stockbar_code":"","stockbar_inner_code":null,"stockbar_name":"","stockbar_market":"","stockbar_quote":-1,"stockbar_exchange":-1,"stockbar_external_code":""},"post_video_url":null,"source_post_video_url":null,"source_post_source_id":"","code_name":"gssz","product_type":"0","v_user_code":"0","source_click_count":null,"source_comment_count":"","source_forward_count":"","source_publish_time":"","source_user_is_majia":"False","ask_chairman_state":null,"selected_post_code":"","selected_post_name":"","selected_relate_guba":null,"ask_question":null,"ask_answer":null,"qa":null,"fp_code":"u29","codepost_count":1708463,"extend":null,"post_pic_url2":[],"source_post_pic_url2":[],"relate_topic":{"id":"","name":"","h5_url":"","btype":"","stype":"","guide":""},"source_extend":null,"digest_type":1,"source_post_atuser":[],"post_inshare_count":0},"rc":1,"me":"操作成功"};
-    
-    var is_test=false;
-    var is_fake=false;
-    var comment_count="0";
-</script>
-
-
-<script src="//gbfek.dfcfw.com/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="//emcharts.dfcfw.com/suggest/stocksuggest2017.min.js"></script>
-
-
-<script src="//emcharts.dfcfw.com/ec/3.10.0/emcharts.min.js"></script>
-
-
-            <script src="//gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js"></script>
-            <script src="//gbfek.dfcfw.com/gubav5/js/module_0ff83f4823.js"></script>
-            <script src="//gbfek.dfcfw.com/project/guba/old/news_m.js?r=72"></script>
-            <script src="//gbfek.dfcfw.com/project/guba/old/news_c.js?r=72"></script>
-            <script src="//gbfek.dfcfw.com/project/guba/release/news.js?r=72"></script>
-
-<script src="//gbfek.dfcfw.com/gubav5/modules/rightpromotion/rightpromotion.js?r=5"></script>
-<script src="//gbfek.dfcfw.com/tg/EMBottomSearchTG/EMBottomSearchTG-1.0.3.min.js?v=1"></script>
-
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta content="教育与生活的意义,, 钦州市第一中学网站,钦州市第一中学,钦州一中,广西,钦州,一中,绥丰书院,示范性高中" name="Keywords" />
+<meta content="教育与生活的意义,, 钦州市第一中学网站,钦州市第一中学,钦州一中,广西,钦州,一中,绥丰书院,示范性高中 " name="Description"/>
+<title>教育与生活的意义 - 钦州市第一中学</title>
+<link href="/Template/yz/Skin/default.css" rel="stylesheet" type="text/css" />
+<link href="/Template/yz/Skin/page.css" rel="stylesheet" type="text/css" />
+<link href="/Template/yz/Skin/commentary.css" rel="stylesheet" type="text/css" />
+<script language="javascript" type="text/javascript" src="/js/common.js"></script>
+<script language="javascript" type="text/javascript" src="/js/jquery.pack.js"></script>
+<script language="javascript" type="text/javascript" src="/Template/yz/Skin/js/js.js"></script>
+<script type="text/javascript" src="/Template/yz/Skin/js/jquery.fancybox-1.3.1.js"></script>
+<script type="text/javascript" src="/Template/yz/Skin/js/pngobject.js"></script>
+<link rel="stylesheet" href="/Template/yz/Skin/style/jquery.fancybox-1.3.1.css" type="text/css" />
+<link rel="stylesheet" href="/Template/yz/Skin/style/jquery.fancybox-1.3.1.css" type="text/css" />
 <script type="text/javascript">
-    var newEMBottomSearchTG = new EMBottomSearchTG({
-        main_width: 1000,
-        main_img: 'http://z1.dfcfw.com/2015/6/10/201506101029321460568336.jpg', //推广图片  imgurl
-        link: 'http://stattg.eastmoney.com/10267' //推广链接  aurl
-    });
-    newEMBottomSearchTG.show();
+	$(document).ready(function() {
+		/*
+		*   Examples - images
+		*/
+			$("a#example1").fancybox({
+			'titleShow'		: false
+		});
+			$("a#example2").fancybox({
+			'titleShow'		: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic'
+		});
+			$("a#example3").fancybox({
+			'titleShow'		: false,
+			'transitionIn'	: 'none',
+			'transitionOut'	: 'none'
+		});
+			$("a#example4").fancybox();
+			$("a#example5").fancybox({
+			'titlePosition'	: 'inside'
+		});
+			$("a#example6").fancybox({
+			'titlePosition'	: 'over'
+		});
+			$("a[rel=bPic]").fancybox({
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'titlePosition' 	: 'over',
+			'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+				return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+			}
+		});
+			/*
+		*   Examples - various
+		*/
+			$("#various1").fancybox({
+			'titlePosition'		: 'inside',
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+			$("#various2").fancybox();
+			$("#various3").fancybox({
+			'width'				: '75%',
+			'height'			: '75%',
+			'autoScale'			: false,
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none',
+			'type'				: 'iframe'
+		});
+			$("#various4").fancybox({
+			'padding'			: 0,
+			'autoScale'			: false,
+			'transitionIn'		: 'none',
+			'transitionOut'		: 'none'
+		});
+	});
+</script>
+<script language="JavaScript">
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+{
+    var arVersion = navigator.appVersion.split("MSIE")
+    var version = parseFloat(arVersion[1])
+    if ((version <= 6.0) && (document.body.filters))
+    {
+       for(var j=0; j<document.images.length; j++)
+       {
+          var img = document.images[j]
+          var imgName = img.src.toUpperCase()
+          if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+          {
+             var imgID = (img.id) ? "id='" + img.id + "' " : ""
+             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+             var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+             var imgStyle = "display:inline-block;" + img.style.cssText
+             if (img.align == "left") imgStyle = "float:left;" + imgStyle
+             if (img.align == "right") imgStyle = "float:right;" + imgStyle
+             if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+             var strNewHTML = "<span " + imgID + imgClass + imgTitle
+             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";" + "margin:0;"
+             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+             + "(src=\'" + img.src + "\');\"></span>"
+             img.outerHTML = strNewHTML
+             j = j-1
+          }
+       }
+    }   
+}
+function alphaBackgrounds(){
+   var rslt = navigator.appVersion.match(/MSIE (d+.d+)/, '');
+   var itsAllGood = (rslt != null && Number(rslt[1]) >= 5.5);
+   for (i=0; i<document.all.length; i++){
+      var bg = document.all[i].currentStyle.backgroundImage;
+      if (bg){
+         if (bg.match(/.png/i) != null){
+            var mypng = bg.substring(5,bg.length-2);
+   //alert(mypng);
+            document.all[i].style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+mypng+"', sizingMethod='crop')";
+            document.all[i].style.backgroundImage = "url('')";
+   //alert(document.all[i].style.filter);
+         }                                              
+      }
+   }
+}
+if (navigator.platform == "Win32" && navigator.appName == "Microsoft Internet Explorer" && window.attachEvent) {
+window.attachEvent("onload", correctPNG);
+window.attachEvent("onload", alphaBackgrounds);
+}
 </script>
 
+</head>
+<body onload="commentinit()">
+<div id="index_backwall">
+<div id="master_body"><div class="wrap"> <!--头部定义开始-->
+<div id="header">
+  <div id="top_box">
+
+<!--顶部banner效果开始-->
 
 
+    <!--顶部banner效果结束-->
 
-<script type="text/javascript" src="//emcharts.dfcfw.com/newsts/newsts.min.js" charset="utf-8"></script>
-<script type="text/javascript" src="//emcharts.dfcfw.com/usercollect/usercollect.min.js" charset="utf-8"></script>
-
-<script>var _gglist = 'gssz.2.股市实战.3';</script>
-
-<script type="text/javascript" charset="UTF-8">
-    try {
-        var emtj_isUpload = 1;
-        var emtj_pageId = 117001300541;
-        var emtj_startTime = new Date().getTime();
-        var emtj_logSet = "1100000000";
-        var emtj_sampleRate = 100;
-    } catch (err) {       
-    }
-</script>
-<script type="text/javascript" src="https://bdstatics.eastmoney.com/web/prd/jump_tracker.js" charset="UTF-8"></script>
-
+        <div id="topbox_left">
+          <div id="logo">
+                <a href="/">
+                    <img src="/Template/yz/Skin/images/logo.gif" alt="钦州市第一中学" /></a>
+           </div>
+        </div>
+        <div id="topbox_right">
+  <div id="topbar">
+    <A onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gxqzyz.com');">设为首页</a>
+    <a href="javascript:window.external.addFavorite('http://www.gxqzyz.com','钦州市第一中学');">加入收藏</a>
     
-    <!-- footer-2016 -->
-<style>
-    .footer2016 ul {list-style: none;margin: 0;padding: 0;}
-    .footer2016 a:hover{color:#ff4901 !important;text-decoration: underline !important;}
-    .footer2016 .icon, .footer2016 .navlist li a {display: inline-block;}
-    .footer2016 .icon {background-image: url(https://g1.dfcfw.com/g3/201802/20180206095814.png);background-repeat: no-repeat;}
-    .footer2016 {margin: 0 auto;clear: both;width: 1000px;line-height: 1.1;_line-height: 1.2;font-family: simsun;font-size: 12px;border-top: 2px solid #2F5895;}
-    .footer2016 .footertg {background-color: #F3F3F3;float: left;width: 100%;padding: 12px 0 0;height: 140px;}
-    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
-    .footer2016 .qr {float: left;width: 80px;height: 140px;line-height: 150%;padding: 0 10px 0 8px;}
-    .footer2016 .qr .t {font-weight: 700;font-size: 14px;padding-bottom: 10px;}
-    .footer2016 .icon_qrem80, .footer2016 .icon_qrjj80 {background-image: url(https://g1.dfcfw.com/g2/201607/20160728133707.png);width: 80px;height: 80px;}
-    .footer2016 .icon_qrem80 {background-position: 0 -330px;}
-    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {background-image: url(https://g1.dfcfw.com/g2/201607/20160728133707.png);width: 86px;height: 106px;}
-    .footer2016 .icon_emwxqr {background-position: -90px 0;}
-    .footer2016 .ftglist ul li.qrli {position: relative;}
-    .footer2016 .ftglist ul li.qrli:hover .icon_qr, .footer2016 .scl-news .name a {display: block;}
-    .footer2016 .icon_emwxqr, .footer2016 .icon_jjwxqr {display: none;position: absolute;left: 0;top: 24px;}
-    .footer2016 .ftglist {float: left;height: 140px;padding: 0px 10px;}
-    .footer2016 .ftglistt {font-size: 14px;font-weight: 700;line-height: 130%;padding-bottom: 6px;text-align: left;}
-    .footer2016 .ftglist ul li {padding: 5px 0;color: #676767;text-align: left;}
-    .footer2016 .icon_wb {background-position: -24px 0;width: 14px;height: 12px;}
-    .footer2016 .icon_wx {background-position: 0 0;width: 14px;height: 11px;}
-    .footer2016 .icon_note {background-position: -47px 0;width: 13px;height: 11px;}
-    .footer2016 .ftglist .icon {vertical-align: -1px;margin-right: 2px;}
-    .footer2016 .footertg a:link, .footer2016 .footertg a:visited {color: #676767;text-decoration: none;}
-    .footer2016 .qrl {border-left: 1px solid #ddd;margin-left: 10px;padding-left: 20px;}
-    .footer2016 .icon_qrjj80 {background-position: -90px -330px;}
-    .footer2016 .footercr {clear: both;text-align: center;line-height: 26px;font-size: 12px;width:1000px;margin: 0 auto;height:26px;overflow:hidden;}
-    .footer2016 .icon_icp {background-position: -24px -21px;width: 15px;height: 17px;}
-    .footer2016 .footercr .icon {vertical-align: -3px;margin-right: 2px;}
-    .footer2016 .icon_pol {background-position: 0 -22px;width: 18px;height: 20px;}
-    .footer2016 .footerlinks {background-color: #2F5895;height: 30px;text-align: center;line-height: 30px;}
-    .footer2016 .footerlinks a:link, .footer2016 .footerlinks a:visited, .footer2016 .footerlinks a:hover {color: #fff !important;text-decoration: none;margin: 0 14px;}
-    .footer2016 .footerbz {text-align: center;padding: 12px 0;}
-    .footer2016 .footerbz a {margin: 0 4px;}
-    .footer2016 .footer-police {background-position: 0 -112px;width: 110px;height: 40px;}
-    .footer2016 .footer-zx110 {background-position: -120px -113px;width: 110px;height: 40px;}
-    .footer2016 .footer-shjubao {background-position: 0 -172px;width: 110px;height: 40px;}
-    .footer2016 .footer-cxzx {background-position: -120px -174px;width: 40px;height: 40px;}
-    .footer2016 .footer-shgs {background-position: -180px -174px;width: 47px;height: 40px;}
-    .footer2016 .footer-12377 {background-position: 0 -54px;width: 186px;height: 40px;}
-    .footer2016 .footer-yhjb {background-position: 0 -229px;width: 123px;height: 40px;}
-    .footer2016 .footer-qrlast {width: 90px;}
-    .footer2016 .footer-icon-qihuoqr { background: url(https://emcharts.dfcfw.com/images/qihuoqr.png);width: 80px;height: 80px;display: inline-block;background-repeat: no-repeat;vertical-align: -5px;}
-</style>
+  </div>
+  <div id="search">
+    <input class="inp" id="keyword" onfocus="this.value='';" maxlength="100" size="29" value="填写您想搜索的关键词" name="Keyword" />
+    <input id="Submit" class="subSearch" type="Submit" value="搜索" name="Submit" onclick="OnSearchCheckAndSubmit();" />
+	<script type="text/javascript">
+	jQuery(function($){
+		$("#keyword").hover(function(){
+		$(this).addClass("inpOn");
+		},function(){
+		$(this).removeClass("inpOn");
+		});
+	});
+	  function OnSearchCheckAndSubmit(){
+		  var keyword = document.getElementById("keyword").value;
+		  if (keyword == '' || keyword == null) {
+			  alert("请填写您想搜索的关键词");
+			  return;
+		  }
+		  else {
+			  window.location = "/search.aspx?searchtype=0&Keyword=" + escape(keyword);
+		  }
+	  }
+  </script>
+  </div>
+<!--顶部flash-->
+<div id="top_ad">
+<OBJECT WIDTH="550" HEIGHT="90"> 
+          <EMBED src="/Template/yz/Skin/swf/top_ad.swf"  WIDTH="550" HEIGHT="90"  wmode="transparent" ALIGN=""></EMBED></OBJECT>
 
-<div class="footer2016">
-    <div class="footertg">
-        <div class="qr">
-            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富</a></div>
-            <a href="http://acttg.eastmoney.com/pub/web_app_dcsy_2wm_01_01_01_0" target="_blank"><em class="icon icon_qrem80"></em></a><br />扫一扫下载APP
-        </div>
+<!--<embed src="/Template/yz/Skin/swf/top_ad.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="90" wmode="transparent">
+</embed>-->
 
-        <div class="ftglist">
-            <div class="ftglistt">东方财富产品</div>
-            <ul>
-                <li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfwmfb_01_01_01_0" target="_blank">东方财富免费版</a></li>
-                <li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfwl2_01_01_01_0" target="_blank">东方财富Level-2</a></li>
-                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=1483" target="_blank">投资大师</a></li>
-                <li><a href="http://js5.eastmoney.com/tg.aspx?ID=2749" target="_blank">Choice金融终端</a></li>
-                <li style="display: none;"><a href="http://www.langke.com/" target="_blank">浪客 - 财经视频</a></li>
-            </ul>
-        </div>
-        <div class="ftglist">
-            <div class="ftglistt">证券交易</div>
-            <ul>
-                <li><a href="http://gpkh.eastmoney.com/310100" target="_blank">东方财富证券开户</a></li>
-                <li><a href="https://jy.xzsec.com/Trade/Buy" target="_blank">东方财富在线交易</a></li>
-				<li><a href="https://acttg.eastmoney.com/pub/pctg_hskh_act_dfcfzqjy_01_01_01_0"  target="_blank">东方财富证券交易</a></li>
-                <li><a href="http://www.emsec.hk/3m-Account.html" target="_blank">港美股开户</a></li>
-                <li><a href="https://jy.xzsec.com/?mode=hk" target="_blank">港美股交易 </a></li>
-            </ul>
-        </div>
-        <div class="ftglist">
-            <div class="ftglistt">关注东方财富</div>
-            <ul>
-                <li><a href="http://weibo.com/dfcfw" target="_blank"><em class="icon icon_wb"></em>东方财富网微博</a></li>
-                <li class="qrli"><a href="javascript:;" target="_self"><em class="icon icon_wx"></em>东方财富网微信</a><em class="icon icon_qr icon_emwxqr"></em></li>
-                <li><a href="http://corp.eastmoney.com/Lianxi_liuyan.asp" target="_blank"><em class="icon icon_note"></em>意见与建议</a></li>
-            </ul>
-        </div>
-        <div class="qr qrl">
-            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_ttjjsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">天天基金</a></div>
-            <a href="http://js1.eastmoney.com/tg.aspx?ID=4672" target="_blank"><em class="icon icon_qrjj80"></em></a><br />扫一扫下载APP
-        </div>
-        <div class="ftglist">
-            <div class="ftglistt">基金交易</div>
-            <ul>
-                <li><a href="https://trade6.1234567.com.cn/reg/step1" target="_blank">基金开户</a></li>
-                <li><a href="https://trade.1234567.com.cn/login" target="_blank">基金交易</a></li>
-                <li><a href="http://huoqibao.1234567.com.cn/" target="_blank">活期宝</a></li>
-                <li><a href="http://fund.eastmoney.com/trade/default.html" target="_blank">基金产品</a></li>
-                <li><a href="http://fund.eastmoney.com/gslc/" target="_blank">稳健理财</a></li>
-            </ul>
-        </div>
-        <div class="ftglist">
-            <div class="ftglistt">关注天天基金</div>
-            <ul>
-                <li><a href="http://weibo.com/ttfund" target="_blank"><em class="icon icon_wb"></em>天天基金网微博</a></li>
-                <li class="qrli"><a href="javascript:;" target="_self"><em class="icon icon_wx"></em>天天基金网微信<em class="icon icon_qr icon_jjwxqr"></em></a></li>
-            </ul>
-        </div>
-        <div class="qr qrl footer-qrlast">
-            <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfqhsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富期货</a></div>
-            <a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibudfcfqh_01_01_01_1" target="_blank"><em class="footer-icon-qihuoqr"></em></a><br>扫一扫下载APP
-        </div>
-        <div class="ftglist">
-            <div class="ftglistt">期货交易</div>
-            <ul>
-                <li><a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibuqhsjkh_01_01_01_1" target="_blank">期货手机开户</a></li>
-                <li><a href="https://acttg.eastmoney.com/pub/web_kh_dcsy_dibudnkh_01_01_01_1" target="_blank">期货电脑开户</a></li>
-                <li><a href="http://acttg.eastmoney.com/pub/web_kh_dcsy_dibuqhgfwz_01_01_01_1" target="_blank">期货官方网站</a></li>
-            </ul>
-        </div>
-    </div>
-        <div class="footercr" style="padding-top:8px;">信息网络传播视听节目许可证：0908328号 经营证券期货业务许可证编号：913101046312860336 违法和不良信息举报:021-34289898 举报邮箱：<a target="_self" href="mailto:jubao@eastmoney.com">jubao@eastmoney.com</a></div>
-        <div class="footercr" style="padding-bottom:8px;">
-            <em class="icon icon_icp"></em>沪ICP证:沪B2-20070217 <a target="_blank" rel="nofollow" href="http://shcainfo.miitbeian.gov.cn" style="color: #3F3F3F;text-decoration:none;">网站备案号:沪ICP备05006054号-11 </a> <a target="_blank" rel="nofollow" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010402000120" target="_blank" style="color: #3F3F3F;text-decoration:none;"><em class="icon icon_pol"></em>沪公网安备 31010402000120号</a> 版权所有:东方财富网 意见与建议:021-54509966/021-24099099
-        </div>
-    <div class="footerlinks">
-			<a href="http://about.eastmoney.com" target="_blank" rel="nofollow">关于我们</a>
-			<a href="http://emhd2.eastmoney.com/market" target="_blank" rel="nofollow">广告服务</a>
-			<a href="http://about.eastmoney.com/home/contact" target="_blank" rel="nofollow">联系我们</a>
-			<a href="http://eastmoney.zhiye.com" target="_blank" rel="nofollow">诚聘英才</a>
-			<a href="http://about.eastmoney.com/home/disclaimer" target="_blank" rel="nofollow">免责声明</a>
-			<a href="http://about.eastmoney.com/home/legal" target="_blank" rel="nofollow">法律声明</a>
-            <a href="http://about.eastmoney.com/home/conceal" target="_blank" rel="nofollow">隐私保护</a>
-			<a href="http://about.eastmoney.com/home/parper" target="_blank" rel="nofollow">征稿启事</a>
-			<a href="http://www.eastmoney.com/sitemap.html" target="_blank">网站地图</a>
-			<a href="http://www.zx110.org/cxs/index.html" target="_blank" rel="nofollow">放心搜</a>
-			<a href="http://about.eastmoney.com/home/links" target="_blank" rel="nofollow">友情链接</a>
-    </div>
-    <div class="footerbz">
-        <img src="https://g1.dfcfw.com/g3/201905/20190531140719.png" title="亲爱的市民朋友，上海警方反诈劝阻电
-话“962110”系专门针对避免您财产被
-骗受损而设，请您一旦收到来电，立即
-接听。" style="vertical-align: bottom;">
-        <a rel="nofollow" href="http://www.cyberpolice.cn/" class="icon footer-police" title="上海网警网络110" target="_blank"></a>
-        <a rel="nofollow" href="http://www.zx110.org/" class="icon footer-zx110" title="网络社会征信网" target="_blank"></a>
-        <a rel="nofollow" href="http://www.shjbzx.cn/" class="icon footer-shjubao" title="上海违法和违规信息举报中心" target="_blank"></a>
-        <a rel="nofollow" href="http://www.51315.cn/company_details_1138" class="icon footer-cxzx" title="诚信在线" target="_blank"></a>
-        <a rel="nofollow" href="https://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=dov73ne2cwgd88longlpxsn0hcrfn5m2aa" class="icon footer-shgs" title="上海工商" target="_blank"></a>
-        <a rel="nofollow" href="http://www.12377.cn" class="icon footer-12377" title="中国互联网违法和不良信息举报中心" target="_blank"></a>
-        <a rel="nofollow" href="http://report.12377.cn:13225/toreportinputNormal_anis.do" class="icon footer-yhjb" title="上海市互联网违法和不良信息举报中心" target="_blank"></a>
-	</div>
 </div>
+  </div>
 
-<script>
-    if(document.all && !window.XMLHttpRequest){
-        $(".qrli").hover(function(){
-            $(".icon_qr",this).show();
-        },function(){
-            $(".icon_qr",this).hide();
+
+</div>
+<!--导航开始-->
+<div id=top_daohang>
+   <div class="" id=multiMenu>
+   <script language="javascript">
+			if(currentId == undefined ) var currentId=0;
+			jQuery(function($){
+				jQuery("#multiMenu").switchTab({defaultIndex: currentId, titCell: "li a.go", effect: "fade", trigger: "mouseover", delayTime: 300});
+			});
+			</SCRIPT>
+<UL class=multiUl>
+<li class="current"><a class="go" href="/Index.html" target="_self"><span>网站首页</span></a></li>
+<li><a class="go" href="/Category_13/Index.aspx" target="_self"><span>学校概况</span></a>
+                          <BLOCKQUOTE id="multi13"><a href="/Category_76/Index.aspx">学校简介</a><a href="/Category_79/Index.aspx">校园风光</a><a href="/Category_12/Index.aspx">校园视频</a><a href="/Category_98/Index.aspx">学校发展</a><a href="/Category_185/Index.aspx">领导之窗</a><a href="/Category_186/Index.aspx">组织机构</a><a href="/Category_187/Index.aspx">校史沿革</a><a href="/Category_188/Index.aspx">规章制度</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_9/Index.aspx" target="_self"><span>校园动态</span></a>
+                          <BLOCKQUOTE id="multi9"><a href="/Category_10/Index.aspx">校园新闻</a><a href="/Category_87/Index.aspx">公示公告</a><a href="/Category_85/Index.aspx">招生招聘</a><a href="/Category_86/Index.aspx">周程安排</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_19/Index.aspx" target="_self"><span>教学科研</span></a>
+                          <BLOCKQUOTE id="multi19"><a href="/Category_89/Index.aspx">科研动向</a><a href="/Category_51/Index.aspx">课题研究</a><a href="/Category_22/Index.aspx">课程设置</a><a href="/Category_175/Index.aspx">队伍建设</a><a href="/Category_176/Index.aspx">课例展示</a><a href="/Category_159/Index.aspx">资源下载</a><a href="/Category_216/Index.aspx">教学视频</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_268/Index.aspx" target="_self"><span>教务管理</span></a>
+                          <BLOCKQUOTE id="multi268"><a href="/Category_194/Index.aspx">成绩查询</a><a href="/Category_269/Index.aspx">教务快讯</a><a href="/Category_270/Index.aspx">资源下载</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_52/Index.aspx" target="_self"><span>德育空间</span></a>
+                          <BLOCKQUOTE id="multi52"><a href="/Category_134/Index.aspx">专题教育</a><a href="/Category_181/Index.aspx">德育队伍</a><a href="/Category_177/Index.aspx">德育活动</a><a href="/Category_178/Index.aspx">学子风采</a><a href="/Category_179/Index.aspx">德育课程</a><a href="/Category_91/Index.aspx">德育在线</a><a href="/Category_53/Index.aspx">心灵驿站</a><a href="/Category_93/Index.aspx">爱国主义</a><a href="/Category_92/Index.aspx">班主任信息资源库</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_271/Index.aspx" target="_self"><span>体艺之窗</span></a>
+                          
+                    </li>
+<li><a class="go" href="/Category_27/Index.aspx" target="_self"><span>党政建设</span></a>
+                          <BLOCKQUOTE id="multi27"><a href="/Category_183/Index.aspx">党员风采</a><a href="/Category_182/Index.aspx">支部建设</a><a href="/Category_199/Index.aspx">党的群众路线教育实践活动</a><a href="/Category_242/Index.aspx">政策文件</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_184/Index.aspx" target="_self"><span>工会工作</span></a>
+                          <BLOCKQUOTE id="multi184"><a href="/Category_217/Index.aspx">法律法规</a><a href="/Category_218/Index.aspx">调研文章</a><a href="/Category_219/Index.aspx">工会要闻</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_57/Index.aspx" target="_self"><span>校报校刊</span></a>
+                          
+                    </li>
+<li><a class="go" href="/Category_200/Index.aspx" target="_self"><span>附属幼儿园</span></a>
+                          <BLOCKQUOTE id="multi200"><a href="/Category_202/Index.aspx">幼儿园动态</a><a href="/Category_201/Index.aspx">领导机构</a><a href="/Category_203/Index.aspx">幼儿园简介</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_215/Index.aspx" target="_self"><span>职称专题</span></a>
+                          
+                    </li>
+<li><a class="go" href="/Category_235/Index.aspx" target="_self"><span>团委</span></a>
+                          <BLOCKQUOTE id="multi235"><a href="/Category_236/Index.aspx">资助信息</a><a href="/Category_237/Index.aspx">学生会</a><a href="/Category_180/Index.aspx">社团联合会</a><a href="/Category_238/Index.aspx">一般新闻</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_243/Index.aspx" target="_self"><span>名师榜</span></a>
+                          <BLOCKQUOTE id="multi243"><a href="/Category_244/Index.aspx">龙湾校区</a><a href="/Category_245/Index.aspx">龙岗校区</a></BLOCKQUOTE>
+                    </li>
+<li><a class="go" href="/Category_239/Index.aspx" target="_self"><span>名师工作</span></a>
+                          <BLOCKQUOTE id="multi239"><a href="/Category_224/Index.aspx">语文工作坊</a><a href="/Category_240/Index.aspx">梁小金工作室</a><a href="/Category_241/Index.aspx">何萍工作室</a></BLOCKQUOTE>
+                    </li>
+ </UL>
+<SCRIPT type=text/javascript>
+		var mst;
+		jQuery("#multiMenu li").hover(function(){
+			var curItem = jQuery(this);
+			mst = setTimeout(function(){//延时触发
+					curItem.find("blockquote").fadeIn("fast");
+					mst = null;
+				}, 10);
+		}, function(){
+			if(mst!=null)clearTimeout(mst);
+			jQuery(this).find("blockquote").fadeOut("fast");
+		});
+		</SCRIPT>
+</div>
+</div>
+<!--最新新闻日期天气预报--> 
+
+<div id="date_weather">
+<div class="newsAcc" id="sAnnounce">
+    <STRONG>最新：</STRONG> 
+    <UL class=txtList>
+    
+                <li><a href="/Item/6335.aspx" target="_self" title="标题：2019年春季学期龙岗校区第二十一周工作周程&#xD;点击数：18&#xD;发表时间：19年07月08日"><font style=";">2019年春季学期龙岗校区第二十一周工作周程</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6334.aspx" target="_self" title="标题：2019年秋钦州一中“绥丰课程”校本课程汇总表&#xD;点击数：17&#xD;发表时间：19年07月08日"><font style=";">2019年秋钦州一中“绥丰课程”校本课程汇总表</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6333.aspx" target="_self" title="标题：2019年秋季学期钦州一中“绥丰课程”教师校本课程开设申请表&#xD;点击数：17&#xD;发表时间：19年07月08日"><font style=";">2019年秋季学期钦州一中“绥丰课程”教师校本课程开…</font></a><img src="/images/new.gif" alt="最新内容"></li><li><a href="/Item/6331.aspx" target="_self" title="标题：2019年秋季学期钦州一中“绥丰课程”学生校本课程开设申请表&#xD;点击数：69&#xD;发表时间：19年07月05日"><font style=";">2019年秋季学期钦州一中“绥丰课程”学生校本课程开…</font></a></li><li><a href="/Item/6330.aspx" target="_self" title="标题：关于全国优秀系列拟推荐人选的公示&#xD;点击数：112&#xD;发表时间：19年07月04日"><font style=";">关于全国优秀系列拟推荐人选的公示</font></a></li>
+              
+</UL>
+</div>
+<div class="divDay">
+    <span><script language="javascript" type="text/javascript" src="/Template/yz/Skin/js/date.js"></script></span>
+    <!---->
+</div>
+</div>
+<SCRIPT type=text/javascript>
+				jQuery(function($){
+				jQuery("#sAnnounce ul.txtList").scrollUp();
+				});
+
+			</SCRIPT>
+</div>
+<!--头部定义结束-->
+
+  <!--  container  -->
+  <div id="container" class="pageComm">
+    <div class="mode-a" >
+      <!-- mode-a-sid -->
+      <div class="mode-a-sid"> <div class="mode-a-sid">
+    <dl id="sidNav" class="box">
+       <dt>
+          <h3><span>栏目导航</span></h3>
+       </dt>
+       <dd>
+           <ul>
+             <li><a href="/Category_196/Index.aspx">第一期</a></li>
+<li><a href="/Category_197/Index.aspx">第二期</a></li>
+<li><a href="/Category_198/Index.aspx">第三期</a></li>
+<li><a href="/Category_204/Index.aspx">第四期</a></li>
+<li><a href="/Category_205/Index.aspx">第五期</a></li>
+<li><a href="/Category_206/Index.aspx">第六期</a></li>
+<li><a href="/Category_207/Index.aspx">第七期</a></li>
+<li><a href="/Category_208/Index.aspx">第八期</a></li>
+<li><a href="/Category_209/Index.aspx">第九期</a></li>
+<li><a href="/Category_210/Index.aspx">第十期</a></li>
+<li><a href="/Category_211/Index.aspx">第十一期</a></li>
+<li><a href="/Category_212/Index.aspx">第十二期</a></li>
+            </ul>
+        </dd>
+       </dl>
+     <div class="clearbox blank"></div>
+   </div>
+<div class="mode-a-sid">
+  <div class="mode-a-sid1">
+
+<dl id="LastestUpdate" class="box">
+<dt>
+<h3><span>最近更新</span></h3>
+</dt>
+<dd>
+<ul class="txtList">
+
+                <li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6335.aspx" target="_self"><font style=";">2019年春季学期龙…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6334.aspx" target="_self"><font style=";">2019年秋钦州一中…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6333.aspx" target="_self"><font style=";">2019年秋季学期钦…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6331.aspx" target="_self"><font style=";">2019年秋季学期钦…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6330.aspx" target="_self"><font style=";">关于全国优秀系列…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6329.aspx" target="_self"><font style=";">领导干部任职前公示</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6328.aspx" target="_self"><font style=";">我校举办2019年春…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6326.aspx" target="_self"><font style=";">关于实行网上办理…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6325.aspx" target="_self"><font style=";">2019年春季学期龙…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6324.aspx" target="_self"><font style=";">关于黄琴、马菊蔚…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6323.aspx" target="_self"><font style=";">我校荣获2019年广…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6322.aspx" target="_self"><font style=";">我校参与全市教育…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6321.aspx" target="_self"><font style=";">关于成立专业技术…</font></a></li><li><img src="/images/ontop3.gif" alt="热门"><a href="/Item/6320.aspx" target="_self"><font style=";">2019年钦州市直中…</font></a></li>
+              
+</ul>
+</dd>
+</dl>
+<div class="clearbox blank"></div>
+</div>
+<div class="mode-a-sid">
+<div class="mode-b-sid">
+
+				<dl class="box" id="IndComm">
+					<dt><span>网站统计</span></dt>
+					<dd>
+						<script src='/Analytics/CounterLink.aspx?Style=all'></script>
+					</dd>
+				</dl>
+				<div class="clearbox blank"></div>			
+			</div> 
+</div>
+</div>
+ </div>
+      <!-- mode-a-main -->
+      <div class="mode-a-main conBody">
+        <div class="path">您现在的位置：<a href="http://www.gxqzyz.com">钦州市第一中学</a>>> 
+    
+    
+    <a href="/Category_195/Index.aspx" target="_self" title="校长之印象笔记">校长之印象笔记</a>&gt;&gt;
+    <a href="/Category_210/Index.aspx" target="_self">第十期</a></div>
+        <div class="contArticle_all">
+          <!-- 标题 -->
+          <div class="contArticle_tit">
+            <h2> 教育与生活的意义</h2>
+            <h3> </h3>
+
+          </div>
+          <div class="contArticle_author"> <span>发布时间：2014年09月24日</span> <span>点击数：
+    <script language="JavaScript" type="text/JavaScript" src="/Common/GetHits.aspx?id=3260"></script>
+    次</span> <span>【字体：<a href="javascript:fontZoomA();" class="top_UserLogin">小</a> <a href="javascript:fontZoomB();" class="top_UserLogin">大</a>】</span> <span>【<a href="/ShowComment.aspx?id=3260">查看评论</a>】</span> </span><span><span id="content_AdminEdit"></span>
+<script type="text/javascript">
+	function CheckAdminStatus(id)
+	{
+		var x=new AjaxRequest('XML','');
+		x.para = ['itemId='+id];
+		x.post('admineditcheck','/ajax.aspx',function(s)
+		{
+			var xml = x.createXmlDom(s);
+			var  status = xml.getElementsByTagName("status")[0].firstChild.data;
+			
+			if(status=='OK')
+			{
+        var  managedir = "/Common/GetContentEdit.aspx?itemId=3260" ;
+				document.getElementById("content_AdminEdit").innerHTML = "【<a href='" + managedir + "' target='_blank'>进入后台编辑</a>】";
+			}
+		});
+	}
+  CheckAdminStatus(3260);
+</script></span> <span>  <span id="content_signin"></span><span id="content_SigninAjaxStatus"></span>
+  <script type="text/javascript">
+    function GetContentSigninStatus(id)
+    {
+        var x = new AjaxRequest('XML','content_SigninAjaxStatus');
+        x.para = ['itemId='+id];
+        x.post('GetContentSigninStatus', '/ajax.aspx', function(s) 
+        {
+            var xml = x.createXmlDom(s);
+            var  status = xml.getElementsByTagName("status")[0].firstChild.data;
+            document.getElementById("content_SigninAjaxStatus").style.display = "none";
+            
+            switch (status)
+            {
+                case "NoSignin":
+                    break;
+                case "NoLogin":
+                    break;
+                case "AutoSignin":
+                    var time = xml.getElementsByTagName("time")[0].firstChild.data;
+                    AutoSigninContent(id,time);
+                    break;
+                case "NormalSignin":
+                    document.getElementById("content_signin").innerHTML = "【<span style='cursor: pointer;' onclick=\"SigninContent('"+id+"')\" >点击签收</span>】";
+                    break;
+                case "SigninOutTime":
+                    document.getElementById("content_signin").innerHTML = "【已过签收截止时间】";
+                    break;
+                case "Signined":
+                    document.getElementById("content_signin").innerHTML = "【已签收】";
+                    break;
+            }
         });
     }
+    
+    function AutoSigninContent(id,time)
+    {
+        var secs = time;
+        var wait = secs * 1000;
+        document.getElementById("content_signin").innerHTML = "【自动签收[" + secs +"]秒】";
+        for(i = 1; i <= secs; i++)
+        {
+            window.setTimeout("UpdateAutoSigninTime(" + i + "," + secs + ")", i * 1000);
+        }
+        window.setTimeout("SigninContent('"+id+"')", wait);
+    }
+    
+    function UpdateAutoSigninTime(number,wait)
+    {
+        printnr = wait  - number;
+        document.getElementById("content_signin").innerHTML = "【自动签收[" + printnr +"]秒】";
+    }
+    
+    function SigninContent(id)
+    {
+        var x = new AjaxRequest('XML','content_SigninAjaxStatus');
+        x.para = ['itemId='+id];
+        x.post('SigninContent', '/ajax.aspx', function(s) 
+        {
+            var xml = x.createXmlDom(s);
+            var  status = xml.getElementsByTagName("status")[0].firstChild.data;
+            document.getElementById("content_SigninAjaxStatus").style.display = "none";
+            
+            switch (status)
+            {
+            case "Signined":
+             document.getElementById("content_signin").innerHTML = "【已签收】";
+             break;
+            case "NotSignined":
+             document.getElementById("content_signin").innerHTML = "【签收失败】";
+             break;
+            case "SigninOutTime":
+             document.getElementById("content_signin").innerHTML = "【已过签收截止时间】";
+             break;
+            }
+        }
+        );
+    }
+    GetContentSigninStatus('3260');
+  </script></span> </div>
+          <!-- 正文 -->
+          <div class="contArticle_text">
+            <div class="" id="fontzoom"> 
+      
+     <p style="text-align: center;"><span style="font-size:16px;"><strong>2014-09-22</strong>&nbsp; <strong>克里希那穆提/文&nbsp; </strong>&nbsp;<strong>张宽宽/译</strong></span></p>
+<p><span style="font-size:16px;"><strong>&nbsp; &nbsp; </strong></span><span style="font-size: 16px; line-height: 19.2pt; text-indent: 24pt;">如果一个人环游世界，他将注意到，不论在印度、美洲、欧洲或是澳洲，人的本性是多么地相似。在学院、大学里，情形尤其如此。我们好像用着模型制造出一种人的典型——以寻求安全感、成为重要人物，或尽可能少思考而过着舒服日子，为其主要关心的目标。</span></p>
+<div>
+	<p align="left" style="text-indent:24pt;line-height:19.2pt;"><span style="font-size:16px;">　　　　<br />
+	&nbsp;&nbsp;&nbsp; 传统的教育，使得独立思考成了一件极端困难的事。附和随从导致平庸。如果我们崇尚成功，那么要异于众人，或是反抗环境便非易事，而且可能是危险的。想要成功的动力——这是追求物质或所谓精神上的报偿、寻求内在或外在的安全感、寻求享乐的欲望——这整个过程都会阻碍了“不满之情”，遏止了自发创造，滋生了恐惧；而恐惧，则阻碍了我们对生活加以明智地了解。随着年龄的增加，心灵便冷漠迟滞了。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 当我们寻求舒适时，通常会在生活里找到一处最没有冲突的安静角落。于是，我们便惧于跨出这块隐蔽的地方。这种对生活、对奋斗、对新经验的恐惧，扼杀了我们心中的冒险精神。我们一切的环境教养与教育都促使我们不要异于他人，惟恐自己的思想与社会上的模式相左，使我们对权威和传统给予错误的尊敬。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 幸好，有些认真的人们，愿意摒除左派或右派的偏见，而探究有关人类的问题。然而，我们绝大部分的人，都没有真正的“不满之情”，真正的反抗之心。当我们对于环境不加以了解便屈服于其中，则我们可能具有的任何反抗之心便逐渐熄灭了。不久，我们的种种责任更使它完全死绝。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 反抗有两种。一种是暴力的反抗。这仅是对于既存的秩序不加了解的一种反作用而已。另一种是深入的、充满了智慧的心理反抗。有许多人反抗既存的正统规范，却又落入新的正统规范，落入了更进一步的迷惘和巧加隐饰的自溺自满之中。一般来说，我们总是脱离某一群人或某一组理想，而加入另一群人，背上另外的理想，如此地制造了新的思想模式；而对于这项思想模式，我们则必须再起而反抗。反作用只会产生对立，而改革则需要再度的改革。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 然而有一种明智的反抗，它并非反作用，而是由于一个人对他自己的思想、情感加以觉察，因而随着自我认识而产生。惟有当一种经验来临时，我们面对它，而不避开它所带来的骚扰，如此我们才能使智慧保持高度的觉醒；而高度觉醒的智慧就是直觉，它是生活中惟一的向导。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 那么，什么是生活的意义？我们为何生存，为何奋斗？如果我们受教育仅是为了出名，找到一份更好的工作，变得更能支配他人，那么，我们的生活将是肤浅而空洞的。如果我们受教育只是为了成为科学家，成为死守书本的学者，或成为沉迷于某种知识的专家，那么，我们将助长世界上的毁灭与不幸。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 虽然生活确有更高更广的意义，然而，如果我们未曾发现它，那么教育又有什么价值呢？我们可能受到高深的教育，然而，如果我们的思想和情感不能融为完整的一体，则我们的生活将是残缺的、矛盾的，被许多恐惧所折磨；一旦教育没有培养我们对生活持有一个完整的看法，它便没有多大的意义。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 在目前的文明世界里，我们把生活分成如此繁多的部门，以致于教育除了是学习一种特定的技术职业之外，便没有多大的意义。教育不但没有唤醒个人的智慧，反而鼓励个人去沿袭某种模式，因而阻碍了个人，使他无法将自身作为一项整体的过程来加以了解。将生活上的许多分门别类的问题，尝试着在它们个别的层次里加以解决，这表示完全欠缺了解。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 个人是由不同的实体（entities）所组成的，然而，强调它们的差异之处，而鼓励某种特定类型的发展，则导致诸多的纷乱与矛盾。教育应该使得这些分离的实体完整合一——因为如果欠缺了完整性，生活便成了一连串的冲突和悲哀。如果我们争讼持续不休，那么，被训练成律师又有什么价值？如果我们的混乱延续不止，那么，知识有何价值？如果我们利用技术上和工业上的能力来互相毁灭，那么，它们有何意义？如果我们的生活导致暴力与不幸，那么，它又有什么意思呢？虽然我们或许富有，或有能力赚取财富，虽然我们享有欢乐，拥有组织化的宗教，我们却生活在无止境的冲突中。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 我们必须对“私人”和“个人”加以区别。“私人”是偶然性的；我所谓偶然性的，意指我们出生时的境遇与情况，我们凑巧生长于其中的环境，以及随环境而来的爱国心、迷信、阶级的区分与偏见。“私人”或“偶然性的”只是暂时性的，虽然这一短暂的时刻可能持续一生。由于现在的教育制度是以“私人”、“偶然性的”、“暂时性的”为基础，所以它导致思想的腐化，以及对自我防御性恐惧的谆谆教诲。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 我们大家都被教育和环境所训练，而寻求私人的利益和安全，为我们自己而奋斗。虽然我们用美丽的言辞加以掩饰，然而，我们都是在一个基于剥削与因恐惧而贪得无厌的制度下被教育着来从事各种职业。这种训练，必会为我们自己以及世界带来混乱与不幸，因为它在每一个人的心中制造了心理上的障碍，使得他与别人分离。<br />
+	　　</span></p>
+	<p align="left" style="line-height:19.2pt;"><span style="font-size:16px;">　　</span></p>
+	<p align="left" style="line-height:19.2pt;"><span style="font-size:16px;">《最好的教育是爱》<br />
+	克里希那穆提/著<br />
+	张宽宽/译<br />
+	中信出版社<br />
+	2014年1月</span></p>
+	<p align="left" style="line-height:19.2pt;">&nbsp;</p>
+	<p align="left" style="text-indent:24pt;line-height:19.2pt;"><span style="font-size:16px;">教育，并非只是用来训练心智。训练提升了效率，然而却无法造就一个圆满的个人。一个只知接受训练的心智，只是过去的延续，这样的心智永远无法发现新的事物。所以，为了要寻出何谓正确的教育，我们必须探询生活的全部意义。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 整体的生活意义对于我们大部分人来说，并非是最重要的事，而我们的教育所强调的是次要的价值，仅仅使我们熟谙了某个部门的知识而已。虽然知识和效率是必须的，然而，把它们作为主要事物而加以强调的结果，则只会造成冲突与混乱。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 有一种由爱所启发的效率，它行得更远，此野心所造成的效率来得更伟大；如果没有爱——它使我们对生活有完整无缺的了解——效率便滋生了残暴与无情。现在整个世界上，情形不正是如此吗？我们现行的教育，是以发展效率为其主要目标，因此它便和工业化、战争相衔接；而我们便陷于这个无情竞争与互相毁灭的大机器里。如果教育导致战争，如果教育教导我们去毁灭他人或被人毁灭，它不是完全失败了吗？<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 要建设正确的教育，显然地，我们必须把生活当做一个整体来了解它的意义，而要做到这一点，我们必须要能够思考，不是指顽固不变、死守理论的思考，而是直接地、真实地思考。一个顽固不变、死守理论的思考者，是一个不假思索的人，因为他遵循着一个模式；他重复着说过的话，循着一个窠臼去思考。我们无法抽象地或根据理论来了解生活。了解生活，就是了解我们自己。而教育的全部内容就在于此。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 教育并非只是获取知识，聚集事实，将之编集汇合；教育是把生活当做一个整体而明白其中的意义。然而，整体能经由“部分”加以了解——可是这却是政府、组织化的宗教、独裁政党所尝试的工作。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 教育的功用在于培养完整的人，因而是具有智慧的人。我们可能获有学位，具有像机械似的效率，然而却没有智慧。智慧并非只是一些常识；它并非来自书本，它也不是机巧的自我防御的反应，或具侵略性的断言。一个没有读过书的人，可能比一个博学的人更有智慧。我们把考试和学位当做衡量智慧的标准，而培育了一种躲避人生重大问题的心智。智慧是对于根本事物、现在存在的事物的了解能力；而所谓教育，便是在自己以及别人身上唤醒这项能力。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 教育，应该帮助我们发现恒久不灭的价值，使我们不致于只依附公式或重复口号；教育应该帮助我们拆除在国籍和社会上所竖起的栅栏，而非强调它们，因为这些栅栏在人与人之间，造成了对立。不幸的是，现行的教育制度正促使我们变得卑屈，变得机械化，变得毫不思考，虽然教育唤醒我们的智力，然而，它使我们的内心残缺不全、矛盾、没有创造力。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 对生活如果没有整体性的了解，则我们个人的或集体的问题只有加深、加广。教育的目的，并非制造学者、专家、寻找工作的人，而是培养完整的男男女女，使他们从恐惧之中解脱出来；因为惟有在这样的人之中，才有持久的和平。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 惟有了解我们自己本身时，恐惧才会终止。如果每一个人想在每一刻里澄清他的生活，如果他想面对生活上纷杂的事物、生活上的灾难、生活上突然降临的苛求，他便必须更具弹性，因此，他必须不为种种理论或某种特定的思考模式所束缚。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 教育，不应该鼓励个人去附和社会，或与社会消极地和谐相处，而是要帮助个人去发现真正的价值——它是经由公正不偏的探讨和自我觉悟而来。如果没有自我认识，则自我表现便成为自我肯定，以及其所含的种种因野心和侵略性而造成的冲突。教育，应该唤醒一个人自觉的能力，而非只耽溺于满足自己的自我表现。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 如果在生活的过程中，我们相互毁灭，那么学识又有什么用呢？一连串残酷的战争，一次紧接着一次地爆发，显然在我们培养孩子的方式里，有某种根本上的错误。我想大部分人对此都有所察觉，然而，我们却不知道该如何加以处置。<br />
+	　　　　<br />
+	&nbsp;&nbsp;&nbsp; 制度——不论是教育上或政治上——的改变并不神奇；当我们自身发生了变化，它们便改变了。个人才是最重要的，而非制度；一旦个人不了解它自身的整体过程，那么任何制度——不论是左派或右派的——都无法为这个世界带来秩序与和平。</span></p>
+	<span style="font-size:16px;"><strong>来源：《最好的教育是爱》</strong></span></div>
+<p>&nbsp;</p>
+
+    
+    </div>
+             
+            <div class="c_main">
+            <dl>
+                <dt class="c_title">                    
+                    <a style="color:red">相关信息</a></dt>
+                    <dd class="c_contents">
+                       <font style="color:red">没有相关内容</font> </dd>
+            </dl>
+          </div>
+          </div>
+            
+          <div class="contArticle_bot_Artpage"> <span id="pe100_page_contentpage" class="pagecss"></span> </div>
+          <div class="contArticle_bot_text"> <span class="contArticle_bot_text_UpdateTime"> [<a href="/User/Contents/Favorite.aspx?Action=add&Id=3260">收藏</a>]
+            &nbsp;&nbsp;&nbsp;&nbsp;[<a href="/Print.aspx?id=3260">打印文章</a>]</span> <span>作者：</span> <span>&nbsp;&nbsp;&nbsp;&nbsp;来源：</div>
+          <div class="contArticle_bot_page">
+            <div class="cA_b_prew"><font style="color:red">上一篇：</font><img src="/images/ontop8.gif" alt="热门文章"><a href="/Item/3259.aspx" target="_self" title="标题：师者五境界&#xD;点击数：244&#xD;发表时间：14年09月24日">师者五境界</a>[ 09-24 ]</div>
+            <div class="cA_b_next"><font style="color:red">下一篇：</font><img src="/images/ontop8.gif" alt="热门文章"><a href="/Item/3261.aspx" target="_self" title="标题：首席语文老师告诉你：语文学习的秘诀&#xD;点击数：210&#xD;发表时间：14年09月24日">首席语文老师告诉你：语文学习的秘诀</a>[ 09-24 ]</div>
+          </div>
+          
+          <!-- 评论开始 -->
+          <div id="commentform"></div>
+          <!-- 评论结束 -->
+        </div>
+      </div>
+      <!-- end con -->
+    </div>
+  </div>
+  <!--网站底部开始-->
+<div id="footer">
+  <div class="fmenu"> <a href="javascript:window.external.addFavorite('http://www.gxqzyz.com','钦州市每一中学');">加
+    
+    入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.gxqzyz.com');" 
+
+href="#">设为首页</a> | <a href="mailto:">联系我们</a> | <a href="/admin/index.aspx" 
+
+title="管理">管理</a> </div>
+  <div class="fbt">
+    <table>
+      <tbody>
+        <tr>
+          <td style="width:80px;"><!--事业单位标识-->
+            <A href="http://bszs.conac.cn/sitename?method=show&amp;id=3664F98791ED335FE053022819ACB693" 
+
+target=_blank><img id="imgConac" vspace="0" hspace="0" border="0" src="http://www.gxqzyz.com/images/blue_error.png" 
+
+data-bd-imgshare-binded="1" /></A>
+            <!--<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript 
+
+src='http://dcs.conac.cn/js/21/328/0000/40700970/CA213280000407009700002.js' type='text/javascript'%3E%3C/script
+
+%3E"));</script>-->
+            <!--事业单位标识结束--></td>
+          <td style="width:400px;"><div id="copyright">
+              <p>Copyright © 2013 钦州市一中信息技术中心 All Rights Reserved<br/>
+                地址：广西钦州市新华路北<br/>
+                <a href="http://icp.valu.cn/beianxinxi/c307830a-7e12-461f-abd4-d38a4bd5d270.html">桂ICP备05004062号</a> |
+                <!--	ICP备案代码开始（以后维护此段代码可Ctrl+F查询此段注释）-->
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=45070202000517">桂公网安备45070202000517号</a> <br/>
+                <!--	ICP备案代码结束	-->
+              </p>
+              <div id="footSafe" > </div>
+            </div></td>
+          <td style="width:130px;"><!--	报警岗亭代码开始（以后维护此段代码可Ctrl+F查询此段注释）-->
+            <a id='_gx_gangting' href="http://www.gx.cyberpolice.cn/AlarmInfo/getTishi.do?
+
+icon=gangting&checkCode=e935bfe35038fa9e1a136e040ab177d6" target=_blank> <img src="http://www.gxqzyz.com/images/cyberhome.gif" alt="广西网警虚拟岗亭" border="0" width="130px"> </a>
+            <!-- 	报警岗亭代码结束	--></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+
+<!--百度推送开始-->
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
 </script>
+<!--百度推送结束-->
+<!--网站底部结束--> </div>
+ </div>
+ </div>
+<!-- 统计点击数 -->
+<!--
+    <input type="hidden" id="commentViewpoint" value="1" />
+    <input type="hidden" id="commentIsPrivate" value="0" />
+    <input type="hidden" id="commentIsAnonymous" value="false" />
+    <input type="hidden" id="commentRanking" value="3" />
+
+    <script language="javascript" type="text/javascript">
+
+        function $getE(obj) {
+            return document.getElementById(obj);
+        }
+
+        //初始化评论
+        function commentInit() {
+            var x = new AjaxRequest('XML', 'commentForm');
+            x.labelname = "内容评论标签";
+            x.para = ['itemId=3260','nodeId=210'];
+            x.currentpage = 1;
+            x.post('updatelabel', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                $getE('commentform').innerHTML = xml.getElementsByTagName("body")[0].firstChild.data;
+                changepage(1, '评论列表', 'JS_基本风格');
+                setCurrentUserInfo();
+            });
+        }
+
+        //添加评论
+        function addComment() {
+            if ($getE('commentTitle').value == '') {
+                alert("请输入标题！");
+                $getE("commentTitle").focus();
+                return;
+            }
+
+            if ($getE('commentIsAnonymous').value == 'false') {
+                if ($getE('commentUsername').value == '') {
+                    alert("请输入用户名！");
+                    $getE('commentUsername').focus();
+                    return;
+                }
+
+                if ($getE('commentEmail').value == '') {
+                    alert('请输入Email地址！');
+                    $getE('commentEmail').focus();
+                    return;
+                }
+
+                var regEmail = /^([a-zA-Z0-9]+[_|\-|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\-|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+                if ($getE('commentEmail').value.match(regEmail) == null) {
+                    alert('请输入正确的Email格式！');
+                    $getE('commentEmail').focus();
+                    return;
+                }
+            }
+
+            if ($getE("commentContnet").value == '') {
+                alert("请输入评论内容！");
+                $getE("commentContnet").focus();
+                return false;
+            }
+
+            var commentValidCode = "";
+            var checkValidCode = false;
+            if ($getE("commentValidCode") != null) {
+                if ($getE("commentValidCode").value == '') {
+                    alert("请输入验证码！");
+                    $getE("commentValidCode").focus();
+                    return;
+                }
+                commentValidCode = $getE("commentValidCode").value;
+                checkValidCode = true;
+            }
+
+            var x = new AjaxRequest('XML', 'status');
+            x.para = ['username=' + $getE("commentUsername").value, 'commenttitle=' + $getE("commentTitle").value, 'content=' + $getE("commentContnet").value, 'email=' + $getE("commentEmail").value, 'gid=3260', 'nid=' + 210, 'private=' + $getE("commentIsPrivate").value, 'position=' + $getE("commentViewpoint").value, 'score=' + $getE("commentRanking").value, 'TxtValidCode=' + commentValidCode, 'isguest=' + $getE("commentIsAnonymous").value];
+            x.paratype = ['nohtml', 'nohtml', 'nohtml']
+            x.post('addcomment', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+                switch (status) {
+                    case "ok":
+                        changepage(1, '评论列表', 'JS_基本风格');
+                        alert("发表评论成功！");
+                        window.location.href = '#commentTarget';
+                        $getE("commentContnet").value = '';
+                        break;
+                    case "check":
+                        alert("发表评论成功，请等待管理员审核。");
+                        break;
+                    case "err":
+                        alert("发表评论失败！");
+                        break;
+                    case "nopurview":
+                        alert("此栏目已禁止发表评论！");
+                        break;
+                    case "noTourists":
+                        alert("此栏目已禁止游客发表评论！");
+                        break;
+                    case "checkCodeError":
+                        $getE("commentValidCode").value = '';
+                        refreshValidCode($getE("commentValidCodeImg"));
+                        alert("您输入的验证码和系统产生的不一致，请重新输入！");
+                        break;
+                    default:
+                        alert("发表评论失败！");
+                        break;
+                }
+                if (checkValidCode) {
+                    refreshValidCode($getE("commentValidCodeImg"));
+                    $getE("commentValidCode").value = '';
+                    checkValidCode = false;
+                }
+            });
+        }
+
+        function addPkZone(commentid, position, content) {
+            var x = new AjaxRequest('XML', 'status');
+            x.para = ['commentid=' + commentid, 'position=' + position, 'content=' + content];
+            x.post('addpkzone', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var status = xml.getElementsByTagName("status")[0].firstChild.data;
+                switch (status) {
+                    case "ok":
+                        changepage(1, '评论列表', 'JS_基本风格');
+                        break;
+                    default:
+                        alert("辩论失败！");
+                        break;
+                }
+            });
+        }
+
+        //更新列表
+        function changepage(pagenum, sourcename, spanname) {
+            var x = new AjaxRequest('XML', 'pe100_' + sourcename);
+            x.labelname = sourcename;
+            x.currentpage = pagenum;
+            x.para = ['itemId=3260', 'outputQty=10', 'page=true', 'pagesize=10', 'currentpage=' + pagenum];
+            x.post('updatelabel', '/ajax.aspx', function(s) {
+                var xml = x.createXmlDom(s);
+                var plstr = "";
+                for (var i = 0; i < xml.getElementsByTagName("body")[0].childNodes.length; i++) {
+                    plstr += xml.getElementsByTagName("body")[0].childNodes[i].nodeValue;
+                }
+                $getE('pe100_' + sourcename).innerHTML = plstr;
+                $getE('commentCount').innerHTML = xml.getElementsByTagName("total")[0].firstChild.data;
+                updatepage(spanname, sourcename, xml);
+            });
+        }
+
+        //更新分页
+        function updatepage(spanname, sourcename, xml) {
+            if (parseInt(xml.getElementsByTagName("total")[0].firstChild.data) > 0) {
+                var x = new AjaxRequest('XML', 'pe100_page_' + sourcename);
+                x.labelname = spanname;
+                x.sourcename = sourcename;
+                x.total = xml.getElementsByTagName("total")[0].firstChild.data;
+                x.currentpage = xml.getElementsByTagName("currentpage")[0].firstChild.data;
+                x.pagesize = xml.getElementsByTagName("pagesize")[0].firstChild.data;
+                x.post('updatepage', '/ajax.aspx', function(s) {
+                    var xml = x.createXmlDom(s);
+                    if ($getE('pe100_page_' + sourcename) != null) {
+                        var plstr = "";
+                        for (var i = 0; i < xml.getElementsByTagName("body")[0].childNodes.length; i++) {
+                            plstr += xml.getElementsByTagName("body")[0].childNodes[i].nodeValue;
+                        }
+                        $getE('pe100_page_' + sourcename).innerHTML = plstr;
+                    }
+                });
+            }
+        }
+
+        //设置默用户信息
+        function setCurrentUserInfo() {
+            try {
+                var x = new AjaxRequest('XML', '');
+                x.post('logincheck', '/ajax.aspx', function(s) {
+                    var xml = x.createXmlDom(s);
+                    if (xml.getElementsByTagName("status")[0].firstChild.data == "ok") {
+                        if ($getE('commentUsername') != null) {
+                            $getE('commentUsername').value = xml.getElementsByTagName("username")[0].firstChild.data;
+                            $getE('commentEmail').value = xml.getElementsByTagName("email")[0].firstChild.data;
+                            $getE('commentUsername').disabled = true;
+                            $getE('commentEmail').disabled = true;
+                        }
+                    }
+                });
+            }
+            catch (e) {
+            }
+        }
+
+        //刷新验证码
+        function refreshValidCode(obj) {
+            obj.src = obj.src + '?code=' + randomNumber(10);
+        }
+
+        function randomNumber(n) {
+            var rnd = '';
+            for (var i = 0; i < n; i++)
+                rnd += Math.floor(Math.random() * 10);
+            return rnd;
+        }
+
+        //设置匿名
+        function setAnonymous(obj) {
+            if (obj.checked) {
+                $getE('commentUsernameBlock').style.display = 'none';
+                $getE('commentEmailBlock').style.display = 'none';
+                $getE('commentIsAnonymous').value = 'true';
+            }
+            else {
+                $getE('commentUsernameBlock').style.display = '';
+                $getE('commentEmailBlock').style.display = '';
+                $getE('commentIsAnonymous').value = 'false';
+            }
+        }
+
+        //设置私有
+        function setPrivate(obj) {
+            if (obj.checked) {
+                $getE('commentIsPrivate').value = 1;
+            }
+            else {
+                $getE('commentIsPrivate').value = 0;
+            }
+        }
+
+        //设置观点
+        function setViewpoint(value) {
+            for (i = -1; i < 2; i++) {
+                if (i == value) {
+                    $getE('commentViewpointTab' + i).className = "current";
+                }
+                else {
+                    $getE('commentViewpointTab' + i).className = "";
+                }
+            }
+            $getE('commentViewpoint').value = value;
+        }
+
+        //设置按钮
+        function changeBtnStyle(obj, className) {
+            obj.className = className;
+        }
+
+        //设置评分
+        function changeRanking(index, isfixed) {
+            var colStars = $getE("commentRankingBlock").getElementsByTagName("input");
+            var k = isfixed ? parseInt($getE("commentRanking").value) : index;
+            for (var i = 0; i < colStars.length; i++) {
+                colStars[i].src = (i < k ? "/Images/fstar.gif" : "/Images/estar.gif");
+            }
+        }
+
+        function rankingClick(index) {
+            $getE("commentRanking").value = index;
+        }
+
+        function rankingMouseOver(index) {
+            changeRanking(index, false);
+        }
+
+        function rankingMouseOut() {
+            changeRanking(0, true);
+        }
+
+        //初始化评论
+        commentInit();
+
+    </script>-->
+<script language="javascript" type="text/javascript">
+//无级缩放图片大小
+function bbimg(o)
+{
+  return true;
+}
+//双击鼠标滚动屏幕的代码
+var currentpos,timer;
+function initialize()
+{
+timer=setInterval ("scrollwindow ()",30);
+}
+function sc()
+{
+clearInterval(timer);
+}
+function scrollwindow()
+{
+currentpos=document.body.scrollTop;
+window.scroll(0,++currentpos);
+if (currentpos !=document.body.scrollTop)
+sc();
+}
+document.onmousedown=sc
+document.ondblclick=initialize
+
+//更改字体大小
+var status0='';
+var curfontsize=10;
+var curlineheight=18;
+function fontZoomA(){
+  if(curfontsize>8){
+    document.getElementById('fontzoom').style.fontSize=(--curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(--curlineheight)+'pt';
+  }
+}
+function fontZoomB(){
+  if(curfontsize<64){
+    document.getElementById('fontzoom').style.fontSize=(++curfontsize)+'pt';
+	document.getElementById('fontzoom').style.lineHeight=(++curlineheight)+'pt';
+  }
+}
+</script>
+
 </body>
 </html>
 

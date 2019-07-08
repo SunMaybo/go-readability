@@ -43,7 +43,7 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
-	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自|出处)于?[:：\s\f]+[“]*(((https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])|[\w` + "\u4e00" + "-" + "\u9fa5" + `]{2,50})`)
+	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自|出处|转自|转载自)于?[:：\s\f]+[“《]*(((https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])|[\w` + "\u4e00" + "-" + "\u9fa5" + `]{2,50})`)
 )
 
 // Constants that used by readability.
@@ -1147,12 +1147,13 @@ func (ps *Parser) FilterSourceName(text string) string {
 			if !strings.Contains(result[0], "图片") && !strings.Contains(result[0], "数据") {
 				cleanSource = result[len(result)-1]
 				cleanSource = strings.ReplaceAll(cleanSource, "来源", "")
+				cleanSource = strings.ReplaceAll(cleanSource, "来自", "")
 				if cleanSource == "https" || cleanSource == "http" || cleanSource == "ftp" || cleanSource == "file" {
 					if len(result)-2 > 0 {
 						cleanSource = result[len(result)-2]
 					}
 				}
-				if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") || strings.Contains(strings.ToLower(cleanSource), "人气") || strings.Contains(strings.ToLower(cleanSource), "日期") || strings.Contains(strings.ToLower(cleanSource), "次数") {
+				if strings.Contains(cleanSource, "作者") || strings.Contains(cleanSource, "编辑") || strings.Contains(cleanSource, "时间") || strings.Contains(strings.ToLower(cleanSource), "xxx") || strings.Contains(strings.ToLower(cleanSource), "点击") || strings.Contains(strings.ToLower(cleanSource), "跟帖") || strings.Contains(strings.ToLower(cleanSource), "人气") || strings.Contains(strings.ToLower(cleanSource), "日期") || strings.Contains(strings.ToLower(cleanSource), "次数") || strings.Contains(strings.ToLower(cleanSource), "浏览") || strings.Contains(strings.ToLower(cleanSource), "分类") {
 					cleanSource = ""
 				}
 				reg, _ := regexp.Compile(`\d+`)
