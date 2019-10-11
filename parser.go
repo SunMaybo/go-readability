@@ -43,7 +43,7 @@ var (
 	rxFaviconSize          = regexp.MustCompile(`(?i)(\d+)x(\d+)`)
 	rxLazyImageSrcset      = regexp.MustCompile(`(?i)\.(jpg|jpeg|png|webp)\s+\d`)
 	rxLazyImageSrc         = regexp.MustCompile(`(?i)^\s*\S+\.(jpg|jpeg|png|webp)\S*\s*$`)
-	rxSourceSearch         = regexp.MustCompile(`(图片|数据|文章){0,1}(来源|来自|出处)于?[:：\s\f]+[“]*(((https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])|[\w` + "\u4e00" + "-" + "\u9fa5" + `]{2,50})`)
+	rxSourceSearch         = regexp.MustCompile(`[^(图片)(截图)(题图)](来源|来自|出处)于?[:：\s\f]+[“]*(((https?|ftp|file)://[-A-Za-z0-9+&@#/%?=~_|!:,.;]+[-A-Za-z0-9+&@#/%=~_|])|[\w\.` + "\u4e00" + "-" + "\u9fa5" + `]{2,50})`)
 )
 
 // Constants that used by readability.

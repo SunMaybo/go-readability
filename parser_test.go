@@ -33,10 +33,10 @@ func TestSource(t *testing.T){
 	textList = append(textList, `	并 本报北京6月5日电 中国青年报·中青在线记者樊未晨来源：中国青年报。
 	先跟考生所在中学或各省级招生考试机构公</p>
 `)
-	for _, text := range textList {
-		textList = append(textList, `从欧盟出台《通用数据保护条例》（GDPR）实施“严监管”，到
+	textList = append(textList, `从欧盟出台《通用数据保护条例》（GDPR）实施“严监管”，到
 图片来源：图虫创意
 据参考消息报道，20国集团（G20）财长会议6月8日在日本福冈举行，会议支持对亚马逊、谷歌和脸书等数字巨头征税，使得这个建议在全球范围内更加接近于可行。`)
+	for _, text := range textList {
 		p := Parser{}
 		source:=p.FilterSourceName(text)
 		fmt.Println(source)
@@ -50,18 +50,13 @@ var content = `
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit">
     <meta charset="utf-8">
-
     <title>平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上_股市实战(gssz)股吧_东方财富网股吧</title>
     <meta name="keywords" content="股市实战股吧,gssz股吧,股市实战怎么样,股市实战分析">
     <meta name="description" content="股市实战(gssz)股吧，股民朋友可以在这里畅所欲言，分析讨论股票名的最新动态。股市实战股吧，专业的股票论坛社区。">
             <meta name="mobile-agent" content="format=html5; url=https://mguba.eastmoney.com/mguba/article/0/802527008">
-
             <link rel="canonical" href="http://guba.eastmoney.com/list,gssz,802527008.html" />
-
-
             <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/old/news_c.css?r=72" />
             <link rel="stylesheet" href="//gbfek.dfcfw.com/project/guba/release/news.css?r=72" />
-
     <base target="_blank" />
 </head>
 <body class="hlbody">
@@ -84,7 +79,6 @@ var content = `
             </li> |
             <li tracker-eventcode="gb_xgbsy_zdh_djgbsy"><a href="http://guba.eastmoney.com/" target="_blank">股吧首页</a></li>
             <li tracker-eventcode="gb_xgbsy_zdh_djjjb"><a href="//guba.eastmoney.com/jj.html">基金吧</a></li>
-
             <li tracker-eventcode="gb_xgbsy_zdh_djgbft"><a href="http://guba.eastmoney.com/ft_list.aspx" target="_blank">访谈</a></li>
             <li class="guba_topic" tracker-eventcode="gb_xgbsy_zdh_djgbht"><a href="http://gubatopic.eastmoney.com/" target="_blank">话题</a><i class="red_point"></i></li>
             <li tracker-eventcode="gb_xgbsy_zdh_djwdm"><a href="http://guba.eastmoney.com/qa/qa_list.aspx" target="_blank">问董秘</a></li>
@@ -132,7 +126,6 @@ var content = `
                     </div>
                 </span>
             </li>
-
             <li class="topbarhaslogin" style="display:none;">
                 <span class="tnavsel">
                     <em class="top_name my_msg">我的消息<i></i></em><em class="tnavselic"></em>
@@ -144,7 +137,6 @@ var content = `
                             <li><a href="http://i.eastmoney.com/myarts">我的发言</a></li>
                             <li><a href="http://i.eastmoney.com/collection">我的收藏</a></li>
                             <li><a id="my_wdmsg" href="http://i.eastmoney.com/myinfo">&nbsp;&nbsp;查看问答消息<em></em></a></li>
-
                         </ul>
                     </div>
                 </span>
@@ -156,13 +148,10 @@ var content = `
     window.shimingOption = 2;
 </script>
     <script src="//gbfek.dfcfw.com/project/guba/modules/h5Adaptation.js?r=6"></script>
-
     <link rel="stylesheet" href="//gbfek.dfcfw.com//project/xeditor/editor_frame.css?r=72" />
-
 <script>
     var topictype = "20";
     var topicid = "802527008";
-
     var barcode = "gssz";
     var code = "gssz";
     var tabtype = "";
@@ -180,10 +169,8 @@ var content = `
     var qq_code = "";
     var qq_code2 = "";
     var IsStockA = "False";
-
     var page="1";
 </script>
-
 <style>
     #topnav li .red_point_jj {
         position: absolute;
@@ -195,7 +182,6 @@ var content = `
         height: 6px;
         margin: 0 auto;
     }
-
     #topnav li {
         display: inline-block;
         padding: 0 6px;
@@ -204,11 +190,9 @@ var content = `
         position: relative;
         height: 30px;
     }
-
     .guba_topic .topics {
         display: none;
     }
-
     .guba_topic ul li {
         display: block;
         background-color: #08417f;
@@ -218,7 +202,6 @@ var content = `
         line-height: 33px;
         text-align: center;
     }
-
     .guba_topic:hover ul {
         display: block;
         position: absolute;
@@ -226,14 +209,10 @@ var content = `
         left: -13px;
     }
 </style>
-
-
-
 <div id="header_ad" class="gbbody">
     <div class="dh10"></div>
     <iframe width="1000" height="60" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1553&op=1"></iframe>
 </div>
-
 <div id="headerban" class="gbbody">
     <div id="searchbar_wrap">
     </div>
@@ -241,7 +220,6 @@ var content = `
         
     </div>
 </div>
-
 <div class="zwheadbline gbbody">
     <div class="zwheadblineb"></div>
 </div>
@@ -289,31 +267,24 @@ var content = `
                     <ul><li><a href="http://acttg.eastmoney.com/pub/web_nr_gbzwy_ttz_01_01_01_0" >好文章，能赚钱！</a></li></ul>
                 </li>
             </ul>
-
             <div id="zwmbtilr"></div>
         </div>
                     <div id="zwcontent">
-
                         <div id="zwcontt">
 <div class='data' data-json='{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0}'></div>                                <div id="zwconttphoto">
-
                                         <a href="http://iguba.eastmoney.com/1529085151583734" data-poptype="2" data-popper="1529085151583734">
                                             <img src="http://avator.eastmoney.com/qface/1529085151583734/50" width="50" height="50" class="userphoto" />
                                         </a>
-
                                 </div>
                                 <div id="zwconttb">
                                     <div id="zwconttbn">
                                         <strong>
                                             <a href="http://iguba.eastmoney.com/1529085151583734"  data-popper="1529085151583734" data-poptype="1" target="_blank"><font>券商中国</font></a><input type="hidden" value="31000" /><em class="icon icon_jv_org" title="东方财富机构认证"></em>
-
                                         </strong>
                                             <div class="influence_wrap" data-user_age="1.5年" data-user_level="8" data-user_black_type="0" data-type="0"></div>
                                     </div>
                                     <div class="zwfbtime">发表于 2019-01-24 07:47:30 股吧网页版</div>
-
                                 </div>
-
                             <div id="zwconttbtns">
                                 <a href="//v2.eastmoney.com/" style="display: none;" id="dongmilink" class="graylink">V认证</a>&ensp;<a href="javascript:;" target="_self" id="jubaolink" class="graylink" style="color: #039;font-size: 14px;font-weight: bolder;">举报</a>
                             </div>
@@ -326,7 +297,6 @@ var content = `
 <p><img src="https://dfscdn.dfcfw.com/download/A120180903205892" class="__bg_gif " alt=""></p><p><img src="https://dfscdn.dfcfw.com/download/A120190124121383" class="" alt=""></p><p>图片来源：图虫创意</p><p>一举打破<span data-code="601818,1,1" data-type="1" class="zwstock">光大银行</span><span data-code="395021,2,0" data-type="1" class="zwstock">可转债</span>网下200倍的申购纪录，<span data-code="000001,2,0" data-type="1" class="zwstock">平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type="2" data-code="162717" class="zwstock">再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code="600919,1,1" data-type="1" class="zwstock">江苏银行</span>、<span data-code="601998,1,1" data-type="1" class="zwstock">中信银行</span>、<span data-code="601328,1,1" data-type="1" class="zwstock">交通银行</span>共计1200亿元可转债已经获批，而<span data-code="600000,1,1" data-type="1" class="zwstock">浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code="000832,1,1" data-type="1" class="zwstock"><span data-type="2" data-code="161826" class="zwstock">中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src="https://dfscdn.dfcfw.com/download/A120180903207161" class="" alt=""></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟"躺赚时间"正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>"定向降息"落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供"主力"？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src="https://dfscdn.dfcfw.com/download/A120181015152104" class="" alt=""></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src="https://dfscdn.dfcfw.com/download/A120181227111531" class="__bg_gif " alt=""></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href="http://caifuhao.eastmoney.com/news/20190124053117311720040" target="_blank" style="color:Red"><b>[点击查看原文]</b></a></p>
                                     </div>
                                 </div>
-
                             </div>
                         <script>
                             try{
@@ -362,7 +332,6 @@ var content = `
                                 }
                             }catch(e){                                
                             }
-
                         </script>
                             <div class="social clearfix">
                                 <div id="like_wrap" data-like_count="0"></div>
@@ -375,7 +344,6 @@ var content = `
                                     <a href="javascript:;" target="_self">评论</a>
                                 </div>
                             </div>
-
                         <div class="gubamobilegg2014" id="zwcontentbgg" style="display: none; text-align: center;">
                             <ul><li><span class="red"><a href="http://js5.eastmoney.com/tg.aspx?ID=2334 " ><strong>绝地反弹？资金流量揭晓主力动作</strong></a></span>&nbsp;<span class="black"><a href="https://acttg.eastmoney.com/pub/webtg_hskh_act_gbzwydt_01_01_01_1" ><strong>精准操盘的秘密在这里</strong></a></span>&nbsp;<span class="red"><a href="http://acttg.eastmoney.com/pub/web_nr_gblb_gbnrdbkcbwzl_01_01_01_1" ><strong>科创板申报企业名单</strong></a></span>&nbsp;<span class="black"><a href="http://fund.eastmoney.com/trade/yzzq.html?spm=gb.01.ht#zwf_,sc_jn,st_desc" ><strong>基金今年来最高涨超81%</strong></a></span>&nbsp;<span class="red"><a href="http://data.eastmoney.com/gzfx/" ><strong>如何锁定低估值个股？</strong></a></span></li></ul>
                         </div>  
@@ -389,22 +357,15 @@ var content = `
                         <div class="clear"></div>
                     </div>
                         <div class="zwbb1"></div>
-
-
        <!--耗时 46.875 毫秒 (2019/7/8 14:43:56 - 2019/7/8 14:43:56 )-->
-
         <div id="zwlist">
-
         </div>
-
-
         
         <div style="clear: both; height: 29px; border-top: 0; padding: 2px 0 8px 10px;">
             <div id="zwbtextlink">
                 
             </div>
         </div>
-
             <div class="gbbox_comment" id="sendnewt">
                 <div class="gbboxt"><div class="commenttext">评论该主题</div> <span class="appealspan"><a href="javascript:;" target="_self" id="appealuserlink">帖子不见了！怎么办？</a></span></div>
                 <div class="gbboxtr"><span class="topbarlogin">作者：您目前是匿名发表 &nbsp; <a href="" id="bottomlogin" class="gubaloginlink"><strong>登录</strong></a> | <a href="" class="strlink gubareglink" id="bottomreg">5秒注册</a></span> <span class="topbarhaslogin">作者：<span class="headerusername"><span class="username"></span></span>，欢迎留言 <a href="javascript:;" class="logoutbtn" target="_self">退出</a></span><a class="publishtext" href="/list,gssz.html#sendnewt)"><strong>发表新主题</strong></a></div>
@@ -425,26 +386,19 @@ var content = `
                             </div>
                             <div class="clear"></div>
                         </div>
-
                     </form>
                 </div>
             </div>
         <div class="post_warning" style="color: #666666; padding: 16px 0 0 0; clear: both; line-height: 20px;">           
             郑重声明：用户在社区发表的所有资料、言论等仅代表个人观点，与本网站立场无关，不对您构成任何投资建议。用户应基于自己的独立判断，自行决定证券投资并承担相应风险。<a href="https://passport2.eastmoney.com/pub/FAQ/Service.html" target="_blank">《服务条款》</a><a href="http://guba.eastmoney.com/CommitmentLetter.aspx" target="_blank">《跟帖评论自律管理承诺书》</a>
         </div>
-
-
                 <div class="siderg" style="padding-top: 10px; clear: both;">
                     <iframe width="730" height="90" frameborder="0" scrolling="no" marginwidth="0" marginheight="0" src="http://same.eastmoney.com/s?z=eastmoney&c=1554&op=1"></iframe>
                 </div>
-
     </div>
     <div id="sider"></div>
 </div>
 <div class="clear"></div>
-
-
-
 <script>
     if (document.all && !window.XMLHttpRequest) {
         $(".qrli").hover(function () {
@@ -455,8 +409,6 @@ var content = `
     }
 </script>
 <div id="stockhqh" style="display: none;"></div>
-
-
 <script>
     var post_article = {"post":{"post_id":802527008,"post_user":{"user_id":"1529085151583734","user_nickname":"券商中国","user_name":"k1529085151583734","user_v":31000,"user_type":0,"user_is_majia":false,"user_level":0,"user_first_en_name":"qszg","user_age":"1.5年","user_influ_level":8,"user_black_type":0,"user_bizflag":"2","user_bizsubflag":"003006","user_extend":{"uid":"1529085151583734","ncfh_authorid":222804,"ncfh_status":1,"ncfh_orgtag":"003006","ncfh_isdel":0,"ncfh_bigvip":1,"ncfh_qualificationinfo":"券商中国","ncfh_organizationtag":1,"ncfh_updatetime":"2019-07-07 20:43:31","pushtime":"2019-07-07 20:47:37"},"user_introduce":"致力于提供最及时的财经资讯，最专业的解读分析，覆盖宏观经济、金融机构、A股市场、上市公司、投资理财等财经领域。"},"post_guba":{"stockbar_type":10,"stockbar_code":"gssz","stockbar_inner_code":"gssz","stockbar_name":"股市实战","stockbar_market":"gssz","stockbar_quote":2,"stockbar_exchange":-1,"stockbar_external_code":"gssz"},"post_title":"平安银行可转债1400倍申购创纪录，市场又热了？还有1700亿银行可转债在路上","post_content":"<p><img src='https://dfscdn.dfcfw.com/download/A120180903205892' class='__bg_gif ' alt=''></p><p><img src='https://dfscdn.dfcfw.com/download/A120190124121383' class='' alt=''></p><p>图片来源：图虫创意</p><p>一举打破<span data-code='601818,1,1' data-type='1' class='zwstock'>光大银行</span><span data-code='395021,2,0' data-type='1' class='zwstock'>可转债</span>网下200倍的申购纪录，<span data-code='000001,2,0' data-type='1' class='zwstock'>平安银行</span>日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。</p><p>平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条线开放日等在内的投资者关系活动，充分展示投资亮点，向资本市场传递管理层的决心和平安银行基本面。</p>1700亿元银行可转债在路上<p>自去年2月份证监会发布<span data-type='2' data-code='162717' class='zwstock'>再融资</span>新规后，较定增、配股等其他资本工具发行周期短、发行风险小的可转债，逐渐成为当前市场环境下银行补充资本的重要选择。</p><p>2018年，共有5家银行130亿元可转债发行。进入到2019年，发行规模数倍扩容，除了已发行的260亿元平安银行可转债，还有1700亿元可转债在路上。其中，<span data-code='600919,1,1' data-type='1' class='zwstock'>江苏银行</span>、<span data-code='601998,1,1' data-type='1' class='zwstock'>中信银行</span>、<span data-code='601328,1,1' data-type='1' class='zwstock'>交通银行</span>共计1200亿元可转债已经获批，而<span data-code='600000,1,1' data-type='1' class='zwstock'>浦发银行</span>500亿元可转债已通过了股东大会通过。</p>平安银行可转债五大亮点<p>平安银行本次可转债共向原股东优先配售179.27亿元，占发行总量的68.95%；原股东优先配售后的余额，再按9:1的比例，网上发行7693万元，网下发行80亿元。根据发行结果，其网下发行部分申购总额突破10.75万亿元，中签率仅为0.074%左右，有效申购倍数高达1400倍以上，创出A股迄今为止最火爆的一单可转债申购。</p><p><strong>火爆原因可归结为五点：</strong></p><p>第一、债本身要具有配置意义：平银转债是18年以来仅有的三单AAA级可转债标的之一，预计在<span data-code='000832,1,1' data-type='1' class='zwstock'><span data-type='2' data-code='161826' class='zwstock'>中证转债</span></span>指数中将获得10%以上的权重；</p><p>第二、债性要有安全垫：目前平安银行股价比上年每股净资产11.77元（即转股价）低14%，因此平银转债设置了较好的债性保护，债底条款等并不差于市场上存量的各家银行可转债；</p><p>第三、股价要有价值支撑：与目前市场存量及接下来将发行银行可转债相比，截止至1月23日收盘，平安银行的市净率最高，达到0.81。分析师称该行历史上正股波动率最强，并且近两年来股价高于转股价的天数也最长；</p><p>第四、大股东要倾力支持：平安集团和寿险已全额认购58%的转债，剩余的市场发行额度较少，对市场冲击较小；</p><p>第五、要敢于传递管理层决心：平安银行是目前唯一一家公开提出有望在年内实现转股的银行。</p>平安银行本身的基本面亮点<p>当然，除上述亮点外，平安银行基本面也获得市场认可。</p><p>有卖方分析师推荐称，平安银行目前的股价本身其实就相当于一个“可转债”或“看涨期权”，下有“保底期权”，上有“浮动收益”。</p><p><strong>分析师将 “保底期权”解释为平安存款、资产质量、公司金融和零售业务四大业务板块的提升：</strong></p><p><strong>存款方面，</strong>平安银行借助350亿金融债、260亿可转债和300亿二级债的发行，做到了长期资金改善的效果。此外，2018业绩快报显示，该行吸收存款余额2.13万亿元，较上年末增长6.4%。其中，个人存款余额4615.91亿元、较上年末大幅增长35.4%，企业存款余额1.67万亿元，较上年末增长0.5%；</p><p><strong>资产质量方面，</strong>该行虽然不良率1.75%较上年末略增0.05个百分点，但不良贷款偏离度97%，较上年末下降46个百分点。这意味着什么？分析师指出，过去不良是该行估值的最大拖累，现在终于有可能转变为释放利润的重要驱动；</p><p><strong>对公业务方面，</strong>该行在压降规模的同时践行“对公做精”，交易银行正成为新的利润增长点；</p><p><strong></strong></p><p></p><p><strong>零售私行及财富管理板块，</strong>正整合平安信托团队，力图缩短与其他零售业务见长的银行的追赶周期。</p><p><strong>“浮动收益”则被分析师归纳为三大业务亮点：</strong></p><p><strong>首先是继续强调“零售银行”和“科技银行”两大定位：</strong>全面提升零售收入、利润、贷款等占比，以及扩大科技在银行和集团业务的运用场景。这样的定位估值优势，将来有可能在股价估值中得到体现；</p><p><strong>其次是深化两大拐点：</strong>该行息差自2018年一季度以来逐季回升、目前排在股份行前列；继续出清不良，提升资产质量，将以前对估值的扣分项，变成加分享。 </p><p><strong></strong></p><p></p><p><strong>最后是延续两大新高：</strong>该行非息收入占比目前为5年内的最高，同时，清收也创出最高，收回已核销不良资产近100亿，间接增加利润，都能给与股价支撑。</p><p>整体经营回暖方面，平安银行2018业绩快报显示，预计2018年实现净利润248亿元，同比增长7%，比上年的2.61%高出4.39个百分点。</p><p><img src='https://dfscdn.dfcfw.com/download/A120180903207161' class='' alt=''></p><strong>百万用户都在看</strong><p>收盘后也赚钱！30分钟'躺赚时间'正式开始，最新交易数据来了，你赚到没？春节逆回购操作新攻略奉上</p><p>'定向降息'落地！央行首次开展2575亿TMLF，特殊时点有何深意，三大特点彰显央行用心，利率并轨将有新动作</p><p>新信号！方星海10天两次谈A股改革！正研究取消新股首日涨跌幅限制，科创板出台越早越好，进一步放开股指期货</p><p>断供说法又来！一线城市在淘宝拍卖房最近20天追平12月份全月？谁是断供'主力'？来看四大真相</p><p>中信收购广证回复来了！1.6万字涉十大重点，明确广证定位，着重提及人事问题，经纪人员劳动关系不变</p><p>巧了！A股全年蒸发14万亿，楼市全年卖了14万亿，也许不仅是巧合，2019买房or买股？这些资金正执着</p><p></p><p><img src='https://dfscdn.dfcfw.com/download/A120181015152104' class='' alt=''></p><p>券商中国是证券市场权威媒体《证券时报》旗下新媒体，券商中国对该平台所刊载的原创内容享有著作权，未经授权禁止转载，否则将追究相应法律责任。</p><p><img src='https://dfscdn.dfcfw.com/download/A120181227111531' class='__bg_gif ' alt=''></p><p>（来源：券商中国的财富号 2019-01-23 05:31） <a href='http://caifuhao.eastmoney.com/news/20190124053117311720040' target='_blank' style='color:Red'><b>[点击查看原文]</b></a></p>","post_abstract":"图片来源：图虫创意一举打破光大银行可转债网下200倍的申购纪录，平安银行日前发行的260亿元可转债，创出了A股迄今为止最火爆的申购纪录——80亿元的网下发行份额，申购总额突破10.75万亿元，有效申购倍数高达1400倍。平安银行将创纪录“归功”于两大因素：“债的亮点”和“股的价值”。同时该行相关人士向券商中国记者透露，为保证平安可转债的价值被市场切实接受以促使转股，平安银行还将在今年安排包括业务条...","post_publish_time":"2019-01-24 07:47:30","post_last_time":"2019-01-24 07:47:30","post_display_time":"2019-01-24 07:47:30","post_ip":"","post_state":0,"post_checkState":0,"post_click_count":6608,"post_forward_count":0,"post_comment_count":0,"post_comment_authority":0,"post_like_count":0,"post_is_like":false,"post_is_collected":false,"post_type":20,"post_source_id":"20190124053117311720040","post_top_status":0,"post_status":0,"post_from":"股吧网页版","post_from_num":20,"post_pdf_url":"","post_has_pic":false,"has_pic_not_include_content":false,"post_pic_url":[],"source_post_id":0,"source_post_state":0,"source_post_user_id":"","source_post_user_nickname":"","source_post_user_type":0,"source_post_user_is_majia":false,"source_post_pic_url":[],"source_post_title":"","source_post_content":"","source_post_ip":"","source_post_type":0,"source_post_guba":{"stockbar_type":0,"stockbar_code":"","stockbar_inner_code":null,"stockbar_name":"","stockbar_market":"","stockbar_quote":-1,"stockbar_exchange":-1,"stockbar_external_code":""},"post_video_url":null,"source_post_video_url":null,"source_post_source_id":"","code_name":"gssz","product_type":"0","v_user_code":"0","source_click_count":null,"source_comment_count":"","source_forward_count":"","source_publish_time":"","source_user_is_majia":"False","ask_chairman_state":null,"selected_post_code":"","selected_post_name":"","selected_relate_guba":null,"ask_question":null,"ask_answer":null,"qa":null,"fp_code":"u29","codepost_count":1708463,"extend":null,"post_pic_url2":[],"source_post_pic_url2":[],"relate_topic":{"id":"","name":"","h5_url":"","btype":"","stype":"","guide":""},"source_extend":null,"digest_type":1,"source_post_atuser":[],"post_inshare_count":0},"rc":1,"me":"操作成功"};
     
@@ -464,24 +416,16 @@ var content = `
     var is_fake=false;
     var comment_count="0";
 </script>
-
-
 <script src="//gbfek.dfcfw.com/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="//emcharts.dfcfw.com/suggest/stocksuggest2017.min.js"></script>
-
-
 <script src="//emcharts.dfcfw.com/ec/3.10.0/emcharts.min.js"></script>
-
-
             <script src="//gbfek.dfcfw.com/gubav5/js/gubabase_da218adfac.js"></script>
             <script src="//gbfek.dfcfw.com/gubav5/js/module_0ff83f4823.js"></script>
             <script src="//gbfek.dfcfw.com/project/guba/old/news_m.js?r=72"></script>
             <script src="//gbfek.dfcfw.com/project/guba/old/news_c.js?r=72"></script>
             <script src="//gbfek.dfcfw.com/project/guba/release/news.js?r=72"></script>
-
 <script src="//gbfek.dfcfw.com/gubav5/modules/rightpromotion/rightpromotion.js?r=5"></script>
 <script src="//gbfek.dfcfw.com/tg/EMBottomSearchTG/EMBottomSearchTG-1.0.3.min.js?v=1"></script>
-
 <script type="text/javascript">
     var newEMBottomSearchTG = new EMBottomSearchTG({
         main_width: 1000,
@@ -490,15 +434,9 @@ var content = `
     });
     newEMBottomSearchTG.show();
 </script>
-
-
-
-
 <script type="text/javascript" src="//emcharts.dfcfw.com/newsts/newsts.min.js" charset="utf-8"></script>
 <script type="text/javascript" src="//emcharts.dfcfw.com/usercollect/usercollect.min.js" charset="utf-8"></script>
-
 <script>var _gglist = 'gssz.2.股市实战.3';</script>
-
 <script type="text/javascript" charset="UTF-8">
     try {
         var emtj_isUpload = 1;
@@ -510,7 +448,6 @@ var content = `
     }
 </script>
 <script type="text/javascript" src="https://bdstatics.eastmoney.com/web/prd/jump_tracker.js" charset="UTF-8"></script>
-
     
     <!-- footer-2016 -->
 <style>
@@ -558,14 +495,12 @@ var content = `
     .footer2016 .footer-qrlast {width: 90px;}
     .footer2016 .footer-icon-qihuoqr { background: url(https://emcharts.dfcfw.com/images/qihuoqr.png);width: 80px;height: 80px;display: inline-block;background-repeat: no-repeat;vertical-align: -5px;}
 </style>
-
 <div class="footer2016">
     <div class="footertg">
         <div class="qr">
             <div class="t"><a href="http://acttg.eastmoney.com/pub/web_dfcfsy_dbtg_wzl_01_01_01_1" style="color:#000" target="_blank">东方财富</a></div>
             <a href="http://acttg.eastmoney.com/pub/web_app_dcsy_2wm_01_01_01_0" target="_blank"><em class="icon icon_qrem80"></em></a><br />扫一扫下载APP
         </div>
-
         <div class="ftglist">
             <div class="ftglistt">东方财富产品</div>
             <ul>
@@ -659,7 +594,6 @@ var content = `
         <a rel="nofollow" href="http://report.12377.cn:13225/toreportinputNormal_anis.do" class="icon footer-yhjb" title="上海市互联网违法和不良信息举报中心" target="_blank"></a>
 	</div>
 </div>
-
 <script>
     if(document.all && !window.XMLHttpRequest){
         $(".qrli").hover(function(){
@@ -671,7 +605,6 @@ var content = `
 </script>
 </body>
 </html>
-
 `
 
 // innerHTML returns the HTML content (inner HTML) of an element.
@@ -690,8 +623,9 @@ func InnerHTML(node *html.Node) string {
 }
 func TestNewParser(t *testing.T) {
 	parser := NewParser()
-	parser.Parse(bytes.NewReader([]byte(content)), "https://www.baidu.com")
-	fmt.Println(parser.sourceName)
+	article, _ := parser.Parse(bytes.NewReader([]byte(content)), "https://www.baidu.com")
+	fmt.Println(article.SourceName)
+	//fmt.Println(parser.sourceName)
 	//fmt.Println(article.Title)
 	//fmt.Println(article.SiteName)
 	//fmt.Println(article.Content)
