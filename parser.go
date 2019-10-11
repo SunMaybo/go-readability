@@ -1130,7 +1130,7 @@ func (ps *Parser) FilterSourceName(text string) string {
 	if len(allStringResult) == 0 {
 		return ""
 	}
-	fmt.Println(allStringResult)
+	//fmt.Println(allStringResult)
 	var cleanSource string
 
 	for _, restl := range allStringResult {
